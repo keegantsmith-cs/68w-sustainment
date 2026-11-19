@@ -312,9 +312,46 @@ window.CPG_DOCUMENTS = [
    {
     "heading": "Purpose",
     "text": "This guide provides medical professionals with essential information on the recognition and treatment of ocular conditions when evacuation to an eye specialist is delayed."
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers recognition and field treatment of eye injuries and vision-threatening conditions (open globe, retrobulbar hemorrhage, closed globe, lid laceration, orbital fracture, chemical burns, infections, angle-closure glaucoma, burn and multitrauma eye care) when evacuation to an eye specialist is delayed in prolonged field care. Each condition is laid out in a Minimum / Better / Best format, with early telemedicine consultation and rapid evacuation as constant themes."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Keep a high suspicion for eye injury from the mechanism (small fragments can leave the eye looking intact) and note whether ballistic eyewear was worn. Visual acuity is the vital sign of the eye: test reading print, then counting fingers, hand motion, then light perception, and record it with other vitals. Check for an RAPD (swinging flashlight test). (p. 4)",
+     "Estimate eye pressure by gentle two-finger palpation through closed lids only when no open globe is suspected; a much firmer eye than the other side suggests raised pressure. “There should be mild indentation of the eye with normal IOP (normal range, 10– 21mmHg).” (p. 5)",
+     "Suspected open globe: treat as open until proven otherwise. Apply a rigid eye shield with no gauze or bandage under it, start antibiotic prophylaxis against endophthalmitis (IV ertapenem is the option if IV is needed), and give pain control. “Initiate endophthalmitis prophylaxis with moxifloxacin 400mg PO daily or levofloxacin 750mg PO daily” (p. 6)",
+     "Prevent further damage in eye injuries: give an antiemetic (the CPG uses ondansetron) to stop retching, keep the patient still, and keep the head elevated. “Minimize patient movements; maintain supine position with head at 30°–45°.” (p. 7)",
+     "Retrobulbar hemorrhage / orbital compartment syndrome: suspect it after trauma with a bulging, tense eye, a hard eye on palpation, falling vision, or an RAPD. Lateral canthotomy/cantholysis (LCC) is vision-saving with minimal risk; when in doubt, do it. “Perform lateral canthotomy/cantholysis (LCC) as soon as possible, within 90 minutes of injury if evacuation to a surgical capability is anticipated to take more than 60 minutes.” (p. 8)",
+     "Chemical eye injury: irrigate immediately with IV fluid, sterile water or clean water, using anesthetic eye drops to help, and remove any particles with a cotton-tip applicator. “Continue irrigation, using at least 2L of fluid.” (p. 14)",
+     "Chemical eye injury, Better: check ocular pH by rolling a cotton-tip applicator across the conjunctiva and then onto a urine test strip (never put the strip directly on the eye); keep irrigating and rechecking until the pH is neutral. (p. 15)",
+     "Blunt/closed globe injury (e.g., hyphema): record vision, apply a rigid shield, raise the head so blood settles away from the pupil, give antiemetics, and avoid NSAIDs because they can worsen intraocular bleeding. (p. 10)",
+     "Intubated, sedated or facially burned casualties: protect the eye surface with ophthalmic lubricant (sterile petrolatum or methylcellulose drops, never a non-ophthalmic lubricant). Better adds gentle lid taping; Best adds food-grade polyethylene film. “For thermal facial burns, instill erythromycin ophthalmic ointment or sterile petrolatum every 2 to 4 hours.” (p. 20)",
+     "Start telemedicine early with photographs (real-time video at Best) and prioritize evacuation for any potentially vision-threatening injury. “All potential vision-threatening injuries should be evacuated with a goal of care by an eye surgeon within 24 hours.” (p. 5)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Ultrasound is contraindicated for a suspected open globe because it puts pressure on the eye. (p. 7)",
+     "Lack of pain does not mean lack of serious eye injury. (p. 5)",
+     "Do not use topical anesthetic drops for ongoing pain control; they significantly impair corneal healing. (p. 14)",
+     "Orbital fracture: tell the patient not to blow their nose (risk of orbital compartment syndrome from air in the orbit). (p. 12)",
+     "Never put Surgilube in the eye as a lubricant; it can cause corneal toxicity. (p. 20)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The CPG gives a different follow-on acetazolamide schedule for angle-closure glaucoma (pp. 19 and 28) than for retrobulbar hemorrhage and hyphema (pp. 9, 10 and 26). Check which condition a dosing line belongs to before using it.",
+     "For multitrauma and burn eye care, the Minimum tier (p. 20) gives a more frequent lubrication interval for thermal facial burns than the 'at least' interval in the Better tier (p. 20). The appendix table (p. 28) repeats both without reconciling them.",
+     "This CPG is dated December 2017 and cites an older Joint Trauma System ocular CPG (p. 20, reference 1). Check the Joint Trauma System site for a newer version before relying on it."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 01 Dec 2017. JTS revises its CPGs. Before relying on this one, find CPG ID 66 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Ocular Injuries and Vision-Threatening Conditions in Prolonged Field Care (CPG ID: 66), 01 Dec 2017.",
   "related": [],
@@ -367,9 +404,44 @@ window.CPG_DOCUMENTS = [
    {
     "heading": "Purpose",
     "text": "The intent of this guideline is to provide medical professionals who encounter extended casualty evacuation times in austere environments the evidence-based guidance for nursing interventions necessary to improve patient outcome."
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers basic nursing assessments and interventions for casualties held in Role 1 prolonged field care after TCCC when evacuation is delayed. Regular, simple nursing care prevents complications such as DVT, pneumonia, pressure sores, wound infection and urinary tract infection, and most of it needs no costly equipment. Equipment and documentation follow a Minimum / Better / Best format."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "After stabilization, reassess regularly and record on the PFC flowsheet: BP, HR, RR, temperature, SpO2, ETCO2 when available, GCS, pain score and peripheral pulses. Check every tube and line (airway, IV, chest tube, urinary catheter) for placement, function and securing, and check skin and splints. (p. 2)",
+     "Track input and output: check IV drip rates or give oral fluids, measure urine, and check drainage from wounds and tubes. “Ensure adult patients void an average of 30–50mL/h, or 100–200mL/h if exhibiting signs of rhabdomyolysis.” (p. 3)",
+     "Flush saline locks to keep them open; if resistance is met use gentle pulsing pressure, and start a new IV if the site swells or hurts. “At least every 8 hours, flush saline locks with 10mL of NS.” (p. 3)",
+     "Suction advanced airways only when needed, with sterile technique (clean technique for mouth and throat), head elevated and eye protection on; humidify the air if you can. “ensuring suction is performed while withdrawing the catheter for no longer than 10 seconds at a time” (p. 4)",
+     "Reposition casualties who cannot move themselves and pad bony prominences to prevent pressure sores; keep joints from resting on each other and keep head and neck in line (log roll if spine injury is a concern). “Reposition patient and check padding at least every 2 hours.” (p. 4)",
+     "Oral care lowers the risk of ventilator-associated pneumonia; conscious patients brush their own teeth, and keep suction available when cleaning an unconscious patient's mouth. “For unconscious patients, perform oral care at least every 4 hours.” (p. 5)",
+     "Check blood glucose if a glucometer is available; treat low glucose at once. High glucose is less dangerous and may be treated if capability exists. “A low BGL (less than 80 mg/dL) must be treated immediately with oral sugar or juice or IV glucose.” (p. 7)",
+     "Prevent DVT: compression stockings or elastic wraps (toes left exposed) for immobile or unconscious patients; conscious patients do leg exercises while awake (avoid with fractures or severe extremity injuries); for unconscious patients do ankle flexion and leg massage. “Perform DVT prevention for unconscious patients at least every 2 hours.” (p. 8)",
+     "Replace IV fluid bags and tubing on schedule and label them with the new time and date. Change skin tape regularly, moving it to fresh skin, to prevent breakdown. “Every 72 hours if possible, replace infusing bag of fluids and tubing with new equipment.” (p. 7)",
+     "Plan and document care with the flowsheet nursing checklist (Minimum) or the PFC nursing care plan (Best) so teammates can continue care while the medic rests. Cross-train the team on these tasks before deployment. (p. 3)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Do not place NG tubes routinely in austere settings; only with radiographic or intraoperative confirmation, or when benefit outweighs risk. (p. 3)",
+     "In big burn resuscitations, edema can shift airway tubes; watch tube position and secure with circumferential ties when burned skin weeps. (p. 3)",
+     "Mark any area of nonblanchable redness and keep the patient off it until it recovers. (p. 5)",
+     "Rinse baby or skin wipes in water before use; most contain alcohol and residues that irritate skin. (p. 7)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The nursing-care reminders printed on the PFC flowsheet reproduced in the Documentation in PFC CPG (CPG 72, p. 8) give different intervals for several tasks (Foley care, washing, IV bag changes) than this CPG's body text (pp. 6-7). This CPG's own care-plan chart (Appendix B, p. 12) matches its body text.",
+     "This CPG is dated July 2018 and has no rapid updates. Check the Joint Trauma System site for a newer version before relying on it."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 22 Jul 2018. JTS revises its CPGs. Before relying on this one, find CPG ID 70 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Nursing Intervention in Prolonged Field Care (CPG ID: 70), 22 Jul 2018.",
   "related": [],
@@ -419,9 +491,45 @@ window.CPG_DOCUMENTS = [
    {
     "heading": "Purpose",
     "text": "This CPG is meant to provide medical professionals who treat severely injured or sick patients in austere environments with recommendations for documentation that will allow them and subsequent providers along the evacuation chain to optimally manage complex, often unstable casualties."
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers how to document care in Role 1 prolonged field care so the medic, telemedicine consultants and every provider down the evacuation chain can manage complex, often unstable casualties. Trending vitals, exam findings and outputs on paper is how the medic spots early decompensation. Tools follow a Minimum / Better / Best format: TCCC card (DD1380), PFC flowsheet, and after-action report (AAR)."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Collect name, ID number, date of birth and other identifiers whenever possible so prehospital care joins the medical record and can be linked to outcomes. (p. 2)",
+     "If a treatment facility assigns a pseudo name because the real name is unknown, keep using that same name through every transfer and in later documentation, including AARs. (p. 3)",
+     "Minimum: the TCCC card (DD1380), organized as a MIST report. Record time received, time of injury and times of key interventions (tourniquet, blood, TXA); mark injuries and tourniquets on the diagram; record vitals with AVPU and pain; list treatments on the back. “up to four sets of vital signs can be recorded on the TCCC card.” (p. 3)",
+     "Better: once the TCCC card's time blocks are full and evacuation is not imminent, documentation can move to the PFC flowsheet (no exact time is set). It trends vitals, fluid in and out, medication times, routes and doses, exam findings, a problem list, a treatment plan and a telemedicine call script, plus patient and nursing care checklists (flowsheet contents: p. 4). (p. 3)",
+     "Train medics to interpret clinical trends, and cross-train nonmedical teammates to take and record vitals, outputs, exam findings and interventions so the medic can do other tasks and sleep. (p. 2)",
+     "Telemedicine: prepare a guide or script before calling and include the care context and your capabilities (training level, meds, supplies, monitoring, ultrasound). Minimum is reading from the TCCC card, Better is the flowsheet telemedicine report, Best is the Virtual Critical Care Consultation guide plus photos of the casualty, capabilities and vital sign trends. (p. 4)",
+     "Handoff: give an organized summary of overall condition (stable or unstable; better, same or worse), mechanism, injuries and current exam, vitals with trends and urine output, and treatments. Minimum is a written MIST handoff, Better adds the flowsheet, Best adds a dedicated handoff sheet (e.g., SBAR). (p. 5)",
+     "Best: complete a structured TCCC or PFC AAR after handoff to capture lessons learned; it can also stand in for documentation that was not finished or was lost. Submit the unclassified medical AAR to the JTS prehospital mailbox in addition to any classified unit AAR. “should be completed within 24 hours of patient handoff and summited to the Joint Trauma System (JTS)” (p. 4)",
+     "Where electronic devices such as Tempus Pro or BATDOK are fielded with network connectivity, their use is encouraged to improve record accuracy and reduce data-entry burden. (p. 5)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "If urgent teleconsultation is needed, do not delay the call to fill out a guide sheet or send e-mails. (p. 4)",
+     "Send casualty photos and data with appropriate operational security and patient privacy protections. (p. 5)",
+     "Poor handover causes adverse events; the job is not done until the receiving team understands the patient's condition. (p. 5)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The PFC flowsheet reproduced in Appendix B (p. 8) prints a tourniquet-conversion reminder with a different time window than the Damage Control Resuscitation in PFC CPG (CPG 73, p. 5).",
+     "The flowsheet (p. 9) has fields for a first and second TXA dose. The Damage Control Resuscitation in PFC CPG's 2023 rapid update (CPG 73, p. 2) favors a single bolus instead.",
+     "The flowsheet's nursing-care reminders (p. 8) give different intervals for several tasks than the Nursing Intervention in PFC CPG (CPG 70, pp. 6-7).",
+     "The flowsheet header (p. 8) says a newer version is available from an outside source, and the TCCC card in Appendix A (p. 7) is an older edition of DD Form 1380. Confirm the current forms before use.",
+     "This CPG is dated November 2018. Check the Joint Trauma System site for a newer version before relying on it."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 13 Nov 2018. JTS revises its CPGs. Before relying on this one, find CPG ID 72 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Documentation in Prolonged Field Care (CPG ID: 72), 13 Nov 2018.",
   "related": [],
@@ -478,9 +586,49 @@ window.CPG_DOCUMENTS = [
      "Jun 2023: Calcium administration changed to 1 gram calcium",
      "Jun 2023: Tranexamic acid (TXA) 2gm bolus is now favored over the traditional 1gm prehospital bolus followed by 1gm infusion over 8 hours. The 2gm TXA bolus should be given as close to the time of injury as possible and not outside of the 3 hours window."
     ]
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers damage control resuscitation (DCR) for casualties with life-threatening traumatic hemorrhage when evacuation is delayed, at Role 1 prolonged field care (PFC). It builds on TCCC with a Minimum / Better / Best hierarchy: stop the bleeding, resuscitate with blood rather than crystalloid, give TXA and calcium early, then monitor and decide when to stop. TXA, calcium and oxygen points reflect the 2023 rapid updates."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Start DCR immediately on suspicion of hemorrhagic shock: severe injury pattern (proximal or multiple amputations, penetrating chest or abdomen wounds, uncontrolled junctional or truncal bleeding), altered mental status without brain injury, weak or absent radial pulse, or shock vitals. Do not wait for labs or ultrasound. “Systolic blood pressure (SBP) less than 100mmHg” (p. 4)",
+     "Control external bleeding per TCCC (tourniquets, packing, hemostatic and pressure dressings, junctional tourniquets, pelvic binders). Convert tourniquets to pressure dressings when the casualty is not in shock, the wound can be watched closely, and it is not an amputation. A tourniquet left on well past the conversion window should not be removed unless close monitoring and lab capability exist; if one is loosened, resuscitation must address hyperkalemia and reperfusion syndrome (see the PFC Crush Syndrome CPG). Consider telemedicine for life-over-limb decisions. “should be transitioned to pressure dressings within 2 hours when criteria for conversion are met” (p. 5)",
+     "Resuscitate with blood products, most to least preferred: whole blood; plasma, RBCs and platelets; plasma and RBCs; plasma or RBCs alone; crystalloid (LR or Plasma-Lyte A) only as a last resort. “Plasma, red blood cells (RBCs), and platelets in a 1:1:1 ratio” (p. 6)",
+     "Whole blood tiers: Best is LTOWB for all; Better is group-specific WB from prescreened donors; Minimum is unscreened donors typed with an Eldon card (double-check with a second card and provider if staff allow; in chaos or when short of staff or supplies, group O for anyone, accepting a possible reaction if not titer tested). (p. 7)",
+     "Give TXA to casualties with signs of hemorrhagic shock or who meet DCR criteria, as early as possible. Undiluted slow IV push is acceptable if supplies or the tactical situation prevent an IV infusion; use extra caution if the casualty is already hypotensive. “Administer TXA 2gm IV as soon as possible after injury (not more than 3 hours after injury).” (p. 8)",
+     "Warm all blood and fluids and infuse rapidly; only personnel trained in transfusion and reaction management should transfuse. Freeze-dried plasma is universal and can start resuscitation while FWB is obtained. Replace calcium with the first unit, then repeat with ongoing transfusion (Better) or dose by ionized calcium (Best, p. 9). “Administer 1gm of calcium IV/IO during or immediately after transfusion of the first unit of blood product.” (p. 8)",
+     "Trend vitals on a flow sheet (mental status, RR, HR, peripheral pulses, BP, temperature, SpO2). Better adds ETCO2 (capnometry); Best is a continuous portable monitor with capnography. Measure urine output (graduated container, or Foley hourly at Best). “Document vital signs frequently (every 15 minutes initially, then every 30–60 minutes once stable for more than 2 hours) on a flow sheet.” (p. 9)",
+     "End point blood pressure: keep mild hypotension until bleeding is definitively controlled. In TBI the CPG sets a higher SBP goal, and a lower goal is accepted if no blood products are available. “Goal SBP is approximately 100mmHg if resuscitating with blood products (maintain mild hypotension until definitive bleeding control).” (p. 11)",
+     "Oxygen end point (Better tier; 2023 SAVeO2 update): aim for SpO2 of at least 90%; a saturation above 96% is not necessary. “Oxygen saturation (Spo2) at least 90% (SpO2 >96% is not necessary),” (p. 11)",
+     "Classify the casualty as responder, transient responder or nonresponder. Before calling someone a nonresponder, recheck hemorrhage control, look for missed bleeding, decompress both sides of the chest and assess for tamponade. Manage nonresponders and stopping decisions with medical direction or telemedicine whenever possible. (p. 10)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Crystalloids or Hextend are a last resort: they can worsen coagulopathy and bleeding. (p. 6)",
+     "Do not give TXA late; late TXA has been associated with increased mortality. (p. 8)",
+     "Transfusing the wrong blood group can cause a fatal reaction; confirm ABO with an Eldon card or approved kit. (p. 7)",
+     "Calcium chloride can cause severe skin necrosis if it extravasates; calcium gluconate is safer for peripheral use. (p. 9)",
+     "Do not mix medications and blood products in the same IV line; use a separate line or flush well. (p. 9)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The Appendix D summary table (p. 23) gives a different SpO2 end-point target than the body text (p. 11). The body text reflects the September 2023 SAVeO2 rapid update (p. 2), so this summary follows the body.",
+     "The Pediatric Considerations section (p. 12) still gives a weight-based TXA loading dose followed by an infusion. The 2023 rapid update (p. 2) changed adult TXA to a single bolus but does not mention children. This summary includes no pediatric content.",
+     "The CPG gives one calcium dose (p. 8) without saying whether it means calcium gluconate or calcium chloride, though the caution on p. 9 treats the two salts differently. Confirm the intended preparation with medical direction or the current TCCC/JTS guidance.",
+     "The Appendix D summary table (p. 22) says rapid IV push of TXA may cause hypotension, while the body text (p. 8) calls for slow IV push and allows faster administration only when the tactical situation requires it. The body text (p. 8) also sets an earlier time target for the 'Best' tier that the table leaves out.",
+     "The Appendix D hemorrhage-control row (p. 21) gives one inflation-time limit for the AAJT and REBOA together. The body text (pp. 5-6) gives separate limits for the AAJT and for each REBOA zone.",
+     "The base document is dated 2018, with rapid updates from 2023. Check the Joint Trauma System site for a newer version before relying on it."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 01 Oct 2018, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 73 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Damage Control Resuscitation (DCR) in Prolonged Field Care (PFC) (CPG ID: 73), 01 Oct 2018.",
   "related": [],

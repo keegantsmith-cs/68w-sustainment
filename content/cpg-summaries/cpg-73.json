@@ -1,0 +1,76 @@
+{
+  "cpgId": 73,
+  "overview": "Covers damage control resuscitation (DCR) for casualties with life-threatening traumatic hemorrhage when evacuation is delayed, at Role 1 prolonged field care (PFC). It builds on TCCC with a Minimum / Better / Best hierarchy: stop the bleeding, resuscitate with blood rather than crystalloid, give TXA and calcium early, then monitor and decide when to stop. TXA, calcium and oxygen points reflect the 2023 rapid updates.",
+  "keyPoints": [
+    {
+      "text": "Start DCR immediately on suspicion of hemorrhagic shock: severe injury pattern (proximal or multiple amputations, penetrating chest or abdomen wounds, uncontrolled junctional or truncal bleeding), altered mental status without brain injury, weak or absent radial pulse, or shock vitals. Do not wait for labs or ultrasound.",
+      "page": 4,
+      "quote": "Systolic blood pressure (SBP) less than 100mmHg"
+    },
+    {
+      "text": "Control external bleeding per TCCC (tourniquets, packing, hemostatic and pressure dressings, junctional tourniquets, pelvic binders). Convert tourniquets to pressure dressings when the casualty is not in shock, the wound can be watched closely, and it is not an amputation. A tourniquet left on well past the conversion window should not be removed unless close monitoring and lab capability exist; if one is loosened, resuscitation must address hyperkalemia and reperfusion syndrome (see the PFC Crush Syndrome CPG). Consider telemedicine for life-over-limb decisions.",
+      "page": 5,
+      "quote": "should be transitioned to pressure dressings within 2 hours when criteria for conversion are met"
+    },
+    {
+      "text": "Resuscitate with blood products, most to least preferred: whole blood; plasma, RBCs and platelets; plasma and RBCs; plasma or RBCs alone; crystalloid (LR or Plasma-Lyte A) only as a last resort.",
+      "page": 6,
+      "quote": "Plasma, red blood cells (RBCs), and platelets in a 1:1:1 ratio"
+    },
+    {
+      "text": "Whole blood tiers: Best is LTOWB for all; Better is group-specific WB from prescreened donors; Minimum is unscreened donors typed with an Eldon card (double-check with a second card and provider if staff allow; in chaos or when short of staff or supplies, group O for anyone, accepting a possible reaction if not titer tested).",
+      "page": 7
+    },
+    {
+      "text": "Give TXA to casualties with signs of hemorrhagic shock or who meet DCR criteria, as early as possible. Undiluted slow IV push is acceptable if supplies or the tactical situation prevent an IV infusion; use extra caution if the casualty is already hypotensive.",
+      "page": 8,
+      "quote": "Administer TXA 2gm IV as soon as possible after injury (not more than 3 hours after injury)."
+    },
+    {
+      "text": "Warm all blood and fluids and infuse rapidly; only personnel trained in transfusion and reaction management should transfuse. Freeze-dried plasma is universal and can start resuscitation while FWB is obtained. Replace calcium with the first unit, then repeat with ongoing transfusion (Better) or dose by ionized calcium (Best, p. 9).",
+      "page": 8,
+      "quote": "Administer 1gm of calcium IV/IO during or immediately after transfusion of the first unit of blood product."
+    },
+    {
+      "text": "Trend vitals on a flow sheet (mental status, RR, HR, peripheral pulses, BP, temperature, SpO2). Better adds ETCO2 (capnometry); Best is a continuous portable monitor with capnography. Measure urine output (graduated container, or Foley hourly at Best).",
+      "page": 9,
+      "quote": "Document vital signs frequently (every 15 minutes initially, then every 30–60 minutes once stable for more than 2 hours) on a flow sheet."
+    },
+    {
+      "text": "End point blood pressure: keep mild hypotension until bleeding is definitively controlled. In TBI the CPG sets a higher SBP goal, and a lower goal is accepted if no blood products are available.",
+      "page": 11,
+      "quote": "Goal SBP is approximately 100mmHg if resuscitating with blood products (maintain mild hypotension until definitive bleeding control)."
+    },
+    {
+      "text": "Oxygen end point (Better tier; 2023 SAVeO2 update): aim for SpO2 of at least 90%; a saturation above 96% is not necessary.",
+      "page": 11,
+      "quote": "Oxygen saturation (Spo2) at least 90% (SpO2 >96% is not necessary),"
+    },
+    {
+      "text": "Classify the casualty as responder, transient responder or nonresponder. Before calling someone a nonresponder, recheck hemorrhage control, look for missed bleeding, decompress both sides of the chest and assess for tamponade. Manage nonresponders and stopping decisions with medical direction or telemedicine whenever possible.",
+      "page": 10
+    }
+  ],
+  "watchFor": [
+    "Crystalloids or Hextend are a last resort: they can worsen coagulopathy and bleeding.",
+    "Do not give TXA late; late TXA has been associated with increased mortality.",
+    "Transfusing the wrong blood group can cause a fatal reaction; confirm ABO with an Eldon card or approved kit.",
+    "Calcium chloride can cause severe skin necrosis if it extravasates; calcium gluconate is safer for peripheral use.",
+    "Do not mix medications and blood products in the same IV line; use a separate line or flush well."
+  ],
+  "watchForPages": [
+    6,
+    8,
+    7,
+    9,
+    9
+  ],
+  "editionNotes": [
+    "The Appendix D summary table (p. 23) gives a different SpO2 end-point target than the body text (p. 11). The body text reflects the September 2023 SAVeO2 rapid update (p. 2), so this summary follows the body.",
+    "The Pediatric Considerations section (p. 12) still gives a weight-based TXA loading dose followed by an infusion. The 2023 rapid update (p. 2) changed adult TXA to a single bolus but does not mention children. This summary includes no pediatric content.",
+    "The CPG gives one calcium dose (p. 8) without saying whether it means calcium gluconate or calcium chloride, though the caution on p. 9 treats the two salts differently. Confirm the intended preparation with medical direction or the current TCCC/JTS guidance.",
+    "The Appendix D summary table (p. 22) says rapid IV push of TXA may cause hypotension, while the body text (p. 8) calls for slow IV push and allows faster administration only when the tactical situation requires it. The body text (p. 8) also sets an earlier time target for the 'Best' tier that the table leaves out.",
+    "The Appendix D hemorrhage-control row (p. 21) gives one inflation-time limit for the AAJT and REBOA together. The body text (pp. 5-6) gives separate limits for the AAJT and for each REBOA zone.",
+    "The base document is dated 2018, with rapid updates from 2023. Check the Joint Trauma System site for a newer version before relying on it."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "cpgId": 72,
+  "overview": "Covers how to document care in Role 1 prolonged field care so the medic, telemedicine consultants and every provider down the evacuation chain can manage complex, often unstable casualties. Trending vitals, exam findings and outputs on paper is how the medic spots early decompensation. Tools follow a Minimum / Better / Best format: TCCC card (DD1380), PFC flowsheet, and after-action report (AAR).",
+  "keyPoints": [
+    {
+      "text": "Collect name, ID number, date of birth and other identifiers whenever possible so prehospital care joins the medical record and can be linked to outcomes.",
+      "page": 2
+    },
+    {
+      "text": "If a treatment facility assigns a pseudo name because the real name is unknown, keep using that same name through every transfer and in later documentation, including AARs.",
+      "page": 3
+    },
+    {
+      "text": "Minimum: the TCCC card (DD1380), organized as a MIST report. Record time received, time of injury and times of key interventions (tourniquet, blood, TXA); mark injuries and tourniquets on the diagram; record vitals with AVPU and pain; list treatments on the back.",
+      "page": 3,
+      "quote": "up to four sets of vital signs can be recorded on the TCCC card."
+    },
+    {
+      "text": "Better: once the TCCC card's time blocks are full and evacuation is not imminent, documentation can move to the PFC flowsheet (no exact time is set). It trends vitals, fluid in and out, medication times, routes and doses, exam findings, a problem list, a treatment plan and a telemedicine call script, plus patient and nursing care checklists (flowsheet contents: p. 4).",
+      "page": 3
+    },
+    {
+      "text": "Train medics to interpret clinical trends, and cross-train nonmedical teammates to take and record vitals, outputs, exam findings and interventions so the medic can do other tasks and sleep.",
+      "page": 2
+    },
+    {
+      "text": "Telemedicine: prepare a guide or script before calling and include the care context and your capabilities (training level, meds, supplies, monitoring, ultrasound). Minimum is reading from the TCCC card, Better is the flowsheet telemedicine report, Best is the Virtual Critical Care Consultation guide plus photos of the casualty, capabilities and vital sign trends.",
+      "page": 4
+    },
+    {
+      "text": "Handoff: give an organized summary of overall condition (stable or unstable; better, same or worse), mechanism, injuries and current exam, vitals with trends and urine output, and treatments. Minimum is a written MIST handoff, Better adds the flowsheet, Best adds a dedicated handoff sheet (e.g., SBAR).",
+      "page": 5
+    },
+    {
+      "text": "Best: complete a structured TCCC or PFC AAR after handoff to capture lessons learned; it can also stand in for documentation that was not finished or was lost. Submit the unclassified medical AAR to the JTS prehospital mailbox in addition to any classified unit AAR.",
+      "page": 4,
+      "quote": "should be completed within 24 hours of patient handoff and summited to the Joint Trauma System (JTS)"
+    },
+    {
+      "text": "Where electronic devices such as Tempus Pro or BATDOK are fielded with network connectivity, their use is encouraged to improve record accuracy and reduce data-entry burden.",
+      "page": 5
+    }
+  ],
+  "watchFor": [
+    "If urgent teleconsultation is needed, do not delay the call to fill out a guide sheet or send e-mails.",
+    "Send casualty photos and data with appropriate operational security and patient privacy protections.",
+    "Poor handover causes adverse events; the job is not done until the receiving team understands the patient's condition."
+  ],
+  "watchForPages": [
+    4,
+    5,
+    5
+  ],
+  "editionNotes": [
+    "The PFC flowsheet reproduced in Appendix B (p. 8) prints a tourniquet-conversion reminder with a different time window than the Damage Control Resuscitation in PFC CPG (CPG 73, p. 5).",
+    "The flowsheet (p. 9) has fields for a first and second TXA dose. The Damage Control Resuscitation in PFC CPG's 2023 rapid update (CPG 73, p. 2) favors a single bolus instead.",
+    "The flowsheet's nursing-care reminders (p. 8) give different intervals for several tasks than the Nursing Intervention in PFC CPG (CPG 70, pp. 6-7).",
+    "The flowsheet header (p. 8) says a newer version is available from an outside source, and the TCCC card in Appendix A (p. 7) is an older edition of DD Form 1380. Confirm the current forms before use.",
+    "This CPG is dated November 2018. Check the Joint Trauma System site for a newer version before relying on it."
+  ]
+}

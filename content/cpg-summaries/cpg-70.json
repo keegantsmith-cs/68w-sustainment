@@ -1,0 +1,70 @@
+{
+  "cpgId": 70,
+  "overview": "Covers basic nursing assessments and interventions for casualties held in Role 1 prolonged field care after TCCC when evacuation is delayed. Regular, simple nursing care prevents complications such as DVT, pneumonia, pressure sores, wound infection and urinary tract infection, and most of it needs no costly equipment. Equipment and documentation follow a Minimum / Better / Best format.",
+  "keyPoints": [
+    {
+      "text": "After stabilization, reassess regularly and record on the PFC flowsheet: BP, HR, RR, temperature, SpO2, ETCO2 when available, GCS, pain score and peripheral pulses. Check every tube and line (airway, IV, chest tube, urinary catheter) for placement, function and securing, and check skin and splints.",
+      "page": 2
+    },
+    {
+      "text": "Track input and output: check IV drip rates or give oral fluids, measure urine, and check drainage from wounds and tubes.",
+      "page": 3,
+      "quote": "Ensure adult patients void an average of 30–50mL/h, or 100–200mL/h if exhibiting signs of rhabdomyolysis."
+    },
+    {
+      "text": "Flush saline locks to keep them open; if resistance is met use gentle pulsing pressure, and start a new IV if the site swells or hurts.",
+      "page": 3,
+      "quote": "At least every 8 hours, flush saline locks with 10mL of NS."
+    },
+    {
+      "text": "Suction advanced airways only when needed, with sterile technique (clean technique for mouth and throat), head elevated and eye protection on; humidify the air if you can.",
+      "page": 4,
+      "quote": "ensuring suction is performed while withdrawing the catheter for no longer than 10 seconds at a time"
+    },
+    {
+      "text": "Reposition casualties who cannot move themselves and pad bony prominences to prevent pressure sores; keep joints from resting on each other and keep head and neck in line (log roll if spine injury is a concern).",
+      "page": 4,
+      "quote": "Reposition patient and check padding at least every 2 hours."
+    },
+    {
+      "text": "Oral care lowers the risk of ventilator-associated pneumonia; conscious patients brush their own teeth, and keep suction available when cleaning an unconscious patient's mouth.",
+      "page": 5,
+      "quote": "For unconscious patients, perform oral care at least every 4 hours."
+    },
+    {
+      "text": "Check blood glucose if a glucometer is available; treat low glucose at once. High glucose is less dangerous and may be treated if capability exists.",
+      "page": 7,
+      "quote": "A low BGL (less than 80 mg/dL) must be treated immediately with oral sugar or juice or IV glucose."
+    },
+    {
+      "text": "Prevent DVT: compression stockings or elastic wraps (toes left exposed) for immobile or unconscious patients; conscious patients do leg exercises while awake (avoid with fractures or severe extremity injuries); for unconscious patients do ankle flexion and leg massage.",
+      "page": 8,
+      "quote": "Perform DVT prevention for unconscious patients at least every 2 hours."
+    },
+    {
+      "text": "Replace IV fluid bags and tubing on schedule and label them with the new time and date. Change skin tape regularly, moving it to fresh skin, to prevent breakdown.",
+      "page": 7,
+      "quote": "Every 72 hours if possible, replace infusing bag of fluids and tubing with new equipment."
+    },
+    {
+      "text": "Plan and document care with the flowsheet nursing checklist (Minimum) or the PFC nursing care plan (Best) so teammates can continue care while the medic rests. Cross-train the team on these tasks before deployment.",
+      "page": 3
+    }
+  ],
+  "watchFor": [
+    "Do not place NG tubes routinely in austere settings; only with radiographic or intraoperative confirmation, or when benefit outweighs risk.",
+    "In big burn resuscitations, edema can shift airway tubes; watch tube position and secure with circumferential ties when burned skin weeps.",
+    "Mark any area of nonblanchable redness and keep the patient off it until it recovers.",
+    "Rinse baby or skin wipes in water before use; most contain alcohol and residues that irritate skin."
+  ],
+  "watchForPages": [
+    3,
+    3,
+    5,
+    7
+  ],
+  "editionNotes": [
+    "The nursing-care reminders printed on the PFC flowsheet reproduced in the Documentation in PFC CPG (CPG 72, p. 8) give different intervals for several tasks (Foley care, washing, IV bag changes) than this CPG's body text (pp. 6-7). This CPG's own care-plan chart (Appendix B, p. 12) matches its body text.",
+    "This CPG is dated July 2018 and has no rapid updates. Check the Joint Trauma System site for a newer version before relying on it."
+  ]
+}

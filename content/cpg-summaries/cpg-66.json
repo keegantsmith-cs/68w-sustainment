@@ -1,0 +1,72 @@
+{
+  "cpgId": 66,
+  "overview": "Covers recognition and field treatment of eye injuries and vision-threatening conditions (open globe, retrobulbar hemorrhage, closed globe, lid laceration, orbital fracture, chemical burns, infections, angle-closure glaucoma, burn and multitrauma eye care) when evacuation to an eye specialist is delayed in prolonged field care. Each condition is laid out in a Minimum / Better / Best format, with early telemedicine consultation and rapid evacuation as constant themes.",
+  "keyPoints": [
+    {
+      "text": "Keep a high suspicion for eye injury from the mechanism (small fragments can leave the eye looking intact) and note whether ballistic eyewear was worn. Visual acuity is the vital sign of the eye: test reading print, then counting fingers, hand motion, then light perception, and record it with other vitals. Check for an RAPD (swinging flashlight test).",
+      "page": 4
+    },
+    {
+      "text": "Estimate eye pressure by gentle two-finger palpation through closed lids only when no open globe is suspected; a much firmer eye than the other side suggests raised pressure.",
+      "page": 5,
+      "quote": "There should be mild indentation of the eye with normal IOP (normal range, 10– 21mmHg)."
+    },
+    {
+      "text": "Suspected open globe: treat as open until proven otherwise. Apply a rigid eye shield with no gauze or bandage under it, start antibiotic prophylaxis against endophthalmitis (IV ertapenem is the option if IV is needed), and give pain control.",
+      "page": 6,
+      "quote": "Initiate endophthalmitis prophylaxis with moxifloxacin 400mg PO daily or levofloxacin 750mg PO daily"
+    },
+    {
+      "text": "Prevent further damage in eye injuries: give an antiemetic (the CPG uses ondansetron) to stop retching, keep the patient still, and keep the head elevated.",
+      "page": 7,
+      "quote": "Minimize patient movements; maintain supine position with head at 30°–45°."
+    },
+    {
+      "text": "Retrobulbar hemorrhage / orbital compartment syndrome: suspect it after trauma with a bulging, tense eye, a hard eye on palpation, falling vision, or an RAPD. Lateral canthotomy/cantholysis (LCC) is vision-saving with minimal risk; when in doubt, do it.",
+      "page": 8,
+      "quote": "Perform lateral canthotomy/cantholysis (LCC) as soon as possible, within 90 minutes of injury if evacuation to a surgical capability is anticipated to take more than 60 minutes."
+    },
+    {
+      "text": "Chemical eye injury: irrigate immediately with IV fluid, sterile water or clean water, using anesthetic eye drops to help, and remove any particles with a cotton-tip applicator.",
+      "page": 14,
+      "quote": "Continue irrigation, using at least 2L of fluid."
+    },
+    {
+      "text": "Chemical eye injury, Better: check ocular pH by rolling a cotton-tip applicator across the conjunctiva and then onto a urine test strip (never put the strip directly on the eye); keep irrigating and rechecking until the pH is neutral.",
+      "page": 15
+    },
+    {
+      "text": "Blunt/closed globe injury (e.g., hyphema): record vision, apply a rigid shield, raise the head so blood settles away from the pupil, give antiemetics, and avoid NSAIDs because they can worsen intraocular bleeding.",
+      "page": 10
+    },
+    {
+      "text": "Intubated, sedated or facially burned casualties: protect the eye surface with ophthalmic lubricant (sterile petrolatum or methylcellulose drops, never a non-ophthalmic lubricant). Better adds gentle lid taping; Best adds food-grade polyethylene film.",
+      "page": 20,
+      "quote": "For thermal facial burns, instill erythromycin ophthalmic ointment or sterile petrolatum every 2 to 4 hours."
+    },
+    {
+      "text": "Start telemedicine early with photographs (real-time video at Best) and prioritize evacuation for any potentially vision-threatening injury.",
+      "page": 5,
+      "quote": "All potential vision-threatening injuries should be evacuated with a goal of care by an eye surgeon within 24 hours."
+    }
+  ],
+  "watchFor": [
+    "Ultrasound is contraindicated for a suspected open globe because it puts pressure on the eye.",
+    "Lack of pain does not mean lack of serious eye injury.",
+    "Do not use topical anesthetic drops for ongoing pain control; they significantly impair corneal healing.",
+    "Orbital fracture: tell the patient not to blow their nose (risk of orbital compartment syndrome from air in the orbit).",
+    "Never put Surgilube in the eye as a lubricant; it can cause corneal toxicity."
+  ],
+  "watchForPages": [
+    7,
+    5,
+    14,
+    12,
+    20
+  ],
+  "editionNotes": [
+    "The CPG gives a different follow-on acetazolamide schedule for angle-closure glaucoma (pp. 19 and 28) than for retrobulbar hemorrhage and hyphema (pp. 9, 10 and 26). Check which condition a dosing line belongs to before using it.",
+    "For multitrauma and burn eye care, the Minimum tier (p. 20) gives a more frequent lubrication interval for thermal facial burns than the 'at least' interval in the Better tier (p. 20). The appendix table (p. 28) repeats both without reconciling them.",
+    "This CPG is dated December 2017 and cites an older Joint Trauma System ocular CPG (p. 20, reference 1). Check the Joint Trauma System site for a newer version before relying on it."
+  ]
+}
