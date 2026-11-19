@@ -15,3 +15,6 @@ docs/**/*.xlsx
 
 .DS_Store
 Thumbs.db
+
+# Private review notes (not published)
+SOURCE_ISSUES_FOR_REVIEW.md
