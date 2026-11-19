@@ -8,5 +8,10 @@ docs/**/*.pptx
 docs/**/*.xls
 docs/**/*.xlsx
 
+# EXCEPTION: ICTL documents are marked "Approved for public release;
+# distribution is unlimited" (Distribution A), so they are published.
+# scripts/check.js verifies the statement on every tracked PDF.
+!docs/ictl/*.pdf
+
 .DS_Store
 Thumbs.db

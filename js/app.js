@@ -113,10 +113,21 @@
       ${DISCLAIMER}`;
   }
 
-  function viewResource(rid) {
+  function viewResource(rid, params = new URLSearchParams()) {
     const r = findRes(rid);
     if (!r) return viewNotFound();
-    const docs = r.documents || [];
+    const all = r.documents || [];
+    const f = r.filter;
+    const active = f && params.get(f.param) ? Number(params.get(f.param)) : null;
+    const docs = active ? all.filter((d) => (d[f.field] || []).includes(active)) : all;
+    const chips = f ? `
+      <div class="filter" role="group" aria-label="${esc(f.label)}">
+        <span class="filter-label">${esc(f.label)}</span>
+        <a class="chip${active ? "" : " on"}" href="${resHref(r.id)}" ${active ? "" : 'aria-current="true"'}>All</a>
+        ${f.options.map((o) => `<a class="chip${active === o.value ? " on" : ""}" href="${resHref(r.id)}?${f.param}=${o.value}"
+          ${active === o.value ? 'aria-current="true"' : ""}>${esc(o.label)}</a>`).join("")}
+      </div>
+      ${active && f.hint ? `<p class="meta filter-hint">${esc(f.hint.replaceAll("{v}", active))}</p>` : ""}` : "";
     const groups = {};
     docs.forEach((d) => (groups[d.section || "Documents"] ||= []).push(d));
 
@@ -131,6 +142,7 @@
         </div>
         ${saveBtn(`r:${r.id}`, r.title)}
       </section>
+      ${chips}
       ${docs.length
         ? Object.entries(groups).map(([sec, list]) => `
             ${sectionHead(sec, `${list.length} item${list.length > 1 ? "s" : ""}`)}
@@ -172,7 +184,14 @@
         ${saveBtn(`d:${r.id}/${d.id}`, d.title)}
       </header>
       ${actions.length ? `<div class="actions">${actions.join("")}</div>` : ""}
-      ${body}`;
+      ${d.meta?.length ? `<dl class="meta-grid">${d.meta.map(([k, v]) =>
+        `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
+      ${d.details?.length ? `<section class="details">${d.details.map((x) =>
+        `<h2>${esc(x.heading)}</h2><p>${esc(x.text)}</p>`).join("")}
+        ${d.source ? `<p class="cite">Source: ${esc(d.source)}</p>` : ""}</section>` : ""}
+      ${d.details?.length && isPdf ? sectionHead("Full task", `${esc(d.type)} · Performance steps & evaluation`) : ""}
+      ${body}
+      ${d.details?.length ? DISCLAIMER : ""}`;
   }
 
   function viewSaved() {
@@ -229,7 +248,7 @@
     const match = (text) => terms.every((t) => text.toLowerCase().includes(t));
     const resHits = RES.filter((r) => match(`${r.title} ${r.tag} ${r.summary}`));
     const docHits = allDocs().filter((d) =>
-      match(`${d.title} ${d.description || ""} ${d.section || ""} ${d.type || ""} ${(d.tags || []).join(" ")} ${d.resource.title}`));
+      match(`${d.title} ${d.description || ""} ${d.section || ""} ${d.type || ""} ${(d.tags || []).join(" ")} ${d.resource.title} ${(d.details || []).map((x) => x.text).join(" ")}`));
     if (!resHits.length && !docHits.length) return empty("No matches", `Nothing found for “${esc(q)}”.`);
     return `
       ${resHits.length ? `<ul class="doc-list">${resHits.map((r) => `
@@ -278,7 +297,7 @@
 
     switch (parts[0]) {
       case undefined: html = viewHome(); break;
-      case "r": html = viewResource(parts[1]); nav = "home"; break;
+      case "r": html = viewResource(parts[1], params); nav = "home"; break;
       case "d": html = viewDoc(parts[1], parts[2]); nav = "home"; break;
       case "saved": html = viewSaved(); break;
       case "downloads": html = viewDownloads(); break;

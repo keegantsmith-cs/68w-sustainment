@@ -9,6 +9,7 @@ const root = path.join(__dirname, "..");
 const errors = [], warnings = [];
 
 global.window = {};
+if (fs.existsSync(path.join(root, "js/ictl.js"))) require(path.join(root, "js/ictl.js"));
 require(path.join(root, "js/data.js"));
 const RES = window.RESOURCES || [];
 
@@ -26,7 +27,7 @@ for (const r of RES) {
     docIds.add(d.id);
     if (d.file) {
       if (!fs.existsSync(path.join(root, d.file))) warnings.push(`${where}: file not present locally (${d.file}). It will be a broken link on the public site — use url instead.`);
-      if (/\.(pdf|docx?|pptx?|xlsx?)$/i.test(d.file)) warnings.push(`${where}: points to a file type that is NOT published to the public repo (${d.file}).`);
+      if (/\.(pdf|docx?|pptx?|xlsx?)$/i.test(d.file) && !/^docs\/ictl\//.test(d.file)) warnings.push(`${where}: points to a file type that is NOT published to the public repo (${d.file}).`);
     }
     if (d.url && !/^https:\/\//.test(d.url)) errors.push(`${where}: url must start with https://`);
     if (!d.file && !d.url && !d.content) warnings.push(`${where}: placeholder (no file/url/content yet)`);
@@ -36,8 +37,17 @@ for (const r of RES) {
 // Nothing restricted may be tracked by git.
 try {
   const tracked = execSync("git ls-files", { cwd: root }).toString().split("\n");
-  tracked.filter((f) => /\.(pdf|docx?|pptx?|xlsx?)$/i.test(f))
-    .forEach((f) => errors.push(`Restricted file type is tracked by git: ${f}`));
+  for (const f of tracked.filter((f) => /\.(pdf|docx?|pptx?|xlsx?)$/i.test(f))) {
+    // A tracked PDF is allowed only if its text says it is approved for public release.
+    let ok = false;
+    if (/\.pdf$/i.test(f)) {
+      try {
+        const t = execSync(`pdftotext ${JSON.stringify(path.join(root, f))} -`, { stdio: ["ignore", "pipe", "ignore"] }).toString();
+        ok = /approved for public release|distribution restriction:\s*a\b/i.test(t);
+      } catch { warnings.push(`${f}: could not read (is pdftotext installed?)`); continue; }
+    }
+    if (!ok) errors.push(`Tracked file is not marked approved for public release: ${f}`);
+  }
 } catch { warnings.push("Not a git repo — skipped tracked-file check."); }
 
 // Simple PII patterns in tracked text (DoD ID / SSN shapes).

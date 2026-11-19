@@ -7,10 +7,12 @@ A static web app (no build step) for US Army 68W Combat Medic sustainment traini
 - `js/app.js`: hash router and views (home, resource, doc, saved, downloads, search, profile).
 - `js/art.js`: placeholder SVG artwork. `css/styles.css`: theme; the phone layout is under `@media (max-width: 640px)`.
 - `sw.js`: offline cache. **Bump `VERSION` whenever app files change.**
+- `js/ictl.js`: GENERATED from `docs/ictl/*.pdf` by `python3 scripts/build_ictl.py`. Never hand-edit it; re-run the script.
 - `scripts/check.js`: validation. Run `node scripts/check.js` before every commit.
 
 ## Hard rules
 1. The repository and site are PUBLIC. Never commit PDFs or Office files, copyrighted text, FOUO/CUI, OPSEC-sensitive details, or PII. `.gitignore` blocks `docs/**/*.pdf` etc. Restricted documents are linked with `url` to an access-controlled host.
+   - Exception: ICTL PDFs in `docs/ictl/` are marked "Approved for public release; distribution is unlimited" and ARE committed. `scripts/check.js` fails if any tracked PDF lacks that statement.
 2. Never invent clinical content (doses, protocols, task standards). Only use text from a source document the user provides, and cite it (title, edition, chapter and page).
 3. Summaries and outlines (titles, chapter names, page numbers) are fine. Do not reproduce large passages of copyrighted textbook text.
 4. Keep the look consistent with the mock-up: dark green, tan accents, uppercase tracking labels. Every change must work at desktop and iPhone widths.

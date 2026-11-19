@@ -35,3 +35,11 @@ Add `image: "assets/your-photo.jpg"` to a resource in `js/data.js` and the card 
 The featured card at the top of the home page is the Fieldcraft textbook. Part 1 (Limited Primary Care) is laid out chapter by chapter from its table of contents. Chapters that don't have a file yet show as "Not yet added." To attach a chapter, put its PDF in `docs/fieldcraft/` and add the path as the last argument to its `chapter(...)` line in `js/data.js`.
 
 The textbook's copyright page says some parts are copyrighted and that the book is intended for Department of Defense use. Host chapter files only where access is restricted to authorized users (for example, behind CAC login or on an internal server).
+
+## ICTLs
+The ICTLs page is generated from the PDFs in `docs/ictl/`. These are Distribution A (approved for public release), so unlike other documents they are published. To add or update a task:
+1. Put the task PDF in `docs/ictl/`, named so it starts with the task number (for example `081-000-0010_Conduct_Inventory_on_Controlled_Substances.pdf`).
+2. Run `python3 scripts/build_ictl.py`. It needs `pdftotext` from poppler-utils.
+3. Run `node scripts/check.js`, then commit.
+
+Tasks, subject areas and skill levels come from the master list (`68W_Combat_Medic_Specialist_Final_ICTL.pdf`). Each task's title, report date, conditions and standards come from its own PDF.

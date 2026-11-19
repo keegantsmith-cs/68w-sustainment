@@ -92,7 +92,15 @@ window.RESOURCES = [
     icon: "☑",
     art: "checklist",
     summary: "Individual critical task lists and sustainment requirements.",
-    documents: []
+    // Generated from the PDFs in docs/ictl/ by scripts/build_ictl.py. Re-run it after adding files.
+    documents: window.ICTL_DOCUMENTS || [],
+    filter: {
+      label: "Sustain at",
+      param: "sl",
+      field: "levels",
+      hint: "Showing tasks Soldiers at Skill Level {v} must sustain, plus the SL{v} task list.",
+      options: [1, 2, 3, 4, 5].map((n) => ({ value: n, label: "SL" + n }))
+    }
   },
   {
     id: "adtmc",
