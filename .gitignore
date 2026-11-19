@@ -18,3 +18,6 @@ Thumbs.db
 
 # Private review notes (not published)
 SOURCE_ISSUES_FOR_REVIEW.md
+
+__pycache__/
+*.pyc
