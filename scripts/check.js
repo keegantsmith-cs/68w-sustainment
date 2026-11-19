@@ -30,7 +30,7 @@ for (const r of RES) {
       if (/\.(pdf|docx?|pptx?|xlsx?)$/i.test(d.file) && !/^docs\/ictl\//.test(d.file)) warnings.push(`${where}: points to a file type that is NOT published to the public repo (${d.file}).`);
     }
     if (d.url && !/^https:\/\//.test(d.url)) errors.push(`${where}: url must start with https://`);
-    if (!d.file && !d.url && !d.content) warnings.push(`${where}: placeholder (no file/url/content yet)`);
+    if (!d.file && !d.url && !d.content && !d.refOnly) warnings.push(`${where}: placeholder (no file/url/content yet)`);
   }
 }
 
