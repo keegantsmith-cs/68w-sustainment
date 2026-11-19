@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs" / "cpg"
 ICTL = ROOT / "docs" / "ictl"
 OUT = ROOT / "js" / "cpg.js"
+SUMMARIES = ROOT / "content" / "cpg-summaries"   # reviewed plain-language summaries, cpg-<ID>.json
 JTS_LIBRARY = "https://jts.health.mil/index.cfm/PI_CPGs/cpgs"  # as printed in the CPGs themselves
 TASK_RE = r"\d{3}-(?:000|68W|LDR)-\d{4}"
 
@@ -86,6 +87,23 @@ def latest(updates):
     return max((d for d, _ in updates), key=key)
 
 
+def page_text(pdf, page):
+    return re.sub(r"\s+", " ", run("pdftotext", "-layout", "-f", str(page), "-l", str(page), str(pdf), "-"))
+
+
+def load_summary(cid, pdf):
+    """Load a reviewed summary and verify every quote appears on its stated PDF page."""
+    f = SUMMARIES / f"cpg-{cid}.json"
+    if not f.exists():
+        return None
+    s = json.loads(f.read_text())
+    norm = lambda t: re.sub(r"\s+", " ", t).strip()
+    for kp in s.get("keyPoints", []):
+        if kp.get("quote") and norm(kp["quote"]) not in page_text(pdf, kp["page"]):
+            raise SystemExit(f"CPG {cid}: quote not found on page {kp['page']}: {kp['quote'][:60]}")
+    return s
+
+
 def ictl_citations():
     """Map CPG ID -> ICTL task numbers that cite it explicitly ('CPG ... ID: n')."""
     cites = {}
@@ -108,6 +126,17 @@ def main():
         pfc = "prolonged field care" in c["title"].lower()
         words = [w for w in re.findall(r"[a-z]+", c["title"].lower()) if len(w) > 3 and w not in {"field", "care", "management", "prolonged", "setting", "during"}]
         related = sorted(cites.get(c["id"], []))
+        summ = load_summary(c["id"], pdf)
+        summary_details = []
+        if summ:
+            summary_details.append({"heading": "Summary", "text": summ["overview"]})
+            summary_details.append({"heading": "Key points", "items": [
+                kp["text"] + (f' “{kp["quote"]}”' if kp.get("quote") else "") + f' (p. {kp["page"]})' for kp in summ["keyPoints"]]})
+            if summ.get("watchFor"):
+                summary_details.append({"heading": "Watch for", "items": [
+                    f"{w} (p. {p})" for w, p in zip(summ["watchFor"], summ["watchForPages"])]})
+            if summ.get("editionNotes"):
+                summary_details.append({"heading": "Notes on this edition", "items": summ["editionNotes"]})
         docs.append(dict(
             id=f"cpg-{c['id']}",
             title=c["title"],
@@ -121,7 +150,9 @@ def main():
             meta=[["CPG ID", str(c["id"])], ["Publisher", "Joint Trauma System"], ["Published", c["date"]],
                   ["Series", "Prolonged Field Care" if pfc else "Prehospital / Deployed"], ["Length", f"{c['pages']} pages"]],
             details=([{"heading": "Purpose", "text": c["intent"]}] if c["intent"] else [])
-                    + ([{"heading": "Rapid updates in this edition", "items": [f"{d}: {t}" for d, t in c["updates"]]}] if c["updates"] else []),
+                    + ([{"heading": "Rapid updates in this edition", "items": [f"{d}: {t}" for d, t in c["updates"]]}] if c["updates"] else [])
+                    + summary_details,
+            summarized=bool(summ),
             notice=(f"Published {c['date']}" + (f", with rapid updates through {latest(c['updates'])}" if c["updates"] else "")
                     + f". JTS revises its CPGs. Before relying on this one, find CPG ID {c['id']} in the JTS CPG library and confirm you have the current version."),
             source=f"Joint Trauma System Clinical Practice Guideline, {c['title']} (CPG ID: {c['id']}), {c['date']}.",
@@ -134,6 +165,8 @@ def main():
     print(f"Wrote {OUT.relative_to(ROOT)}: {len(docs)} CPGs")
     for d in docs:
         print(f"  {d['type']:7} {d['updated']:12} {d['section'][:22]:22} {d['title']}  {('→ ' + ', '.join(d['related'])) if d['related'] else ''}")
+        if not d["summarized"]:
+            print("    (no reviewed summary yet)")
         if not d["details"] or len(d["details"][0].get("text", "")) < 60 or len(d["details"][0].get("text", "")) > 500:
             print("    check purpose extraction:", repr(d["details"]))
 

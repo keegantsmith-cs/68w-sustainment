@@ -38,6 +38,7 @@ window.CPG_DOCUMENTS = [
     "text": "This Role 1 prolonged field care (PFC) guideline is intended to be used after Tactical Combat Casualty Care (TCCC) Guidelines, when evacuation to higher level of care is not immediately possible."
    }
   ],
+  "summarized": false,
   "notice": "Published 13 Jan 2017. JTS revises its CPGs. Before relying on this one, find CPG ID 57 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Burn Wound Management in Prolonged Field Care (CPG ID: 57), 13 Jan 2017.",
   "related": [],
@@ -89,6 +90,7 @@ window.CPG_DOCUMENTS = [
     "text": "This Role 1 prolonged field care (PFC) guideline is meant to provide medical professionals who encounter crush syndrome in austere environments with evidence-based guidance for how to manage the various aspects of crush injury care and monitoring."
    }
   ],
+  "summarized": false,
   "notice": "Published 28 Dec 2016. JTS revises its CPGs. Before relying on this one, find CPG ID 58 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Crush Syndrome - Prolonged Field Care (CPG ID: 58), 28 Dec 2016.",
   "related": [],
@@ -146,6 +148,7 @@ window.CPG_DOCUMENTS = [
     ]
    }
   ],
+  "summarized": false,
   "notice": "Published 11 May 2017, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 61 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Analgesia and Sedation Management during Prolonged Field Care (CPG ID: 61), 11 May 2017.",
   "related": [
@@ -199,6 +202,7 @@ window.CPG_DOCUMENTS = [
     "text": "The intent of this guideline is to provide evidence- and experience-based solutions to those who manage both simple and complex wounds in an austere environment."
    }
   ],
+  "summarized": false,
   "notice": "Published 24 Jul 2017. JTS revises its CPGs. Before relying on this one, find CPG ID 62 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Acute Traumatic Wound Management in the Prolonged Field Care Setting (CPG ID: 62), 24 Jul 2017.",
   "related": [],
@@ -257,6 +261,7 @@ window.CPG_DOCUMENTS = [
     ]
    }
   ],
+  "summarized": false,
   "notice": "Published 06 Dec 2017, with rapid updates through Apr 2024. JTS revises its CPGs. Before relying on this one, find CPG ID 63 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Traumatic Brain Injury Management in Prolonged Field Care (CPG ID: 63), 06 Dec 2017.",
   "related": [],
@@ -309,6 +314,7 @@ window.CPG_DOCUMENTS = [
     "text": "This guide provides medical professionals with essential information on the recognition and treatment of ocular conditions when evacuation to an eye specialist is delayed."
    }
   ],
+  "summarized": false,
   "notice": "Published 01 Dec 2017. JTS revises its CPGs. Before relying on this one, find CPG ID 66 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Ocular Injuries and Vision-Threatening Conditions in Prolonged Field Care (CPG ID: 66), 01 Dec 2017.",
   "related": [],
@@ -363,6 +369,7 @@ window.CPG_DOCUMENTS = [
     "text": "The intent of this guideline is to provide medical professionals who encounter extended casualty evacuation times in austere environments the evidence-based guidance for nursing interventions necessary to improve patient outcome."
    }
   ],
+  "summarized": false,
   "notice": "Published 22 Jul 2018. JTS revises its CPGs. Before relying on this one, find CPG ID 70 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Nursing Intervention in Prolonged Field Care (CPG ID: 70), 22 Jul 2018.",
   "related": [],
@@ -414,6 +421,7 @@ window.CPG_DOCUMENTS = [
     "text": "This CPG is meant to provide medical professionals who treat severely injured or sick patients in austere environments with recommendations for documentation that will allow them and subsequent providers along the evacuation chain to optimally manage complex, often unstable casualties."
    }
   ],
+  "summarized": false,
   "notice": "Published 13 Nov 2018. JTS revises its CPGs. Before relying on this one, find CPG ID 72 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Documentation in Prolonged Field Care (CPG ID: 72), 13 Nov 2018.",
   "related": [],
@@ -472,6 +480,7 @@ window.CPG_DOCUMENTS = [
     ]
    }
   ],
+  "summarized": false,
   "notice": "Published 01 Oct 2018, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 73 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Damage Control Resuscitation (DCR) in Prolonged Field Care (PFC) (CPG ID: 73), 01 Oct 2018.",
   "related": [],
@@ -530,6 +539,7 @@ window.CPG_DOCUMENTS = [
     ]
    }
   ],
+  "summarized": false,
   "notice": "Published 28 Oct 2020, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 83 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Sepsis Management in Prolonged Field Care (CPG ID: 83), 28 Oct 2020.",
   "related": [],
@@ -586,6 +596,7 @@ window.CPG_DOCUMENTS = [
     ]
    }
   ],
+  "summarized": false,
   "notice": "Published 30 Oct 2020, with rapid updates through Jun 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 82 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Prehospital Blood Transfusion (CPG ID: 82), 30 Oct 2020.",
   "related": [
@@ -647,6 +658,7 @@ window.CPG_DOCUMENTS = [
     ]
    }
   ],
+  "summarized": false,
   "notice": "Published 27 Dec 2021, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 92 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Mechanical Ventilation Basics (CPG ID: 92), 27 Dec 2021.",
   "related": [],
@@ -699,6 +711,7 @@ window.CPG_DOCUMENTS = [
     "text": "This CPG is intended to be used as a guide to educate users in the deployed environment about the benefits and limitations of telemedicine."
    }
   ],
+  "summarized": false,
   "notice": "Published 19 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 94 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Telemedicine Guidance in the Deployed Setting (CPG ID: 94), 19 Sep 2023.",
   "related": [

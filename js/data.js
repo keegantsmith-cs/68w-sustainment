@@ -131,7 +131,9 @@ window.RESOURCES = [
     icon: "●",
     art: "meds",
     summary: "Medication information for operational medical care.",
-    documents: []
+    // Index generated from docs/drug-ref/ by scripts/build_drugref.py. NO doses: the reference is a draft
+    // under clinical governance review. Doses are added only after written approval (DOSES_APPROVED in the script).
+    documents: window.DRUGREF_DOCUMENTS || []
   },
   {
     id: "field-care",
