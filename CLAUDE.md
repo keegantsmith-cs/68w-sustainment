@@ -1,0 +1,30 @@
+# 68W Sustainment — project guide for Claude
+
+A static web app (no build step) for US Army 68W Combat Medic sustainment training. It's hosted publicly on GitHub Pages.
+
+## Layout
+- `js/data.js`: ALL content (resources, documents, textbook chapters). Most changes happen here.
+- `js/app.js`: hash router and views (home, resource, doc, saved, downloads, search, profile).
+- `js/art.js`: placeholder SVG artwork. `css/styles.css`: theme; the phone layout is under `@media (max-width: 640px)`.
+- `sw.js`: offline cache. **Bump `VERSION` whenever app files change.**
+- `scripts/check.js`: validation. Run `node scripts/check.js` before every commit.
+
+## Hard rules
+1. The repository and site are PUBLIC. Never commit PDFs or Office files, copyrighted text, FOUO/CUI, OPSEC-sensitive details, or PII. `.gitignore` blocks `docs/**/*.pdf` etc. Restricted documents are linked with `url` to an access-controlled host.
+2. Never invent clinical content (doses, protocols, task standards). Only use text from a source document the user provides, and cite it (title, edition, chapter and page).
+3. Summaries and outlines (titles, chapter names, page numbers) are fine. Do not reproduce large passages of copyrighted textbook text.
+4. Keep the look consistent with the mock-up: dark green, tan accents, uppercase tracking labels. Every change must work at desktop and iPhone widths.
+
+## Run / test
+- `python3 -m http.server 8000`, then open http://localhost:8000
+- Playwright is available (`require('playwright')`) for screenshots at 1295x965 and with `devices['iPhone 13']`.
+
+## Agent team (`.claude/agents/`)
+| Agent | Use it to… |
+|---|---|
+| `content-curator` | Turn a source document (PDF, TOC, list) into `data.js` entries |
+| `clinical-reviewer` | Review content for accuracy, citations, copyright, OPSEC and PII (read-only) |
+| `ui-tester` | Test desktop and phone layouts, routes and console errors with screenshots |
+| `release-manager` | Run pre-publish checks, bump the cache version, commit |
+
+Typical flow when the user hands over a document: content-curator → clinical-reviewer → ui-tester → release-manager.

@@ -24,6 +24,11 @@ Open http://localhost:8000. No build step or installs are needed.
 
 After changing any app file, bump `VERSION` in `sw.js` so installed phones pick up the update.
 
+## Checks and the Claude agent team
+Run `node scripts/check.js` before opening a pull request. It catches duplicate ids, broken file links, tracked PDFs and possible PII.
+
+If you use Claude Code, the repository includes a team of agents in `.claude/agents/`: `content-curator`, `clinical-reviewer`, `ui-tester` and `release-manager`. See `CLAUDE.md` for the workflow.
+
 ## Submitting changes
 1. Create a branch, or fork the repository if you aren't a collaborator.
 2. Make your change and check it on both a desktop browser and a phone-sized window.
