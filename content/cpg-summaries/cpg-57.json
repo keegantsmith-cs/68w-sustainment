@@ -1,0 +1,75 @@
+{
+  "cpgId": 57,
+  "overview": "Covers burn care at Role 1 in prolonged field care (PFC), after TCCC, when evacuation to a higher level of care is not immediately possible. It walks through airway, burn-size estimation, fluid resuscitation, monitoring, extremity burns, pain and wound care using a Best / Better / Minimum format. Burn care is complex, so establish a telemedicine consult as soon as possible.",
+  "keyPoints": [
+    {
+      "text": "Treat large burns and burns with smoke inhalation plus airway or breathing problems as life threatening. Start a telemedicine consult early; photos and video help the consultant.",
+      "page": 2,
+      "quote": "Burns covering >20% of the total body surface area (TBSA), or those with smoke inhalation injury"
+    },
+    {
+      "text": "Severe smoke inhalation (respiratory distress, stridor) needs an immediate definitive airway, and large burns should be intubated before total-body swelling closes the airway. Facial burns around the mouth may also need intubation.",
+      "page": 2,
+      "quote": "All patients with burns covering >40% TBSA should be intubated because total-body swelling will tend to obstruct the airway."
+    },
+    {
+      "text": "Airway options. Best: rapid-sequence intubation by a skilled provider, then continuous sedation, airway maintenance, supplemental oxygen and a portable ventilator. Better: cricothyroidotomy, then continuous sedation, airway maintenance, oxygen from a concentrator and a portable ventilator. Minimum: cricothyroidotomy, ketamine and a BVM with PEEP valve.",
+      "page": 3
+    },
+    {
+      "text": "Estimate burn size: the patient's hand (with fingers) for small burns and the Rule of Nines for large burns. Recalculate with the Lund-Browder chart once wounds are cleaned (Best). Count partial- and full-thickness burns; do not count superficial, sunburn-like burns.",
+      "page": 4,
+      "quote": "patient’s hand size (including fingers) to represent a 1% TBSA"
+    },
+    {
+      "text": "Best: isotonic crystalloid (lactated Ringer's or Plasma-Lyte) by IV/IO, started immediately (even through burned skin) at an initial 500 mL/h while you finish the assessment. Give no bolus unless the patient is hypotensive, and then only until palpable pulses return.",
+      "page": 6,
+      "quote": "Initial IV rate 500mL/h; start while completing initial assessment."
+    },
+    {
+      "text": "Set the adult hourly rate with the rule of 10s (TBSA x 10 mL/h), adding 100 mL/h for each 10 kg over 80 kg. Children use a separate weight-based formula in the CPG.",
+      "page": 18,
+      "quote": "Starting fluid rate is rule of 10s (TBSA x 10; +100 ml/hr for each 10 kg over 80 kg)"
+    },
+    {
+      "text": "No IV/IO? Better: coached drinking of an electrolyte solution on a schedule (or by NG tube). Minimum: rectal infusion of up to 500 mL/h, which can be supplemented with oral fluids. Use electrolyte solution, never plain water.",
+      "page": 7,
+      "quote": "Rectal infusion of up to 500mL/h can be supplemented with oral hydration"
+    },
+    {
+      "text": "Urine output is the main sign that resuscitation is adequate. Titrate fluids to an adult goal of 30–50 mL/h (Best: Foley; Better: collect and measure urine in a graduated or improvised container). Record vitals, urine output, mental status, pain, SpO2 and temperature on a flow sheet.",
+      "page": 8,
+      "quote": "Adjust IV (or oral/rectal intake) rate to UO goal of 30–50mL/h."
+    },
+    {
+      "text": "Burned limbs: elevate them above the heart, have the patient exercise them, and check distal pulses hourly. If pulses are diminished or absent in a circumferential full-thickness burn and evacuation will be delayed, escharotomy is the Best option (Better: consider it), with a teleconsult and blood ready. Minimum: triage to faster evacuation and keep elevating and moving the limb.",
+      "page": 8,
+      "quote": "Monitor peripheral pulses on all burned extremities hourly, using a Doppler flowmeter if available."
+    },
+    {
+      "text": "Give frequent, smaller doses of IV opioid or ketamine for pain, and have enough analgesia on hand before any wound care. If evacuation is expected within 24 hours, just cover burns with clean, dry gauze and leave blisters intact. For longer holds, clean and dress the burns per the Best/Better/Minimum options, and avoid wet dressings because they cause hypothermia.",
+      "page": 9,
+      "quote": "If evacuation to higher level of care is anticipated within 24 hours, simply cover burns with clean, dry gauze and leave intact blisters in place."
+    }
+  ],
+  "watchFor": [
+    "Expect every burn casualty to become hypothermic. Cover them early and rewarm aggressively if their temperature drops.",
+    "Supraglottic airways (LMA, King LT, Combitube) are not appropriate for burns because airway swelling keeps increasing.",
+    "TCCC hypotensive resuscitation does not apply to burns without severe bleeding. Get expert advice if burns are combined with noncompressible hemorrhage.",
+    "If fluid resuscitation started late, do not try to 'catch up' by giving extra fluids.",
+    "Do not routinely give prophylactic antibiotics for burns alone. Treat spreading redness (cellulitis) or signs of invasive wound infection."
+  ],
+  "watchForPages": [
+    2,
+    3,
+    7,
+    6,
+    10
+  ],
+  "editionNotes": [
+    "The Appendix F summary table (p. 19) lists escharotomy under Best for any circumferential third-degree extremity burn, while the body text (p. 8) requires diminished or absent pulses and delayed evacuation.",
+    "The body text (p. 8) says to adjust the IV rate every one to two hours when urine output is off target, while the Appendix F summary table (p. 18) says each hour.",
+    "The Appendix D flow sheet (p. 15) adds a weight condition to the rule of tens and a maximum daily volume that do not appear in the body text (p. 6).",
+    "The urine-output target this CPG gives for crush or rhabdomyolysis patients (p. 8) is a different value from the target in the PFC Crush Syndrome CPG it refers readers to (p. 3 of that CPG)."
+  ]
+}

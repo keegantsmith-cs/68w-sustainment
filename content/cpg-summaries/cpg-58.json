@@ -1,0 +1,75 @@
+{
+  "cpgId": 58,
+  "overview": "Covers crush syndrome at Role 1 in prolonged field care (PFC), after TCCC, when evacuation is delayed. Crush syndrome follows entrapment that damages a large muscle mass: on release, myoglobin and potassium can cause kidney damage, deadly arrhythmias and death. The main treatment is aggressive fluids plus close monitoring, using a Best / Better / Minimum format, with an early telemedicine consult.",
+  "keyPoints": [
+    {
+      "text": "Suspect crush syndrome in any casualty whose limbs were pinned with extensive muscle damage. Risk rises with the amount of muscle crushed and the time pinned. Prolonged tourniquet time, compartment syndrome and severe blunt limb trauma cause the same problem and get the same treatment.",
+      "page": 2,
+      "quote": "It can develop following as little as 1 hour of entrapment."
+    },
+    {
+      "text": "Best: start IV/IO crystalloid IMMEDIATELY, before extrication. Give an initial 2 L bolus, then 1 L/h, adjusted to urine output.",
+      "page": 3,
+      "quote": "Rate and volume: initial bolus, 2L; initial rate: 1L/h,"
+    },
+    {
+      "text": "No IV? Better: coached drinking of an oral electrolyte solution. Minimum: rectal electrolyte infusion, which can be combined with oral fluids. Use premixed or improvised electrolyte solution (WHO ORS preferred), never large volumes of plain water.",
+      "page": 3,
+      "quote": "Rectal infusion of up to 500mL/h can be supplemented with oral hydration"
+    },
+    {
+      "text": "Keep urine output high and adjust the fluid rate to hold it there. Best: Foley catheter; Minimum: measure urine in a graduated or improvised container (e.g., Nalgene). Document BP, HR, fluids in, urine out, mental status, pain, SpO2 and temperature on a flowsheet.",
+      "page": 3,
+      "quote": "Goal: UOP of 100–200mL/h. The fluid rate should be adjusted to maintain this level of UOP."
+    },
+    {
+      "text": "If urine output stays below goal at an IV rate of 1 L/h for more than 2 hours, the kidneys may be damaged. Get a teleconsult if available. The CPG says to consider lowering the fluid rate to avoid overload (e.g., pulmonary edema), but also to consider that hemorrhage or third spacing may be causing hypovolemia and that the rate may need to go up.",
+      "page": 3,
+      "quote": "If UOP is below goal at IV fluid rate of 1L/h for >2 hours, kidneys may be damaged"
+    },
+    {
+      "text": "Track myoglobin in the urine. Best: lab urine myoglobin; Better: a urine dipstick positive for blood/hemoglobin; Minimum: urine color. Red, brown or black urine that persists or darkens means rising kidney risk.",
+      "page": 4
+    },
+    {
+      "text": "Watch for high potassium. Best: potassium labs, an ECG and a cardiac monitor; Minimum: close vitals and circulation checks. Check every 15 minutes for the first 1–2 hours, then less often if the patient is stable or the urine is clearing. Look for PVCs, bradycardia, weakening pulses and hypotension.",
+      "page": 4,
+      "quote": "Frequency: every 15 minutes for initial 1–2 hours"
+    },
+    {
+      "text": "Treat urgently for hyperkalemia if PVCs become more frequent, bradycardia develops, pulses weaken, or potassium is above 5.5 mEq/L or rising. Best: calcium gluconate, insulin + D50, albuterol and sodium polystyrene sulfonate. Better: calcium gluconate and insulin + D50. Minimum: any of these available. Consider a teleconsult or more urgent evacuation. All except sodium polystyrene sulfonate only shift potassium temporarily, so keep monitoring and repeat as needed.",
+      "page": 4,
+      "quote": "If PVCs become more frequent, the patient develops bradycardia, peripheral pulse strength decreases, or potassium levels are >5.5mEq/L or rising, treat urgently for hyperkalemia."
+    },
+    {
+      "text": "Consider tourniquets before extrication if entrapment has lasted more than 2 hours and the crush protocol cannot start immediately. Best: two tourniquets side by side above the injury just before extrication; Minimum: just after. Start the crush protocol before loosening any tourniquet, and only if TCCC criteria for conversion or removal are met.",
+      "page": 5,
+      "quote": "Consider tourniquet placement for crush injury before extrication if the length of entrapment exceeds 2 hours and crush injury protocol cannot be initiated immediately"
+    },
+    {
+      "text": "Expect compartment syndrome. Fasciotomy (Best) is only for clinical signs of compartment syndrome, and only with qualified personnel or a teleconsult, wound care, and regional anesthesia or IV sedation. Minimum: cool the limb by evaporation or the environment, never by packing it in ice or snow.",
+      "page": 6
+    }
+  ],
+  "watchFor": [
+    "TCCC hypotensive resuscitation does not apply to extremity crush injury that needs extrication. Get expert advice if there is also noncompressible bleeding.",
+    "Large volumes of plain water can cause life-threatening hyponatremia. Use oral or rectal fluids only as an electrolyte solution.",
+    "A normal ECG can still occur with hyperkalemia.",
+    "A limb that is cool, numb, tensely swollen and pulseless is likely dead. Consider fasciotomy; if there is no improvement, place tourniquets side by side above the injury, do not remove them, and expect amputation.",
+    "Earliest compartment syndrome sign: a swollen limb with severe pain (with or without passive motion) that persists despite adequate analgesia."
+  ],
+  "watchForPages": [
+    2,
+    3,
+    4,
+    6,
+    6
+  ],
+  "editionNotes": [
+    "The calcium gluconate infusion time in the Appendix B Better row (p. 11) differs from the body text (p. 5) and the Appendix B Best row (p. 10).",
+    "The Better antibiotic in the body text (p. 6) is spelled differently from the same drug in Appendix B (p. 11); the body spelling appears to be a typo.",
+    "The urine-output goal in this CPG (p. 3) is a different value from the one the PFC Burn CPG gives for crush and rhabdomyolysis patients while referring readers to this CPG (Burn Wound Management PFC CPG, p. 8).",
+    "The Appendix A Minimum fluid plan (p. 9) starts with an IV bolus, while the body text Minimum (p. 3) is rectal electrolyte infusion.",
+    "The vital-sign monitoring schedule in the body text (p. 4) differs from the phase-based schedule in Appendix B (p. 10)."
+  ]
+}

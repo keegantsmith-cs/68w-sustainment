@@ -1,0 +1,75 @@
+{
+  "cpgId": 62,
+  "overview": "Covers acute traumatic wound management at Role 1 in prolonged field care (PFC), after TCCC, when evacuation is delayed. It covers the basics a Role 1 provider can do in an austere setting: analgesia, irrigation, debridement, dressings, closure, and preventing and treating infection, using a Best / Better / Minimum format. Start telemedicine early and send photos of the wound.",
+  "keyPoints": [
+    {
+      "text": "Wound care hurts, so plan analgesia first. Best: a regional nerve block (only if fully trained and equipped) and/or a ketamine drip with midazolam pushes. Better: local anesthetic and/or a ketamine drip. Minimum: local anesthetic and/or any pain medication.",
+      "page": 3
+    },
+    {
+      "text": "For smaller wounds, inject lidocaine into the wound margins and respect the maximum dose. The limit is higher when the lidocaine contains epinephrine.",
+      "page": 3,
+      "quote": "The maximum dose of lidocaine WITHOUT epinephrine is 3mg/kg (1% lidocaine has 10mg/mL and 2% lidocaine has 20mg/mL)."
+    },
+    {
+      "text": "Irrigate as early as possible ('the solution to pollution is dilution'). Best: Dakin's solution or sterile isotonic fluid. Better: clean, potable tap water. Minimum: the cleanest water available, boiled and cooled if it is not potable.",
+      "page": 4,
+      "quote": "nonpotable water should be boiled for a minimum of 3 minutes and then cooled to body temperature"
+    },
+    {
+      "text": "Match irrigation volume to wound size and contamination. Iodine, bacitracin or alcohol additives do not reduce infection, and very high pressure can damage tissue.",
+      "page": 4,
+      "quote": "1–3L for small or clean wounds, 4–8L for intermediate or dirty wounds, and ≥9L for large or very dirty wounds."
+    },
+    {
+      "text": "Debride clearly dead tissue and keep tissue you are unsure about. Judge muscle by color, contraction, consistency and circulation. When unable to evacuate and serial debridement is impossible (Minimum/ICRC method), remove all nonviable and questionable tissue at once.",
+      "page": 5,
+      "quote": "tissue of uncertain viability should be preserved and re-examined in 24–48 hours"
+    },
+    {
+      "text": "Plan hemorrhage control before debriding. For large extremity debridement, elevate the limb and place a tourniquet first; monitor tourniquet time closely and try to keep the total under 90 minutes. Use direct pressure with a hemostatic dressing for minor bleeding, and be ready to transfuse.",
+      "page": 7,
+      "quote": "Monitor the tourniquet times closely and attempt to keep the total tourniquet time <90 minutes."
+    },
+    {
+      "text": "Deep or large open wounds. Best: negative pressure wound therapy (commercial or field-expedient wound VAC). Better: wet-to-dry dressings, changed regularly. Minimum: a bulky dry dressing left in place if the wound stays clean.",
+      "page": 9,
+      "quote": "leave in place 4–7 days if wound is clean and without sign of infection"
+    },
+    {
+      "text": "Most war wounds should be closed at a surgical facility. Do not primarily close puncture wounds or wounds with tissue loss. A laceration can be closed primarily only if it is clean, under little tension, and within the time window. When in doubt, leave the wound open.",
+      "page": 10,
+      "quote": "there has been <12 hours from injury to closure (this can be extended to 24 hours for lacerations to the face or scalp)"
+    },
+    {
+      "text": "Give antibiotics as a complement to debridement and irrigation. In general, cefazolin 2 g IV every 8 hours for 24 hours is adequate for most dirty wounds; oral moxifloxacin or clindamycin, or IV ertapenem, are alternatives. Give tetanus prophylaxis based on the wound and the patient's immunization history (Appendix E).",
+      "page": 10,
+      "quote": "cefazolin 2g in 250 mL NS IV over 5 min every 8 hours for 24 hours is adequate for most dirty wounds"
+    },
+    {
+      "text": "If a wound shows infection (more pain, redness, pus) or the patient becomes systemically ill: remove the dressings, reopen any closed wound, re-debride, change dressings more often and continue antibiotics. For severe infection, evacuate; if you cannot, get a telemedicine consult. If possible, switch to a different antibiotic from the one used for prevention.",
+      "page": 11,
+      "quote": "Continue antibiotics for 7–10 days, moxifloxacin 400mg PO daily, levofloxacin 750mg PO daily"
+    }
+  ],
+  "watchFor": [
+    "Debriding large wounds causes significant blood loss. Do not debride more than you can control with direct pressure or a tourniquet, and watch closely for bleeding afterward.",
+    "Use epinephrine-containing local anesthetic with caution in the tip of the nose, ears, penis, fingers and toes because of the risk of ischemia.",
+    "Closing a wound greatly increases the risk of infection. Close only wounds that are very clean and well debrided.",
+    "Do not probe chest wounds; debride them minimally to avoid creating a pneumothorax.",
+    "Complex wounds are best managed with a telemedicine consult. Send photos or video."
+  ],
+  "watchForPages": [
+    8,
+    3,
+    10,
+    6,
+    6
+  ],
+  "editionNotes": [
+    "The Appendix G summary table (p. 24) limits tetanus prophylaxis to patients whose immunization status is unknown, while the body text (p. 10) and Appendix E (p. 21) base it on both the wound and the immunization history.",
+    "The stated Dakin's solution concentration, the 'half-strength' recipe and the instruction to dilute the mixed solution further (p. 4) are hard to reconcile. Confirm before mixing.",
+    "The sodium bicarbonate concentration in the Dakin's recipe (p. 4) differs from the one in the packing list (p. 22).",
+    "The body text (p. 4) lists Dakin's solution as a Best irrigant, while the summary table (p. 23) specifies dilute Dakin's solution."
+  ]
+}

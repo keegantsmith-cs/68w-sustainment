@@ -1,0 +1,76 @@
+{
+  "cpgId": 63,
+  "overview": "Covers traumatic brain injury (TBI) at Role 1 in prolonged field care (PFC), after TCCC, when evacuation to neurosurgical care is delayed. The focus is on preventing secondary brain injury by avoiding hypotension, hypoxia, abnormal CO2, low blood sugar and rising intracranial pressure (ICP), using a Best / Better / Minimum format. Values reflect the Apr 2024 rapid update; establish a telemedicine consult as soon as possible.",
+  "keyPoints": [
+    {
+      "text": "Primary survey: do a rapid trauma survey, record the Glasgow Coma Scale (GCS), and check pupils and motor function in every limb. Secondary survey: check for TBI red flags (e.g., witnessed loss of consciousness, unequal pupils, seizures, repeated vomiting, worsening headache) and do a detailed neuro exam. Record findings on the PFC flowsheet.",
+      "page": 2
+    },
+    {
+      "text": "Trend the neuro exam and vitals so you catch decline early. Best: continuous monitor, Foley, capnography if an advanced airway is in place, and pupils and GCS checked every hour. Minimum: BP cuff, stethoscope, pulse oximeter, a way to measure urine output, a capnometer if an advanced airway is in place, and pupils and GCS as often as possible. Treat any neuro decline as elevated ICP.",
+      "page": 4,
+      "quote": "Check pupillary response and GCS score every hour."
+    },
+    {
+      "text": "Minimum: stop all external bleeding, manage internal bleeding as able, and give TXA per TCCC. Better: if there is bleeding and no blood products, give 1 L of 0.9% sodium chloride. Best: whole blood (Low Titer O Whole Blood preferred) or blood products. Target SBP above 110 mmHg. Avoid drugs that lower BP and avoid hypotonic fluids, including lactated Ringer's.",
+      "page": 5,
+      "quote": "If there is evidence of bleeding and no blood products are available, administer 1L 0.9% sodium chloride (NaCl). Target is an SBP >110mmHg."
+    },
+    {
+      "text": "A low GCS or facial trauma with a compromised airway most likely needs a definitive airway. Place the type you are most confident with (cricothyroidotomy or ETT), and discuss risk vs. benefit by telemedicine when possible. Minimum: NPA and BVM with PEEP valve and supplemental oxygen.",
+      "page": 6,
+      "quote": "If GCS score is ≤8 or there is facial trauma with compromised airway, a definitive airway is most likely needed."
+    },
+    {
+      "text": "Oxygen target per the rapid update, with a higher safety-buffer target in PFC for patients on a ventilator.",
+      "page": 7,
+      "quote": "Maintain arterial blood oxygen saturation (SpO2) >93% (or >95% if receiving ventilatory support.)"
+    },
+    {
+      "text": "Monitor EtCO2 in every patient with an advanced airway and keep it in the target range. Avoid hyperventilation, which worsens brain ischemia. Avoid hypoventilation too, which raises ICP.",
+      "page": 6,
+      "quote": "Avoid hyperventilation (EtCO2 <35mmHg) except in extreme cases where imminent herniation is suspected"
+    },
+    {
+      "text": "Minimum ICP measures for suspected high ICP: raise the head of the bed, keep the neck midline (do not let the C-collar compress the neck veins), meet the SpO2/EtCO2/BP/temperature targets, and prevent or treat seizures. Better: add sedation and analgesia, because pain and agitation raise ICP.",
+      "page": 7,
+      "quote": "Elevate head of bed (HOB) 30°–60°."
+    },
+    {
+      "text": "Impending herniation (e.g., an unresponsive patient with one dilated pupil, or Cushing's triad) is the only exception to avoiding hyperventilation. Ventilate to the CPG's herniation EtCO2 target for no more than 20 minutes, assess the response (pupils, GCS), and seek expert consultation immediately.",
+      "page": 7,
+      "quote": "ventilate the patient for no more than 20 minutes"
+    },
+    {
+      "text": "Best: osmotic therapy by peripheral IV/IO. Hypertonic saline is preferred over mannitol. Seek more medical direction as soon as possible and evacuate to neurosurgical care at the earliest opportunity. Get a telemedicine consult (ideally critical care or neurocritical care) before exceeding the CPG's limit on hypertonic saline boluses (see its sodium management section).",
+      "page": 7,
+      "quote": "Hypertonic saline (HTS): 3% NaCl 250mL bolus over 20 minutes; repeat every 3 hours as needed"
+    },
+    {
+      "text": "Seizures: protect the patient, put them on their side, and never put anything in the mouth. Treat any witnessed or suspected seizure with a rapid-acting benzodiazepine (midazolam preferred; IM works if there is no IV/IO). Best adds levetiracetam (see the rapid-update dosing in the CPG).",
+      "page": 9,
+      "quote": "Midazolam 5mg IV/IO/IM every 5 minutes until seizure stops."
+    }
+  ],
+  "watchFor": [
+    "Cushing's triad (rising SBP or widening pulse pressure, bradycardia, irregular breathing) is a late sign of herniation. Act on it immediately.",
+    "Hypotension is usually not caused by TBI. Look for other causes such as ongoing bleeding or tension pneumothorax.",
+    "Do not tightly pack or irrigate an open head wound. Suture or staple the scalp if it is bleeding.",
+    "Avoid NSAIDs (ibuprofen, naproxen, ketorolac) because they may increase intracranial bleeding.",
+    "Do not use optic nerve sheath ultrasound if there is any chance of an open globe injury."
+  ],
+  "watchForPages": [
+    4,
+    5,
+    5,
+    10,
+    3
+  ],
+  "editionNotes": [
+    "The head-of-bed angle in the ICP section (p. 7) differs from the Appendix E summary table (p. 20); the transport sections (pp. 11, 21) give only a minimum angle.",
+    "The EtCO2 target for suspected herniation (p. 7 and Appendix E, p. 20) equals the low end of the normal EtCO2 range set by the rapid update (pp. 1, 4, 6), even though p. 6 defines hyperventilation as falling below that range. Confirm the current herniation target with JTS.",
+    "The systolic BP target in the hemodynamic section (p. 5) differs from the minimum BP in the ICP section (p. 7), the Appendix E table (p. 20) and the performance-improvement metrics (p. 12).",
+    "The blood glucose goal is a single value in the body text (p. 11) but a range in the Appendix E table (p. 21), and the two list the treatment options in a different order.",
+    "The rapid update note (p. 1) lists one SpO2 target, while the body (pp. 6–7) and Appendix E (p. 20) add a higher target for ventilated patients as a PFC safety buffer. It is not clear whether bag-valve-mask ventilation in the Minimum airway row (p. 6) counts as ventilatory support."
+  ]
+}

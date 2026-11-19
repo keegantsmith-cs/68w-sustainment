@@ -36,9 +36,47 @@ window.CPG_DOCUMENTS = [
    {
     "heading": "Purpose",
     "text": "This Role 1 prolonged field care (PFC) guideline is intended to be used after Tactical Combat Casualty Care (TCCC) Guidelines, when evacuation to higher level of care is not immediately possible."
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers burn care at Role 1 in prolonged field care (PFC), after TCCC, when evacuation to a higher level of care is not immediately possible. It walks through airway, burn-size estimation, fluid resuscitation, monitoring, extremity burns, pain and wound care using a Best / Better / Minimum format. Burn care is complex, so establish a telemedicine consult as soon as possible."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Treat large burns and burns with smoke inhalation plus airway or breathing problems as life threatening. Start a telemedicine consult early; photos and video help the consultant. “Burns covering >20% of the total body surface area (TBSA), or those with smoke inhalation injury” (p. 2)",
+     "Severe smoke inhalation (respiratory distress, stridor) needs an immediate definitive airway, and large burns should be intubated before total-body swelling closes the airway. Facial burns around the mouth may also need intubation. “All patients with burns covering >40% TBSA should be intubated because total-body swelling will tend to obstruct the airway.” (p. 2)",
+     "Airway options. Best: rapid-sequence intubation by a skilled provider, then continuous sedation, airway maintenance, supplemental oxygen and a portable ventilator. Better: cricothyroidotomy, then continuous sedation, airway maintenance, oxygen from a concentrator and a portable ventilator. Minimum: cricothyroidotomy, ketamine and a BVM with PEEP valve. (p. 3)",
+     "Estimate burn size: the patient's hand (with fingers) for small burns and the Rule of Nines for large burns. Recalculate with the Lund-Browder chart once wounds are cleaned (Best). Count partial- and full-thickness burns; do not count superficial, sunburn-like burns. “patient’s hand size (including fingers) to represent a 1% TBSA” (p. 4)",
+     "Best: isotonic crystalloid (lactated Ringer's or Plasma-Lyte) by IV/IO, started immediately (even through burned skin) at an initial 500 mL/h while you finish the assessment. Give no bolus unless the patient is hypotensive, and then only until palpable pulses return. “Initial IV rate 500mL/h; start while completing initial assessment.” (p. 6)",
+     "Set the adult hourly rate with the rule of 10s (TBSA x 10 mL/h), adding 100 mL/h for each 10 kg over 80 kg. Children use a separate weight-based formula in the CPG. “Starting fluid rate is rule of 10s (TBSA x 10; +100 ml/hr for each 10 kg over 80 kg)” (p. 18)",
+     "No IV/IO? Better: coached drinking of an electrolyte solution on a schedule (or by NG tube). Minimum: rectal infusion of up to 500 mL/h, which can be supplemented with oral fluids. Use electrolyte solution, never plain water. “Rectal infusion of up to 500mL/h can be supplemented with oral hydration” (p. 7)",
+     "Urine output is the main sign that resuscitation is adequate. Titrate fluids to an adult goal of 30–50 mL/h (Best: Foley; Better: collect and measure urine in a graduated or improvised container). Record vitals, urine output, mental status, pain, SpO2 and temperature on a flow sheet. “Adjust IV (or oral/rectal intake) rate to UO goal of 30–50mL/h.” (p. 8)",
+     "Burned limbs: elevate them above the heart, have the patient exercise them, and check distal pulses hourly. If pulses are diminished or absent in a circumferential full-thickness burn and evacuation will be delayed, escharotomy is the Best option (Better: consider it), with a teleconsult and blood ready. Minimum: triage to faster evacuation and keep elevating and moving the limb. “Monitor peripheral pulses on all burned extremities hourly, using a Doppler flowmeter if available.” (p. 8)",
+     "Give frequent, smaller doses of IV opioid or ketamine for pain, and have enough analgesia on hand before any wound care. If evacuation is expected within 24 hours, just cover burns with clean, dry gauze and leave blisters intact. For longer holds, clean and dress the burns per the Best/Better/Minimum options, and avoid wet dressings because they cause hypothermia. “If evacuation to higher level of care is anticipated within 24 hours, simply cover burns with clean, dry gauze and leave intact blisters in place.” (p. 9)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Expect every burn casualty to become hypothermic. Cover them early and rewarm aggressively if their temperature drops. (p. 2)",
+     "Supraglottic airways (LMA, King LT, Combitube) are not appropriate for burns because airway swelling keeps increasing. (p. 3)",
+     "TCCC hypotensive resuscitation does not apply to burns without severe bleeding. Get expert advice if burns are combined with noncompressible hemorrhage. (p. 7)",
+     "If fluid resuscitation started late, do not try to 'catch up' by giving extra fluids. (p. 6)",
+     "Do not routinely give prophylactic antibiotics for burns alone. Treat spreading redness (cellulitis) or signs of invasive wound infection. (p. 10)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The Appendix F summary table (p. 19) lists escharotomy under Best for any circumferential third-degree extremity burn, while the body text (p. 8) requires diminished or absent pulses and delayed evacuation.",
+     "The body text (p. 8) says to adjust the IV rate every one to two hours when urine output is off target, while the Appendix F summary table (p. 18) says each hour.",
+     "The Appendix D flow sheet (p. 15) adds a weight condition to the rule of tens and a maximum daily volume that do not appear in the body text (p. 6).",
+     "The urine-output target this CPG gives for crush or rhabdomyolysis patients (p. 8) is a different value from the target in the PFC Crush Syndrome CPG it refers readers to (p. 3 of that CPG)."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 13 Jan 2017. JTS revises its CPGs. Before relying on this one, find CPG ID 57 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Burn Wound Management in Prolonged Field Care (CPG ID: 57), 13 Jan 2017.",
   "related": [],
@@ -88,9 +126,48 @@ window.CPG_DOCUMENTS = [
    {
     "heading": "Purpose",
     "text": "This Role 1 prolonged field care (PFC) guideline is meant to provide medical professionals who encounter crush syndrome in austere environments with evidence-based guidance for how to manage the various aspects of crush injury care and monitoring."
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers crush syndrome at Role 1 in prolonged field care (PFC), after TCCC, when evacuation is delayed. Crush syndrome follows entrapment that damages a large muscle mass: on release, myoglobin and potassium can cause kidney damage, deadly arrhythmias and death. The main treatment is aggressive fluids plus close monitoring, using a Best / Better / Minimum format, with an early telemedicine consult."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Suspect crush syndrome in any casualty whose limbs were pinned with extensive muscle damage. Risk rises with the amount of muscle crushed and the time pinned. Prolonged tourniquet time, compartment syndrome and severe blunt limb trauma cause the same problem and get the same treatment. “It can develop following as little as 1 hour of entrapment.” (p. 2)",
+     "Best: start IV/IO crystalloid IMMEDIATELY, before extrication. Give an initial 2 L bolus, then 1 L/h, adjusted to urine output. “Rate and volume: initial bolus, 2L; initial rate: 1L/h,” (p. 3)",
+     "No IV? Better: coached drinking of an oral electrolyte solution. Minimum: rectal electrolyte infusion, which can be combined with oral fluids. Use premixed or improvised electrolyte solution (WHO ORS preferred), never large volumes of plain water. “Rectal infusion of up to 500mL/h can be supplemented with oral hydration” (p. 3)",
+     "Keep urine output high and adjust the fluid rate to hold it there. Best: Foley catheter; Minimum: measure urine in a graduated or improvised container (e.g., Nalgene). Document BP, HR, fluids in, urine out, mental status, pain, SpO2 and temperature on a flowsheet. “Goal: UOP of 100–200mL/h. The fluid rate should be adjusted to maintain this level of UOP.” (p. 3)",
+     "If urine output stays below goal at an IV rate of 1 L/h for more than 2 hours, the kidneys may be damaged. Get a teleconsult if available. The CPG says to consider lowering the fluid rate to avoid overload (e.g., pulmonary edema), but also to consider that hemorrhage or third spacing may be causing hypovolemia and that the rate may need to go up. “If UOP is below goal at IV fluid rate of 1L/h for >2 hours, kidneys may be damaged” (p. 3)",
+     "Track myoglobin in the urine. Best: lab urine myoglobin; Better: a urine dipstick positive for blood/hemoglobin; Minimum: urine color. Red, brown or black urine that persists or darkens means rising kidney risk. (p. 4)",
+     "Watch for high potassium. Best: potassium labs, an ECG and a cardiac monitor; Minimum: close vitals and circulation checks. Check every 15 minutes for the first 1–2 hours, then less often if the patient is stable or the urine is clearing. Look for PVCs, bradycardia, weakening pulses and hypotension. “Frequency: every 15 minutes for initial 1–2 hours” (p. 4)",
+     "Treat urgently for hyperkalemia if PVCs become more frequent, bradycardia develops, pulses weaken, or potassium is above 5.5 mEq/L or rising. Best: calcium gluconate, insulin + D50, albuterol and sodium polystyrene sulfonate. Better: calcium gluconate and insulin + D50. Minimum: any of these available. Consider a teleconsult or more urgent evacuation. All except sodium polystyrene sulfonate only shift potassium temporarily, so keep monitoring and repeat as needed. “If PVCs become more frequent, the patient develops bradycardia, peripheral pulse strength decreases, or potassium levels are >5.5mEq/L or rising, treat urgently for hyperkalemia.” (p. 4)",
+     "Consider tourniquets before extrication if entrapment has lasted more than 2 hours and the crush protocol cannot start immediately. Best: two tourniquets side by side above the injury just before extrication; Minimum: just after. Start the crush protocol before loosening any tourniquet, and only if TCCC criteria for conversion or removal are met. “Consider tourniquet placement for crush injury before extrication if the length of entrapment exceeds 2 hours and crush injury protocol cannot be initiated immediately” (p. 5)",
+     "Expect compartment syndrome. Fasciotomy (Best) is only for clinical signs of compartment syndrome, and only with qualified personnel or a teleconsult, wound care, and regional anesthesia or IV sedation. Minimum: cool the limb by evaporation or the environment, never by packing it in ice or snow. (p. 6)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "TCCC hypotensive resuscitation does not apply to extremity crush injury that needs extrication. Get expert advice if there is also noncompressible bleeding. (p. 2)",
+     "Large volumes of plain water can cause life-threatening hyponatremia. Use oral or rectal fluids only as an electrolyte solution. (p. 3)",
+     "A normal ECG can still occur with hyperkalemia. (p. 4)",
+     "A limb that is cool, numb, tensely swollen and pulseless is likely dead. Consider fasciotomy; if there is no improvement, place tourniquets side by side above the injury, do not remove them, and expect amputation. (p. 6)",
+     "Earliest compartment syndrome sign: a swollen limb with severe pain (with or without passive motion) that persists despite adequate analgesia. (p. 6)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The calcium gluconate infusion time in the Appendix B Better row (p. 11) differs from the body text (p. 5) and the Appendix B Best row (p. 10).",
+     "The Better antibiotic in the body text (p. 6) is spelled differently from the same drug in Appendix B (p. 11); the body spelling appears to be a typo.",
+     "The urine-output goal in this CPG (p. 3) is a different value from the one the PFC Burn CPG gives for crush and rhabdomyolysis patients while referring readers to this CPG (Burn Wound Management PFC CPG, p. 8).",
+     "The Appendix A Minimum fluid plan (p. 9) starts with an IV bolus, while the body text Minimum (p. 3) is rectal electrolyte infusion.",
+     "The vital-sign monitoring schedule in the body text (p. 4) differs from the phase-based schedule in Appendix B (p. 10)."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 28 Dec 2016. JTS revises its CPGs. Before relying on this one, find CPG ID 58 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Crush Syndrome - Prolonged Field Care (CPG ID: 58), 28 Dec 2016.",
   "related": [],
@@ -146,9 +223,50 @@ window.CPG_DOCUMENTS = [
     "items": [
      "01 Sep 2023: SAVeO2 oxygen parameters"
     ]
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers pain control and sedation at Role 1 in prolonged field care (PFC), picking up where TCCC ends, when a casualty must be managed for an extended time before evacuation. It keeps options few and familiar and uses a quick-reference table (Appendix A) organized by clinical situation and Minimum / Better / Best capability. A later update changed the oxygen (SAVeO2) parameters; this summary leaves the oxygen target out until it is confirmed (see edition notes)."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Follow the priorities: keep the casualty alive, then maintain perfusion, relieve pain, keep the patient safe, and stop awareness. Do not give analgesia or sedation while other priorities (e.g., hemorrhage control) come first. Avoid drugs that lower BP or breathing in shock or respiratory distress. (p. 2)",
+     "Prefer IV/IO over IM because the response is more predictable. Give smaller, more frequent doses and titrate to effect: start low, go slow. Patients with low blood volume need less drug. Engage telemedicine early if you are inexperienced or having difficulty. (p. 2)",
+     "Think of pain as background, breakthrough or procedural, and treat pain before considering sedation. Agitation is most often untreated pain or hypoxia, hypotension or hypoglycemia. Ketamine, opioids and benzodiazepines multiply each other's effects, so use less of each when combining them. (p. 3)",
+     "Monitoring. Best: portable monitor with continuous vitals and capnography. Better: capnography if the airway is controlled, plus the minimum. Minimum: BP cuff, stethoscope, pulse oximeter. Always document vital-sign trends. (p. 3)",
+     "Use the Appendix A table: choose the column (Standard analgesia, Difficult analgesia/sedation needed, Protected airway, Shock present), then the row for your resources and training. All medics should be trained to the 'Better' row. 'Give' means strongly recommended; 'Consider' requires a full risk/benefit assessment. (p. 4)",
+     "Standard-analgesia goals: an airway the patient can protect, adequate ventilation and oxygenation, and adequate systolic BP. The Minimum row uses scheduled oral acetaminophen and meloxicam, OTFC per TCCC, ketamine push and ondansetron as needed. “Breathing – adequate ventilation (RR > 12/min, EtCO2 < 50mmHg) and oxygenation” (p. 8)",
+     "Ketamine push for pain is the low-dose foundation for supplementing OTFC. If there is no IV/IO, the CPG gives a larger IM dose (see Appendix A footnote 1). “Ketamine push (for pain): 20mg (range, 0.1–0.2mg/kg) IV/IO every 10–30 minutes PRN” (p. 8)",
+     "Hydromorphone is the CPG's opioid of choice for PFC (long acting, fewest side effects); fentanyl or morphine are alternatives. Find the effective dose by giving the lowest dose repeatedly until the target or maximum dose is reached. If the maximum-dose opioid is not enough, add midazolam. “Hydromorphone 0.5mg (range, 0.25–2mg) IV/IO every 1–6 hours PRN” (p. 8)",
+     "Shock present: start treating the shock before giving analgesia or sedation, and do not worsen it. Ketamine push is the main option. Opioids or midazolam are considered (Best) only if more sedation is needed AND blood pressure will tolerate it. (p. 8)",
+     "If a continuous drip is used, it should usually be ketamine alone, topped up with push doses of opioid and/or midazolam. Never mix more than one drug in the same bag. Run multiple drips only with a telemedicine consultant who has critical care experience. (p. 5)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Agitation is often untreated pain or another physiologic problem (hypoxia, hypotension, hypoglycemia). Look for the cause before sedating. (p. 3)",
+     "High doses can swing the patient between oversedation (breathing suppression, hypotension) and agitation or emergence reactions. (p. 3)",
+     "Regional nerve blocks are for trained individuals with documented competency only. Systemic toxicity (seizure, cardiac arrest) can occur, so close monitoring must be available after injection. (p. 5)",
+     "Fentanyl carries the greatest risk of respiratory depression. Monitor SpO2 and be ready to support breathing. (p. 13)",
+     "Count the acetaminophen in Percocet toward the daily acetaminophen limit. (p. 8)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The SpO2 goal in the Appendix A Standard Analgesia column (p. 8), added in the SAVeO2 update, is printed as a minimum, but the trial it footnotes is about avoiding excessive oxygen, and the parenthesis around it is never closed. Confirm the intended oxygen target with the current JTS version before relying on it.",
+     "The oxygen saturation goal in this CPG (p. 8) differs from the targets in the TBI PFC CPG (TBI PFC CPG, pp. 6–7).",
+     "Appendix A (p. 8) and Appendix D (p. 12) give different acetaminophen content and different dosing intervals for Percocet.",
+     "The starting IV fentanyl dose differs between Appendix A (p. 8), Appendix C (p. 10) and Appendix D (p. 12).",
+     "The redosing interval for finding the effective dose differs between the Appendix A footnote (p. 8) and Appendix D (pp. 11–12).",
+     "The ondansetron interval in Appendix A (p. 8) differs from Appendix D (p. 13).",
+     "Appendix G (p. 18) lists acetaminophen under a nonsteroidal anti-inflammatory drug heading."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 11 May 2017, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 61 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Analgesia and Sedation Management during Prolonged Field Care (CPG ID: 61), 11 May 2017.",
   "related": [
@@ -200,9 +318,47 @@ window.CPG_DOCUMENTS = [
    {
     "heading": "Purpose",
     "text": "The intent of this guideline is to provide evidence- and experience-based solutions to those who manage both simple and complex wounds in an austere environment."
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers acute traumatic wound management at Role 1 in prolonged field care (PFC), after TCCC, when evacuation is delayed. It covers the basics a Role 1 provider can do in an austere setting: analgesia, irrigation, debridement, dressings, closure, and preventing and treating infection, using a Best / Better / Minimum format. Start telemedicine early and send photos of the wound."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Wound care hurts, so plan analgesia first. Best: a regional nerve block (only if fully trained and equipped) and/or a ketamine drip with midazolam pushes. Better: local anesthetic and/or a ketamine drip. Minimum: local anesthetic and/or any pain medication. (p. 3)",
+     "For smaller wounds, inject lidocaine into the wound margins and respect the maximum dose. The limit is higher when the lidocaine contains epinephrine. “The maximum dose of lidocaine WITHOUT epinephrine is 3mg/kg (1% lidocaine has 10mg/mL and 2% lidocaine has 20mg/mL).” (p. 3)",
+     "Irrigate as early as possible ('the solution to pollution is dilution'). Best: Dakin's solution or sterile isotonic fluid. Better: clean, potable tap water. Minimum: the cleanest water available, boiled and cooled if it is not potable. “nonpotable water should be boiled for a minimum of 3 minutes and then cooled to body temperature” (p. 4)",
+     "Match irrigation volume to wound size and contamination. Iodine, bacitracin or alcohol additives do not reduce infection, and very high pressure can damage tissue. “1–3L for small or clean wounds, 4–8L for intermediate or dirty wounds, and ≥9L for large or very dirty wounds.” (p. 4)",
+     "Debride clearly dead tissue and keep tissue you are unsure about. Judge muscle by color, contraction, consistency and circulation. When unable to evacuate and serial debridement is impossible (Minimum/ICRC method), remove all nonviable and questionable tissue at once. “tissue of uncertain viability should be preserved and re-examined in 24–48 hours” (p. 5)",
+     "Plan hemorrhage control before debriding. For large extremity debridement, elevate the limb and place a tourniquet first; monitor tourniquet time closely and try to keep the total under 90 minutes. Use direct pressure with a hemostatic dressing for minor bleeding, and be ready to transfuse. “Monitor the tourniquet times closely and attempt to keep the total tourniquet time <90 minutes.” (p. 7)",
+     "Deep or large open wounds. Best: negative pressure wound therapy (commercial or field-expedient wound VAC). Better: wet-to-dry dressings, changed regularly. Minimum: a bulky dry dressing left in place if the wound stays clean. “leave in place 4–7 days if wound is clean and without sign of infection” (p. 9)",
+     "Most war wounds should be closed at a surgical facility. Do not primarily close puncture wounds or wounds with tissue loss. A laceration can be closed primarily only if it is clean, under little tension, and within the time window. When in doubt, leave the wound open. “there has been <12 hours from injury to closure (this can be extended to 24 hours for lacerations to the face or scalp)” (p. 10)",
+     "Give antibiotics as a complement to debridement and irrigation. In general, cefazolin 2 g IV every 8 hours for 24 hours is adequate for most dirty wounds; oral moxifloxacin or clindamycin, or IV ertapenem, are alternatives. Give tetanus prophylaxis based on the wound and the patient's immunization history (Appendix E). “cefazolin 2g in 250 mL NS IV over 5 min every 8 hours for 24 hours is adequate for most dirty wounds” (p. 10)",
+     "If a wound shows infection (more pain, redness, pus) or the patient becomes systemically ill: remove the dressings, reopen any closed wound, re-debride, change dressings more often and continue antibiotics. For severe infection, evacuate; if you cannot, get a telemedicine consult. If possible, switch to a different antibiotic from the one used for prevention. “Continue antibiotics for 7–10 days, moxifloxacin 400mg PO daily, levofloxacin 750mg PO daily” (p. 11)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Debriding large wounds causes significant blood loss. Do not debride more than you can control with direct pressure or a tourniquet, and watch closely for bleeding afterward. (p. 8)",
+     "Use epinephrine-containing local anesthetic with caution in the tip of the nose, ears, penis, fingers and toes because of the risk of ischemia. (p. 3)",
+     "Closing a wound greatly increases the risk of infection. Close only wounds that are very clean and well debrided. (p. 10)",
+     "Do not probe chest wounds; debride them minimally to avoid creating a pneumothorax. (p. 6)",
+     "Complex wounds are best managed with a telemedicine consult. Send photos or video. (p. 6)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The Appendix G summary table (p. 24) limits tetanus prophylaxis to patients whose immunization status is unknown, while the body text (p. 10) and Appendix E (p. 21) base it on both the wound and the immunization history.",
+     "The stated Dakin's solution concentration, the 'half-strength' recipe and the instruction to dilute the mixed solution further (p. 4) are hard to reconcile. Confirm before mixing.",
+     "The sodium bicarbonate concentration in the Dakin's recipe (p. 4) differs from the one in the packing list (p. 22).",
+     "The body text (p. 4) lists Dakin's solution as a Best irrigant, while the summary table (p. 23) specifies dilute Dakin's solution."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 24 Jul 2017. JTS revises its CPGs. Before relying on this one, find CPG ID 62 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Acute Traumatic Wound Management in the Prolonged Field Care Setting (CPG ID: 62), 24 Jul 2017.",
   "related": [],
@@ -259,9 +415,48 @@ window.CPG_DOCUMENTS = [
     "items": [
      "Apr 2024: Levetiracetam dosing (1500 mg loading dose, 1000 mg BID), PaCO2 (35-45 mmHg), SpO2 (>93%), and EtCO2 (35-45 mmHg) parameters updated to match parameters in Traumatic Brain Injury Management and Basic Neurosurgery in the Deployed Environment CPG."
     ]
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers traumatic brain injury (TBI) at Role 1 in prolonged field care (PFC), after TCCC, when evacuation to neurosurgical care is delayed. The focus is on preventing secondary brain injury by avoiding hypotension, hypoxia, abnormal CO2, low blood sugar and rising intracranial pressure (ICP), using a Best / Better / Minimum format. Values reflect the Apr 2024 rapid update; establish a telemedicine consult as soon as possible."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Primary survey: do a rapid trauma survey, record the Glasgow Coma Scale (GCS), and check pupils and motor function in every limb. Secondary survey: check for TBI red flags (e.g., witnessed loss of consciousness, unequal pupils, seizures, repeated vomiting, worsening headache) and do a detailed neuro exam. Record findings on the PFC flowsheet. (p. 2)",
+     "Trend the neuro exam and vitals so you catch decline early. Best: continuous monitor, Foley, capnography if an advanced airway is in place, and pupils and GCS checked every hour. Minimum: BP cuff, stethoscope, pulse oximeter, a way to measure urine output, a capnometer if an advanced airway is in place, and pupils and GCS as often as possible. Treat any neuro decline as elevated ICP. “Check pupillary response and GCS score every hour.” (p. 4)",
+     "Minimum: stop all external bleeding, manage internal bleeding as able, and give TXA per TCCC. Better: if there is bleeding and no blood products, give 1 L of 0.9% sodium chloride. Best: whole blood (Low Titer O Whole Blood preferred) or blood products. Target SBP above 110 mmHg. Avoid drugs that lower BP and avoid hypotonic fluids, including lactated Ringer's. “If there is evidence of bleeding and no blood products are available, administer 1L 0.9% sodium chloride (NaCl). Target is an SBP >110mmHg.” (p. 5)",
+     "A low GCS or facial trauma with a compromised airway most likely needs a definitive airway. Place the type you are most confident with (cricothyroidotomy or ETT), and discuss risk vs. benefit by telemedicine when possible. Minimum: NPA and BVM with PEEP valve and supplemental oxygen. “If GCS score is ≤8 or there is facial trauma with compromised airway, a definitive airway is most likely needed.” (p. 6)",
+     "Oxygen target per the rapid update, with a higher safety-buffer target in PFC for patients on a ventilator. “Maintain arterial blood oxygen saturation (SpO2) >93% (or >95% if receiving ventilatory support.)” (p. 7)",
+     "Monitor EtCO2 in every patient with an advanced airway and keep it in the target range. Avoid hyperventilation, which worsens brain ischemia. Avoid hypoventilation too, which raises ICP. “Avoid hyperventilation (EtCO2 <35mmHg) except in extreme cases where imminent herniation is suspected” (p. 6)",
+     "Minimum ICP measures for suspected high ICP: raise the head of the bed, keep the neck midline (do not let the C-collar compress the neck veins), meet the SpO2/EtCO2/BP/temperature targets, and prevent or treat seizures. Better: add sedation and analgesia, because pain and agitation raise ICP. “Elevate head of bed (HOB) 30°–60°.” (p. 7)",
+     "Impending herniation (e.g., an unresponsive patient with one dilated pupil, or Cushing's triad) is the only exception to avoiding hyperventilation. Ventilate to the CPG's herniation EtCO2 target for no more than 20 minutes, assess the response (pupils, GCS), and seek expert consultation immediately. “ventilate the patient for no more than 20 minutes” (p. 7)",
+     "Best: osmotic therapy by peripheral IV/IO. Hypertonic saline is preferred over mannitol. Seek more medical direction as soon as possible and evacuate to neurosurgical care at the earliest opportunity. Get a telemedicine consult (ideally critical care or neurocritical care) before exceeding the CPG's limit on hypertonic saline boluses (see its sodium management section). “Hypertonic saline (HTS): 3% NaCl 250mL bolus over 20 minutes; repeat every 3 hours as needed” (p. 7)",
+     "Seizures: protect the patient, put them on their side, and never put anything in the mouth. Treat any witnessed or suspected seizure with a rapid-acting benzodiazepine (midazolam preferred; IM works if there is no IV/IO). Best adds levetiracetam (see the rapid-update dosing in the CPG). “Midazolam 5mg IV/IO/IM every 5 minutes until seizure stops.” (p. 9)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Cushing's triad (rising SBP or widening pulse pressure, bradycardia, irregular breathing) is a late sign of herniation. Act on it immediately. (p. 4)",
+     "Hypotension is usually not caused by TBI. Look for other causes such as ongoing bleeding or tension pneumothorax. (p. 5)",
+     "Do not tightly pack or irrigate an open head wound. Suture or staple the scalp if it is bleeding. (p. 5)",
+     "Avoid NSAIDs (ibuprofen, naproxen, ketorolac) because they may increase intracranial bleeding. (p. 10)",
+     "Do not use optic nerve sheath ultrasound if there is any chance of an open globe injury. (p. 3)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The head-of-bed angle in the ICP section (p. 7) differs from the Appendix E summary table (p. 20); the transport sections (pp. 11, 21) give only a minimum angle.",
+     "The EtCO2 target for suspected herniation (p. 7 and Appendix E, p. 20) equals the low end of the normal EtCO2 range set by the rapid update (pp. 1, 4, 6), even though p. 6 defines hyperventilation as falling below that range. Confirm the current herniation target with JTS.",
+     "The systolic BP target in the hemodynamic section (p. 5) differs from the minimum BP in the ICP section (p. 7), the Appendix E table (p. 20) and the performance-improvement metrics (p. 12).",
+     "The blood glucose goal is a single value in the body text (p. 11) but a range in the Appendix E table (p. 21), and the two list the treatment options in a different order.",
+     "The rapid update note (p. 1) lists one SpO2 target, while the body (pp. 6–7) and Appendix E (p. 20) add a higher target for ventilated patients as a PFC safety buffer. It is not clear whether bag-valve-mask ventilation in the Minimum airway row (p. 6) counts as ventilatory support."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 06 Dec 2017, with rapid updates through Apr 2024. JTS revises its CPGs. Before relying on this one, find CPG ID 63 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Traumatic Brain Injury Management in Prolonged Field Care (CPG ID: 63), 06 Dec 2017.",
   "related": [],

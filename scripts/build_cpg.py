@@ -101,6 +101,11 @@ def load_summary(cid, pdf):
     for kp in s.get("keyPoints", []):
         if kp.get("quote") and norm(kp["quote"]) not in page_text(pdf, kp["page"]):
             raise SystemExit(f"CPG {cid}: quote not found on page {kp['page']}: {kp['quote'][:60]}")
+        # Every number in the key point's own text must also appear in its verified quote.
+        names = r"(SpO2|EtCO2|ETCO2|PaCO2|SaO2|FiO2|NEWS2|D50|DD ?Form ?\d+|DD ?\d+|SF ?\d+|Table ?\d+|pp?\. ?\d+(?:(?:–|-| and )\d+)?|Role ?\d|\d{1,2} \w{3} \d{4}|\b(?:19|20)\d{2}\b|CPG(?: ID:?)? ?\d+|O2|H2O|CO2|Impact ?\d+|EMV\+? ?\d+|Hamilton T1|SAVe II|VC3)"
+        loose = [n for n in re.findall(r"\d+(?:\.\d+)?", re.sub(names, "", kp["text"])) if n not in kp.get("quote", "")]
+        if loose:
+            raise SystemExit(f"CPG {cid}: number(s) {loose} in key point text are not backed by its quote: {kp['text'][:80]}")
         if kp.get("quote") and re.search(r"\b(of|to|at|a|an|the|than|target|by|is|be|from|with|and|or)[\s,]*$", norm(kp["quote"]), re.I):
             raise SystemExit(f"CPG {cid}: quote ends mid-phrase (value may be cut off): ...{kp['quote'][-40:]}")
     return s

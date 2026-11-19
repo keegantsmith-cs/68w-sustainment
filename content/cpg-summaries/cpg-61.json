@@ -1,0 +1,72 @@
+{
+  "cpgId": 61,
+  "overview": "Covers pain control and sedation at Role 1 in prolonged field care (PFC), picking up where TCCC ends, when a casualty must be managed for an extended time before evacuation. It keeps options few and familiar and uses a quick-reference table (Appendix A) organized by clinical situation and Minimum / Better / Best capability. A later update changed the oxygen (SAVeO2) parameters; this summary leaves the oxygen target out until it is confirmed (see edition notes).",
+  "keyPoints": [
+    {
+      "text": "Follow the priorities: keep the casualty alive, then maintain perfusion, relieve pain, keep the patient safe, and stop awareness. Do not give analgesia or sedation while other priorities (e.g., hemorrhage control) come first. Avoid drugs that lower BP or breathing in shock or respiratory distress.",
+      "page": 2
+    },
+    {
+      "text": "Prefer IV/IO over IM because the response is more predictable. Give smaller, more frequent doses and titrate to effect: start low, go slow. Patients with low blood volume need less drug. Engage telemedicine early if you are inexperienced or having difficulty.",
+      "page": 2
+    },
+    {
+      "text": "Think of pain as background, breakthrough or procedural, and treat pain before considering sedation. Agitation is most often untreated pain or hypoxia, hypotension or hypoglycemia. Ketamine, opioids and benzodiazepines multiply each other's effects, so use less of each when combining them.",
+      "page": 3
+    },
+    {
+      "text": "Monitoring. Best: portable monitor with continuous vitals and capnography. Better: capnography if the airway is controlled, plus the minimum. Minimum: BP cuff, stethoscope, pulse oximeter. Always document vital-sign trends.",
+      "page": 3
+    },
+    {
+      "text": "Use the Appendix A table: choose the column (Standard analgesia, Difficult analgesia/sedation needed, Protected airway, Shock present), then the row for your resources and training. All medics should be trained to the 'Better' row. 'Give' means strongly recommended; 'Consider' requires a full risk/benefit assessment.",
+      "page": 4
+    },
+    {
+      "text": "Standard-analgesia goals: an airway the patient can protect, adequate ventilation and oxygenation, and adequate systolic BP. The Minimum row uses scheduled oral acetaminophen and meloxicam, OTFC per TCCC, ketamine push and ondansetron as needed.",
+      "page": 8,
+      "quote": "Breathing – adequate ventilation (RR > 12/min, EtCO2 < 50mmHg) and oxygenation"
+    },
+    {
+      "text": "Ketamine push for pain is the low-dose foundation for supplementing OTFC. If there is no IV/IO, the CPG gives a larger IM dose (see Appendix A footnote 1).",
+      "page": 8,
+      "quote": "Ketamine push (for pain): 20mg (range, 0.1–0.2mg/kg) IV/IO every 10–30 minutes PRN"
+    },
+    {
+      "text": "Hydromorphone is the CPG's opioid of choice for PFC (long acting, fewest side effects); fentanyl or morphine are alternatives. Find the effective dose by giving the lowest dose repeatedly until the target or maximum dose is reached. If the maximum-dose opioid is not enough, add midazolam.",
+      "page": 8,
+      "quote": "Hydromorphone 0.5mg (range, 0.25–2mg) IV/IO every 1–6 hours PRN"
+    },
+    {
+      "text": "Shock present: start treating the shock before giving analgesia or sedation, and do not worsen it. Ketamine push is the main option. Opioids or midazolam are considered (Best) only if more sedation is needed AND blood pressure will tolerate it.",
+      "page": 8
+    },
+    {
+      "text": "If a continuous drip is used, it should usually be ketamine alone, topped up with push doses of opioid and/or midazolam. Never mix more than one drug in the same bag. Run multiple drips only with a telemedicine consultant who has critical care experience.",
+      "page": 5
+    }
+  ],
+  "watchFor": [
+    "Agitation is often untreated pain or another physiologic problem (hypoxia, hypotension, hypoglycemia). Look for the cause before sedating.",
+    "High doses can swing the patient between oversedation (breathing suppression, hypotension) and agitation or emergence reactions.",
+    "Regional nerve blocks are for trained individuals with documented competency only. Systemic toxicity (seizure, cardiac arrest) can occur, so close monitoring must be available after injection.",
+    "Fentanyl carries the greatest risk of respiratory depression. Monitor SpO2 and be ready to support breathing.",
+    "Count the acetaminophen in Percocet toward the daily acetaminophen limit."
+  ],
+  "watchForPages": [
+    3,
+    3,
+    5,
+    13,
+    8
+  ],
+  "editionNotes": [
+    "The SpO2 goal in the Appendix A Standard Analgesia column (p. 8), added in the SAVeO2 update, is printed as a minimum, but the trial it footnotes is about avoiding excessive oxygen, and the parenthesis around it is never closed. Confirm the intended oxygen target with the current JTS version before relying on it.",
+    "The oxygen saturation goal in this CPG (p. 8) differs from the targets in the TBI PFC CPG (TBI PFC CPG, pp. 6–7).",
+    "Appendix A (p. 8) and Appendix D (p. 12) give different acetaminophen content and different dosing intervals for Percocet.",
+    "The starting IV fentanyl dose differs between Appendix A (p. 8), Appendix C (p. 10) and Appendix D (p. 12).",
+    "The redosing interval for finding the effective dose differs between the Appendix A footnote (p. 8) and Appendix D (pp. 11–12).",
+    "The ondansetron interval in Appendix A (p. 8) differs from Appendix D (p. 13).",
+    "Appendix G (p. 18) lists acetaminophen under a nonsteroidal anti-inflammatory drug heading."
+  ]
+}
