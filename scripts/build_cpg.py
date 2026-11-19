@@ -101,6 +101,8 @@ def load_summary(cid, pdf):
     for kp in s.get("keyPoints", []):
         if kp.get("quote") and norm(kp["quote"]) not in page_text(pdf, kp["page"]):
             raise SystemExit(f"CPG {cid}: quote not found on page {kp['page']}: {kp['quote'][:60]}")
+        if kp.get("quote") and re.search(r"\b(of|to|at|a|an|the|than|target|by|is|be|from|with|and|or)[\s,]*$", norm(kp["quote"]), re.I):
+            raise SystemExit(f"CPG {cid}: quote ends mid-phrase (value may be cut off): ...{kp['quote'][-40:]}")
     return s
 
 
