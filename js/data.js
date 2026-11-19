@@ -118,7 +118,9 @@ window.RESOURCES = [
     icon: "✚",
     art: "chart",
     summary: "Clinical decision support and evidence-based care.",
-    documents: []
+    // Generated from the JTS CPG PDFs in docs/cpg/ by scripts/build_cpg.py. Re-run it after adding files.
+    // The PDFs are not published (no distribution statement); entries link to the JTS CPG library.
+    documents: window.CPG_DOCUMENTS || []
   },
   {
     id: "drug-ref",

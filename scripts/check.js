@@ -9,7 +9,7 @@ const root = path.join(__dirname, "..");
 const errors = [], warnings = [];
 
 global.window = {};
-if (fs.existsSync(path.join(root, "js/ictl.js"))) require(path.join(root, "js/ictl.js"));
+for (const f of ["js/ictl.js", "js/cpg.js"]) if (fs.existsSync(path.join(root, f))) require(path.join(root, f));
 require(path.join(root, "js/data.js"));
 const RES = window.RESOURCES || [];
 

@@ -162,7 +162,7 @@
     if (d.content) body = `<article class="prose">${d.content}</article>`;
     else if (isPdf) body = `<iframe class="pdf" src="${esc(d.file)}" title="${esc(d.title)}"></iframe>`;
     else if (d.file) body = empty("Preview not available", "This file type opens in its own app. Use Download or Open below.");
-    else if (d.url) body = empty("External resource", "This resource is hosted on another site.");
+    else if (d.url) body = d.details?.length ? "" : empty("External resource", "This resource is hosted on another site.");
     else body = empty("Not yet added", "This item is in the outline, but its file hasn't been uploaded yet. Add a <code>file</code>, <code>url</code>, or <code>content</code> to this entry in <code>js/data.js</code>.");
 
     const actions = [];
@@ -170,7 +170,18 @@
       actions.push(`<a class="btn" href="${esc(d.file)}" target="_blank" rel="noopener">Open</a>`);
       actions.push(`<a class="btn ghost" href="${esc(d.file)}" download>Download</a>`);
     }
-    if (d.url) actions.push(`<a class="btn" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">Open site ↗</a>`);
+    if (d.url) actions.push(`<a class="btn" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">${esc(d.urlLabel || "Open site ↗")}</a>`);
+
+    // Related documents in both directions: ones this doc lists, and ones that list this doc.
+    const key = `${r.id}/${d.id}`;
+    const related = [
+      ...(d.related || []),
+      ...allDocs().filter((o) => (o.related || []).includes(key)).map((o) => `${o.resource.id}/${o.id}`)
+    ].filter((v, i, a) => a.indexOf(v) === i).map((k) => {
+      const [rr, dd] = k.split("/");
+      const R = findRes(rr), D = findDoc(rr, dd);
+      return R && D && { R, D };
+    }).filter(Boolean);
 
     return `
       <a class="back" href="${resHref(r.id)}">‹ ${esc(r.title)}</a>
@@ -186,9 +197,12 @@
       ${actions.length ? `<div class="actions">${actions.join("")}</div>` : ""}
       ${d.meta?.length ? `<dl class="meta-grid">${d.meta.map(([k, v]) =>
         `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
+      ${d.notice ? `<p class="notice" role="note"><b>Check currency.</b> ${esc(d.notice)}</p>` : ""}
       ${d.details?.length ? `<section class="details">${d.details.map((x) =>
-        `<h2>${esc(x.heading)}</h2><p>${esc(x.text)}</p>`).join("")}
+        `<h2>${esc(x.heading)}</h2>${x.items ? `<ul>${x.items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>` : `<p>${esc(x.text)}</p>`}`).join("")}
         ${d.source ? `<p class="cite">Source: ${esc(d.source)}</p>` : ""}</section>` : ""}
+      ${related.length ? `${sectionHead("Related", `${related.length} item${related.length > 1 ? "s" : ""}`)}
+        <ul class="doc-list">${related.map(({ R, D }) => docRow(D, R)).join("")}</ul>` : ""}
       ${d.details?.length && isPdf ? sectionHead("Full task", `${esc(d.type)} · Performance steps & evaluation`) : ""}
       ${body}
       ${d.details?.length ? DISCLAIMER : ""}`;
@@ -248,7 +262,7 @@
     const match = (text) => terms.every((t) => text.toLowerCase().includes(t));
     const resHits = RES.filter((r) => match(`${r.title} ${r.tag} ${r.summary}`));
     const docHits = allDocs().filter((d) =>
-      match(`${d.title} ${d.description || ""} ${d.section || ""} ${d.type || ""} ${(d.tags || []).join(" ")} ${d.resource.title} ${(d.details || []).map((x) => x.text).join(" ")}`));
+      match(`${d.title} ${d.description || ""} ${d.section || ""} ${d.type || ""} ${(d.tags || []).join(" ")} ${d.resource.title} ${(d.details || []).map((x) => x.text || (x.items || []).join(" ")).join(" ")}`));
     if (!resHits.length && !docHits.length) return empty("No matches", `Nothing found for “${esc(q)}”.`);
     return `
       ${resHits.length ? `<ul class="doc-list">${resHits.map((r) => `
