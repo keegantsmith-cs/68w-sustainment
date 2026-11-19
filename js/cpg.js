@@ -685,9 +685,48 @@ window.CPG_DOCUMENTS = [
     "items": [
      "01 Sep 2023: SAVeO2 oxygen parameters"
     ]
+   },
+   {
+    "heading": "Summary",
+    "text": "A Role 1 prolonged field care (PFC) guideline for recognizing and managing sepsis and septic shock in austere settings when evacuation is delayed. It uses the Minimum / Better / Best framework and puts early telemedicine and evacuation first. The 01 Sep 2023 update adds SAVeO2 oxygen parameters."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Treat suspected sepsis or septic shock as a medical emergency. Make the patient an urgent evacuation priority right away; getting evacuation is the top treatment priority. (p. 3)",
+     "Screen with qSOFA: altered mental status, fast breathing and low systolic pressure; two or more of the three should raise your suspicion for sepsis. SIRS and NEWS2 also help identify patients at risk of getting worse. “two or more of the following three qSOFA indicators should” (p. 5)",
+     "Assess with Minimum (SAMPLER history, trended vitals, secondary survey, Eldon card), Better (add urine dipstick, BinaxNOW, i-STAT/lactate) or Best (add malaria smears, labs, cultures) tools. Start telemedicine as soon as you suspect sepsis. (p. 5)",
+     "Give antibiotics early. Minimum is oral moxifloxacin, or levofloxacin in wet or jungle terrain. Better is ertapenem or ceftriaxone IV/IO. Best is ceftriaxone plus vancomycin plus metronidazole. “Minimum: Moxifloxacin 400 mg PO daily (or levofloxacin 750 mg PO daily to provide better” (p. 8)",
+     "In a malaria-endemic area with no other clear source, test (BinaxNOW, thick and thin smears) if available. If positive, give both antibiotics and antimalarials (Minimum: Malarone 4 tablets once a day for 3 days; Best: Coartem); if you can't test, empiric antimalarials can be considered. For severe malaria, get telemedicine help and start medevac. “Atovaquone/progauanil (Malarone) 4x3 regimen – 4 tablets PO once a day for 3 days.” (p. 8)",
+     "Better (IV/IO available): fill the tank with crystalloid, Lactated Ringer's (or Plasmalyte A) before normal saline, until the urine output goal is reached; keep the initial bolus within the CPG's litre cap. Minimum without IV/IO is oral or rectal fluids. If sepsis occurs with trauma, resuscitate with blood as for trauma instead. “IV/IO crystalloid bolus (up to 30mL/kg of IV crystalloid within the first 3 hours) until a urine output of 0.3-0.5 mL/kg/hr is reached.” (p. 9)",
+     "If BP, urine output and mentation do not respond to the maximum fluid bolus, seek telemedicine guidance on more fluids versus vasopressors. Consider low-dose vasopressors (norepinephrine first choice, epinephrine alternate) ONLY under telemedicine guidance, and do not give more fluids once they are running. The CPG states the bolus time window differently on pp. 9 and 10. “maximum of 30mL/kg IVF bolus in the first 2-4 hours” (p. 10)",
+     "Control the source: remove and replace old IV/IO and urinary catheters if possible, take down all dressings, drain abscesses and remove dead infected tissue, and get a surgeon's telemedicine consult; suspected chest or abdominal sources need a surgeon urgently. Always start antibiotics and fluids before any surgical step. (p. 10)",
+     "Resuscitation goals include a systolic BP target (or a palpable radial pulse if you cannot measure BP), MAP, frequently trended capillary refill, and urine output. Record trends on a flowsheet. “Systolic blood pressure (SBP) > 90 mmHg and/or palpable radial pulse (if blood pressure monitoring is not available).” (p. 11)",
+     "Give oxygen if indicated and available when SpO2 is below 90% (Appendix A checklist, 01 Sep 2023 SAVeO2 update). “Place on oxygen if indicated and available (for SpO2 < 90%).” (p. 17)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Low blood pressure is a late sign. Do not wait for BP to fall before treating a patient with multiple signs of infection. (p. 5)",
+     "Over-resuscitation: listen for wet lungs and watch for increased work of breathing and falling oxygen saturation. (p. 9)",
+     "Signs of sepsis may be muted in the elderly, delayed in the very young, or masked in pregnancy. (p. 6)",
+     "Do not give antifungals without telemedicine. (p. 9)",
+     "Peripheral epinephrine infusion: if the IV site shows redness, swelling or induration, stop the infusion and get telemedicine advice. (p. 25)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The time window for the maximum initial crystalloid bolus is stated differently in the Fluid Resuscitation section (p. 9) and in the Key point and Drug Considerations text (p. 10). The litre cap on the initial bolus also appears in both the body (p. 9) and the Appendix A checklist (p. 17).",
+     "Vasopressor choice differs. The Drug Considerations section (p. 10) names norepinephrine as first choice and epinephrine as the alternate. Appendix F (p. 24) presents epinephrine as the main agent because it is more available and lists norepinephrine 'if available'.",
+     "Telemedicine requirements for vasopressors differ. The body (p. 10) says to start vasopressors only under telemedicine guidance. Appendix F (p. 24) describes push-dose epinephrine to correct shock while a drip is prepared and says telemedicine is required 'whenever possible'.",
+     "The CPG uses different systolic pressure thresholds for hypotension: the qSOFA criteria (p. 5), the objective assessment list (p. 6), and the resuscitation goals and fluid-escalation trigger (pp. 10 and 11). Check which tool or step a value belongs to.",
+     "The lactate re-check interval in Monitor the Patient (p. 11) differs from the interval in Appendix E (p. 23)."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 28 Oct 2020, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 83 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Sepsis Management in Prolonged Field Care (CPG ID: 83), 28 Oct 2020.",
   "related": [],
@@ -742,9 +781,52 @@ window.CPG_DOCUMENTS = [
     "items": [
      "Jun 2023: Calcium administration changed to 1 gram calcium"
     ]
+   },
+   {
+    "heading": "Summary",
+    "text": "Covers giving blood products before arrival at a surgical facility, from point of injury through MEDEVAC/CASEVAC (en route care), for casualties in hemorrhagic shock. It sets transfusion triggers, the order of preferred blood products, the transfusion procedure, calcium and TXA use, and handling of transfusion reactions. Calcium dosing follows the Jun 2023 rapid update."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Appendix A lists transfusion criteria, any one of which qualifies: fast heart rate, low SBP or no radial pulse, altered mental status with signs of hemorrhagic shock, penetrating chest/abdominal or junctional injury, pelvic fracture, or any above-knee or multiple amputation regardless of vital signs. Appendix B (p. 13) is narrower: only the amputation patterns count on their own without vital-sign confirmation. “Any above knee amputation or multiple amputations (regardless of vital signs)” (p. 12)",
+     "Control external bleeding before or at the same time as starting blood. In a casualty who bled out and has just lost a pulse, transfuse immediately; the CPG puts transfusion ahead of chest compressions. (p. 13)",
+     "Use products in this order: cold-stored LTOWB, then fresh LTOWB, then plasma/RBC/platelets 1:1:1, then plasma/RBC 1:1, then plasma or RBCs alone, then fresh group O whole blood of unknown titer from a walking blood bank. “Plasma, RBCs, and platelets in a 1:1:1 ratio, or, if not available” (p. 14)",
+     "Start with one unit, then reassess and give more only if still indicated. Avoid crystalloid resuscitation because it may increase bleeding. “Initiate transfusion with 1 unit of blood product. Give additional units if clinically indicated.” (p. 14)",
+     "Setup: filtered Y-type blood set only, good IV/IO flow, two-person label check, and a Safe-T-VUE check (red means do not use). Use a blood warmer; if using a pressure infuser, set it to 300 mmHg, and remember the CPG cautions that rapid infusion against resistance can damage red cells. “If using pressure infuser set pressure to 300 mmHg.” (p. 20)",
+     "Appendix D: once a product has been taken out of its storage container, transfuse it within 4 hours; if you can't, return it to the issuing facility or send it with the patient to the MTF to be discarded. Other sections time this limit differently (see edition notes), so follow local policy. “Blood products must be transfused within 4 hours of removal from a storage container” (p. 20)",
+     "Consider calcium for every casualty receiving blood en route. Jun 2023 rapid update dose: one gram IV/IO before, during (through a second access point) or right after the first unit, and another gram after every 4 units. “Administration of one gram of calcium IV/IO before, during (using a secondary access point) or immediately after the first unit of blood product. Re-dose one gram of calcium IV/IO after every 4 units of blood products.” (p. 7)",
+     "Casualties transfused within three hours of injury should also get TXA, following TCCC guidelines. “Patients receiving blood transfusion within three hours of injury should also receive TXA.” (p. 18)",
+     "Watch for reactions (Appendix A, p. 12: low BP, flushing, wheezing, fever, rigors, flank pain). If one occurs, stop the transfusion. For anaphylaxis, give IM epinephrine and diphenhydramine, consider methylprednisolone, support the airway and give IV fluids for hypotension. “administer 0.3 mL of 1:1000 epinephrine intramuscularly (IM), administer diphenhydramine 25 mg” (p. 7)",
+     "You may slow the infusion once vital signs reach appropriate levels, but for non-compressible chest, abdominal or pelvic injuries the CPG says NOT to raise the systolic pressure over 90 mmHg. Document on the SF 518 and hand it over at the receiving MTF, reporting any reactions, interruptions, or O POS blood given to a female. “Special attention should be paid to non-compressible injuries (chest; abdominal; and pelvis) so as to NOT raise the SBP over 90mmHg.” (p. 22)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Non-compressible chest, abdominal or pelvic bleeding: do not chase the higher BP targets (see key point on vital-sign goals). (p. 22)",
+     "Never run other medications or IV fluids, including hypertonic saline, through the transfusion line. (p. 20)",
+     "Do not use blood if the container is leaking or the Safe-T-VUE indicator is red. (p. 22)",
+     "Females of childbearing potential: use O NEG if available, and tell the receiving facility if O POS was given. (p. 15)",
+     "Children: decide on transfusion by clinical signs of shock, not by fixed vital-sign numbers. (p. 15)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The CPG gives different systolic blood pressure goals in different places. The Prehospital Principles note (p. 5) gives a conventional goal and a higher 'recent concept' range. Appendix D (p. 20) and Appendix F (p. 22) give a higher goal for slowing the transfusion. Appendix F (p. 22) also says not to raise the systolic pressure above a lower value in non-compressible chest, abdominal or pelvic injuries.",
+     "The time limit for using blood products is defined differently in different sections. The Procedure section (p. 6) says to transfuse immediately after removal from storage. Appendix B (p. 15) starts the limit when the bag is spiked and allows unspiked products back into storage if the temperature indicator is acceptable. Appendices D and F (pp. 20 and 22) start the limit when the product is removed from the storage container.",
+     "Calcium guidance differs within the document. The Prehospital Principles list (p. 5) gives an older empiric re-dosing interval for prolonged evacuations. Appendix A (p. 12) only says to consider calcium after transfusion. The Hypocalcemia section (p. 7) carries the rapid-update dose and re-dosing interval.",
+     "Transfusion triggers differ between appendices. Appendix A (p. 12) lists penetrating torso or junctional injury and pelvic fracture as stand-alone criteria. Appendix B (p. 13) says the amputation patterns are the only injuries that qualify without vital-sign confirmation.",
+     "The order of preferred blood products differs. The Prehospital Principles list (p. 4) ranks non-titered type O whole blood ahead of component therapy. Appendix B (p. 14) ranks component therapy ahead of fresh group O whole blood of unknown titer.",
+     "The CPG says to avoid crystalloid resuscitation (pp. 5 and 14), but the Appendix C shock table (p. 19) defines tachycardia partly by failure to respond to a crystalloid bolus.",
+     "Infusion speed guidance differs. The Procedure section (p. 6) and Appendix B (p. 14) caution against rapid transfusion because it can damage red cells. Appendix A (p. 12) says to transfuse as rapidly as tolerated. Appendix D (p. 20) gives a pressure-infuser setting.",
+     "The age range for reporting O POS blood given to females differs between Appendix B (p. 15) and Appendix F (p. 22).",
+     "TXA wording differs. Appendix B (p. 18) says transfused casualties within the time window should receive TXA. Appendix F (p. 22) says to consider it."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 30 Oct 2020, with rapid updates through Jun 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 82 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Prehospital Blood Transfusion (CPG ID: 82), 30 Oct 2020.",
   "related": [
@@ -804,9 +886,52 @@ window.CPG_DOCUMENTS = [
      "01 Sep 2023: SAVeO2 oxygen parameters",
      "Nov 2022: Safety statement. CAUTION: The Hamilton T1 as fielded by the Department of Defense DOES NOT support noninvasive ventilation (NIV). In environments where there is a risk of patients requiring NIV, a different ventilator should be fielded."
     ]
+   },
+   {
+    "heading": "Summary",
+    "text": "Basic mechanical ventilation from point of injury through en route care up to Role 2, written for medical personnel who are not critical-care trained. It covers when to ventilate, standard starting settings, alarms, and DOPE troubleshooting, with device appendices (Impact 754, Zoll EMV+ 731, Hamilton T1, SAVe II). It includes the 01 Sep 2023 SAVeO2 oxygen update and the Nov 2022 Hamilton T1 safety statement."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Look for respiratory compromise during the MARCH assessment. If the casualty cannot oxygenate, ventilate or protect the airway, they need ventilatory support. An apneic casualty with a pulse and an open airway needs ventilation (BVM) right away. (p. 8)",
+     "Use pulse oximetry and capnography when ABGs are not available. Low SpO2 suggests an oxygenation problem but can be unreliable with poor perfusion or at altitude. “SpO2 values < 90% are indicative of potential oxygenation issues; however, values can be unreliable due to poor perfusion and altitude.” (p. 8)",
+     "High ETCO2 means hypoventilation. Low ETCO2 with hyperventilation should raise suspicion of sepsis or metabolic acidosis. “ETCO2 values >45mmHg are indicative of hypoventilation, especially in the absence of tachypnea.” (p. 8)",
+     "Sedate (and paralyze as needed) before placing an invasive airway or starting the ventilator. Use a BVM only as a bridge until a ventilator can be applied, because it gives irregular volumes and rates (p. 9). (p. 8)",
+     "Starting settings list: mode Assist/Control (ASV on the Hamilton T1 only) at a rate of 14 breaths per minute, adjusted within the listed range. The CPG also says to set the rate to reach a target minute ventilation guided by ETCO2, and its device appendix uses a different starting rate (see edition notes). “MODE: AC or ASV (Hamilton T1 only) 2. BPM/RRate: 14BPM (10-30 range)” (p. 9)",
+     "Set tidal volume at 6 mL/kg ideal body weight, worked out from height and sex (chart in Appendix A), not actual weight. The CPG gives two different ranges around this value on the same page (see edition notes). “TIDAL VOLUME: 6ml/kg IBW (4-8ml/kg IBW range)” (p. 9)",
+     "Set PEEP and titrate up as needed. Consider starting higher in hypoxic patients. “Minimum of 5 cmH2O. Start there and titrate up as needed. In hypoxic patients, consider starting at 10 cmH2O.” (p. 10)",
+     "Start FiO2 high and titrate down. Do not rely on SpO2 alone if you can avoid it. “Start at 100% and titrate down using arterial blood gas and SpO2 data.” (p. 10)",
+     "Put the patient on the vent briefly to find their peak inspiratory pressure, then set the high and low pressure alarms relative to it. “High pressure alarm: 10 cmH2O above peak airway pressure. b. Low pressure alarm: 5 cmH2O below peak airway pressure.” (p. 8)",
+     "If the patient desaturates or develops a breathing problem, disconnect the vent and bag with 100% O2 (PEEP valve if available). Then work through DOPE: Displacement, Obstruction, Pressure (tension pneumo/hemothorax), Equipment. “immediately disconnect the ventilator, and manually ventilate the patient with BVM (with PEEP valve if available) and 100% O2” (p. 10)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "The Hamilton T1 as fielded by DoD does NOT support noninvasive ventilation (NIV). (p. 1)",
+     "Breath stacking (auto-PEEP) can cause hypotension and cardiac arrest. Briefly disconnecting the circuit lets the patient exhale. (p. 11)",
+     "If the ETT has pulled out, do not advance it without laryngoscopy or a bougie to confirm tracheal placement. (p. 10)",
+     "New agitation on the vent is not always a sedation problem. Evaluate for life-threatening causes first. (p. 11)",
+     "Low ETCO2 from metabolic compensation: do not try to normalize breathing without an ABG and expert consultation. (p. 13)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "Tidal volume guidance differs. The initial settings list (p. 9) gives one weight-based range. The step-by-step list on the same page gives a narrower range. The Impact 754 appendix (p. 18) starts at a fixed volume before changing to the weight-based value.",
+     "Starting respiratory rate differs between the initial settings list (p. 9), the worked minute-ventilation example (p. 10), the Impact 754 'Rule of 5s' (p. 18) and the Impact 754 preset checks (p. 19).",
+     "The target minute ventilation in the step-by-step settings (p. 10) differs from the normal minute ventilation in the definitions (pp. 6 and 7).",
+     "Pressure alarm guidance differs. The body (p. 8) sets the high and low alarms relative to the patient's measured peak pressure. The Impact 754 pre-mission checks (p. 19) preset fixed alarm values.",
+     "Airway pressure units are inconsistent. Peak inspiratory pressure limits are given in mmHg in the definitions (p. 4) and the Hamilton T1 appendix (p. 24), but in centimeters of water elsewhere (pp. 5, 6 and 11).",
+     "Starting FiO2 differs. The initial settings list (p. 9) gives a range that includes room air. The step-by-step list (p. 10) says to start at full oxygen and titrate down. The cover notes a SAVeO2 oxygen update, but the body does not mark which oxygen values changed; the SAVe oxygen study appears in the reference list (p. 16).",
+     "Advice on adjusting the I:E ratio for pulmonary edema in the DOPE table (p. 12) differs from the advice for breath stacking in the Zoll appendix (p. 22). Check which problem each adjustment is for.",
+     "The assessment section (p. 8) says hyperventilation should be corrected in the least invasive way. The DOPE table (p. 13) warns not to normalize breathing that is compensating for metabolic acidosis without a blood gas and expert consultation.",
+     "The SAVe II appendix (p. 26) notes the device defaults to no PEEP. The body (p. 10) sets a minimum PEEP, so PEEP must be adjusted after setup."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 27 Dec 2021, with rapid updates through 01 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 92 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Mechanical Ventilation Basics (CPG ID: 92), 27 Dec 2021.",
   "related": [],
@@ -857,9 +982,45 @@ window.CPG_DOCUMENTS = [
    {
     "heading": "Purpose",
     "text": "This CPG is intended to be used as a guide to educate users in the deployed environment about the benefits and limitations of telemedicine."
+   },
+   {
+    "heading": "Summary",
+    "text": "Guidance for deployed providers and other local caregivers, including care of Military Working Dogs, on getting help from remote experts by teleconsultation (TC) when a case exceeds local skills or resources or evacuation is delayed. It is organized around the PREP mnemonic: Prepare (plan and train), Recognize, Execute, Problem solve. TC supports care; it does not replace medical support or evacuation."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "Prepare before you deploy: train TC in realistic scenarios that exceed your scope. Build a PACE plan both for when to use telemedicine and for how (power, network, equipment). (p. 4)",
+     "Recognize when to make the call. Call for help whenever you are unsure of the diagnosis or the best plan, especially when evacuation is uncertain or not possible. (p. 5)",
+     "Lifesaving care comes before calling. Never leave a casualty who may get worse; have a teammate make the call while you treat. (p. 7)",
+     "Choose the pathway by acuity (Table 2, p. 6): routine cases with normal vital signs go asynchronously through the Global Teleconsultation Portal (GTP, account needed), and a routine reply may take many hours; urgent and emergent cases call the ADVISOR line for synchronous voice. “Routine consultations may take many hours to receive a response from a specialist (4-24 hours; median response time is approximately 4 hours).” (p. 22)",
+     "Treat these as emergent consults: shock, respiratory failure, severe infection/sepsis, severe TBI, poisonings, chemical casualties, or abnormal vital signs that persist or worsen quickly. “Abnormal vital signs lasting > 30 min” (p. 6)",
+     "When ADVISOR answers, say whether the call is real-world/deployed, garrison or training, name the specialty (or ask for the ED), and give a call-back number. Use a shared script (VC3 guide), closed-loop read-backs, and ask the expert to send written recommendations. (p. 7)",
+     "Send images ahead of the call: flowsheet/TC script, wounds, imaging, the whole patient, special equipment and the aid station. Make sure they are large enough to read. “Photographs that are less than 500KB are often of insufficient quality to convey information to a remote consultant.” (p. 8)",
+     "Protect privacy and OPSEC. Leave faces, tattoos and other PII out of images unless essential (then encrypt, ideally via GTP). Avoid backgrounds that reveal location or affiliation, turn off geotags, and on open channels identify the patient only by sex and age. (p. 8)",
+     "Match the technology to the question. Minimum: voice call to ADVISOR, reading from the TCCC card. Better: voice plus emailed photos of the script, vitals flowsheet, casualty and kit. Best: live audio/video. Video matters mainly for tele-mentoring a procedure. (p. 20)",
+     "Always have a backup way to communicate (second radio or phone, alternate computer) and exchange call-back numbers at the start of every consult. (p. 10)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "ADVISOR is NOT a route for MEDEVAC and does not arrange casualty movement or handoff. (p. 6)",
+     "Do not delay teleconsultation because the connection is not secure, unless operational requirements dictate otherwise. (p. 8)",
+     "TC takes longer than you expect. Real consults usually need several calls, and recommendations get refined as data comes in. (p. 7)",
+     "Digital photos can carry geotags that reveal your exact location. (p. 8)",
+     "TC is not a substitute for deploying needed medical support, resources and evacuation capability. (p. 3)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "The expected response time for routine consultations differs between Table 2 (p. 6) and the Appendix E definitions (p. 22).",
+     "The CPG gives conflicting ADVISOR contact details: the DSN number in Table 2 (p. 6) differs from Appendix C (p. 20), and the program email address on p. 3 differs from p. 13. This site deliberately omits contact details; confirm current ones through official channels before relying on them."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 19 Sep 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 94 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Telemedicine Guidance in the Deployed Setting (CPG ID: 94), 19 Sep 2023.",
   "related": [

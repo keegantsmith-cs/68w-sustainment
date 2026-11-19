@@ -1,0 +1,80 @@
+{
+  "cpgId": 82,
+  "overview": "Covers giving blood products before arrival at a surgical facility, from point of injury through MEDEVAC/CASEVAC (en route care), for casualties in hemorrhagic shock. It sets transfusion triggers, the order of preferred blood products, the transfusion procedure, calcium and TXA use, and handling of transfusion reactions. Calcium dosing follows the Jun 2023 rapid update.",
+  "keyPoints": [
+    {
+      "text": "Appendix A lists transfusion criteria, any one of which qualifies: fast heart rate, low SBP or no radial pulse, altered mental status with signs of hemorrhagic shock, penetrating chest/abdominal or junctional injury, pelvic fracture, or any above-knee or multiple amputation regardless of vital signs. Appendix B (p. 13) is narrower: only the amputation patterns count on their own without vital-sign confirmation.",
+      "page": 12,
+      "quote": "Any above knee amputation or multiple amputations (regardless of vital signs)"
+    },
+    {
+      "text": "Control external bleeding before or at the same time as starting blood. In a casualty who bled out and has just lost a pulse, transfuse immediately; the CPG puts transfusion ahead of chest compressions.",
+      "page": 13
+    },
+    {
+      "text": "Use products in this order: cold-stored LTOWB, then fresh LTOWB, then plasma/RBC/platelets 1:1:1, then plasma/RBC 1:1, then plasma or RBCs alone, then fresh group O whole blood of unknown titer from a walking blood bank.",
+      "page": 14,
+      "quote": "Plasma, RBCs, and platelets in a 1:1:1 ratio, or, if not available"
+    },
+    {
+      "text": "Start with one unit, then reassess and give more only if still indicated. Avoid crystalloid resuscitation because it may increase bleeding.",
+      "page": 14,
+      "quote": "Initiate transfusion with 1 unit of blood product. Give additional units if clinically indicated."
+    },
+    {
+      "text": "Setup: filtered Y-type blood set only, good IV/IO flow, two-person label check, and a Safe-T-VUE check (red means do not use). Use a blood warmer; if using a pressure infuser, set it to 300 mmHg, and remember the CPG cautions that rapid infusion against resistance can damage red cells.",
+      "page": 20,
+      "quote": "If using pressure infuser set pressure to 300 mmHg."
+    },
+    {
+      "text": "Appendix D: once a product has been taken out of its storage container, transfuse it within 4 hours; if you can't, return it to the issuing facility or send it with the patient to the MTF to be discarded. Other sections time this limit differently (see edition notes), so follow local policy.",
+      "page": 20,
+      "quote": "Blood products must be transfused within 4 hours of removal from a storage container"
+    },
+    {
+      "text": "Consider calcium for every casualty receiving blood en route. Jun 2023 rapid update dose: one gram IV/IO before, during (through a second access point) or right after the first unit, and another gram after every 4 units.",
+      "page": 7,
+      "quote": "Administration of one gram of calcium IV/IO before, during (using a secondary access point) or immediately after the first unit of blood product. Re-dose one gram of calcium IV/IO after every 4 units of blood products."
+    },
+    {
+      "text": "Casualties transfused within three hours of injury should also get TXA, following TCCC guidelines.",
+      "page": 18,
+      "quote": "Patients receiving blood transfusion within three hours of injury should also receive TXA."
+    },
+    {
+      "text": "Watch for reactions (Appendix A, p. 12: low BP, flushing, wheezing, fever, rigors, flank pain). If one occurs, stop the transfusion. For anaphylaxis, give IM epinephrine and diphenhydramine, consider methylprednisolone, support the airway and give IV fluids for hypotension.",
+      "page": 7,
+      "quote": "administer 0.3 mL of 1:1000 epinephrine intramuscularly (IM), administer diphenhydramine 25 mg"
+    },
+    {
+      "text": "You may slow the infusion once vital signs reach appropriate levels, but for non-compressible chest, abdominal or pelvic injuries the CPG says NOT to raise the systolic pressure over 90 mmHg. Document on the SF 518 and hand it over at the receiving MTF, reporting any reactions, interruptions, or O POS blood given to a female.",
+      "page": 22,
+      "quote": "Special attention should be paid to non-compressible injuries (chest; abdominal; and pelvis) so as to NOT raise the SBP over 90mmHg."
+    }
+  ],
+  "watchFor": [
+    "Non-compressible chest, abdominal or pelvic bleeding: do not chase the higher BP targets (see key point on vital-sign goals).",
+    "Never run other medications or IV fluids, including hypertonic saline, through the transfusion line.",
+    "Do not use blood if the container is leaking or the Safe-T-VUE indicator is red.",
+    "Females of childbearing potential: use O NEG if available, and tell the receiving facility if O POS was given.",
+    "Children: decide on transfusion by clinical signs of shock, not by fixed vital-sign numbers."
+  ],
+  "watchForPages": [
+    22,
+    20,
+    22,
+    15,
+    15
+  ],
+  "editionNotes": [
+    "The CPG gives different systolic blood pressure goals in different places. The Prehospital Principles note (p. 5) gives a conventional goal and a higher 'recent concept' range. Appendix D (p. 20) and Appendix F (p. 22) give a higher goal for slowing the transfusion. Appendix F (p. 22) also says not to raise the systolic pressure above a lower value in non-compressible chest, abdominal or pelvic injuries.",
+    "The time limit for using blood products is defined differently in different sections. The Procedure section (p. 6) says to transfuse immediately after removal from storage. Appendix B (p. 15) starts the limit when the bag is spiked and allows unspiked products back into storage if the temperature indicator is acceptable. Appendices D and F (pp. 20 and 22) start the limit when the product is removed from the storage container.",
+    "Calcium guidance differs within the document. The Prehospital Principles list (p. 5) gives an older empiric re-dosing interval for prolonged evacuations. Appendix A (p. 12) only says to consider calcium after transfusion. The Hypocalcemia section (p. 7) carries the rapid-update dose and re-dosing interval.",
+    "Transfusion triggers differ between appendices. Appendix A (p. 12) lists penetrating torso or junctional injury and pelvic fracture as stand-alone criteria. Appendix B (p. 13) says the amputation patterns are the only injuries that qualify without vital-sign confirmation.",
+    "The order of preferred blood products differs. The Prehospital Principles list (p. 4) ranks non-titered type O whole blood ahead of component therapy. Appendix B (p. 14) ranks component therapy ahead of fresh group O whole blood of unknown titer.",
+    "The CPG says to avoid crystalloid resuscitation (pp. 5 and 14), but the Appendix C shock table (p. 19) defines tachycardia partly by failure to respond to a crystalloid bolus.",
+    "Infusion speed guidance differs. The Procedure section (p. 6) and Appendix B (p. 14) caution against rapid transfusion because it can damage red cells. Appendix A (p. 12) says to transfuse as rapidly as tolerated. Appendix D (p. 20) gives a pressure-infuser setting.",
+    "The age range for reporting O POS blood given to females differs between Appendix B (p. 15) and Appendix F (p. 22).",
+    "TXA wording differs. Appendix B (p. 18) says transfused casualties within the time window should receive TXA. Appendix F (p. 22) says to consider it."
+  ]
+}

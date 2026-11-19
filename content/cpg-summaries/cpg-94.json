@@ -1,0 +1,67 @@
+{
+  "cpgId": 94,
+  "overview": "Guidance for deployed providers and other local caregivers, including care of Military Working Dogs, on getting help from remote experts by teleconsultation (TC) when a case exceeds local skills or resources or evacuation is delayed. It is organized around the PREP mnemonic: Prepare (plan and train), Recognize, Execute, Problem solve. TC supports care; it does not replace medical support or evacuation.",
+  "keyPoints": [
+    {
+      "text": "Prepare before you deploy: train TC in realistic scenarios that exceed your scope. Build a PACE plan both for when to use telemedicine and for how (power, network, equipment).",
+      "page": 4
+    },
+    {
+      "text": "Recognize when to make the call. Call for help whenever you are unsure of the diagnosis or the best plan, especially when evacuation is uncertain or not possible.",
+      "page": 5
+    },
+    {
+      "text": "Lifesaving care comes before calling. Never leave a casualty who may get worse; have a teammate make the call while you treat.",
+      "page": 7
+    },
+    {
+      "text": "Choose the pathway by acuity (Table 2, p. 6): routine cases with normal vital signs go asynchronously through the Global Teleconsultation Portal (GTP, account needed), and a routine reply may take many hours; urgent and emergent cases call the ADVISOR line for synchronous voice.",
+      "page": 22,
+      "quote": "Routine consultations may take many hours to receive a response from a specialist (4-24 hours; median response time is approximately 4 hours)."
+    },
+    {
+      "text": "Treat these as emergent consults: shock, respiratory failure, severe infection/sepsis, severe TBI, poisonings, chemical casualties, or abnormal vital signs that persist or worsen quickly.",
+      "page": 6,
+      "quote": "Abnormal vital signs lasting > 30 min"
+    },
+    {
+      "text": "When ADVISOR answers, say whether the call is real-world/deployed, garrison or training, name the specialty (or ask for the ED), and give a call-back number. Use a shared script (VC3 guide), closed-loop read-backs, and ask the expert to send written recommendations.",
+      "page": 7
+    },
+    {
+      "text": "Send images ahead of the call: flowsheet/TC script, wounds, imaging, the whole patient, special equipment and the aid station. Make sure they are large enough to read.",
+      "page": 8,
+      "quote": "Photographs that are less than 500KB are often of insufficient quality to convey information to a remote consultant."
+    },
+    {
+      "text": "Protect privacy and OPSEC. Leave faces, tattoos and other PII out of images unless essential (then encrypt, ideally via GTP). Avoid backgrounds that reveal location or affiliation, turn off geotags, and on open channels identify the patient only by sex and age.",
+      "page": 8
+    },
+    {
+      "text": "Match the technology to the question. Minimum: voice call to ADVISOR, reading from the TCCC card. Better: voice plus emailed photos of the script, vitals flowsheet, casualty and kit. Best: live audio/video. Video matters mainly for tele-mentoring a procedure.",
+      "page": 20
+    },
+    {
+      "text": "Always have a backup way to communicate (second radio or phone, alternate computer) and exchange call-back numbers at the start of every consult.",
+      "page": 10
+    }
+  ],
+  "watchFor": [
+    "ADVISOR is NOT a route for MEDEVAC and does not arrange casualty movement or handoff.",
+    "Do not delay teleconsultation because the connection is not secure, unless operational requirements dictate otherwise.",
+    "TC takes longer than you expect. Real consults usually need several calls, and recommendations get refined as data comes in.",
+    "Digital photos can carry geotags that reveal your exact location.",
+    "TC is not a substitute for deploying needed medical support, resources and evacuation capability."
+  ],
+  "watchForPages": [
+    6,
+    8,
+    7,
+    8,
+    3
+  ],
+  "editionNotes": [
+    "The expected response time for routine consultations differs between Table 2 (p. 6) and the Appendix E definitions (p. 22).",
+    "The CPG gives conflicting ADVISOR contact details: the DSN number in Table 2 (p. 6) differs from Appendix C (p. 20), and the program email address on p. 3 differs from p. 13. This site deliberately omits contact details; confirm current ones through official channels before relying on them."
+  ]
+}

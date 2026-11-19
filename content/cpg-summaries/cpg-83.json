@@ -1,0 +1,74 @@
+{
+  "cpgId": 83,
+  "overview": "A Role 1 prolonged field care (PFC) guideline for recognizing and managing sepsis and septic shock in austere settings when evacuation is delayed. It uses the Minimum / Better / Best framework and puts early telemedicine and evacuation first. The 01 Sep 2023 update adds SAVeO2 oxygen parameters.",
+  "keyPoints": [
+    {
+      "text": "Treat suspected sepsis or septic shock as a medical emergency. Make the patient an urgent evacuation priority right away; getting evacuation is the top treatment priority.",
+      "page": 3
+    },
+    {
+      "text": "Screen with qSOFA: altered mental status, fast breathing and low systolic pressure; two or more of the three should raise your suspicion for sepsis. SIRS and NEWS2 also help identify patients at risk of getting worse.",
+      "page": 5,
+      "quote": "two or more of the following three qSOFA indicators should"
+    },
+    {
+      "text": "Assess with Minimum (SAMPLER history, trended vitals, secondary survey, Eldon card), Better (add urine dipstick, BinaxNOW, i-STAT/lactate) or Best (add malaria smears, labs, cultures) tools. Start telemedicine as soon as you suspect sepsis.",
+      "page": 5
+    },
+    {
+      "text": "Give antibiotics early. Minimum is oral moxifloxacin, or levofloxacin in wet or jungle terrain. Better is ertapenem or ceftriaxone IV/IO. Best is ceftriaxone plus vancomycin plus metronidazole.",
+      "page": 8,
+      "quote": "Minimum: Moxifloxacin 400 mg PO daily (or levofloxacin 750 mg PO daily to provide better"
+    },
+    {
+      "text": "In a malaria-endemic area with no other clear source, test (BinaxNOW, thick and thin smears) if available. If positive, give both antibiotics and antimalarials (Minimum: Malarone 4 tablets once a day for 3 days; Best: Coartem); if you can't test, empiric antimalarials can be considered. For severe malaria, get telemedicine help and start medevac.",
+      "page": 8,
+      "quote": "Atovaquone/progauanil (Malarone) 4x3 regimen – 4 tablets PO once a day for 3 days."
+    },
+    {
+      "text": "Better (IV/IO available): fill the tank with crystalloid, Lactated Ringer's (or Plasmalyte A) before normal saline, until the urine output goal is reached; keep the initial bolus within the CPG's litre cap. Minimum without IV/IO is oral or rectal fluids. If sepsis occurs with trauma, resuscitate with blood as for trauma instead.",
+      "page": 9,
+      "quote": "IV/IO crystalloid bolus (up to 30mL/kg of IV crystalloid within the first 3 hours) until a urine output of 0.3-0.5 mL/kg/hr is reached."
+    },
+    {
+      "text": "If BP, urine output and mentation do not respond to the maximum fluid bolus, seek telemedicine guidance on more fluids versus vasopressors. Consider low-dose vasopressors (norepinephrine first choice, epinephrine alternate) ONLY under telemedicine guidance, and do not give more fluids once they are running. The CPG states the bolus time window differently on pp. 9 and 10.",
+      "page": 10,
+      "quote": "maximum of 30mL/kg IVF bolus in the first 2-4 hours"
+    },
+    {
+      "text": "Control the source: remove and replace old IV/IO and urinary catheters if possible, take down all dressings, drain abscesses and remove dead infected tissue, and get a surgeon's telemedicine consult; suspected chest or abdominal sources need a surgeon urgently. Always start antibiotics and fluids before any surgical step.",
+      "page": 10
+    },
+    {
+      "text": "Resuscitation goals include a systolic BP target (or a palpable radial pulse if you cannot measure BP), MAP, frequently trended capillary refill, and urine output. Record trends on a flowsheet.",
+      "page": 11,
+      "quote": "Systolic blood pressure (SBP) > 90 mmHg and/or palpable radial pulse (if blood pressure monitoring is not available)."
+    },
+    {
+      "text": "Give oxygen if indicated and available when SpO2 is below 90% (Appendix A checklist, 01 Sep 2023 SAVeO2 update).",
+      "page": 17,
+      "quote": "Place on oxygen if indicated and available (for SpO2 < 90%)."
+    }
+  ],
+  "watchFor": [
+    "Low blood pressure is a late sign. Do not wait for BP to fall before treating a patient with multiple signs of infection.",
+    "Over-resuscitation: listen for wet lungs and watch for increased work of breathing and falling oxygen saturation.",
+    "Signs of sepsis may be muted in the elderly, delayed in the very young, or masked in pregnancy.",
+    "Do not give antifungals without telemedicine.",
+    "Peripheral epinephrine infusion: if the IV site shows redness, swelling or induration, stop the infusion and get telemedicine advice."
+  ],
+  "watchForPages": [
+    5,
+    9,
+    6,
+    9,
+    25
+  ],
+  "editionNotes": [
+    "The time window for the maximum initial crystalloid bolus is stated differently in the Fluid Resuscitation section (p. 9) and in the Key point and Drug Considerations text (p. 10). The litre cap on the initial bolus also appears in both the body (p. 9) and the Appendix A checklist (p. 17).",
+    "Vasopressor choice differs. The Drug Considerations section (p. 10) names norepinephrine as first choice and epinephrine as the alternate. Appendix F (p. 24) presents epinephrine as the main agent because it is more available and lists norepinephrine 'if available'.",
+    "Telemedicine requirements for vasopressors differ. The body (p. 10) says to start vasopressors only under telemedicine guidance. Appendix F (p. 24) describes push-dose epinephrine to correct shock while a drip is prepared and says telemedicine is required 'whenever possible'.",
+    "The CPG uses different systolic pressure thresholds for hypotension: the qSOFA criteria (p. 5), the objective assessment list (p. 6), and the resuscitation goals and fluid-escalation trigger (pp. 10 and 11). Check which tool or step a value belongs to.",
+    "The lactate re-check interval in Monitor the Patient (p. 11) differs from the interval in Appendix E (p. 23)."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "cpgId": 92,
+  "overview": "Basic mechanical ventilation from point of injury through en route care up to Role 2, written for medical personnel who are not critical-care trained. It covers when to ventilate, standard starting settings, alarms, and DOPE troubleshooting, with device appendices (Impact 754, Zoll EMV+ 731, Hamilton T1, SAVe II). It includes the 01 Sep 2023 SAVeO2 oxygen update and the Nov 2022 Hamilton T1 safety statement.",
+  "keyPoints": [
+    {
+      "text": "Look for respiratory compromise during the MARCH assessment. If the casualty cannot oxygenate, ventilate or protect the airway, they need ventilatory support. An apneic casualty with a pulse and an open airway needs ventilation (BVM) right away.",
+      "page": 8
+    },
+    {
+      "text": "Use pulse oximetry and capnography when ABGs are not available. Low SpO2 suggests an oxygenation problem but can be unreliable with poor perfusion or at altitude.",
+      "page": 8,
+      "quote": "SpO2 values < 90% are indicative of potential oxygenation issues; however, values can be unreliable due to poor perfusion and altitude."
+    },
+    {
+      "text": "High ETCO2 means hypoventilation. Low ETCO2 with hyperventilation should raise suspicion of sepsis or metabolic acidosis.",
+      "page": 8,
+      "quote": "ETCO2 values >45mmHg are indicative of hypoventilation, especially in the absence of tachypnea."
+    },
+    {
+      "text": "Sedate (and paralyze as needed) before placing an invasive airway or starting the ventilator. Use a BVM only as a bridge until a ventilator can be applied, because it gives irregular volumes and rates (p. 9).",
+      "page": 8
+    },
+    {
+      "text": "Starting settings list: mode Assist/Control (ASV on the Hamilton T1 only) at a rate of 14 breaths per minute, adjusted within the listed range. The CPG also says to set the rate to reach a target minute ventilation guided by ETCO2, and its device appendix uses a different starting rate (see edition notes).",
+      "page": 9,
+      "quote": "MODE: AC or ASV (Hamilton T1 only) 2. BPM/RRate: 14BPM (10-30 range)"
+    },
+    {
+      "text": "Set tidal volume at 6 mL/kg ideal body weight, worked out from height and sex (chart in Appendix A), not actual weight. The CPG gives two different ranges around this value on the same page (see edition notes).",
+      "page": 9,
+      "quote": "TIDAL VOLUME: 6ml/kg IBW (4-8ml/kg IBW range)"
+    },
+    {
+      "text": "Set PEEP and titrate up as needed. Consider starting higher in hypoxic patients.",
+      "page": 10,
+      "quote": "Minimum of 5 cmH2O. Start there and titrate up as needed. In hypoxic patients, consider starting at 10 cmH2O."
+    },
+    {
+      "text": "Start FiO2 high and titrate down. Do not rely on SpO2 alone if you can avoid it.",
+      "page": 10,
+      "quote": "Start at 100% and titrate down using arterial blood gas and SpO2 data."
+    },
+    {
+      "text": "Put the patient on the vent briefly to find their peak inspiratory pressure, then set the high and low pressure alarms relative to it.",
+      "page": 8,
+      "quote": "High pressure alarm: 10 cmH2O above peak airway pressure. b. Low pressure alarm: 5 cmH2O below peak airway pressure."
+    },
+    {
+      "text": "If the patient desaturates or develops a breathing problem, disconnect the vent and bag with 100% O2 (PEEP valve if available). Then work through DOPE: Displacement, Obstruction, Pressure (tension pneumo/hemothorax), Equipment.",
+      "page": 10,
+      "quote": "immediately disconnect the ventilator, and manually ventilate the patient with BVM (with PEEP valve if available) and 100% O2"
+    }
+  ],
+  "watchFor": [
+    "The Hamilton T1 as fielded by DoD does NOT support noninvasive ventilation (NIV).",
+    "Breath stacking (auto-PEEP) can cause hypotension and cardiac arrest. Briefly disconnecting the circuit lets the patient exhale.",
+    "If the ETT has pulled out, do not advance it without laryngoscopy or a bougie to confirm tracheal placement.",
+    "New agitation on the vent is not always a sedation problem. Evaluate for life-threatening causes first.",
+    "Low ETCO2 from metabolic compensation: do not try to normalize breathing without an ABG and expert consultation."
+  ],
+  "watchForPages": [
+    1,
+    11,
+    10,
+    11,
+    13
+  ],
+  "editionNotes": [
+    "Tidal volume guidance differs. The initial settings list (p. 9) gives one weight-based range. The step-by-step list on the same page gives a narrower range. The Impact 754 appendix (p. 18) starts at a fixed volume before changing to the weight-based value.",
+    "Starting respiratory rate differs between the initial settings list (p. 9), the worked minute-ventilation example (p. 10), the Impact 754 'Rule of 5s' (p. 18) and the Impact 754 preset checks (p. 19).",
+    "The target minute ventilation in the step-by-step settings (p. 10) differs from the normal minute ventilation in the definitions (pp. 6 and 7).",
+    "Pressure alarm guidance differs. The body (p. 8) sets the high and low alarms relative to the patient's measured peak pressure. The Impact 754 pre-mission checks (p. 19) preset fixed alarm values.",
+    "Airway pressure units are inconsistent. Peak inspiratory pressure limits are given in mmHg in the definitions (p. 4) and the Hamilton T1 appendix (p. 24), but in centimeters of water elsewhere (pp. 5, 6 and 11).",
+    "Starting FiO2 differs. The initial settings list (p. 9) gives a range that includes room air. The step-by-step list (p. 10) says to start at full oxygen and titrate down. The cover notes a SAVeO2 oxygen update, but the body does not mark which oxygen values changed; the SAVe oxygen study appears in the reference list (p. 16).",
+    "Advice on adjusting the I:E ratio for pulmonary edema in the DOPE table (p. 12) differs from the advice for breath stacking in the Zoll appendix (p. 22). Check which problem each adjustment is for.",
+    "The assessment section (p. 8) says hyperventilation should be corrected in the least invasive way. The DOPE table (p. 13) warns not to normalize breathing that is compensating for metabolic acidosis without a blood gas and expert consultation.",
+    "The SAVe II appendix (p. 26) notes the device defaults to no PEEP. The body (p. 10) sets a minimum PEEP, so PEEP must be adjusted after setup."
+  ]
+}
