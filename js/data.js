@@ -108,8 +108,10 @@ window.RESOURCES = [
     tag: "Training",
     icon: "⌁",
     art: "mountain",
-    summary: "Army-directed training and medical competency resources.",
-    documents: []
+    summary: "Algorithm-Directed Troop Medical Care (MEDCOM Pam 40-7-21) sick call screening protocols.",
+    // Index generated from docs/adtmc/ by scripts/build_adtmc.py. The pamphlet is not public-release,
+    // so only codes, titles and page numbers are listed. No protocol text, and no PDFs in the repo.
+    documents: window.ADTMC_DOCUMENTS || []
   },
   {
     id: "cpg",

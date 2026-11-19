@@ -48,7 +48,7 @@
 
   function docRow(d, r) {
     const kind = d.file ? "file" : d.url ? "link" : "page";
-    const pending = !d.file && !d.url && !d.content;
+    const pending = !d.file && !d.url && !d.content && !d.refOnly;
     return `
       <li class="doc-row${pending ? " pending" : ""}">
         <a class="doc-link" href="${docHref(r.id, d.id)}">
@@ -163,6 +163,7 @@
     else if (isPdf) body = `<iframe class="pdf" src="${esc(d.file)}" title="${esc(d.title)}"></iframe>`;
     else if (d.file) body = empty("Preview not available", "This file type opens in its own app. Use Download or Open below.");
     else if (d.url) body = d.details?.length ? "" : empty("External resource", "This resource is hosted on another site.");
+    else if (d.refOnly) body = "";
     else body = empty("Not yet added", "This item is in the outline, but its file hasn't been uploaded yet. Add a <code>file</code>, <code>url</code>, or <code>content</code> to this entry in <code>js/data.js</code>.");
 
     const actions = [];
@@ -197,7 +198,7 @@
       ${actions.length ? `<div class="actions">${actions.join("")}</div>` : ""}
       ${d.meta?.length ? `<dl class="meta-grid">${d.meta.map(([k, v]) =>
         `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
-      ${d.notice ? `<p class="notice" role="note"><b>Check currency.</b> ${esc(d.notice)}</p>` : ""}
+      ${d.notice ? `<p class="notice" role="note"><b>${esc(d.noticeLabel || "Check currency.")}</b> ${esc(d.notice)}</p>` : ""}
       ${d.details?.length ? `<section class="details">${d.details.map((x) =>
         `<h2>${esc(x.heading)}</h2>${x.items ? `<ul>${x.items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>` : `<p>${esc(x.text)}</p>`}`).join("")}
         ${d.source ? `<p class="cite">Source: ${esc(d.source)}</p>` : ""}</section>` : ""}
