@@ -5,7 +5,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Activated Charcoal",
   "description": "Adsorbent · Actidose; CharcoAid",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -25,12 +25,14 @@ window.DRUGREF_DOCUMENTS = [
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 2 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 2 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“NOT ADDRESSED”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-82",
    "ictl/081-000-1653",
@@ -70,18 +72,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Wheezing/bronchospasm; adjunct for crush-related hyperkalemia"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "MDI, nebulized"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use with ipratropium for mild-to-moderate wheeze per ERC."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Use authorized local formulation. ERC: 15-20 puffs of 90 mcg MDI for temporary potassium shift; Tier 4 10 mg nebulized for ECG changes."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Tremor, tachycardia, palpitations, hypokalemia."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Nonselective beta-blockers may reduce effect."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Minutes / variable"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Reassess work of breathing, lung sounds, SpO2, ECG when indicated."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 2 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 2 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 2 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-58",
@@ -122,18 +154,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Suspected acute coronary syndrome (ACS) with nontraumatic ischemic chest discomfort"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "PO (chewed)"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Do not give with known aspirin hypersensitivity or other local contraindication. Screen for active bleeding and alternate diagnoses per protocol."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "162-325 mg non-enteric-coated aspirin, chewed and swallowed, once."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Bleeding, dyspepsia, nausea, bronchospasm/allergic reaction."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Anticoagulants/other antiplatelets increase bleeding risk; avoid additional NSAIDs unless directed."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Antiplatelet effect begins rapidly; irreversible platelet effect lasts life of platelet."
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Activate/continue ACS evaluation and transport. Obtain 12-lead when available; document time and prior aspirin use."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 3 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 3 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 3 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-73"
   ],
@@ -154,7 +216,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Atropine",
   "description": "Antimuscarinic · Atropen",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -172,18 +234,20 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Pediatric intubation preparation; symptomatic bradycardia only under current local/AHA protocol"
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 3 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 3 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“do not use legacy”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "ictl/081-000-1653"
   ],
@@ -201,7 +265,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Calcium Gluconate",
   "description": "Calcium salt / electrolyte replacement · Calcium Gluconate Injection (product-specific; no single standard trade name).",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -219,18 +283,20 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Hemorrhagic shock with citrated blood-product resuscitation; prevention or treatment of hypocalcemia under JTS/local blood-transfusion protocol."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 18 (Rev 5)"
+     "68W Current CPG Reconciled Drug Reference, page 18 (Rev 5)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its source citation (DCR CPG ID) is awaiting confirmation. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-58",
    "cpg/cpg-73",
@@ -262,7 +328,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Cefazolin",
   "description": "Antibiotic (PCC card)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -278,8 +344,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Index only.",
+  "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-58",
@@ -298,7 +366,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Cefotetan",
   "description": "Cephalosporin antibiotic · Cefotan",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -316,18 +384,20 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "NOT CURRENT first-line TCCC open-wound regimen"
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 4 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 4 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“Do not use legacy”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "ictl/081-000-1653"
   ],
@@ -364,19 +434,49 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Open combat wounds when casualty is unable to take oral antibiotics"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO/IM"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use only under approved TCCC/local authority. Check serious beta-lactam hypersensitivity and local preparation guidance."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "2 g IV/IO/IM every 24 h."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Hypersensitivity/anaphylaxis, diarrhea, injection-site reaction, biliary complications."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Do not co-administer with calcium-containing IV solutions in neonates; follow product/local compatibility guidance."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Parenteral onset rapid / approx. 24 h dosing interval"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "IM route may reduce equipment burden. Document dose, route, time, and prior antibiotics on DD Form 1380."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 4 (Rev 4)",
+     "68W Current CPG Reconciled Drug Reference, page 4 (Rev 4)",
      "PCC Antibiotic Medications card #PCC-SC-26 (04 Dec 2023), page 2"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 4 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-63",
    "cpg/cpg-83"
@@ -398,7 +498,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Cephalexin",
   "description": "Antibiotic (PCC card)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -414,8 +514,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Index only.",
+  "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
+  "source": null,
   "related": [],
   "tags": [
    "drug",
@@ -429,7 +531,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Ciprofloxacin",
   "description": "Antibiotic (PCC card)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -445,8 +547,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Index only.",
+  "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-57"
   ],
@@ -462,7 +566,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Clarithromycin",
   "description": "Antibiotic (PCC card)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -478,8 +582,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Index only.",
+  "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
+  "source": null,
   "related": [],
   "tags": [
    "drug",
@@ -493,7 +599,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Clindamycin",
   "description": "Antibiotic (PCC card)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -509,8 +615,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Index only.",
+  "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-58",
@@ -529,7 +637,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Diazepam",
   "description": "Benzodiazepine · Valium",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -549,12 +657,14 @@ window.DRUGREF_DOCUMENTS = [
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 5 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 5 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“NOT ADDRESSED”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-63",
@@ -594,18 +704,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Dystonia/akathisia associated with metoclopramide in ERC"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Not a substitute for epinephrine in airway-threatening anaphylaxis."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "25 mg IV/IO once; may repeat in 15 min if ineffective."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Sedation, anticholinergic effects, hypotension, paradoxical excitation."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive CNS depression and anticholinergic burden."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "IV: minutes / 4-8 h"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Document response and reassess airway, mental status, and hemodynamics."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 5 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 5 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 5 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-73",
@@ -645,18 +785,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Adult cardiac arrest (ACLS); anaphylaxis/allergic reaction; severe wheeze/anaphylaxis per TCCC; shock only under authorized protocol."
+   },
+   {
+    "heading": "Route(s)",
+    "text": "Cardiac arrest: IV/IO. Anaphylaxis: IM anterolateral thigh."
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Verify concentration, route, and credentialed scope. For life-threatening anaphylaxis, IM epinephrine is first-line; do not use 1 mg/mL for IV bolus."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "ACLS adult cardiac arrest: 1 mg IV/IO every 3-5 min. Use 0.1 mg/mL (formerly 1:10,000): 10 mL = 1 mg. Anaphylaxis >=30 kg: 0.3-0.5 mg IM every 5-10 min PRN. Use 1 mg/mL (formerly 1:1,000): 0.3-0.5 mL."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Tachyarrhythmia, hypertension, ischemia, anxiety, tremor, pallor, nausea."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "MAOIs, tricyclics, beta-blockers, other sympathomimetics; use local protocol for interaction review."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "IV/IO: immediate. IM: minutes. Duration is short; reassess frequently."
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "State concentration in mg/mL and volume before administration. Monitor airway, BP, ECG, oxygenation, and response; document route/time. Use current TCCC/local protocol."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 6 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 6 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 6 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62",
@@ -707,8 +877,36 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Limited; not current first-line initial TCCC open-wound regimen"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO/IM when specifically directed"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Current first-line regimen is not ertapenem."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "No routine initial TCCC open-wound dose on this card."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Hypersensitivity, diarrhea, seizure risk in predisposed patients."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Valproate levels may decrease substantially."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Variable"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Use only under specific local authorization; document prior antibiotics."
    },
    {
     "heading": "PCC card",
@@ -717,13 +915,15 @@ window.DRUGREF_DOCUMENTS = [
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 6 (Rev 4)",
+     "68W Current CPG Reconciled Drug Reference, page 6 (Rev 4)",
      "PCC Antibiotic Medications card #PCC-SC-26 (04 Dec 2023), page 1"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 6 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-58",
@@ -765,18 +965,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Moderate-to-severe pain when intranasal analgesia is indicated in current TCCC"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IN"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use only under the 01 May 2026 TCCC analgesia plan and approved formulary. Monitor closely after any potent analgesic."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "14 mg or 28 mg IN once; may repeat every 30 min as needed."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Dissociation, nystagmus, dizziness, nausea/vomiting, transient hypertension, agitation."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive CNS effects with opioids, alcohol, and sedatives."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Rapid IN / duration variable"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Tactical endpoint: pain relief or onset of nystagmus. Use higher-concentration product (100 mg/mL) when available to reduce IN volume."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 10 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 10 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 10 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [],
   "tags": [
    "drug",
@@ -813,18 +1043,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Mild-to-moderate or moderate-to-severe pain; ventilated-casualty analgesia"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "OTFC, IV/IO, IN"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use within credentialed TCCC analgesia plan with airway readiness."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Mild-moderate: 25-50 mcg IV once; may repeat in 30 min. Moderate-severe: 0.5-1 mcg/kg IV/IO once or 100 mcg IN; repeat per approved guidance."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Respiratory depression, hypotension, nausea, chest-wall rigidity with rapid/high dosing."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive CNS/respiratory depression with sedatives/alcohol."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Rapid IV / 30-60 min"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Controlled substance; document pain score, route, time, response, and handoff."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 7 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 7 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 7 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-61",
@@ -868,18 +1128,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Selected reversal of known benzodiazepine sedation/overdose only with medical direction"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV only"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "NOT routine for undifferentiated overdose. Contraindicated when benzodiazepine is needed for life-threatening condition; avoid serious cyclic-antidepressant/mixed overdose or seizure-risk patient."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Known/suspected adult benzodiazepine overdose: 0.2 mg IV over 30 sec, then 0.3 mg after 30 sec; then 0.5 mg IV q1 min to 3 mg total."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Seizures, agitation, anxiety, nausea/vomiting, resedation, dysrhythmia."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "May unmask toxicity of co-ingestants; no opioid reversal effect."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "1-2 min / duration often shorter than benzodiazepine"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Secure airway/IV access first. Monitor for resedation and seizures; ventilation is primary treatment for hypoventilation."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 7 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 7 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 7 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61"
   ],
@@ -898,7 +1188,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Freeze-Dried Plasma",
   "description": "Blood product · FLyP (product-specific)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -916,18 +1206,20 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Hemorrhagic shock/resuscitation only under blood-program and TCCC/JTS protocol"
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 8 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 8 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“No universal dose”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-73",
    "cpg/cpg-82"
@@ -951,7 +1243,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Glucagon",
   "description": "Hormone / antidote · GlucaGen; Gvoke",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -971,12 +1263,14 @@ window.DRUGREF_DOCUMENTS = [
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 8 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 8 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“NOT ADDRESSED”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [],
   "tags": [
    "drug",
@@ -1012,18 +1306,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Mild-to-moderate wheezing with albuterol"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "Nebulized"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "ERC identifies nebulized albuterol + ipratropium as preferred combination for mild-to-moderate wheeze. Avoid ocular exposure; use local protocol for glaucoma/urinary retention screening."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "0.5 mg nebulized once with albuterol (common unit-dose product: 0.5 mg ipratropium + 2.5 mg albuterol in 3 mL)."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Dry mouth, cough, tachycardia, blurred vision/eye pain if aerosol contacts eyes."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive anticholinergic effects."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "15 min / 1-2 h / 4-6 h"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Reassess work of breathing, lung sounds, SpO2, and response; do not delay escalation for severe distress."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 9 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 9 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 9 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [],
   "tags": [
    "drug",
@@ -1059,18 +1383,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Moderate-to-severe pain; procedural sedation; airway management"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO, IM, IN"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use only within trained/authorized scope. TBI or eye injury is not an absolute contraindication, but sedation can impede serial neurologic assessment."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Analgesia: 20 mg (0.15-0.3 mg/kg) IV/IO over 2 min; or 50-100 mg (0.5-1 mg/kg) IM/IN."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Nystagmus, dissociation, emergence reaction, hypertension, nausea/vomiting, laryngospasm (rare)."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive sedation with opioids/benzodiazepines."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Rapid IV / 10-20 min"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Airway equipment, suction, cardiac monitor and EtCO2 when available. Resuscitate before intubation in shock."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 9 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 9 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 9 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-61",
@@ -1114,18 +1468,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Non-hemorrhagic injury pain; fever when unable to take PO"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO/IM"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Screen for bleeding risk, renal impairment, peptic ulcer/GI bleed, NSAID hypersensitivity, and local contraindications."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "IV/IO 15 mg q6h; IM 15-30 mg q6h. Fever when unable to take PO: 15 mg IV/IO/IM q6h."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "GI bleeding, renal injury, platelet dysfunction, hypersensitivity."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Other NSAIDs, anticoagulants/antiplatelets increase bleeding risk."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "~30 min / 4-6 h"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Not for hemorrhagic casualties; document time and reassess pain/bleeding risk."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 10 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 10 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 10 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-63"
   ],
@@ -1162,18 +1546,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Awake cricothyroidotomy local anesthesia"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "Local infiltration / cricothyroid membrane"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use only in trained personnel conducting authorized airway procedure."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Lidocaine 1% or 2% for incision area and approx. 1-2 mL through cricothyroid membrane."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "CNS toxicity, seizures, hypotension, dysrhythmia with systemic overdose."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Other local anesthetics/antiarrhythmics may add toxicity."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Minutes / 10-20 min"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Ensure airway equipment, oxygen, suction, monitoring, and procedural backup are prepared."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 11 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 11 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 11 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62",
@@ -1215,18 +1629,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Recurrent polymorphic VT with prolonged QT (torsades de pointes); other indications only per local protocol"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "AHA: not routine for cardiac arrest or polymorphic VT with normal QT. Immediate unsynchronized shock is required for sustained polymorphic VT."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Adult torsades: 1-2 g IV/IO per approved local ACLS protocol. Do not substitute medication for defibrillation when unstable."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Hypotension, flushing, bradycardia, respiratory depression, loss of reflexes at toxic levels."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive hypotension/CNS depression; caution with calcium-channel blockers and neuromuscular blockers."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Immediate IV / variable"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Confirm long-QT context when possible; monitor ECG, BP, respirations, and renal function where relevant."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 11 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 11 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 11 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [],
   "tags": [
    "drug",
@@ -1266,18 +1710,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Mild-to-moderate pain; adjunct for persistent fever when appropriate"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "PO"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use only after screening for NSAID contraindications and bleeding risk."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "15 mg PO once daily."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "GI bleeding, renal injury, dyspepsia, hypersensitivity."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Anticoagulants/antiplatelets/other NSAIDs increase bleeding risk."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Hours / ~20 h"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "TCCC-aligned pain management under approved provider direction; document last dose."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 12 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 12 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 12 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62"
@@ -1297,7 +1771,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Metronidazole",
   "description": "Antibiotic (PCC card)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1313,8 +1787,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Index only.",
+  "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-63",
    "cpg/cpg-83"
@@ -1349,18 +1825,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Emergency sedation; ketamine emergence reaction; active seizure in severe TBI"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO/IM/IN"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use only where authorized with airway readiness and monitoring. Sedation does not provide analgesia."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Emergency sedation/anxiety: 2 mg IV/IO or 5 mg IM/IN q15 min to 10 mg. Emergence: 2.5 mg IV/IO q5 min to 5 mg."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Respiratory depression, hypotension, paradoxical agitation, amnesia."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive respiratory/CNS depression with opioids/other sedatives."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Minutes / variable"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Have suction, airway equipment, cardiac monitor and EtCO2 when available."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 12 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 12 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 12 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-61",
@@ -1402,18 +1908,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Pain management when selected under protocol; caution in hypotension"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO/IM"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use local protocol and monitor respiratory status; not retained as routine ACS/CHF medication on this card."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "IV/IO 2-5 mg slow push over 2 min; repeat q30-45 min PRN. IM 5-10 mg; repeat q30-60 min PRN."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Respiratory depression, hypotension, nausea/vomiting, pruritus."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive CNS/respiratory depression with sedatives/alcohol."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Rapid IV / 3-4 h"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Use caution SBP <100 mmHg; document pain response and handoff."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 13 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 13 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 13 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62",
@@ -1441,7 +1977,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Moxifloxacin",
   "description": "Fluoroquinolone antibiotic · Avelox",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1463,7 +1999,7 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "REPLACED as current first-line TCCC open-wound oral antibiotic"
    },
    {
@@ -1473,13 +2009,15 @@ window.DRUGREF_DOCUMENTS = [
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 13 (Rev 4)",
+     "68W Current CPG Reconciled Drug Reference, page 13 (Rev 4)",
      "PCC Antibiotic Medications card #PCC-SC-26 (04 Dec 2023), page 1"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“Do not use legacy”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-58",
    "cpg/cpg-62",
@@ -1520,18 +2058,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Opioid overdose with respiratory depression"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO/IN/IM"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Airway and ventilation support are primary. Titrate to adequate ventilation under local protocol."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Use current local protocol; existing ERC supports IV/IO/IN/IM routes but not a single universal dose on this card."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Acute withdrawal, agitation, vomiting, hypertension, pulmonary edema (rare)."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "May precipitate withdrawal in opioid-dependent patient."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Minutes / 30-90 min"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Monitor for recurrent respiratory depression; opioid duration may exceed naloxone duration."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 14 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 14 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 14 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
    "ictl/081-68w-0248"
@@ -1552,7 +2120,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Nitroglycerin",
   "description": "Nitrate vasodilator · Nitrostat; NitroLingual",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1570,18 +2138,20 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Continuing ischemic chest discomfort in suspected ACS when not contraindicated"
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 14 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 14 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The card is not fully reconciled (“Do not use legacy”). Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [],
   "tags": [
    "drug",
@@ -1617,18 +2187,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Nausea/vomiting"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO/IM/ODT/PO"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Screen for QT risk and local contraindications/interactions."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "4 mg IV/IO/IM/ODT/PO q8h; maximum 8 mg in 8 h."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Headache, constipation, QT prolongation, serotonin syndrome (rare)."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "QT-prolonging and serotonergic agents."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Minutes / 4-8 h"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Document nausea response; use local protocol if persistent symptoms or special populations."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 15 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 15 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 15 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62",
@@ -1666,18 +2266,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Hypoxemia/selected transport and inhalation indications"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "NC, reservoir mask, BVM/PEEP, ventilator"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Most combat casualties do not need supplemental oxygen. Consider low SpO2, altitude, CO exposure, or smoke inhalation."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "Use delivery method/flow sufficient for indication. Transport target SpO2 92-96%; ventilated 90-96%; suspected CO exposure 100%."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Drying of mucosa; oxygen toxicity with prolonged high exposure."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Fire hazard; ensure safe handling."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Immediate"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Calculate supply for transport; reassess oxygenation AND ventilation."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 15 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 15 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 15 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [],
   "tags": [
    "drug",
@@ -1715,18 +2345,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Nausea/vomiting or motion-sickness option"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "PO"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Use local protocol for other routes/uses; monitor for sedation."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "25 mg PO q6h."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Sedation, anticholinergic effects, hypotension, dystonia (rare)."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Additive CNS depression/anticholinergic effects."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "20 min / 4-6 h"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Avoid compromising serial neuro or airway assessment; document response."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 16 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 16 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 16 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [],
   "tags": [
    "drug",
@@ -1761,18 +2421,48 @@ window.DRUGREF_DOCUMENTS = [
   ],
   "details": [
    {
-    "heading": "Indication(s), draft reference",
+    "heading": "Indication(s)",
     "text": "Hemorrhagic shock or casualty likely to need blood transfusion; significant TBI when within window"
+   },
+   {
+    "heading": "Route(s)",
+    "text": "IV/IO"
+   },
+   {
+    "heading": "Contraindications / conditions",
+    "text": "Give as soon as possible, but not later than 3 h after injury, when criteria met."
+   },
+   {
+    "heading": "Dosage(s)",
+    "text": "2 g slow IV/IO push once, if not previously given."
+   },
+   {
+    "heading": "Potential side effects",
+    "text": "Nausea/vomiting, hypotension if rapid administration; thromboembolic risk requires clinical judgment."
+   },
+   {
+    "heading": "Drug interactions",
+    "text": "Do not mix with blood products in same line; product/local compatibility applies."
+   },
+   {
+    "heading": "Onset / peak / duration",
+    "text": "Rapid / antifibrinolytic effect persists hours"
+   },
+   {
+    "heading": "Tactical considerations",
+    "text": "Document injury time, dose/time/route, prior TXA, and evacuation handoff."
    },
    {
     "heading": "Listed in",
     "items": [
-     "68W Reconciled Drug Reference (DRAFT), page 16 (Rev 4)"
+     "68W Current CPG Reconciled Drug Reference, page 16 (Rev 4)"
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": true,
+  "noticeLabel": "Approved reference.",
+  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
+  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 16 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-63",
    "cpg/cpg-66",
@@ -1797,7 +2487,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Trimethoprim / Sulfamethoxazole",
   "description": "Bactrim",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1817,8 +2507,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "noticeLabel": "Doses pending approval.",
-  "notice": "Doses, routes and administration details are not shown. The 68W drug reference is still a draft under clinical governance review. Follow your approved local protocol, formulary and medical direction.",
+  "approvedDoses": false,
+  "noticeLabel": "Index only.",
+  "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-66"
   ],
@@ -1834,18 +2526,22 @@ window.DRUGREF_DOCUMENTS = [
  {
   "id": "drugref-draft",
   "title": "68W Current CPG Reconciled Drug Reference (PCC card format)",
-  "description": "DRAFT for clinical governance review · 18 Nov 2026 · 31 cards",
+  "description": "Approved 19 Nov 2026 · 18 Nov 2026 file · 31 cards (22 published, 9 held)",
   "section": "Card Sets",
-  "type": "DRAFT",
+  "type": "REF",
   "refOnly": true,
   "meta": [
    [
-    "Status",
-    "Draft for clinical governance review"
+    "Approval",
+    "Approved by medical authority, 19 Nov 2026"
    ],
    [
-    "Dated",
+    "File dated",
     "18 Nov 2026"
+   ],
+   [
+    "Document marking",
+    "Still printed “Draft for clinical governance review”"
    ],
    [
     "Revision",
@@ -1853,15 +2549,14 @@ window.DRUGREF_DOCUMENTS = [
    ],
    [
     "Cards",
-    "31"
+    "31: 22 published, 9 held"
    ]
   ],
-  "noticeLabel": "Not released.",
-  "notice": "This reference states that clinical, pharmacy and command authorities must validate it before operational release. Its content is indexed here without doses until that review is complete.",
+  "noticeLabel": "Approved reference.",
+  "notice": "Approved by medical authority on 19 Nov 2026. Cards that are not fully reconciled, and the calcium gluconate card pending citation confirmation, are shown without doses. Verify concentration, dose and volume before every administration.",
   "tags": [
    "drug",
    "reference",
-   "draft",
    "pcc"
   ]
  },
