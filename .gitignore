@@ -1,0 +1,12 @@
+# Textbook and reference files are NOT published to the public repo.
+# Host them somewhere access-controlled and link to them from js/data.js.
+docs/**/*.pdf
+docs/**/*.doc
+docs/**/*.docx
+docs/**/*.ppt
+docs/**/*.pptx
+docs/**/*.xls
+docs/**/*.xlsx
+
+.DS_Store
+Thumbs.db
