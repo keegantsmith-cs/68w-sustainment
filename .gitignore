@@ -21,3 +21,4 @@ SOURCE_ISSUES_FOR_REVIEW.md
 
 __pycache__/
 *.pyc
+DRUG_CROSSCHECK_FOR_REVIEW.md
