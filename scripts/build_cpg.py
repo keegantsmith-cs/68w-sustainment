@@ -152,6 +152,7 @@ def main():
             section=SERIES_PFC if pfc else SERIES_OTHER,
             type=f"CPG {c['id']}",
             url=JTS_LIBRARY,
+            file=f"docs/cpg/{pdf.name}",   # posted: cleared per docs/PUBLIC_RELEASE.json
             urlLabel="JTS CPG library ↗",
             updated=latest(c["updates"]) if c["updates"] else c["date"],
             cpgId=c["id"],

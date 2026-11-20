@@ -11,6 +11,7 @@ window.TCCC_DOCUMENTS = [
   ],
   "updated": "01 May 2026",
   "refOnly": true,
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf",
   "meta": [
    [
     "Edition",
@@ -125,6 +126,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=1",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 1.",
@@ -178,6 +180,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=2",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 2.",
@@ -236,6 +239,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=2",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 2.",
@@ -295,6 +299,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=2",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 2, p. 3.",
@@ -353,6 +358,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=3",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 3.",
@@ -419,6 +425,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=3",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 3, p. 4, p. 5.",
@@ -488,6 +495,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=5",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 5, p. 6, p. 7, p. 8.",
@@ -548,6 +556,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=8",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 8.",
@@ -624,6 +633,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=9",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 9, p. 10.",
@@ -686,6 +696,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=10",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 10.",
@@ -740,6 +751,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=10",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 10.",
@@ -817,6 +829,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=10",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 10, p. 11.",
@@ -881,6 +894,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=11",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 11.",
@@ -940,6 +954,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=11",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 11, p. 12.",
@@ -992,6 +1007,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=12",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 12.",
@@ -1051,6 +1067,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=12",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 12, p. 13.",
@@ -1103,6 +1120,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=13",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 13.",
@@ -1156,6 +1174,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=13",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 13.",
@@ -1210,6 +1229,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=13",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 13.",
@@ -1263,6 +1283,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=14",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 14.",
@@ -1318,6 +1339,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=14",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 14.",
@@ -1374,6 +1396,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=15",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 15.",
@@ -1426,6 +1449,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-3"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=15",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 15.",
@@ -1478,6 +1502,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=15",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 15.",
@@ -1538,6 +1563,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=15",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 15.",
@@ -1592,6 +1618,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-6"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=15",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 15.",
@@ -1650,6 +1677,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-8"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -1704,6 +1732,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-7"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -1756,6 +1785,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-9"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -1808,6 +1838,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-10"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -1860,6 +1891,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-11"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -1912,6 +1944,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-12"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -1964,6 +1997,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-13"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -2016,6 +2050,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-14"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -2068,6 +2103,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-15"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -2120,6 +2156,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-16"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -2174,6 +2211,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -2227,6 +2265,7 @@ window.TCCC_DOCUMENTS = [
    }
   ],
   "related": [],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",
@@ -2279,6 +2318,7 @@ window.TCCC_DOCUMENTS = [
   "related": [
    "guidelines/tccc-tfc-19"
   ],
+  "file": "docs/guidelines/TCCC_Guidelines_May_2026.pdf#page=16",
   "noticeLabel": "Summary.",
   "notice": "Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction.",
   "source": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026, p. 16.",

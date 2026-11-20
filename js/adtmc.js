@@ -25,8 +25,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol A-1, page 19.",
   "related": [],
   "tags": [
@@ -38,7 +38,8 @@ window.ADTMC_DOCUMENTS = [
    "sore",
    "throat",
    "hoarseness"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=19"
  },
  {
   "id": "adtmc-a-2",
@@ -65,8 +66,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol A-2, page 21.",
   "related": [],
   "tags": [
@@ -78,7 +79,8 @@ window.ADTMC_DOCUMENTS = [
    "pain",
    "drainage",
    "trauma"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=21"
  },
  {
   "id": "adtmc-a-3",
@@ -105,8 +107,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol A-3, page 23.",
   "related": [],
   "tags": [
@@ -119,7 +121,8 @@ window.ADTMC_DOCUMENTS = [
    "symptoms",
    "allergies",
    "cough"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=23"
  },
  {
   "id": "adtmc-a-4",
@@ -146,8 +149,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol A-4, page 25.",
   "related": [],
   "tags": [
@@ -160,7 +163,8 @@ window.ADTMC_DOCUMENTS = [
    "ears",
    "hearing",
    "problem"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=25"
  },
  {
   "id": "adtmc-a-5",
@@ -187,8 +191,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol A-5, page 27.",
   "related": [],
   "tags": [
@@ -200,7 +204,8 @@ window.ADTMC_DOCUMENTS = [
    "nosebleed",
    "nose",
    "trauma"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=27"
  },
  {
   "id": "adtmc-b-1",
@@ -227,8 +232,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-1, page 29.",
   "related": [
    "ictl/081-68w-0249"
@@ -241,7 +246,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "back",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=29"
  },
  {
   "id": "adtmc-b-2",
@@ -268,8 +274,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-2, page 31.",
   "related": [
    "ictl/081-68w-0249"
@@ -282,7 +288,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "neck",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=31"
  },
  {
   "id": "adtmc-b-3",
@@ -309,8 +316,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-3, page 33.",
   "related": [
    "ictl/081-68w-0249"
@@ -323,7 +330,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "shoulder",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=33"
  },
  {
   "id": "adtmc-b-4",
@@ -350,8 +358,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-4, page 35.",
   "related": [
    "ictl/081-68w-0249"
@@ -364,7 +372,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "elbow",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=35"
  },
  {
   "id": "adtmc-b-5",
@@ -391,8 +400,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-5, page 37.",
   "related": [
    "ictl/081-68w-0249"
@@ -405,7 +414,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "wrist",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=37"
  },
  {
   "id": "adtmc-b-6",
@@ -432,8 +442,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-6, page 39.",
   "related": [
    "ictl/081-68w-0249"
@@ -446,7 +456,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "hand",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=39"
  },
  {
   "id": "adtmc-b-7",
@@ -473,8 +484,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-7, page 41.",
   "related": [
    "ictl/081-68w-0249"
@@ -486,7 +497,8 @@ window.ADTMC_DOCUMENTS = [
    "b-7",
    "musculoskeletal complaints",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=41"
  },
  {
   "id": "adtmc-b-8",
@@ -513,8 +525,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-8, page 43.",
   "related": [
    "ictl/081-68w-0249"
@@ -527,7 +539,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "knee",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=43"
  },
  {
   "id": "adtmc-b-9",
@@ -554,8 +567,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-9, page 45.",
   "related": [
    "ictl/081-68w-0249"
@@ -568,7 +581,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "ankle",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=45"
  },
  {
   "id": "adtmc-b-10",
@@ -595,8 +609,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-10, page 47.",
   "related": [
    "ictl/081-68w-0249"
@@ -609,7 +623,8 @@ window.ADTMC_DOCUMENTS = [
    "musculoskeletal complaints",
    "foot",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=47"
  },
  {
   "id": "adtmc-b-11",
@@ -636,8 +651,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol B-11, page 49.",
   "related": [
    "ictl/081-68w-0249"
@@ -651,7 +666,8 @@ window.ADTMC_DOCUMENTS = [
    "extremity",
    "joint",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=49"
  },
  {
   "id": "adtmc-c-1",
@@ -678,8 +694,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol C-1, page 51.",
   "related": [],
   "tags": [
@@ -690,7 +706,8 @@ window.ADTMC_DOCUMENTS = [
    "gastrointestinal (gi) complaints",
    "nausea",
    "vomiting"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=51"
  },
  {
   "id": "adtmc-c-2",
@@ -717,8 +734,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol C-2, page 53.",
   "related": [],
   "tags": [
@@ -728,7 +745,8 @@ window.ADTMC_DOCUMENTS = [
    "c-2",
    "gastrointestinal (gi) complaints",
    "diarrhea"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=53"
  },
  {
   "id": "adtmc-c-3",
@@ -755,8 +773,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol C-3, page 55.",
   "related": [],
   "tags": [
@@ -768,7 +786,8 @@ window.ADTMC_DOCUMENTS = [
    "abdominal",
    "flank",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=55"
  },
  {
   "id": "adtmc-c-4",
@@ -795,8 +814,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol C-4, page 57.",
   "related": [],
   "tags": [
@@ -809,7 +828,8 @@ window.ADTMC_DOCUMENTS = [
    "pain",
    "itching",
    "bleeding"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=57"
  },
  {
   "id": "adtmc-c-5",
@@ -836,8 +856,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol C-5, page 59.",
   "related": [],
   "tags": [
@@ -847,7 +867,8 @@ window.ADTMC_DOCUMENTS = [
    "c-5",
    "gastrointestinal (gi) complaints",
    "constipation"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=59"
  },
  {
   "id": "adtmc-c-6",
@@ -874,8 +895,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol C-6, page 61.",
   "related": [],
   "tags": [
@@ -887,7 +908,8 @@ window.ADTMC_DOCUMENTS = [
    "difficulty",
    "when",
    "swallowing"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=61"
  },
  {
   "id": "adtmc-c-7",
@@ -914,8 +936,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol C-7, page 63.",
   "related": [],
   "tags": [
@@ -925,7 +947,8 @@ window.ADTMC_DOCUMENTS = [
    "c-7",
    "gastrointestinal (gi) complaints",
    "heartburn"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=63"
  },
  {
   "id": "adtmc-d-1",
@@ -952,8 +975,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol D-1, page 65.",
   "related": [
    "ictl/081-68w-0245"
@@ -966,7 +989,8 @@ window.ADTMC_DOCUMENTS = [
    "cardiorespiratory complaints",
    "shortness",
    "breath"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=65"
  },
  {
   "id": "adtmc-d-2",
@@ -993,8 +1017,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol D-2, page 67.",
   "related": [
    "ictl/081-68w-0245"
@@ -1007,7 +1031,8 @@ window.ADTMC_DOCUMENTS = [
    "cardiorespiratory complaints",
    "chest",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=67"
  },
  {
   "id": "adtmc-e-1",
@@ -1034,8 +1059,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol E-1, page 69.",
   "related": [],
   "tags": [
@@ -1047,7 +1072,8 @@ window.ADTMC_DOCUMENTS = [
    "painful",
    "frequent",
    "urination"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=69"
  },
  {
   "id": "adtmc-e-2",
@@ -1074,8 +1100,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol E-2, page 71.",
   "related": [],
   "tags": [
@@ -1089,7 +1115,8 @@ window.ADTMC_DOCUMENTS = [
    "pain",
    "urethral",
    "discharge"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=71"
  },
  {
   "id": "adtmc-e-3",
@@ -1116,8 +1143,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol E-3, page 73.",
   "related": [],
   "tags": [
@@ -1129,7 +1156,8 @@ window.ADTMC_DOCUMENTS = [
    "sexually",
    "transmitted",
    "infection"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=73"
  },
  {
   "id": "adtmc-e-4",
@@ -1156,8 +1184,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol E-4, page 75.",
   "related": [],
   "tags": [
@@ -1169,7 +1197,8 @@ window.ADTMC_DOCUMENTS = [
    "problems",
    "with",
    "voiding"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=75"
  },
  {
   "id": "adtmc-f-1",
@@ -1196,8 +1225,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol F-1, page 77.",
   "related": [
    "ictl/081-68w-1059"
@@ -1211,7 +1240,8 @@ window.ADTMC_DOCUMENTS = [
    "dizziness",
    "faintness",
    "blackout"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=77"
  },
  {
   "id": "adtmc-f-2",
@@ -1238,8 +1268,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol F-2, page 79.",
   "related": [
    "ictl/081-68w-1059"
@@ -1251,7 +1281,8 @@ window.ADTMC_DOCUMENTS = [
    "f-2",
    "neuropsychiatric complaints",
    "headache"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=79"
  },
  {
   "id": "adtmc-f-3",
@@ -1278,8 +1309,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol F-3, page 81.",
   "related": [
    "ictl/081-68w-1059"
@@ -1294,7 +1325,8 @@ window.ADTMC_DOCUMENTS = [
    "tingling",
    "paralysis",
    "weakness"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=81"
  },
  {
   "id": "adtmc-f-4",
@@ -1321,8 +1353,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol F-4, page 83.",
   "related": [
    "ictl/081-68w-1059"
@@ -1335,7 +1367,8 @@ window.ADTMC_DOCUMENTS = [
    "neuropsychiatric complaints",
    "drowsiness",
    "confusion"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=83"
  },
  {
   "id": "adtmc-f-5",
@@ -1362,8 +1395,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol F-5, page 85.",
   "related": [
    "ictl/081-68w-1059"
@@ -1378,7 +1411,8 @@ window.ADTMC_DOCUMENTS = [
    "nervousness",
    "anxiety",
    "tension"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=85"
  },
  {
   "id": "adtmc-f-6",
@@ -1405,8 +1439,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol F-6, page 87.",
   "related": [
    "ictl/081-68w-1059"
@@ -1421,7 +1455,8 @@ window.ADTMC_DOCUMENTS = [
    "traumatic",
    "brain",
    "injury"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=87"
  },
  {
   "id": "adtmc-g-1",
@@ -1448,8 +1483,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol G-1, page 90.",
   "related": [],
   "tags": [
@@ -1459,7 +1494,8 @@ window.ADTMC_DOCUMENTS = [
    "g-1",
    "constitutional complaints",
    "fatigue"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=90"
  },
  {
   "id": "adtmc-g-2",
@@ -1486,8 +1522,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol G-2, page 92.",
   "related": [],
   "tags": [
@@ -1498,7 +1534,8 @@ window.ADTMC_DOCUMENTS = [
    "constitutional complaints",
    "fever",
    "chills"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=92"
  },
  {
   "id": "adtmc-h-1",
@@ -1525,8 +1562,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol H-1, page 94.",
   "related": [
    "ictl/081-68w-0240"
@@ -1542,7 +1579,8 @@ window.ADTMC_DOCUMENTS = [
    "discharge",
    "itching",
    "injury"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=94"
  },
  {
   "id": "adtmc-h-2",
@@ -1569,8 +1607,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol H-2, page 96.",
   "related": [
    "ictl/081-68w-0240"
@@ -1583,7 +1621,8 @@ window.ADTMC_DOCUMENTS = [
    "eye complaints",
    "eyelid",
    "problem"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=96"
  },
  {
   "id": "adtmc-h-3",
@@ -1610,8 +1649,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol H-3, page 98.",
   "related": [
    "ictl/081-68w-0240"
@@ -1628,7 +1667,8 @@ window.ADTMC_DOCUMENTS = [
    "spots",
    "request",
    "glasses"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=98"
  },
  {
   "id": "adtmc-h-4",
@@ -1655,8 +1695,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol H-4, page 100.",
   "related": [
    "ictl/081-68w-0240"
@@ -1670,7 +1710,8 @@ window.ADTMC_DOCUMENTS = [
    "seeing",
    "double",
    "diplopia"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=100"
  },
  {
   "id": "adtmc-i-1",
@@ -1697,8 +1738,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol I-1, page 102.",
   "related": [
    "ictl/081-68w-0165"
@@ -1711,7 +1752,8 @@ window.ADTMC_DOCUMENTS = [
    "gynecological complaints",
    "breast",
    "problems"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=2"
  },
  {
   "id": "adtmc-i-2",
@@ -1738,8 +1780,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol I-2, page 104.",
   "related": [
    "ictl/081-68w-0165"
@@ -1752,7 +1794,8 @@ window.ADTMC_DOCUMENTS = [
    "gynecological complaints",
    "suspects",
    "pregnancy"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=4"
  },
  {
   "id": "adtmc-i-3",
@@ -1779,8 +1822,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol I-3, page 106.",
   "related": [
    "ictl/081-68w-0165"
@@ -1795,7 +1838,8 @@ window.ADTMC_DOCUMENTS = [
    "problems",
    "vaginal",
    "bleeding"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=6"
  },
  {
   "id": "adtmc-i-4",
@@ -1822,8 +1866,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol I-4, page 108.",
   "related": [
    "ictl/081-68w-0165"
@@ -1839,7 +1883,8 @@ window.ADTMC_DOCUMENTS = [
    "itching",
    "irritation",
    "pain"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=8"
  },
  {
   "id": "adtmc-i-5",
@@ -1866,8 +1911,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol I-5, page 110.",
   "related": [
    "ictl/081-68w-0165"
@@ -1882,7 +1927,8 @@ window.ADTMC_DOCUMENTS = [
    "routine",
    "pelvic",
    "examination"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=10"
  },
  {
   "id": "adtmc-i-6",
@@ -1909,8 +1955,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol I-6, page 111.",
   "related": [
    "ictl/081-68w-0165"
@@ -1924,7 +1970,8 @@ window.ADTMC_DOCUMENTS = [
    "request",
    "information",
    "contraception"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=11"
  },
  {
   "id": "adtmc-j-1",
@@ -1951,8 +1998,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-1, page 112.",
   "related": [
    "ictl/081-68w-0125"
@@ -1968,7 +2015,8 @@ window.ADTMC_DOCUMENTS = [
    "skin",
    "disorder",
    "complaint"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=12"
  },
  {
   "id": "adtmc-j-2",
@@ -1995,8 +2043,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-2, page 114.",
   "related": [
    "ictl/081-68w-0125"
@@ -2008,7 +2056,8 @@ window.ADTMC_DOCUMENTS = [
    "j-2",
    "dermatological complaints",
    "acne"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=14"
  },
  {
   "id": "adtmc-j-3",
@@ -2035,8 +2084,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-3, page 116.",
   "related": [
    "ictl/081-68w-0125"
@@ -2053,7 +2102,8 @@ window.ADTMC_DOCUMENTS = [
    "barbae",
    "ingrown",
    "hairs"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=16"
  },
  {
   "id": "adtmc-j-4",
@@ -2080,8 +2130,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-4, page 118.",
   "related": [
    "ictl/081-68w-0125"
@@ -2095,7 +2145,8 @@ window.ADTMC_DOCUMENTS = [
    "dandruff",
    "scaling",
    "scalp"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=18"
  },
  {
   "id": "adtmc-j-5",
@@ -2122,8 +2173,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-5, page 120.",
   "related": [
    "ictl/081-68w-0125"
@@ -2136,7 +2187,8 @@ window.ADTMC_DOCUMENTS = [
    "dermatological complaints",
    "hair",
    "loss"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=20"
  },
  {
   "id": "adtmc-j-6",
@@ -2163,8 +2215,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-6, page 122.",
   "related": [
    "ictl/081-68w-0125"
@@ -2179,7 +2231,8 @@ window.ADTMC_DOCUMENTS = [
    "foot",
    "tinea",
    "pedis"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=22"
  },
  {
   "id": "adtmc-j-7",
@@ -2206,8 +2259,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-7, page 124.",
   "related": [
    "ictl/081-68w-0125"
@@ -2222,7 +2275,8 @@ window.ADTMC_DOCUMENTS = [
    "itch",
    "tinea",
    "cruris"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=24"
  },
  {
   "id": "adtmc-j-8",
@@ -2249,8 +2303,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-8, page 126.",
   "related": [
    "ictl/081-68w-0125"
@@ -2270,7 +2324,8 @@ window.ADTMC_DOCUMENTS = [
    "arms",
    "tinea",
    "versicolor"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=26"
  },
  {
   "id": "adtmc-j-9",
@@ -2297,8 +2352,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-9, page 128.",
   "related": [
    "ictl/081-68w-0125"
@@ -2310,7 +2365,8 @@ window.ADTMC_DOCUMENTS = [
    "j-9",
    "dermatological complaints",
    "boils"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=28"
  },
  {
   "id": "adtmc-j-10",
@@ -2337,8 +2393,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-10, page 130.",
   "related": [
    "ictl/081-68w-0125"
@@ -2353,7 +2409,8 @@ window.ADTMC_DOCUMENTS = [
    "blisters",
    "cold",
    "sores"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=30"
  },
  {
   "id": "adtmc-j-11",
@@ -2380,8 +2437,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-11, page 132.",
   "related": [
    "ictl/081-68w-0125"
@@ -2395,7 +2452,8 @@ window.ADTMC_DOCUMENTS = [
    "skin",
    "abrasion",
    "laceration"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=32"
  },
  {
   "id": "adtmc-j-12",
@@ -2422,8 +2480,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-12, page 134.",
   "related": [
    "ictl/081-68w-0125"
@@ -2436,7 +2494,8 @@ window.ADTMC_DOCUMENTS = [
    "dermatological complaints",
    "suture",
    "removal"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=34"
  },
  {
   "id": "adtmc-j-13",
@@ -2463,8 +2522,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-13, page 136.",
   "related": [
    "ictl/081-68w-0125"
@@ -2479,7 +2538,8 @@ window.ADTMC_DOCUMENTS = [
    "rash",
    "contact",
    "dermatitis"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=36"
  },
  {
   "id": "adtmc-j-14",
@@ -2506,8 +2566,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-14, page 138.",
   "related": [
    "ictl/081-68w-0125"
@@ -2520,7 +2580,8 @@ window.ADTMC_DOCUMENTS = [
    "dermatological complaints",
    "burns",
    "sunburn"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=38"
  },
  {
   "id": "adtmc-j-15",
@@ -2547,8 +2608,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-15, page 140.",
   "related": [
    "ictl/081-68w-0125"
@@ -2562,7 +2623,8 @@ window.ADTMC_DOCUMENTS = [
    "friction",
    "blisters",
    "feet"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=40"
  },
  {
   "id": "adtmc-j-16",
@@ -2589,8 +2651,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-16, page 142.",
   "related": [
    "ictl/081-68w-0125"
@@ -2603,7 +2665,8 @@ window.ADTMC_DOCUMENTS = [
    "dermatological complaints",
    "corns",
    "feet"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=42"
  },
  {
   "id": "adtmc-j-17",
@@ -2630,8 +2693,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-17, page 144.",
   "related": [
    "ictl/081-68w-0125"
@@ -2645,7 +2708,8 @@ window.ADTMC_DOCUMENTS = [
    "cutaneous",
    "plantar",
    "warts"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=44"
  },
  {
   "id": "adtmc-j-18",
@@ -2672,8 +2736,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol J-18, page 146.",
   "related": [
    "ictl/081-68w-0125"
@@ -2686,7 +2750,8 @@ window.ADTMC_DOCUMENTS = [
    "dermatological complaints",
    "ingrown",
    "toenail"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=46"
  },
  {
   "id": "adtmc-k-1",
@@ -2713,8 +2778,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol K-1, page 148.",
   "related": [
    "ictl/081-000-0003"
@@ -2737,7 +2802,8 @@ window.ADTMC_DOCUMENTS = [
    "exhaustion",
    "heat",
    "stroke"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=48"
  },
  {
   "id": "adtmc-k-2",
@@ -2764,8 +2830,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol K-2, page 150.",
   "related": [],
   "tags": [
@@ -2775,7 +2841,8 @@ window.ADTMC_DOCUMENTS = [
    "k-2",
    "environmental injury complaints",
    "hypothermia"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=50"
  },
  {
   "id": "adtmc-k-3",
@@ -2802,8 +2869,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol K-3, page 152.",
   "related": [],
   "tags": [
@@ -2814,7 +2881,8 @@ window.ADTMC_DOCUMENTS = [
    "environmental injury complaints",
    "immersion",
    "foot"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=52"
  },
  {
   "id": "adtmc-k-4",
@@ -2841,8 +2909,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol K-4, page 154.",
   "related": [],
   "tags": [
@@ -2854,7 +2922,8 @@ window.ADTMC_DOCUMENTS = [
    "chapped",
    "skin",
    "windburn"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=54"
  },
  {
   "id": "adtmc-k-5",
@@ -2881,8 +2950,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol K-5, page 155.",
   "related": [],
   "tags": [
@@ -2892,7 +2961,8 @@ window.ADTMC_DOCUMENTS = [
    "k-5",
    "environmental injury complaints",
    "frostbite"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=55"
  },
  {
   "id": "adtmc-k-6",
@@ -2919,8 +2989,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol K-6, page 156.",
   "related": [],
   "tags": [
@@ -2932,7 +3002,8 @@ window.ADTMC_DOCUMENTS = [
    "crabs",
    "lice",
    "pediculosis"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=56"
  },
  {
   "id": "adtmc-k-7",
@@ -2959,8 +3030,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol K-7, page 158.",
   "related": [],
   "tags": [
@@ -2973,7 +3044,8 @@ window.ADTMC_DOCUMENTS = [
    "bites",
    "crabs",
    "lice"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=58"
  },
  {
   "id": "adtmc-l-1",
@@ -3000,8 +3072,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-1, page 160.",
   "related": [],
   "tags": [
@@ -3012,7 +3084,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "exposed",
    "hepatitis"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=60"
  },
  {
   "id": "adtmc-l-2",
@@ -3039,8 +3112,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-2, page 162.",
   "related": [],
   "tags": [
@@ -3051,7 +3124,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "dental",
    "problems"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=62"
  },
  {
   "id": "adtmc-l-3",
@@ -3078,8 +3152,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-3, page 164.",
   "related": [],
   "tags": [
@@ -3090,7 +3164,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "sores",
    "mouth"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=64"
  },
  {
   "id": "adtmc-l-4",
@@ -3117,8 +3192,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-4, page 166.",
   "related": [],
   "tags": [
@@ -3129,7 +3204,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "prescription",
    "refill"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=66"
  },
  {
   "id": "adtmc-l-5",
@@ -3156,8 +3232,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-5, page 167.",
   "related": [],
   "tags": [
@@ -3168,7 +3244,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "requests",
    "vasectomy"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=67"
  },
  {
   "id": "adtmc-l-6",
@@ -3195,8 +3272,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-6, page 168.",
   "related": [],
   "tags": [
@@ -3207,7 +3284,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "needs",
    "immunization"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=68"
  },
  {
   "id": "adtmc-l-7",
@@ -3234,8 +3312,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-7, page 169.",
   "related": [],
   "tags": [
@@ -3247,7 +3325,8 @@ window.ADTMC_DOCUMENTS = [
    "lymph",
    "node",
    "enlargement"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=69"
  },
  {
   "id": "adtmc-l-8",
@@ -3274,8 +3353,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-8, page 170.",
   "related": [],
   "tags": [
@@ -3287,7 +3366,8 @@ window.ADTMC_DOCUMENTS = [
    "blood",
    "pressure",
    "check"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=70"
  },
  {
   "id": "adtmc-l-9",
@@ -3314,8 +3394,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-9, page 171.",
   "related": [],
   "tags": [
@@ -3327,7 +3407,8 @@ window.ADTMC_DOCUMENTS = [
    "medical",
    "screening",
    "overseas"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=71"
  },
  {
   "id": "adtmc-l-10",
@@ -3354,8 +3435,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-10, page 172.",
   "related": [],
   "tags": [
@@ -3366,7 +3447,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "weight",
    "reduction"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=72"
  },
  {
   "id": "adtmc-l-11",
@@ -3393,8 +3475,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-11, page 173.",
   "related": [],
   "tags": [
@@ -3405,7 +3487,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous complaints",
    "complaint",
    "list"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=73"
  },
  {
   "id": "adtmc-l-12",
@@ -3432,8 +3515,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol L-12, page 174.",
   "related": [],
   "tags": [
@@ -3446,7 +3529,8 @@ window.ADTMC_DOCUMENTS = [
    "nonprescription",
    "traveling",
    "medication"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=74"
  },
  {
   "id": "adtmc-m-1",
@@ -3473,8 +3557,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol M-1, page 175.",
   "related": [],
   "tags": [
@@ -3485,7 +3569,8 @@ window.ADTMC_DOCUMENTS = [
    "miscellaneous reasons for return",
    "signs",
    "improvement"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=75"
  },
  {
   "id": "adtmc-m-2",
@@ -3512,8 +3597,8 @@ window.ADTMC_DOCUMENTS = [
     "MEDCOM Pam 40-7-21 (13 Nov 2019)"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, Appendix B (Screener's Manual), protocol M-2, page 176.",
   "related": [],
   "tags": [
@@ -3528,7 +3613,8 @@ window.ADTMC_DOCUMENTS = [
    "sore",
    "throat",
    "hoarseness"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=76"
  },
  {
   "id": "adtmc-pam-40-7-21",
@@ -3560,8 +3646,8 @@ window.ADTMC_DOCUMENTS = [
     "86 in 13 categories"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019.",
   "tags": [
    "adtmc",
@@ -3569,7 +3655,8 @@ window.ADTMC_DOCUMENTS = [
    "sick call",
    "screening",
    "protocols"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf"
  },
  {
   "id": "adtmc-app-a",
@@ -3588,14 +3675,15 @@ window.ADTMC_DOCUMENTS = [
     "9"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 9.",
   "tags": [
    "adtmc",
    "appendix",
    "references"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=9"
  },
  {
   "id": "adtmc-app-b",
@@ -3614,14 +3702,15 @@ window.ADTMC_DOCUMENTS = [
     "11"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 11.",
   "tags": [
    "adtmc",
    "appendix",
    "screener’s manual"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part1.pdf#page=11"
  },
  {
   "id": "adtmc-app-c",
@@ -3640,14 +3729,15 @@ window.ADTMC_DOCUMENTS = [
     "177"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 177.",
   "tags": [
    "adtmc",
    "appendix",
    "list of medications"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part2.pdf#page=77"
  },
  {
   "id": "adtmc-app-d",
@@ -3666,14 +3756,15 @@ window.ADTMC_DOCUMENTS = [
     "225"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 225.",
   "tags": [
    "adtmc",
    "appendix",
    "screening note"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part3.pdf#page=25"
  },
  {
   "id": "adtmc-app-e",
@@ -3692,14 +3783,15 @@ window.ADTMC_DOCUMENTS = [
     "229"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 229.",
   "tags": [
    "adtmc",
    "appendix",
    "safety and quality control protocol"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part3.pdf#page=29"
  },
  {
   "id": "adtmc-app-f",
@@ -3718,14 +3810,15 @@ window.ADTMC_DOCUMENTS = [
     "235"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 235.",
   "tags": [
    "adtmc",
    "appendix",
    "virtual medical screening"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part3.pdf#page=35"
  },
  {
   "id": "adtmc-app-g",
@@ -3744,14 +3837,15 @@ window.ADTMC_DOCUMENTS = [
     "246"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 246.",
   "tags": [
    "adtmc",
    "appendix",
    "orientation and competency validation"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part3.pdf#page=46"
  },
  {
   "id": "adtmc-app-h",
@@ -3770,14 +3864,15 @@ window.ADTMC_DOCUMENTS = [
     "253"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 253.",
   "tags": [
    "adtmc",
    "appendix",
    "minor traumatic brain injury supplemental resources"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part3.pdf#page=53"
  },
  {
   "id": "adtmc-app-glossary",
@@ -3796,13 +3891,14 @@ window.ADTMC_DOCUMENTS = [
     "273"
    ]
   ],
-  "notice": "The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.",
-  "noticeLabel": "Reference only.",
+  "notice": "Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm this is the current edition.",
+  "noticeLabel": "Official publication.",
   "source": "MEDCOM Pam 40-7-21, Algorithm-Directed Troop Medical Care, 13 November 2019, page 273.",
   "tags": [
    "adtmc",
    "appendix",
    "glossary"
-  ]
+  ],
+  "file": "docs/adtmc/adtmc-part3.pdf#page=73"
  }
 ];

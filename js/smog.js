@@ -33,8 +33,9 @@ window.SMOG_DOCUMENTS = [
     "266 pages"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf",
   "source": "U.S. Army Aeromedical Evacuation Standard Medical Operating Guidelines (SMOG), FY27, published 01 Oct 2026.",
   "tags": [
    "smog",
@@ -70,8 +71,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=12",
   "source": "SMOG FY27, General Protocols, “UNIVERSAL PATIENT CARE”, page 12.",
   "tags": [
    "smog",
@@ -106,8 +108,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=13",
   "source": "SMOG FY27, General Protocols, “TACTICAL EVACUATION”, page 13.",
   "tags": [
    "smog",
@@ -141,8 +144,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=14",
   "source": "SMOG FY27, General Protocols, “MASCAL TRIAGE”, page 14.",
   "tags": [
    "smog",
@@ -176,8 +180,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=15",
   "source": "SMOG FY27, General Protocols, “AIRWAY (ADULT / PEDIATRIC)”, page 15.",
   "tags": [
    "smog",
@@ -212,8 +217,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=16",
   "source": "SMOG FY27, General Protocols, “RAPID SEQUENCE INTUBATION”, page 16.",
   "tags": [
    "smog",
@@ -248,8 +254,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=17",
   "source": "SMOG FY27, General Protocols, “VENTILATOR MANAGEMENT”, page 17.",
   "tags": [
    "smog",
@@ -283,8 +290,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=19",
   "source": "SMOG FY27, General Protocols, “VENTILATOR CALCULATIONS”, page 19.",
   "tags": [
    "smog",
@@ -318,8 +326,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=20",
   "source": "SMOG FY27, General Protocols, “ARDS VENTILATOR MANAGEMENT”, page 20.",
   "tags": [
    "smog",
@@ -354,8 +363,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=21",
   "source": "SMOG FY27, General Protocols, “RICHMOND AGITATION SEDATION SCALE (RASS)”, page 21.",
   "tags": [
    "smog",
@@ -392,8 +402,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=22",
   "source": "SMOG FY27, General Protocols, “BLOOD AND COMPONENT USE”, page 22.",
   "tags": [
    "smog",
@@ -427,8 +438,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=23",
   "source": "SMOG FY27, General Protocols, “BLOOD TRANSFUSION REACTIONS”, page 23.",
   "tags": [
    "smog",
@@ -463,8 +475,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=24",
   "source": "SMOG FY27, General Protocols, “IV / IO”, page 24.",
   "tags": [
    "smog",
@@ -496,8 +509,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=25",
   "source": "SMOG FY27, General Protocols, “PAIN MANAGEMENT”, page 25.",
   "tags": [
    "smog",
@@ -531,8 +545,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=27",
   "source": "SMOG FY27, Trauma Protocols, “ABDOMINAL INJURY”, page 27.",
   "tags": [
    "smog",
@@ -566,8 +581,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=28",
   "source": "SMOG FY27, Trauma Protocols, “BURNS / ELECTRICAL INJURY”, page 28.",
   "tags": [
    "smog",
@@ -602,8 +618,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=29",
   "source": "SMOG FY27, Trauma Protocols, “BURN FLUID RESUSCITATION”, page 29.",
   "tags": [
    "smog",
@@ -638,8 +655,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=30",
   "source": "SMOG FY27, Trauma Protocols, “CHEST TRAUMA”, page 30.",
   "tags": [
    "smog",
@@ -673,8 +691,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=31",
   "source": "SMOG FY27, Trauma Protocols, “CRUSH SYNDROME”, page 31.",
   "tags": [
    "smog",
@@ -708,8 +727,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=32",
   "source": "SMOG FY27, Trauma Protocols, “EXTREMITY TRAUMA”, page 32.",
   "tags": [
    "smog",
@@ -743,8 +763,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=33",
   "source": "SMOG FY27, Trauma Protocols, “EYE INJURY / PAIN”, page 33.",
   "tags": [
    "smog",
@@ -778,8 +799,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=34",
   "source": "SMOG FY27, Trauma Protocols, “HEAD INJURY / TBI”, page 34.",
   "tags": [
    "smog",
@@ -813,8 +835,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=35",
   "source": "SMOG FY27, Trauma Protocols, “HYPOTENSION / SHOCK”, page 35.",
   "tags": [
    "smog",
@@ -848,8 +871,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=36",
   "source": "SMOG FY27, Trauma Protocols, “TRAUMATIC ARREST”, page 36.",
   "tags": [
    "smog",
@@ -883,8 +907,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=38",
   "source": "SMOG FY27, Medical Protocols, “ALLERGIC REACTION”, page 38.",
   "tags": [
    "smog",
@@ -918,8 +943,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=39",
   "source": "SMOG FY27, Medical Protocols, “ALTERED MENTAL STATUS”, page 39.",
   "tags": [
    "smog",
@@ -954,8 +980,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=40",
   "source": "SMOG FY27, Medical Protocols, “ALTITUDE ILLNESS”, page 40.",
   "tags": [
    "smog",
@@ -989,8 +1016,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=41",
   "source": "SMOG FY27, Medical Protocols, “ANIMAL AND INSECT BITES / STINGS”, page 41.",
   "tags": [
    "smog",
@@ -1026,8 +1054,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=42",
   "source": "SMOG FY27, Medical Protocols, “BACK / NECK PAIN”, page 42.",
   "tags": [
    "smog",
@@ -1062,8 +1091,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=43",
   "source": "SMOG FY27, Medical Protocols, “DECOMPRESSION SICKNESS”, page 43.",
   "tags": [
    "smog",
@@ -1097,8 +1127,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=44",
   "source": "SMOG FY27, Medical Protocols, “DENTAL PROBLEMS”, page 44.",
   "tags": [
    "smog",
@@ -1132,8 +1163,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=45",
   "source": "SMOG FY27, Medical Protocols, “GLOBAL SNAKE ENVENOMATION”, page 45.",
   "tags": [
    "smog",
@@ -1168,8 +1200,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=48",
   "source": "SMOG FY27, Medical Protocols, “GLOBAL SPIDER ENVENOMATION”, page 48.",
   "tags": [
    "smog",
@@ -1204,8 +1237,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=49",
   "source": "SMOG FY27, Medical Protocols, “GLOBAL SCORPION ENVENOMATION”, page 49.",
   "tags": [
    "smog",
@@ -1240,8 +1274,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=50",
   "source": "SMOG FY27, Medical Protocols, “HOT / COLD WEATHER INJURY”, page 50.",
   "tags": [
    "smog",
@@ -1276,8 +1311,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=51",
   "source": "SMOG FY27, Medical Protocols, “HYPERGLYCEMIA / HYPOGLYCEMIA”, page 51.",
   "tags": [
    "smog",
@@ -1315,8 +1351,9 @@ window.SMOG_DOCUMENTS = [
     "HYPERTENSIVE CRISIS/EMERGENGY"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=52",
   "source": "SMOG FY27, Medical Protocols, “HYPERTENSIVE CRISIS / EMERGENCY”, page 52.",
   "tags": [
    "smog",
@@ -1351,8 +1388,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=53",
   "source": "SMOG FY27, Medical Protocols, “RESPIRATORY DISTRESS”, page 53.",
   "tags": [
    "smog",
@@ -1386,8 +1424,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=54",
   "source": "SMOG FY27, Medical Protocols, “SEIZURE”, page 54.",
   "tags": [
    "smog",
@@ -1420,8 +1459,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=55",
   "source": "SMOG FY27, Medical Protocols, “SEPSIS / FEVER”, page 55.",
   "tags": [
    "smog",
@@ -1455,8 +1495,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=56",
   "source": "SMOG FY27, Medical Protocols, “SUBMERSION INJURY”, page 56.",
   "tags": [
    "smog",
@@ -1490,8 +1531,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=57",
   "source": "SMOG FY27, Medical Protocols, “TOXIC INGESTION”, page 57.",
   "tags": [
    "smog",
@@ -1529,8 +1571,9 @@ window.SMOG_DOCUMENTS = [
     "VOMITTING & DIARRHEA"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=58",
   "source": "SMOG FY27, Medical Protocols, “VOMITING / DIARRHEA”, page 58.",
   "tags": [
    "smog",
@@ -1568,8 +1611,9 @@ window.SMOG_DOCUMENTS = [
     "ADULT ACUTE CORONARY SYNDROMES"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=60",
   "source": "SMOG FY27, ALS Protocols, “ADULT ACUTE CORONAY SYNDROMES”, page 60.",
   "tags": [
    "smog",
@@ -1605,8 +1649,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=62",
   "source": "SMOG FY27, ALS Protocols, “ADULT ACUTE STROKE”, page 62.",
   "tags": [
    "smog",
@@ -1645,8 +1690,9 @@ window.SMOG_DOCUMENTS = [
     "ADULT BRADYARRYTHMIA"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=64",
   "source": "SMOG FY27, ALS Protocols, “ADULT ACUTE BRADYCARDIA WITH A PULSE”, page 64.",
   "tags": [
    "smog",
@@ -1683,8 +1729,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=65",
   "source": "SMOG FY27, ALS Protocols, “ADULT CARDIAC ARREST”, page 65.",
   "tags": [
    "smog",
@@ -1719,8 +1766,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=66",
   "source": "SMOG FY27, ALS Protocols, “ADULT CARDIAC ARREST IN PREGNANCY”, page 66.",
   "tags": [
    "smog",
@@ -1760,8 +1808,9 @@ window.SMOG_DOCUMENTS = [
     "ADULT POST-CARDIAC ARREST CARE"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=68",
   "source": "SMOG FY27, ALS Protocols, “ADULTS POST-CARDIAC ARREST CARE”, page 68.",
   "tags": [
    "smog",
@@ -1798,8 +1847,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=69",
   "source": "SMOG FY27, ALS Protocols, “ADULT SEPSIS AND SEPTIC SHOCK”, page 69.",
   "tags": [
    "smog",
@@ -1835,8 +1885,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=71",
   "source": "SMOG FY27, ALS Protocols, “ADULT SUSPECTED OR KNOWN OPIOID EMERGENCY”, page 71.",
   "tags": [
    "smog",
@@ -1873,8 +1924,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=72",
   "source": "SMOG FY27, ALS Protocols, “ADULT TACHYCARDIA WITH A PULSE”, page 72.",
   "tags": [
    "smog",
@@ -1914,8 +1966,9 @@ window.SMOG_DOCUMENTS = [
     "OBSTRUCTED AIRWAY ADULTS CHILDREN INFANTS"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=73",
   "source": "SMOG FY27, ALS Protocols, “OBSTRUCTED AIRWAY: ADULTS, CHILDREN, AND INFANTS”, page 73.",
   "tags": [
    "smog",
@@ -1956,8 +2009,9 @@ window.SMOG_DOCUMENTS = [
     "PEDIATRIC SYSTEMIC ASSESSMENT NORMAL VITALS"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=75",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC SYSTEMATIC ASSESSMENT NORMAL VITALS”, page 75.",
   "tags": [
    "smog",
@@ -1998,8 +2052,9 @@ window.SMOG_DOCUMENTS = [
     "PEDIATRIC SYSTEMIC ASSESSMENT"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=76",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC SYSTEMATIC ASSESSMENT”, page 76.",
   "tags": [
    "smog",
@@ -2038,8 +2093,9 @@ window.SMOG_DOCUMENTS = [
     "PEDIATRIC BASLIC LIFE SUPPORT"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=77",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC BASIC LIFE SUPPORT”, page 77.",
   "tags": [
    "smog",
@@ -2075,8 +2131,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=78",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC BRADYCARDIA WITH A PULSE”, page 78.",
   "tags": [
    "smog",
@@ -2112,8 +2169,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=80",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC CARDIAC ARREST”, page 80.",
   "tags": [
    "smog",
@@ -2148,8 +2206,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=81",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC POST-CARDIAC ARREST CARE”, page 81.",
   "tags": [
    "smog",
@@ -2186,8 +2245,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=83",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC TACHYCARDIA WITH A PULSE”, page 83.",
   "tags": [
    "smog",
@@ -2223,8 +2283,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=84",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC RESPIRATORY DISTRESS OR FAILURE”, page 84.",
   "tags": [
    "smog",
@@ -2260,8 +2321,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=86",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC GENERAL SHOCK”, page 86.",
   "tags": [
    "smog",
@@ -2300,8 +2362,9 @@ window.SMOG_DOCUMENTS = [
     "PEDIATRIC GENERAL SHOCK CONT."
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=88",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC SEPTIC SHOCK”, page 88.",
   "tags": [
    "smog",
@@ -2340,8 +2403,9 @@ window.SMOG_DOCUMENTS = [
     "PEDAITRIC OPIOID SUSPECTED OR KNOWN"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=90",
   "source": "SMOG FY27, PALS Protocols, “PEDIATRIC SUSPECTED OR KNOWN OPIOID EMERGENCY”, page 90.",
   "tags": [
    "smog",
@@ -2378,8 +2442,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=92",
   "source": "SMOG FY27, Special Populations Protocols, “CHILDBIRTH”, page 92.",
   "tags": [
    "smog",
@@ -2412,8 +2477,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=93",
   "source": "SMOG FY27, Special Populations Protocols, “NEWBORN CARE AND DISTRESS”, page 93.",
   "tags": [
    "smog",
@@ -2448,8 +2514,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=94",
   "source": "SMOG FY27, Special Populations Protocols, “OBSTETRIC EMERGENCIES”, page 94.",
   "tags": [
    "smog",
@@ -2483,8 +2550,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=95",
   "source": "SMOG FY27, Special Populations Protocols, “SEXUAL ASSAULT”, page 95.",
   "tags": [
    "smog",
@@ -2518,8 +2586,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=97",
   "source": "SMOG FY27, Special Populations Protocols, “TREATMENT OF MINORS”, page 97.",
   "tags": [
    "smog",
@@ -2553,8 +2622,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=98",
   "source": "SMOG FY27, Special Populations Protocols, “MARCHE2”, page 98.",
   "tags": [
    "smog",
@@ -2587,8 +2657,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part1.pdf#page=99",
   "source": "SMOG FY27, Special Populations Protocols, “CBRN CASUALTY MANAGEMENT”, page 99.",
   "tags": [
    "smog",
@@ -2623,8 +2694,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=4",
   "source": "SMOG FY27, MWD Protocols, “MWD AIRWAY MANAGEMENT”, page 103.",
   "tags": [
    "smog",
@@ -2658,8 +2730,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=5",
   "source": "SMOG FY27, MWD Protocols, “MWD ANALGESIA AND SEDATION”, page 104.",
   "tags": [
    "smog",
@@ -2693,8 +2766,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=6",
   "source": "SMOG FY27, MWD Protocols, “MWD CPR”, page 105.",
   "tags": [
    "smog",
@@ -2726,8 +2800,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=7",
   "source": "SMOG FY27, MWD Protocols, “MWD GASTRIC DILATION-VOLVULUS”, page 106.",
   "tags": [
    "smog",
@@ -2762,8 +2837,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=8",
   "source": "SMOG FY27, MWD Protocols, “MWD HEAT INJURY”, page 107.",
   "tags": [
    "smog",
@@ -2797,8 +2873,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=9",
   "source": "SMOG FY27, MWD Protocols, “MWD NORMAL VITALS”, page 108.",
   "tags": [
    "smog",
@@ -2832,8 +2909,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=10",
   "source": "SMOG FY27, MWD Protocols, “MWD SHOCK FLUID THERAPY”, page 109.",
   "tags": [
    "smog",
@@ -2868,8 +2946,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=11",
   "source": "SMOG FY27, MWD Protocols, “MWD LANDMARKS”, page 110.",
   "tags": [
    "smog",
@@ -2902,8 +2981,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=13",
   "source": "SMOG FY27, Medications, “ACETAMINOPHEN”, page 112.",
   "tags": [
    "smog",
@@ -2936,8 +3016,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=14",
   "source": "SMOG FY27, Medications, “ACETAZOLAMIDE”, page 113.",
   "tags": [
    "smog",
@@ -2970,8 +3051,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=15",
   "source": "SMOG FY27, Medications, “ACETYLSALICYLIC ACID”, page 114.",
   "tags": [
    "smog",
@@ -3005,8 +3087,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=16",
   "source": "SMOG FY27, Medications, “ACTIVATED CHARCOAL”, page 115.",
   "tags": [
    "smog",
@@ -3040,8 +3123,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=17",
   "source": "SMOG FY27, Medications, “ADENOSINE”, page 116.",
   "tags": [
    "smog",
@@ -3074,8 +3158,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=18",
   "source": "SMOG FY27, Medications, “ALBUTEROL”, page 117.",
   "tags": [
    "smog",
@@ -3108,8 +3193,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=19",
   "source": "SMOG FY27, Medications, “AMIODARONE”, page 118.",
   "tags": [
    "smog",
@@ -3142,8 +3228,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=20",
   "source": "SMOG FY27, Medications, “AMIODARONE CHART”, page 119.",
   "tags": [
    "smog",
@@ -3177,8 +3264,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=21",
   "source": "SMOG FY27, Medications, “ANTIBIOTIC THERAPY CHART”, page 120.",
   "tags": [
    "smog",
@@ -3213,8 +3301,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=22",
   "source": "SMOG FY27, Medications, “ATROPINE SULFATE”, page 121.",
   "tags": [
    "smog",
@@ -3248,8 +3337,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=23",
   "source": "SMOG FY27, Medications, “CALCIUM CHLORIDE”, page 122.",
   "tags": [
    "smog",
@@ -3283,8 +3373,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=24",
   "source": "SMOG FY27, Medications, “CALCIUM GLUCONATE”, page 123.",
   "tags": [
    "smog",
@@ -3318,8 +3409,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=25",
   "source": "SMOG FY27, Medications, “CEFAZOLIN”, page 124.",
   "tags": [
    "smog",
@@ -3352,8 +3444,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=26",
   "source": "SMOG FY27, Medications, “CEFTRIAXONE”, page 125.",
   "tags": [
    "smog",
@@ -3386,8 +3479,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=27",
   "source": "SMOG FY27, Medications, “DEXAMETHASONE”, page 126.",
   "tags": [
    "smog",
@@ -3420,8 +3514,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=28",
   "source": "SMOG FY27, Medications, “DEXTROSE 50%”, page 127.",
   "tags": [
    "smog",
@@ -3454,8 +3549,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=29",
   "source": "SMOG FY27, Medications, “DIAZEPAM”, page 128.",
   "tags": [
    "smog",
@@ -3488,8 +3584,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=30",
   "source": "SMOG FY27, Medications, “DILTIAZEM”, page 129.",
   "tags": [
    "smog",
@@ -3522,8 +3619,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=31",
   "source": "SMOG FY27, Medications, “DIPHENHYDRAMINE”, page 130.",
   "tags": [
    "smog",
@@ -3556,8 +3654,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=32",
   "source": "SMOG FY27, Medications, “DOBUTAMINE”, page 131.",
   "tags": [
    "smog",
@@ -3590,8 +3689,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=33",
   "source": "SMOG FY27, Medications, “DOPAMINE”, page 132.",
   "tags": [
    "smog",
@@ -3624,8 +3724,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=34",
   "source": "SMOG FY27, Medications, “DOPAMINE CHART”, page 133.",
   "tags": [
    "smog",
@@ -3663,8 +3764,9 @@ window.SMOG_DOCUMENTS = [
     "EPINEPHRINE 1 MG/ML"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=35",
   "source": "SMOG FY27, Medications, “EPINEPHERINE 1 MG/ML”, page 134.",
   "tags": [
    "smog",
@@ -3701,8 +3803,9 @@ window.SMOG_DOCUMENTS = [
     "Epinephrine 1 mg / 1 mL (1:1,000)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=36",
   "source": "SMOG FY27, Medications, “EPINEPHERINE 1 MG/ML CHART”, page 135.",
   "tags": [
    "smog",
@@ -3740,8 +3843,9 @@ window.SMOG_DOCUMENTS = [
     "EPINEPHRINE 0.1 MG/ML"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=37",
   "source": "SMOG FY27, Medications, “EPINEPHERINE 0.1 MG/ML”, page 136.",
   "tags": [
    "smog",
@@ -3778,8 +3882,9 @@ window.SMOG_DOCUMENTS = [
     "Epinephrine 0.1 mg / 1 mL (1:10,000)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=38",
   "source": "SMOG FY27, Medications, “EPINEPHERINE 0.1 MG/ML CHART”, page 137.",
   "tags": [
    "smog",
@@ -3813,8 +3918,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=39",
   "source": "SMOG FY27, Medications, “ERTAPENEM”, page 138.",
   "tags": [
    "smog",
@@ -3847,8 +3953,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=40",
   "source": "SMOG FY27, Medications, “ETOMIDATE”, page 139.",
   "tags": [
    "smog",
@@ -3881,8 +3988,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=41",
   "source": "SMOG FY27, Medications, “FENTANYL”, page 140.",
   "tags": [
    "smog",
@@ -3915,8 +4023,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=42",
   "source": "SMOG FY27, Medications, “FENTANYL CHART”, page 141.",
   "tags": [
    "smog",
@@ -3950,8 +4059,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=43",
   "source": "SMOG FY27, Medications, “FUROSEMIDE”, page 142.",
   "tags": [
    "smog",
@@ -3984,8 +4094,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=44",
   "source": "SMOG FY27, Medications, “GLUCAGON”, page 143.",
   "tags": [
    "smog",
@@ -4018,8 +4129,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=45",
   "source": "SMOG FY27, Medications, “HYDROMORPHONE”, page 144.",
   "tags": [
    "smog",
@@ -4052,8 +4164,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=46",
   "source": "SMOG FY27, Medications, “HYDROXOCOBALAMIN”, page 145.",
   "tags": [
    "smog",
@@ -4086,8 +4199,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=47",
   "source": "SMOG FY27, Medications, “KETAMINE”, page 146.",
   "tags": [
    "smog",
@@ -4124,8 +4238,9 @@ window.SMOG_DOCUMENTS = [
     "KETAMINE (KETALAR)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=48",
   "source": "SMOG FY27, Medications, “KETAMINE CHART”, page 147.",
   "tags": [
    "smog",
@@ -4159,8 +4274,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=49",
   "source": "SMOG FY27, Medications, “KETOROLAC”, page 148.",
   "tags": [
    "smog",
@@ -4193,8 +4309,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=50",
   "source": "SMOG FY27, Medications, “LABETALOL”, page 149.",
   "tags": [
    "smog",
@@ -4231,8 +4348,9 @@ window.SMOG_DOCUMENTS = [
     "RINGER’S LACTATE (LACTATED RINGERS)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=51",
   "source": "SMOG FY27, Medications, “LACTATED RINGERS / DEXTROSE 5%”, page 150.",
   "tags": [
    "smog",
@@ -4267,8 +4385,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=52",
   "source": "SMOG FY27, Medications, “LEVETIRACETAM”, page 151.",
   "tags": [
    "smog",
@@ -4301,8 +4420,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=53",
   "source": "SMOG FY27, Medications, “LIDOCAINE”, page 152.",
   "tags": [
    "smog",
@@ -4335,8 +4455,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=54",
   "source": "SMOG FY27, Medications, “LORAZEPAM”, page 153.",
   "tags": [
    "smog",
@@ -4369,8 +4490,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=55",
   "source": "SMOG FY27, Medications, “MAGNESIUM SULFATE”, page 154.",
   "tags": [
    "smog",
@@ -4404,8 +4526,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=56",
   "source": "SMOG FY27, Medications, “MANNITOL (20%)”, page 155.",
   "tags": [
    "smog",
@@ -4442,8 +4565,9 @@ window.SMOG_DOCUMENTS = [
     "METHYLPREDINISOLONE"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=57",
   "source": "SMOG FY27, Medications, “METHYLPREDNISOLONE”, page 156.",
   "tags": [
    "smog",
@@ -4476,8 +4600,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=58",
   "source": "SMOG FY27, Medications, “METOCLOPRAMIDE”, page 157.",
   "tags": [
    "smog",
@@ -4510,8 +4635,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=59",
   "source": "SMOG FY27, Medications, “METOPROLOL”, page 158.",
   "tags": [
    "smog",
@@ -4544,8 +4670,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=60",
   "source": "SMOG FY27, Medications, “MIDAZOLAM”, page 159.",
   "tags": [
    "smog",
@@ -4578,8 +4705,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=61",
   "source": "SMOG FY27, Medications, “MORPHINE”, page 160.",
   "tags": [
    "smog",
@@ -4612,8 +4740,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=62",
   "source": "SMOG FY27, Medications, “MOXIFLOXACIN”, page 161.",
   "tags": [
    "smog",
@@ -4646,8 +4775,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=63",
   "source": "SMOG FY27, Medications, “NALOXONE”, page 162.",
   "tags": [
    "smog",
@@ -4680,8 +4810,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=64",
   "source": "SMOG FY27, Medications, “NIFEDIPINE”, page 163.",
   "tags": [
    "smog",
@@ -4714,8 +4845,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=65",
   "source": "SMOG FY27, Medications, “NITROGLYCERIN”, page 164.",
   "tags": [
    "smog",
@@ -4748,8 +4880,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=66",
   "source": "SMOG FY27, Medications, “NOREPINEPHRINE”, page 165.",
   "tags": [
    "smog",
@@ -4786,8 +4919,9 @@ window.SMOG_DOCUMENTS = [
     "NOREPINEPHRINE (LEVOPHED)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=67",
   "source": "SMOG FY27, Medications, “NOREPINEPHRINE CHART”, page 166.",
   "tags": [
    "smog",
@@ -4825,8 +4959,9 @@ window.SMOG_DOCUMENTS = [
     "0.9% SODIUM CHLORIDE (NORMAL SALINE)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=68",
   "source": "SMOG FY27, Medications, “NORMAL SALINE / 3% HYPERTONIC SALINE”, page 167.",
   "tags": [
    "smog",
@@ -4862,8 +4997,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=69",
   "source": "SMOG FY27, Medications, “ONDANSETRON”, page 168.",
   "tags": [
    "smog",
@@ -4896,8 +5032,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=70",
   "source": "SMOG FY27, Medications, “OXYGEN / PLASMALYTE A”, page 169.",
   "tags": [
    "smog",
@@ -4931,8 +5068,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=71",
   "source": "SMOG FY27, Medications, “PHENYLEPHRINE”, page 170.",
   "tags": [
    "smog",
@@ -4965,8 +5103,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=72",
   "source": "SMOG FY27, Medications, “PRALIDOXIME CHLORIDE”, page 171.",
   "tags": [
    "smog",
@@ -5000,8 +5139,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=73",
   "source": "SMOG FY27, Medications, “PROCAINAMIDE”, page 172.",
   "tags": [
    "smog",
@@ -5034,8 +5174,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=74",
   "source": "SMOG FY27, Medications, “PROMETHAZINE”, page 173.",
   "tags": [
    "smog",
@@ -5068,8 +5209,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=75",
   "source": "SMOG FY27, Medications, “PROPOFOL”, page 174.",
   "tags": [
    "smog",
@@ -5102,8 +5244,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=76",
   "source": "SMOG FY27, Medications, “ROCURONIUM”, page 175.",
   "tags": [
    "smog",
@@ -5136,8 +5279,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=77",
   "source": "SMOG FY27, Medications, “SODIUM BICARBONATE”, page 176.",
   "tags": [
    "smog",
@@ -5171,8 +5315,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=78",
   "source": "SMOG FY27, Medications, “SUCCINYLCHOLINE”, page 177.",
   "tags": [
    "smog",
@@ -5205,8 +5350,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=79",
   "source": "SMOG FY27, Medications, “THIAMINE”, page 178.",
   "tags": [
    "smog",
@@ -5239,8 +5385,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=80",
   "source": "SMOG FY27, Medications, “TRANEXAMIC ACID (TXA)”, page 179.",
   "tags": [
    "smog",
@@ -5274,8 +5421,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=81",
   "source": "SMOG FY27, Medications, “VASOPRESSIN”, page 180.",
   "tags": [
    "smog",
@@ -5308,8 +5456,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=82",
   "source": "SMOG FY27, Medications, “VECURONIUM”, page 181.",
   "tags": [
    "smog",
@@ -5346,8 +5495,9 @@ window.SMOG_DOCUMENTS = [
     "Y-SITE AND SOLUTION COMPATABILITY"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=83",
   "source": "SMOG FY27, Medications, “Y SITE COMPATABILITY CHART”, page 182.",
   "tags": [
    "smog",
@@ -5382,8 +5532,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=86",
   "source": "SMOG FY27, Medications, “FLUID VOLUME FOR DILUTION”, page 185.",
   "tags": [
    "smog",
@@ -5418,8 +5569,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=87",
   "source": "SMOG FY27, Medications, “VASOPRESSOR PRIORITY CHART”, page 186.",
   "tags": [
    "smog",
@@ -5454,8 +5606,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=89",
   "source": "SMOG FY27, Procedures, “HEMORRHAGE CONTROL PROCEDURES”, page 188.",
   "tags": [
    "smog",
@@ -5490,8 +5643,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=91",
   "source": "SMOG FY27, Procedures, “TOURNIQUET APPLICATION”, page 190.",
   "tags": [
    "smog",
@@ -5525,8 +5679,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=92",
   "source": "SMOG FY27, Procedures, “JUNCTIONAL TOURNIQUET APPLICATION”, page 191.",
   "tags": [
    "smog",
@@ -5561,8 +5716,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=93",
   "source": "SMOG FY27, Procedures, “TOURNIQUET CONVERSION”, page 192.",
   "tags": [
    "smog",
@@ -5596,8 +5752,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=94",
   "source": "SMOG FY27, Procedures, “ZOLL 731 VENTILATOR: PRE-MISSION CHECKS”, page 193.",
   "tags": [
    "smog",
@@ -5637,8 +5794,9 @@ window.SMOG_DOCUMENTS = [
     "IMPACT 754 VENTILATOR: PRE-MISSION"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part2.pdf#page=96",
   "source": "SMOG FY27, Procedures, “ZOLL 754 VENTILATOR: PRE-MISSION CHECKS”, page 195.",
   "tags": [
    "smog",
@@ -5678,8 +5836,9 @@ window.SMOG_DOCUMENTS = [
     "IMPACT 754 VENTILATOR: IN-FLIGHT"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=6",
   "source": "SMOG FY27, Procedures, “ZOLL 754 VENTILATOR: IN-FLIGHT EMERGENCIES”, page 202.",
   "tags": [
    "smog",
@@ -5715,8 +5874,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=14",
   "source": "SMOG FY27, Procedures, “HAMILTON T1 PRE-MISSION CHECKS AND TROUBLESHOOTING”, page 210.",
   "tags": [
    "smog",
@@ -5752,8 +5912,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=17",
   "source": "SMOG FY27, Procedures, “NASOGASTRIC AND OROGASTRIC TUBE INSERTION”, page 213.",
   "tags": [
    "smog",
@@ -5789,8 +5950,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=18",
   "source": "SMOG FY27, Procedures, “NASOPHARYNGEAL AIRWAY”, page 214.",
   "tags": [
    "smog",
@@ -5824,8 +5986,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=19",
   "source": "SMOG FY27, Procedures, “BLIND INSERTION AIRWAY DEVICE (BIAD)”, page 215.",
   "tags": [
    "smog",
@@ -5862,8 +6025,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=20",
   "source": "SMOG FY27, Procedures, “PERFORM CRICOTHYROIDOTOMY”, page 216.",
   "tags": [
    "smog",
@@ -5897,8 +6061,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=21",
   "source": "SMOG FY27, Procedures, “NEEDLE CRICOTHYROIDOTOMY”, page 217.",
   "tags": [
    "smog",
@@ -5932,8 +6097,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=22",
   "source": "SMOG FY27, Procedures, “NEEDLE THORACOSTOMY”, page 218.",
   "tags": [
    "smog",
@@ -5967,8 +6133,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=23",
   "source": "SMOG FY27, Procedures, “PERFORM SIMPLE FINGER THORACOSTOMY”, page 219.",
   "tags": [
    "smog",
@@ -6004,8 +6171,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=24",
   "source": "SMOG FY27, Procedures, “VASCULAR ACCESS (INTRAVENOUS)”, page 220.",
   "tags": [
    "smog",
@@ -6040,8 +6208,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=25",
   "source": "SMOG FY27, Procedures, “VASCULAR ACCESS (INTRAOSSEOUS)”, page 221.",
   "tags": [
    "smog",
@@ -6076,8 +6245,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=26",
   "source": "SMOG FY27, Procedures, “VASCULAR ACCESS VIA EXTERNAL JUGULAR VEIN”, page 222.",
   "tags": [
    "smog",
@@ -6114,8 +6284,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=27",
   "source": "SMOG FY27, Procedures, “VASCULAR ACCESS VIA CENTRAL CATHETERS”, page 223.",
   "tags": [
    "smog",
@@ -6151,8 +6322,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=30",
   "source": "SMOG FY27, Procedures, “INVASIVE PRESSURE MONITORING”, page 226.",
   "tags": [
    "smog",
@@ -6187,8 +6359,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=31",
   "source": "SMOG FY27, Procedures, “REBOA MANAGEMENT”, page 227.",
   "tags": [
    "smog",
@@ -6222,8 +6395,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=32",
   "source": "SMOG FY27, Procedures, “FOLEY CATHETER PLACEMENT”, page 228.",
   "tags": [
    "smog",
@@ -6258,8 +6432,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=33",
   "source": "SMOG FY27, Procedures, “BLOOD GLUCOSE ANALYSIS”, page 229.",
   "tags": [
    "smog",
@@ -6294,8 +6469,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=34",
   "source": "SMOG FY27, Procedures, “CARDIAC DEFIBRILLATION”, page 230.",
   "tags": [
    "smog",
@@ -6329,8 +6505,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=35",
   "source": "SMOG FY27, Procedures, “12-LEAD ELECTROCARDIOGRAM”, page 231.",
   "tags": [
    "smog",
@@ -6364,8 +6541,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=36",
   "source": "SMOG FY27, Procedures, “SYNCHRONIZED CARDIOVERSION”, page 232.",
   "tags": [
    "smog",
@@ -6399,8 +6577,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=37",
   "source": "SMOG FY27, Procedures, “TRANSCUTANEOUS (EXTERNAL) CARDIAC PACING”, page 233.",
   "tags": [
    "smog",
@@ -6436,8 +6615,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=40",
   "source": "SMOG FY27, Procedures, “ESCHAROTOMY”, page 236.",
   "tags": [
    "smog",
@@ -6470,8 +6650,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=43",
   "source": "SMOG FY27, Procedures, “ALTITUDE PHYSIOLOGY AND PATIENT TRANSFER”, page 239.",
   "tags": [
    "smog",
@@ -6507,8 +6688,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=45",
   "source": "SMOG FY27, Procedures, “PATIENT REFUSAL”, page 241.",
   "tags": [
    "smog",
@@ -6542,8 +6724,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=46",
   "source": "SMOG FY27, Procedures, “POST-OPERATIVE AND CC INTERFACILITY TRANSFER”, page 242.",
   "tags": [
    "smog",
@@ -6579,8 +6762,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=52",
   "source": "SMOG FY27, Quick References, “FACILITY TRANSFER CHECKLIST”, page 248.",
   "tags": [
    "smog",
@@ -6619,8 +6803,9 @@ window.SMOG_DOCUMENTS = [
     "EXAMPLE Standing Order Sheet For Critical"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=53",
   "source": "SMOG FY27, Quick References, “EXAMPLE STANDING ORDER FOR CC PATIENT TRANSFERS”, page 249.",
   "tags": [
    "smog",
@@ -6661,8 +6846,9 @@ window.SMOG_DOCUMENTS = [
     "TCCC CARD"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=55",
   "source": "SMOG FY27, Quick References, “TACTICAL COMBAT CASUALTY CARE CARD”, page 251.",
   "tags": [
    "smog",
@@ -6703,8 +6889,9 @@ window.SMOG_DOCUMENTS = [
     "K9 TCCC CARD"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=57",
   "source": "SMOG FY27, Quick References, “K9 TACTICAL COMBAT CASUALTY CARE CARD”, page 253.",
   "tags": [
    "smog",
@@ -6745,8 +6932,9 @@ window.SMOG_DOCUMENTS = [
     "9-LINE MEDEVAC REQUEST"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=59",
   "source": "SMOG FY27, Quick References, “MEDEVAC REQUEST CARD”, page 255.",
   "tags": [
    "smog",
@@ -6781,8 +6969,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=61",
   "source": "SMOG FY27, Quick References, “COMMON LABORATORY VALUES”, page 257.",
   "tags": [
    "smog",
@@ -6817,8 +7006,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=62",
   "source": "SMOG FY27, Quick References, “OXYGEN CYLINDER LIFE”, page 258.",
   "tags": [
    "smog",
@@ -6853,8 +7043,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=63",
   "source": "SMOG FY27, Quick References, “OXYGEN VENTILATOR CYLINDER LIFE”, page 259.",
   "tags": [
    "smog",
@@ -6890,8 +7081,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=64",
   "source": "SMOG FY27, Quick References, “VITAL FUNCTIONS ASSESSMENT REFERENCE CHART”, page 260.",
   "tags": [
    "smog",
@@ -6928,8 +7120,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=68",
   "source": "SMOG FY27, Quick References, “USEFUL CALCULATIONS”, page 264.",
   "tags": [
    "smog",
@@ -6963,8 +7156,9 @@ window.SMOG_DOCUMENTS = [
     "FY27 (published 01 Oct 2026)"
    ]
   ],
-  "noticeLabel": "Reference only.",
-  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. This hub indexes it but does not reproduce its protocols or doses. Use your unit's endorsed copy.",
+  "noticeLabel": "Scope.",
+  "notice": "The SMOG is written for Critical Care Flight Paramedics and en route care, and takes effect only when a unit medical director and commander endorse it. Line 68Ws follow TCCC 2026 for point-of-injury care. Opens the posted FY27 SMOG at this page; use your unit's endorsed version.",
+  "file": "docs/smog/FY27_SMOG_part3.pdf#page=69",
   "source": "SMOG FY27, Quick References, “DRUG QUICK REFERENCE CARD”, page 265.",
   "tags": [
    "smog",

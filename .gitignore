@@ -22,3 +22,10 @@ SOURCE_ISSUES_FOR_REVIEW.md
 __pycache__/
 *.pyc
 DRUG_CROSSCHECK_FOR_REVIEW.md
+
+# EXCEPTION: government documents cleared for public posting by the project owner
+# (official source, 20 Nov 2026). Listed in docs/PUBLIC_RELEASE.json; check.js enforces it.
+!docs/cpg/*.pdf
+!docs/adtmc/*.pdf
+!docs/smog/*.pdf
+!docs/guidelines/TCCC_Guidelines_May_2026.pdf

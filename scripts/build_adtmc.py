@@ -120,28 +120,28 @@ def main():
     links = ictl_links({p["code"] for p in protos})
 
     def access(page):
-        if not ADTMC_BASE_URL:
-            return {}
+        # PDFs are posted (cleared per docs/PUBLIC_RELEASE.json); link straight to the page.
         fname, pg = locate(page)
-        return {"url": f"{ADTMC_BASE_URL}{fname}#page={pg}", "urlLabel": f"Open page {page} ↗"}
+        return {"file": f"docs/adtmc/{fname}#page={pg}"}
 
-    notice = ("The ADTMC is distributed through the MEDCOM OTSG publications portal (CAC required). This hub indexes its "
-              "protocols but does not reproduce them. Use your unit's copy, and confirm it is the current edition.")
+    notice = ("Opens MEDCOM Pam 40-7-21 (13 Nov 2019) at this page. Posted after the project owner confirmed with an official "
+              "source that it is publicly available. Use the protocols as your MTF's supervising medical officer directs, and confirm "
+              "this is the current edition.")
     docs = [dict(
         id="adtmc-pam-40-7-21", title="MEDCOM Pam 40-7-21: Algorithm-Directed Troop Medical Care",
         description=f"13 November 2019 · 292 pages · {len(protos)} screening protocols in {len(cats)} categories",
         section="Publication & Appendices", type="PAM", updated="13 Nov 2019", refOnly=True,
         meta=[["Publication", "MEDCOM Pam 40-7-21"], ["Date", "13 November 2019"], ["Supersedes", "MEDCOM Pam 40-7-21, 23 June 2006"],
               ["Length", "292 pages"], ["Protocols", f"{len(protos)} in {len(cats)} categories"]],
-        notice=notice, noticeLabel="Reference only.", source=PUB + ".", tags=["adtmc", "40-7-21", "sick call", "screening", "protocols"],
-        **access(1))]
+        notice=notice, noticeLabel="Official publication.", source=PUB + ".", tags=["adtmc", "40-7-21", "sick call", "screening", "protocols"],
+        file="docs/adtmc/adtmc-part1.pdf")]
     for a in apps:
         docs.append(dict(
             id=f"adtmc-app-{a['code'].lower()}", title=(f"Appendix {a['code']}. " if a["code"] != "Glossary" else "") + a["title"],
             description=f"Begins on page {a['page']}", section="Publication & Appendices",
             type=f"APP {a['code']}" if a["code"] != "Glossary" else "GLOSS", refOnly=True,
             meta=[["Publication", "MEDCOM Pam 40-7-21"], ["Page", str(a["page"])]],
-            notice=notice, noticeLabel="Reference only.", source=PUB + f", page {a['page']}.", tags=["adtmc", "appendix", a["title"].lower()], **access(a["page"])))
+            notice=notice, noticeLabel="Official publication.", source=PUB + f", page {a['page']}.", tags=["adtmc", "appendix", a["title"].lower()], **access(a["page"])))
     for p in protos:
         cat = p["cat"]
         docs.append(dict(
@@ -150,7 +150,7 @@ def main():
             section=f"{cat['letter']}. {cat['name']}", type=p["code"], refOnly=True,
             meta=[["Protocol", p["code"]], ["Category", f"{cat['letter']}. {cat['name']}"],
                   ["Pamphlet page", str(p["page"])], ["Publication", "MEDCOM Pam 40-7-21 (13 Nov 2019)"]],
-            notice=notice, noticeLabel="Reference only.", source=PUB + f", Appendix B (Screener's Manual), protocol {p['code']}, page {p['page']}.",
+            notice=notice, noticeLabel="Official publication.", source=PUB + f", Appendix B (Screener's Manual), protocol {p['code']}, page {p['page']}.",
             related=[f"ictl/{t}" for t in sorted(links.get(p["code"], []))],
             tags=["adtmc", "sick call", "screening", p["code"].lower(), cat["name"].lower()] +
                  [w for w in re.findall(r"[a-z]+", p["title"].lower()) if len(w) > 3],

@@ -13,6 +13,8 @@ for (const f of ["js/ictl.js", "js/cpg.js", "js/adtmc.js", "js/drugref.js", "js/
 require(path.join(root, "js/data.js"));
 const RES = window.RESOURCES || [];
 
+let cleared0 = [];
+try { cleared0 = JSON.parse(fs.readFileSync(path.join(root, "docs/PUBLIC_RELEASE.json"), "utf8")).files || []; } catch {}
 const resIds = new Set();
 for (const r of RES) {
   if (!r.id || !r.title) errors.push(`Resource missing id/title: ${JSON.stringify(r).slice(0, 80)}`);
@@ -26,8 +28,8 @@ for (const r of RES) {
     if (docIds.has(d.id)) errors.push(`Duplicate document id: ${where}`);
     docIds.add(d.id);
     if (d.file) {
-      if (!fs.existsSync(path.join(root, d.file))) warnings.push(`${where}: file not present locally (${d.file}). It will be a broken link on the public site — use url instead.`);
-      if (/\.(pdf|docx?|pptx?|xlsx?)$/i.test(d.file) && !/^docs\/ictl\//.test(d.file)) warnings.push(`${where}: points to a file type that is NOT published to the public repo (${d.file}).`);
+      if (!fs.existsSync(path.join(root, d.file.split("#")[0]))) warnings.push(`${where}: file not present locally (${d.file}). It will be a broken link on the public site — use url instead.`);
+      if (/\.(pdf|docx?|pptx?|xlsx?)$/i.test(d.file.split("#")[0]) && !/^docs\/ictl\//.test(d.file) && !cleared0.includes(d.file.split("#")[0])) warnings.push(`${where}: points to a file type that is NOT published to the public repo (${d.file}).`);
     }
     if (d.url && !/^https:\/\//.test(d.url)) errors.push(`${where}: url must start with https://`);
     if (!d.file && !d.url && !d.content && !d.refOnly) warnings.push(`${where}: placeholder (no file/url/content yet)`);
@@ -37,7 +39,10 @@ for (const r of RES) {
 // Nothing restricted may be tracked by git.
 try {
   const tracked = execSync("git ls-files", { cwd: root }).toString().split("\n");
+  let cleared = [];
+  try { cleared = JSON.parse(fs.readFileSync(path.join(root, "docs/PUBLIC_RELEASE.json"), "utf8")).files || []; } catch {}
   for (const f of tracked.filter((f) => /\.(pdf|docx?|pptx?|xlsx?)$/i.test(f))) {
+    if (cleared.includes(f)) continue;   // cleared for public posting by the owner (see docs/PUBLIC_RELEASE.json)
     // A tracked PDF is allowed only if its text says it is approved for public release.
     let ok = false;
     if (/\.pdf$/i.test(f)) {

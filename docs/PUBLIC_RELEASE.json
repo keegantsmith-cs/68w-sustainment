@@ -1,0 +1,34 @@
+{
+  "_comment": "PDFs the project owner cleared for public posting. Owner reported on 20 Nov 2026 that an official source confirmed these government documents are publicly available. scripts/check.js allows a tracked PDF only if it is listed here or carries a public-release statement.",
+  "clearedBy": "Project owner, per an official source (reported 20 Nov 2026)",
+  "date": "2026-11-20",
+  "files": [
+    "docs/adtmc/adtmc-part1.pdf",
+    "docs/adtmc/adtmc-part2.pdf",
+    "docs/adtmc/adtmc-part3.pdf",
+    "docs/cpg/CPG_Acute_Injury.pdf",
+    "docs/cpg/CPG_Analegesia_and_Pain_Management.pdf",
+    "docs/cpg/CPG_Burn_Wound_Management.pdf",
+    "docs/cpg/CPG_Crush_Injury_Management.pdf",
+    "docs/cpg/CPG_Damage_Control_Resuscitation.pdf",
+    "docs/cpg/CPG_Documentation.pdf",
+    "docs/cpg/CPG_Mechanical_Ventilation_ADDTL.pdf",
+    "docs/cpg/CPG_Nursing.pdf",
+    "docs/cpg/CPG_Ocular_Injuries.pdf",
+    "docs/cpg/CPG_PCC_Guidelines.pdf",
+    "docs/cpg/CPG_PreHospital_Blood_Transfusion.pdf",
+    "docs/cpg/CPG_Sepsis.pdf",
+    "docs/cpg/CPG_TBI.pdf",
+    "docs/cpg/CPG_Telemedicine.pdf",
+    "docs/guidelines/TCCC_Guidelines_May_2026.pdf",
+    "docs/smog/FY27_SMOG_part1.pdf",
+    "docs/smog/FY27_SMOG_part2.pdf",
+    "docs/smog/FY27_SMOG_part3.pdf"
+  ],
+  "notCleared": {
+    "docs/field-care/*": "Commercially copyrighted (Breakaway Media)",
+    "docs/fieldcraft/*": "Textbook states certain parts are copyrighted",
+    "docs/drug-ref/*": "Draft reference / PCC cards not reconciled with TCCC 2026",
+    "docs/guidelines/PCC_Guidelines_Dec_2021.pdf": "Duplicate of docs/cpg/CPG_PCC_Guidelines.pdf"
+  }
+}

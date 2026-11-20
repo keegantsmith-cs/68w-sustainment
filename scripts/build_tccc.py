@@ -93,6 +93,7 @@ def main():
             meta=[["Phase", s["phase"]], ["Section", f"{s.get('number') or '—'}: {s['title']}"],
                   ["Pages", ", ".join(str(p) for p in s.get("pages", []))], ["Edition", f"TCCC Guidelines, {EDITION}"]],
             details=details, related=related,
+            file=f"docs/guidelines/TCCC_Guidelines_May_2026.pdf#page={s['pages'][0]}" if s.get("pages") else None,
             noticeLabel="Summary.",
             notice=("Plain-language summary of the TCCC Guidelines with exact quotes for every number. Follow the "
                     "guidelines themselves, your skill level (ASM / CLS / CMC / CPP), unit SOP and medical direction."),
@@ -102,6 +103,7 @@ def main():
         id="tccc-2026", title="Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026",
         description=f"{len(secs)} sections · {changed} updated in 2026 · Care Under Fire, Tactical Field Care, TACEVAC",
         section="TCCC 2026 · Overview", type="TCCC", set=["tccc"], updated=EDITION, refOnly=True,
+        file="docs/guidelines/TCCC_Guidelines_May_2026.pdf",
         meta=[["Edition", EDITION], ["Sections", str(len(secs))], ["Updated in 2026", str(changed)]],
         details=[{"heading": "Updated in 2026", "items": [d["title"] + f" ({d['description'].split(' · ')[1]})" for d in docs if d["type"] == "NEW"]}]
                 + ([{"heading": "Notes on this edition", "items": data["editionNotes"]}] if data.get("editionNotes") else []),

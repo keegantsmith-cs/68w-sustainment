@@ -156,7 +156,7 @@
     const r = findRes(rid);
     const d = findDoc(rid, did);
     if (!r || !d) return viewNotFound();
-    const isPdf = d.file && /\.pdf$/i.test(d.file);
+    const isPdf = d.file && /\.pdf$/i.test(d.file.split("#")[0]);
 
     let body;
     if (d.content) body = `<article class="prose">${d.content}</article>`;
@@ -169,7 +169,7 @@
     const actions = [];
     if (d.file) {
       actions.push(`<a class="btn" href="${esc(d.file)}" target="_blank" rel="noopener">Open</a>`);
-      actions.push(`<a class="btn ghost" href="${esc(d.file)}" download>Download</a>`);
+      actions.push(`<a class="btn ghost" href="${esc(d.file.split("#")[0])}" download>Download</a>`);
     }
     if (d.url) actions.push(`<a class="btn" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">${esc(d.urlLabel || "Open site ↗")}</a>`);
 
@@ -204,7 +204,9 @@
         ${d.source ? `<p class="cite">Source: ${esc(d.source)}</p>` : ""}</section>` : ""}
       ${related.length ? `${sectionHead("Related", `${related.length} item${related.length > 1 ? "s" : ""}`)}
         <ul class="doc-list">${related.map(({ R, D }) => docRow(D, R)).join("")}</ul>` : ""}
-      ${d.details?.length && isPdf ? sectionHead("Full task", `${esc(d.type)} · Performance steps & evaluation`) : ""}
+      ${d.details?.length && isPdf ? (r.id === "ictl"
+        ? sectionHead("Full task", `${esc(d.type)} · Performance steps & evaluation`)
+        : sectionHead("Source document", d.file.includes("#page=") ? `Opens at page ${esc(d.file.split("#page=")[1])} of the PDF part` : "Full PDF")) : ""}
       ${body}
       ${d.details?.length ? DISCLAIMER : ""}`;
   }
@@ -232,7 +234,7 @@
   }
 
   function viewDownloads() {
-    const files = allDocs().filter((d) => d.file);
+    const files = allDocs().filter((d) => d.file && !d.file.includes("#"));
     return `${sectionHead("Downloads", "Files available to save")}
       ${files.length
         ? `<ul class="doc-list">${files.map((d) => `
