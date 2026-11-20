@@ -252,7 +252,9 @@
 
     const actions = [];
     if (d.file) {
-      actions.push(`<a class="btn" href="${esc(isPdf ? pdfView(d.file) : d.file)}" target="_blank" rel="noopener">Open</a>`);
+      actions.push(isPdf
+        ? `<a class="btn" href="#/pdf/${encodeURIComponent(r.id)}/${encodeURIComponent(d.id)}">Open full screen</a>`
+        : `<a class="btn" href="${esc(d.file)}" target="_blank" rel="noopener">Open</a>`);
       actions.push(`<a class="btn ghost" href="${esc(d.file.split("#")[0])}" download>Download</a>`);
     }
     if (d.url) actions.push(`<a class="btn" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">${esc(d.urlLabel || "Open site ↗")}</a>`);
@@ -293,6 +295,20 @@
         : sectionHead("Source document", d.file.includes("#page=") ? `Opens at page ${esc(d.file.split("#page=")[1])} of the PDF part` : "Full PDF")) : ""}
       ${body}
       ${d.details?.length ? DISCLAIMER : ""}`;
+  }
+
+  /* Full-screen in-app PDF view (no browser viewer, so no page-thumbnail panel). */
+  function viewPdf(rid, did) {
+    const r = findRes(rid), d = findDoc(rid, did);
+    if (!r || !d || !d.file) return viewNotFound();
+    const [path, frag = ""] = d.file.split("#");
+    const pg = (frag.match(/page=(\d+)/) || [])[1] || 1;
+    return `
+      <a class="back" href="${docHref(r.id, d.id)}">‹ ${esc(d.title)}</a>
+      <div class="pdf-viewer pdf-full" data-src="${esc(path)}" data-page="${esc(pg)}" role="region" aria-label="PDF: ${esc(d.title)}">
+        <div class="pdf-bar"><span class="pdf-count">Loading PDF…</span>
+          <a class="pdf-dl" href="${esc(path)}" download>Download</a></div>
+        <div class="pdf-pages"></div></div>`;
   }
 
   function viewSaved() {
@@ -400,6 +416,7 @@
       case undefined: html = viewHome(); break;
       case "r": html = viewResource(parts[1], params); nav = "home"; break;
       case "d": html = viewDoc(parts[1], parts[2]); nav = "home"; break;
+      case "pdf": html = viewPdf(parts[1], parts[2]); nav = "home"; break;
       case "saved": html = viewSaved(); break;
       case "downloads": html = viewDownloads(); break;
       case "search": html = viewSearch(params.get("q") || ""); break;

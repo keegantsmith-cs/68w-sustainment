@@ -393,3 +393,6 @@ main { padding: 28px 34px 30px; outline: none; }
   .pdf-pages { height: 70vh; padding: 8px; }
   .pdf-page { margin-bottom: 8px; }
 }
+.pdf-full .pdf-pages { height: calc(100vh - 230px); min-height: 360px; }
+.pdf-dl { color: var(--text); text-decoration: underline; letter-spacing: .08em; }
+@media (max-width: 640px) { .pdf-full .pdf-pages { height: calc(100vh - 210px); } }
