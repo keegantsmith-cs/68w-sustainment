@@ -1,0 +1,1284 @@
+{
+ "edition": "01 May 2026",
+ "editionNotes": [
+  "The tactical sedation block (p. 12) lets Combat Paramedics/Providers consider midazolam for emergence phenomenon. The analgesia notes on the previous page (p. 11) say co-administration of benzodiazepines with ketamine or esketamine is not recommended, and that more ketamine is safer than a benzodiazepine for partial dissociation.",
+  "In the non-mission-capable analgesia list (p. 10), esketamine is written as a single dose, but the note right after it says to repeat doses as needed at a set interval without saying which options it applies to.",
+  "The analgesia notes (p. 11) refer to opioids twice (reduced respirations after opioids; no benzodiazepines with opioid analgesia) and say ketamine is safe after an opioid, but Section 11 (pp. 10-11) lists no opioid option.",
+  "The guidelines use several role terms without defining them in this document: 'TCCC Personnel' and 'TCCC Medical Personnel' (p. 10), 'TCCC-Combat Paramedics/Providers' (p. 12), and 'ASM/CLS' and 'CMC/CPP' (p. 8). The document does not say which tiers count as 'TCCC Medical Personnel' for the ketamine/esketamine options.",
+  "The TBI section (p. 9) sends readers to Section 11 for 'analgesia and/or sedation', but Section 11 (pp. 10-11) has no sedation regimen; the dissociative sedation regimen is in Section 13 (p. 12) and is limited to Combat Paramedics/Providers.",
+  "The TBI plasma instruction (p. 9) does not repeat the Circulation section's condition (p. 6) that blood products be given under an approved command or theater blood product administration protocol.",
+  "The TBI section (p. 9) sets a blood pressure target for every suspected moderate/severe TBI casualty, with radial pulse as the fallback. The Circulation section (p. 7) gives a TBI target only when there is altered mental status with a weak or absent radial pulse, and uses radial pulse first with blood pressure 'if available'.",
+  "The penetrating eye trauma antibiotic line (p. 10) lists IV or IM for the injectable option and gives no repeat interval; the Antibiotics section (p. 11) lists IV/IO/IM and a daily interval for the same drug.",
+  "The TACEVAC oxygen list (p. 15) gives the saturation goal for any 'Casualty with TBI', while Tactical Field Care (pp. 5 and 9) applies it to moderate/severe TBI and defers mild TBI care (p. 9).",
+  "TACEVAC CPR (p. 16) points to 'Section (4a)' for the needle decompression procedure, but that procedure is in Tactical Field Care Section 5a (pp. 3-5); the Tactical Field Care CPR item (p. 13) correctly points to 5a.",
+  "The calcium instruction (p. 7) states one amount of calcium and then names two different products with different volumes in parentheses; give the named product at the volume listed for it rather than working from the amount alone.",
+  "Triage (p. 2) now points to 'Supplement A – Triage in TCCC', which is not part of this 17-page document."
+ ],
+ "sections": [
+  {
+   "id": "cuf",
+   "phase": "Care Under Fire/Threat",
+   "number": null,
+   "title": "Basic Management Plan for Care Under Fire/Threat",
+   "pages": [
+    1
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Under effective fire, winning the fight and getting to cover come first; the only medical task is stopping life-threatening limb bleeding when tactically feasible.",
+   "keyPoints": [
+    {
+     "text": "Return fire and take cover.",
+     "page": 1
+    },
+    {
+     "text": "Have the casualty stay engaged as a combatant if appropriate, move to cover and apply self-aid; if they can't, move or drag them to cover when tactically feasible.",
+     "page": 1
+    },
+    {
+     "text": "Keep the casualty from taking more wounds. Pull casualties out of burning vehicles or buildings to relative safety and stop the burning.",
+     "page": 1
+    },
+    {
+     "text": "If tactically feasible, stop life-threatening external bleeding: self-aid first, or a CoTCCC-recommended limb tourniquet over the uniform, clearly above the bleeding. If the bleeding site isn't obvious, go high and tight on the injured limb and move the casualty to cover.",
+     "page": 1,
+     "quote": "If the site of the life-threatening bleeding is not readily apparent, place the tourniquet “high and tight” (as proximal as possible) on the injured limb and move the casualty to cover."
+    },
+    {
+     "text": "Hold off on airway management until Tactical Field Care.",
+     "page": 1,
+     "quote": "Airway management is generally best deferred until the Tactical Field Care phase."
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-1",
+   "phase": "Tactical Field Care",
+   "number": "1",
+   "title": "Security and Situational Awareness",
+   "pages": [
+    2
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Before treating, set a security perimeter according to unit SOPs or battle drills and keep tactical awareness throughout care.",
+   "keyPoints": [
+    {
+     "text": "Establish a security perimeter per unit tactical SOPs and/or battle drills.",
+     "page": 2
+    },
+    {
+     "text": "Maintain tactical situational awareness while you treat.",
+     "page": 2
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-2",
+   "phase": "Tactical Field Care",
+   "number": "2",
+   "title": "Triage",
+   "pages": [
+    2
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "Triage casualties as required, using the triage recommendations the guidelines place in Supplement A.",
+   "keyPoints": [
+    {
+     "text": "Triage casualties as required, using the Triage Recommendations in Supplement A – Triage in TCCC.",
+     "page": 2,
+     "quote": "Triage casualties as required. See Triage Recommendations in Supplement A – Triage in TCCC."
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "Triage now points to a dedicated supplement, Supplement A – Triage in TCCC.",
+     "page": 2,
+     "quote": "Triage casualties as required. See Triage Recommendations in Supplement A – Triage in TCCC."
+    }
+   ]
+  },
+  {
+   "id": "tfc-3",
+   "phase": "Tactical Field Care",
+   "number": "3",
+   "title": "Massive Hemorrhage",
+   "pages": [
+    2,
+    3
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Find and control every source of bleeding with limb tourniquets, hemostatic dressings, junctional tourniquets or the iTClamp, then check for hemorrhagic shock.",
+   "keyPoints": [
+    {
+     "text": "Look for bleeding you missed and control all sources. For life-threatening limb bleeding or any traumatic amputation, put a CoTCCC-recommended limb tourniquet directly on the skin 2-3 inches above the bleeding; if the first doesn't stop it, add a second side-by-side.",
+     "page": 2,
+     "quote": "Apply directly to the skin 2-3 inches above the bleeding site."
+    },
+    {
+     "text": "For compressible bleeding where a limb tourniquet won't work, or to help remove one, Combat Gauze is the hemostatic dressing of choice. Alternatives are Celox Gauze, ChitoGauze, XStat (best for deep, narrow-tract junctional wounds) and the iTClamp.",
+     "page": 2
+    },
+    {
+     "text": "Hold direct pressure on hemostatic dressings for at least 3 minutes (optional for XStat). If one dressing fails, remove it and apply a fresh one of the same or a different type; never remove XStat in the field, but you can add more over it.",
+     "page": 2,
+     "quote": "Hemostatic dressings should be applied with at least 3 minutes of direct pressure (optional for XStat)."
+    },
+    {
+     "text": "If the site suits a junctional tourniquet, apply one immediately and don't delay once it's ready. Use hemostatic dressings with pressure if none is available or while it is being readied.",
+     "page": 2
+    },
+    {
+     "text": "For head and neck wounds whose edges close easily, the iTClamp can be the primary option, after packing with hemostatic dressing or XStat if appropriate; no extra direct pressure is needed. On the neck, watch the airway for an expanding hematoma. Never place it within 1cm of the orbit.",
+     "page": 3,
+     "quote": "DO NOT APPLY on or near the eye or eyelid (within 1cm of the orbit)."
+    },
+    {
+     "text": "Do an initial check for hemorrhagic shock (altered mental status without brain injury and/or weak or absent radial pulse) and consider starting shock resuscitation right away.",
+     "page": 3
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-4",
+   "phase": "Tactical Field Care",
+   "number": "4",
+   "title": "Airway Management",
+   "pages": [
+    3
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Open and protect the airway with positioning and suction first; if traumatic obstruction can't be managed, perform a surgical cricothyroidotomy.",
+   "keyPoints": [
+    {
+     "text": "Check that the airway is clear. If there is a traumatic obstruction or one is coming, prepare for direct airway intervention.",
+     "page": 3
+    },
+    {
+     "text": "Let a conscious casualty take whatever position best protects the airway, including sitting up or leaning forward. Put an unconscious casualty in the recovery position, head tilted back and chin away from the chest.",
+     "page": 3
+    },
+    {
+     "text": "Use suction if available and appropriate.",
+     "page": 3
+    },
+    {
+     "text": "If those steps fail and the obstruction is unmanageable, do a surgical cric (bougie-aided open or standard open technique) using a flanged, cuffed cannula under 10mm outer diameter, 6-7 mm internal diameter, 5-8 cm intratracheal length.",
+     "page": 3,
+     "quote": "Standard open surgical technique using a flanged and cuffed airway cannula of less than 10mm outer diameter, 6-7 mm internal diameter, and 5-8 cm of intra-tracheal length."
+    },
+    {
+     "text": "Confirm cric placement with continuous EtCO2 capnography, and use lidocaine if the casualty is conscious.",
+     "page": 3,
+     "quote": "Verify placement with continuous EtCO2 capnography."
+    },
+    {
+     "text": "Reassess SpO2, EtCO2 and airway patency often, because the airway can change over time.",
+     "page": 3,
+     "quote": "Frequently reassess SpO2, EtCO2, and airway patency as airway status may change over time."
+    },
+    {
+     "text": "Cervical spine stabilization is not needed for penetrating-only trauma.",
+     "page": 3
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-5",
+   "phase": "Tactical Field Care",
+   "number": "5",
+   "title": "Respiration/Breathing",
+   "pages": [
+    3,
+    4,
+    5
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "Recognize and decompress tension pneumothorax, seal open chest wounds, and support oxygenation and ventilation, with a higher oxygen target for moderate or severe TBI.",
+   "keyPoints": [
+    {
+     "text": "Suspect tension pneumothorax with significant torso trauma or primary blast injury plus any of: severe or worsening respiratory distress or fast breathing, absent or much-reduced breath sounds on one side, oxygen saturation under 90%, shock, or traumatic cardiac arrest without obviously fatal wounds.",
+     "page": 3,
+     "quote": "Hemoglobin oxygen saturation < 90% on pulse oximetry"
+    },
+    {
+     "text": "First burp or remove any chest seal, start pulse oximetry, and lay the casualty supine or in recovery position (unless they must sit up to clear the airway). Decompress the injured side with a 14- or 10-gauge, 3.25-inch needle/catheter. In traumatic cardiac arrest from torso or blast trauma, decompress both sides before stopping care.",
+     "page": 4,
+     "quote": "Decompress the chest on the side of the injury with a 14-gauge or a 10-gauge, 3.25-inch needle/catheter unit."
+    },
+    {
+     "text": "Either site is acceptable: 5th ICS anterior axillary line or 2nd ICS mid-clavicular line. At the mid-clavicular site, don't go medial to the nipple line.",
+     "page": 4,
+     "quote": "Either the 5th intercostal space (ICS) in the anterior axillary line (AAL) or the 2nd ICS in the mid-clavicular line (MCL) may be used for needle decompression (NDC)."
+    },
+    {
+     "text": "Insert perpendicular to the chest wall just over the top of the lower rib, all the way to the hub, hold 5-10 seconds, then remove the needle and leave the catheter.",
+     "page": 4,
+     "quote": "Insert the needle/catheter unit all the way to the hub and hold it in place for 5-10 seconds to allow decompression to occur."
+    },
+    {
+     "text": "NDC worked if respiratory distress improves, you hear air hiss out, saturation rises to 90% or more (may take minutes; may not happen at altitude), or a casualty with no vital signs regains consciousness or a radial pulse. If the first NDC fails, repeat on the same side at the other site with a new needle and consider the opposite side; if it worked but symptoms recur, repeat at the same site with a new needle; if the second NDC also fails, continue to Circulation. Keep reassessing.",
+     "page": 4,
+     "quote": "Hemoglobin oxygen saturation increases to 90% or greater (note that this may take several minutes and may not happen at altitude)"
+    },
+    {
+     "text": "Cover every open or sucking chest wound right away with a vented chest seal (non-vented if that's all you have). Watch for tension pneumothorax; if it develops, burp or remove the seal or do NDC.",
+     "page": 5
+    },
+    {
+     "text": "Start pulse oximetry, including on every moderate/severe TBI casualty (readings can mislead in shock or marked hypothermia). Give moderate/severe TBI casualties oxygen when available to keep saturation at or above 92%.",
+     "page": 5,
+     "quote": "Casualties with moderate/severe TBI should be given supplemental oxygen when available to maintain an oxygen saturation ≥ 92 %."
+    },
+    {
+     "text": "If ventilation is impaired with uncorrectable hypoxia below 90% (below 92% with moderate/severe TBI), consider a properly sized NPA and ventilate with a 1000ml BVM.",
+     "page": 5,
+     "quote": "If the casualty has impaired ventilation and uncorrectable hypoxia with decreasing oxygen saturation below 90% (or below 92% with moderate/severe TBI), consider insertion of a properly sized Nasopharyngeal Airway, and ventilate using a 1000ml resuscitator Bag-Valve-Mask."
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "The oxygen saturation goal for moderate/severe TBI casualties on supplemental oxygen is updated to 92% or higher.",
+     "page": 5,
+     "quote": "Casualties with moderate/severe TBI should be given supplemental oxygen when available to maintain an oxygen saturation ≥ 92 %."
+    },
+    {
+     "text": "The saturation trigger for NPA and bag-valve-mask ventilation is now higher (below 92%) for casualties with moderate/severe TBI.",
+     "page": 5,
+     "quote": "If the casualty has impaired ventilation and uncorrectable hypoxia with decreasing oxygen saturation below 90% (or below 92% with moderate/severe TBI), consider insertion of a properly sized Nasopharyngeal Airway, and ventilate using a 1000ml resuscitator Bag-Valve-Mask."
+    }
+   ]
+  },
+  {
+   "id": "tfc-6",
+   "phase": "Tactical Field Care",
+   "number": "6",
+   "title": "Circulation",
+   "pages": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "Bind suspected pelvic fractures, get IV/IO access, give TXA and blood products for hemorrhagic shock, and reassess and convert tourniquets when it is safe.",
+   "keyPoints": [
+    {
+     "text": "Apply a pelvic binder for suspected pelvic fracture: severe blunt or blast injury with pelvic pain, a major lower-limb amputation or near-amputation, exam findings of pelvic fracture, unconsciousness, or shock. Get IV or IO access for hemorrhagic shock, significant risk of shock, or meds that can't be taken by mouth (IO if IV isn't quickly obtainable). Give TXA as soon as possible and no later than 3 hours after injury if a transfusion is likely, or with signs of significant TBI or altered mental status after blast or blunt trauma.",
+     "page": 6,
+     "quote": "Administer 2 gm of tranexamic acid via slow IV or IO push as soon as possible but NOT later than 3 hours after injury."
+    },
+    {
+     "text": "Fluids for hemorrhagic shock, under an approved command or theater blood product protocol, best first: cold stored low titer O whole blood, pre-screened low titer O fresh whole blood, plasma/RBCs/platelets 1:1:1, then plasma and RBCs, then plasma or RBCs alone. Start hypothermia prevention at the same time. Not in shock: no IV fluids are immediately necessary; oral fluids are permissible if conscious and able to swallow. Unscreened group O or type-specific fresh whole blood only under appropriate medical direction by trained personnel; use Rh positive if Rh negative isn't immediately available.",
+     "page": 6,
+     "quote": "Plasma, red blood cells (RBCs) and platelets in a 1:1:1 ratio"
+    },
+    {
+     "text": "Reassess after each unit and stop when you reach a palpable radial pulse, improved mental status, or systolic BP of 100 mmHg. If shock recurs, recheck all bleeding control and repeat. If shock doesn't respond, consider untreated tension pneumothorax and treat with repeat NDC or finger thoracostomy/chest tube according to your skills, experience and authorizations. (TBI blood pressure targets are under Traumatic Brain Injury.)",
+     "page": 7,
+     "quote": "Continue resuscitation until a palpable radial pulse, improved mental status or systolic BP of 100 mmHg is present."
+    },
+    {
+     "text": "If blood products are transfused, give one gram of calcium IV/IO after the first transfused product: 30 ml of 10% calcium gluconate or 10 ml of 10% calcium chloride.",
+     "page": 7,
+     "quote": "If blood products are transfused, administer one gram of calcium (30 ml of 10% calcium gluconate or 10 ml of 10% calcium chloride) IV/IO after the first transfused product."
+    },
+    {
+     "text": "Reassess every tourniquet: expose the wound and decide if it's needed. If it is still needed, reposition an over-the-uniform tourniquet by applying a second one directly to the skin 2-3 inches above the bleeding, then loosening the first. Ensure bleeding has stopped; if bleeding or a distal pulse persists, consider tightening further or adding a second tourniquet side-by-side. Remove unneeded tourniquets and record the removal time.",
+     "page": 7,
+     "quote": "If it is needed, reposition any limb tourniquet placed over the uniform by applying a second one directly to the skin 2-3 inches above the bleeding site, then loosening the first tourniquet."
+    },
+    {
+     "text": "Convert limb tourniquets to hemostatic or pressure dressings as soon as possible when all three are met: not in shock, the wound can be watched closely for bleeding, and it is not an amputation. Make every effort to convert in under 2 hours if other means can control the bleeding.",
+     "page": 8,
+     "quote": "Every effort should be made to convert tourniquets in less than 2 hours if bleeding can be controlled with other means."
+    },
+    {
+     "text": "Do not remove a tourniquet in place more than 6 hours unless close monitoring and lab capability are available.",
+     "page": 8,
+     "quote": "Do not remove a tourniquet that has been in place more than 6 hours unless close monitoring and lab capability are available."
+    },
+    {
+     "text": "TCCC ASM/CLS-trained personnel should not attempt conversion beyond 2 hours after application unless directed by TCCC CMC/CPP or other advanced medical personnel. Without medical oversight, leave the tourniquet in place and keep monitoring until the casualty reaches a higher level of care. Expose and mark tourniquets in permanent marker, and record application, re-application, conversion and removal times on the TCCC Casualty Card.",
+     "page": 8,
+     "quote": "TCCC ASM/CLS trained personnel, should not attempt tourniquet conversion beyond 2 hours post-application unless directed by TCCC CMC/CPP personnel or other advanced medical personnel."
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "For suspected TBI with a weak or absent radial pulse, the systolic BP target is now stated as greater than 100 mmHg.",
+     "page": 7,
+     "quote": "If BP monitoring is available, maintain a target systolic BP greater than 100 mmHg."
+    },
+    {
+     "text": "Tourniquet reassessment now says to reposition an over-the-uniform tourniquet by applying a second one on the skin and then loosening the first.",
+     "page": 7,
+     "quote": "If it is needed, reposition any limb tourniquet placed over the uniform by applying a second one directly to the skin 2-3 inches above the bleeding site, then loosening the first tourniquet."
+    },
+    {
+     "text": "New note: ASM/CLS-trained personnel should not convert a tourniquet after 2 hours without direction from CMC/CPP or other advanced medical personnel; without oversight, leave it on and keep monitoring until a higher level of care.",
+     "page": 8,
+     "quote": "TCCC ASM/CLS trained personnel, should not attempt tourniquet conversion beyond 2 hours post-application unless directed by TCCC CMC/CPP personnel or other advanced medical personnel."
+    }
+   ]
+  },
+  {
+   "id": "tfc-7",
+   "phase": "Tactical Field Care",
+   "number": "7",
+   "title": "Hypothermia Prevention",
+   "pages": [
+    8
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Act early to stop heat loss and add external heat for trauma and burn casualties, upgrading the enclosure system and warming IV/IO fluids.",
+   "keyPoints": [
+    {
+     "text": "Start early, aggressive steps to stop heat loss and add external heat when possible, for trauma and severely burned casualties alike.",
+     "page": 8
+    },
+    {
+     "text": "Limit exposure to cold ground, wind and air: get insulation under the casualty as soon as possible and keep protective gear on or with them if feasible.",
+     "page": 8
+    },
+    {
+     "text": "Swap wet clothing for dry if possible.",
+     "page": 8
+    },
+    {
+     "text": "Put an active heating blanket on the front of the torso and under the arms, never directly on skin or wrapped around the torso, to avoid burns.",
+     "page": 8
+    },
+    {
+     "text": "Enclose the casualty in the exterior impermeable enclosure bag, then upgrade as soon as possible to a well-insulated system (hooded sleeping bag or other insulation inside the bag). Pre-stage an insulated system with active heating.",
+     "page": 8
+    },
+    {
+     "text": "Warm IV/IO resuscitation fluids with a battery-powered warmer delivering up to 150 ml/min at a 38°C output.",
+     "page": 8,
+     "quote": "Use a battery-powered warming device to deliver IV/IO resuscitation fluids, in accordance with current CoTCCC guidelines, at flow rate up to 150 ml/min with a 38°C output temperature."
+    },
+    {
+     "text": "Shield the casualty from wind and precipitation on any evacuation platform.",
+     "page": 8
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-8",
+   "phase": "Tactical Field Care",
+   "number": "8",
+   "title": "Traumatic Brain Injury",
+   "pages": [
+    9,
+    10
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "Rewritten this year: mild TBI care is generally best deferred, and for suspected moderate or severe TBI evacuate early to neurosurgical capability while preventing hypoxemia and hypotension, lowering intracranial pressure and treating herniation.",
+   "keyPoints": [
+    {
+     "text": "Evaluation and treatment of suspected mild TBI/concussion is generally best deferred to Prolonged Casualty Care or later. Suspect moderate/severe TBI if the casualty can't follow simple instructions (thumbs up, two fingers or blink) beyond 10 minutes after injury AND has a suspected head injury with no other cause. If unsure what is causing an abnormal neuro exam, err toward treating hemorrhagic shock. Evacuate as soon as possible to neurosurgical capability (the outcome time window is listed with this edition's changes).",
+     "page": 9,
+     "quote": "Unable to follow simple instructions (thumbs up, two fingers or blink) beyond 10 minutes post injury AND suspected head injury without alternative cause."
+    },
+    {
+     "text": "Prevent hypoxemia with airway and breathing care and give oxygen if available. Prevent hypotension: target systolic BP above 100 mmHg, or a normal radial pulse if you can't measure BP. If hemorrhagic shock is also present, resuscitation for hemorrhagic shock takes precedence (per Circulation).",
+     "page": 9,
+     "quote": "Prevent hypotension and target a systolic blood pressure greater than 100 mmHg OR, if measurement capability is absent, target a normal radial pulse."
+    },
+    {
+     "text": "For suspected moderate/severe TBI, to prevent hypotension when there is no evidence of hemorrhage, give 1-2 units of plasma. Plasma is not indicated for mild TBI/concussion.",
+     "page": 9,
+     "quote": "If no evidence of hemorrhage, administer 1-2 units of plasma. Plasma is not indicated for mild TBI /concussion."
+    },
+    {
+     "text": "If ventilating: with EtCO2 monitoring, target 35-45 mmHg; without it, low tidal volume ventilation at 10 breaths per minute (one breath every 6 seconds).",
+     "page": 9,
+     "quote": "If casualty is ventilated and end-tidal CO2 monitoring is available, target an EtCO2 of 35-45 mmHg. If ventilating a casualty and EtCO2 monitoring not available, provide low tidal volume ventilation at 10 breaths per minute (one breath every 6 seconds)."
+    },
+    {
+     "text": "Lower intracranial pressure: raise head and torso above 30 degrees if not in shock and tactically feasible, loosen any cervical collar and keep the head facing forward, and watch closely for agitation and treat with analgesia and/or sedation per the Analgesia section (dissociative sedation is limited to TCCC Combat Paramedics/Providers; see Inspect and Dress Known Wounds).",
+     "page": 9,
+     "quote": "Elevate head and torso greater than 30 degrees IF casualty not in shock AND tactically feasible."
+    },
+    {
+     "text": "Treat herniation (asymmetric or fixed/dilated pupils, or posturing): give 250ml of 3% or 5% hypertonic saline OR 30ml of 23.4% hypertonic saline IV/IO over at least 10 minutes, then a saline flush.",
+     "page": 9,
+     "quote": "Administer 250ml of 3% or 5% hypertonic saline OR 30ml of 23.4% hypertonic saline IV/IO over at least 10 minutes followed by a saline flush."
+    },
+    {
+     "text": "Repeat in 20 minutes if no response (max 2 doses). Stop if the site shows extravasation. Never give hypertonic saline to prevent herniation; it is not a resuscitative fluid.",
+     "page": 9,
+     "quote": "Repeat in 20 minutes if no response (max 2 doses)."
+    },
+    {
+     "text": "Penetrating TBI or open skull fracture is not automatically expectant: apply a surface dressing, put hemostatic gauze on the surface with gentle pressure for bleeding, don't pack or close the wound, gently irrigate gross contamination, and give antibiotics. Recheck neuro status every 5-10 minutes.",
+     "page": 10,
+     "quote": "Reassess neurologic status every 5-10 minutes to evaluate for worsening status."
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "Evaluation and treatment of suspected mild TBI/concussion is now generally best deferred to Prolonged Casualty Care or later phases.",
+     "page": 9,
+     "quote": "Evaluation and treatment of suspected mild TBI/concussion is generally best deferred to Prolonged Casualty Care or subsequent phases of care."
+    },
+    {
+     "text": "New working definition of suspected moderate or severe TBI.",
+     "page": 9,
+     "quote": "Unable to follow simple instructions (thumbs up, two fingers or blink) beyond 10 minutes post injury AND suspected head injury without alternative cause."
+    },
+    {
+     "text": "New priority on evacuation to neurosurgical capability, with a time window for surgery of within 5 hours of injury.",
+     "page": 9,
+     "quote": "Evacuate the casualty as soon as possible to neurosurgical capability as outcomes are improved with surgical intervention within 5 hours of injury."
+    },
+    {
+     "text": "New oxygen saturation goal to prevent hypoxemia.",
+     "page": 9,
+     "quote": "Prevent hypoxemia (goal oxygen saturation ≥ 92%) and provide airway and respiratory interventions per TCCC Guidelines in Section (4) and (5)."
+    },
+    {
+     "text": "New blood pressure target, with a normal radial pulse as the fallback when BP can't be measured.",
+     "page": 9,
+     "quote": "Prevent hypotension and target a systolic blood pressure greater than 100 mmHg OR, if measurement capability is absent, target a normal radial pulse."
+    },
+    {
+     "text": "Hemorrhagic shock resuscitation takes precedence over TBI resuscitation.",
+     "page": 9,
+     "quote": "If hemorrhagic shock is also present, resuscitation for hemorrhagic shock takes precedence over resuscitation for TBI."
+    },
+    {
+     "text": "New: plasma for suspected moderate/severe TBI without evidence of hemorrhage.",
+     "page": 9,
+     "quote": "If no evidence of hemorrhage, administer 1-2 units of plasma. Plasma is not indicated for mild TBI /concussion."
+    },
+    {
+     "text": "New ventilation targets for ventilated TBI casualties.",
+     "page": 9,
+     "quote": "If casualty is ventilated and end-tidal CO2 monitoring is available, target an EtCO2 of 35-45 mmHg. If ventilating a casualty and EtCO2 monitoring not available, provide low tidal volume ventilation at 10 breaths per minute (one breath every 6 seconds)."
+    },
+    {
+     "text": "New measures to reduce intracranial pressure (head elevation, collar loosening, agitation control).",
+     "page": 9,
+     "quote": "Elevate head and torso greater than 30 degrees IF casualty not in shock AND tactically feasible."
+    },
+    {
+     "text": "New hypertonic saline protocol for herniation.",
+     "page": 9,
+     "quote": "Administer 250ml of 3% or 5% hypertonic saline OR 30ml of 23.4% hypertonic saline IV/IO over at least 10 minutes followed by a saline flush."
+    },
+    {
+     "text": "New guidance that penetrating TBI and open skull fractures are not automatically expectant, with wound care steps.",
+     "page": 9,
+     "quote": "Penetrating TBI or open skull fractures are not automatically expectant casualties"
+    },
+    {
+     "text": "New neuro reassessment interval.",
+     "page": 10,
+     "quote": "Reassess neurologic status every 5-10 minutes to evaluate for worsening status."
+    }
+   ]
+  },
+  {
+   "id": "tfc-9",
+   "phase": "Tactical Field Care",
+   "number": "9",
+   "title": "Penetrating Eye Trauma",
+   "pages": [
+    10
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "For a known or suspected penetrating eye injury, test vision, shield the eye and start antibiotics early.",
+   "keyPoints": [
+    {
+     "text": "Do a rapid field test of visual acuity and document it.",
+     "page": 10
+    },
+    {
+     "text": "Cover the eye with a rigid eye shield, NOT a pressure patch.",
+     "page": 10,
+     "quote": "Cover the eye with a rigid eye shield (NOT a pressure patch)."
+    },
+    {
+     "text": "Give ceftriaxone 2g IV or IM, or cefadroxil 1g by mouth, as soon as possible.",
+     "page": 10,
+     "quote": "Administer ceftriaxone 2g IV or IM, or cefadroxil 1g orally as soon as possible."
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "Eye-injury antibiotics are now ceftriaxone IV/IM or cefadroxil by mouth.",
+     "page": 10,
+     "quote": "Administer ceftriaxone 2g IV or IM, or cefadroxil 1g orally as soon as possible."
+    }
+   ]
+  },
+  {
+   "id": "tfc-10",
+   "phase": "Tactical Field Care",
+   "number": "10",
+   "title": "Monitoring",
+   "pages": [
+    10
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Start advanced electronic monitoring when indicated and when the equipment is available.",
+   "keyPoints": [
+    {
+     "text": "Initiate advanced electronic monitoring if indicated and if monitoring equipment is available.",
+     "page": 10
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-11",
+   "phase": "Tactical Field Care",
+   "number": "11",
+   "title": "Analgesia",
+   "pages": [
+    10,
+    11
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "Pain control is now split by whether the casualty can stay in the fight: the Combat Wound Medication Pack for mission-capable casualties, and the CWMP plus ketamine or esketamine from TCCC medical personnel for those who can't.",
+   "keyPoints": [
+    {
+     "text": "Can stay in the fight: the casualty takes the TCCC Combat Wound Medication Pack (CWMP) themselves or with TCCC personnel. It contains acetaminophen 1000mg - 1300mg every 8 hours by mouth.",
+     "page": 10,
+     "quote": "Acetaminophen – 1000mg - 1300mg (e.g., two 650mg extended- release caplets) PO every 8 hours"
+    },
+    {
+     "text": "The CWMP also contains meloxicam 15 mg by mouth once a day.",
+     "page": 10,
+     "quote": "Meloxicam – 15 mg PO once a day"
+    },
+    {
+     "text": "Suzetrigine: 100 mg by mouth once (two 50 mg tablets), then 50 mg by mouth every 12 hours.",
+     "page": 10,
+     "quote": "Suzetrigine – 100 mg PO once (2 x 50 mg tablets) then 50 mg PO every 12 hours"
+    },
+    {
+     "text": "Can't stay in the fight: have them take the CWMP if not already taken, AND TCCC medical personnel give one of: ketamine 100 mg IM, ketamine 50 mg IN, ketamine 25 mg (or 0.2 - 0.3 mg/kg) IV/IO over 1 minute, or esketamine 14 or 28 mg IN once.",
+     "page": 10,
+     "quote": "Ketamine 100 mg IM. or − Ketamine 50 mg IN. or − Ketamine 25 mg (or 0.2 - 0.3 mg/kg) delivered IV or IO over 1 minute or − Esketamine 14 or 28 mg IN x 1."
+    },
+    {
+     "text": "Esketamine is listed as a single dose (x 1). The guideline then says to repeat doses every 30 minutes as needed, without saying which options that covers. Endpoints are pain reduction or nystagmus (rhythmic eye movement).",
+     "page": 10,
+     "quote": "Esketamine 14 or 28 mg IN x 1. § Repeat doses q30 min prn."
+    },
+    {
+     "text": "Disarm, and consider disconnecting comms for, any casualty given ketamine. Before giving ketamine, document an AVPU mental status on the TCCC Card. The goal is tolerable pain that keeps airway, breathing and mentation intact, not total pain relief or sedation. Monitor airway, breathing and circulation closely after potent analgesics.",
+     "page": 11
+    },
+    {
+     "text": "Use the higher-concentration ketamine for IN to keep volume down, give IV/IO ketamine slowly over 1 minute; it is generally safe after an opioid. TBI or eye injury doesn't rule out ketamine, but use caution with all sedating analgesics in TBI because they can mask neurologic decline. If respirations are reduced, reposition the airway into a sniffing position, then provide ventilatory support. Benzodiazepines are not recommended with ketamine, esketamine or opioids; for partial dissociation, more ketamine is safer than a benzodiazepine.",
+     "page": 11,
+     "quote": "Use the higher concentration (100 mg/ml) for IN route to minimize volume. − IV/IO ketamine should be given slowly over 1 minute."
+    },
+    {
+     "text": "Ondansetron for nausea or vomiting: 4 mg ODT/IV/IO/IM every 8 hours as needed.",
+     "page": 11,
+     "quote": "Ondansetron, 4 mg Orally Dissolving Tablet (ODT)/IV/IO/IM, every 8 hours as needed for nausea or vomiting."
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "New mission-capable tier: analgesia is self-administered or given with TCCC personnel.",
+     "page": 10,
+     "quote": "Analgesia is self-administered or co-administered by TCCC Personnel."
+    },
+    {
+     "text": "Suzetrigine added to the Combat Wound Medication Pack.",
+     "page": 10,
+     "quote": "Suzetrigine – 100 mg PO once (2 x 50 mg tablets) then 50 mg PO every 12 hours"
+    },
+    {
+     "text": "New non-mission-capable tier starts with the CWMP before medic-given drugs.",
+     "page": 10,
+     "quote": "If not already taken, direct casualty to take TCCC Combat Wound Medication Pack (CWMP)."
+    },
+    {
+     "text": "IV/IO ketamine is now given over 1 minute.",
+     "page": 10,
+     "quote": "Ketamine 25 mg (or 0.2 - 0.3 mg/kg) delivered IV or IO over 1 minute"
+    },
+    {
+     "text": "Esketamine intranasal added as an option.",
+     "page": 10,
+     "quote": "Esketamine 14 or 28 mg IN x 1."
+    },
+    {
+     "text": "New safety step: disarm and consider disconnecting comms after ketamine.",
+     "page": 11,
+     "quote": "Disarm and consider disconnecting communications equipment for casualties who are administered Ketamine."
+    },
+    {
+     "text": "New stated goal for battlefield pain management.",
+     "page": 11,
+     "quote": "The goal of battlefield pain management is to achieve tolerable pain levels that preserve airway patency, respiratory drive, and mentation, rather than pursuing complete pain elimination or total sedation."
+    },
+    {
+     "text": "AVPU documentation before ketamine now specifies the DD Form 1380 TCCC Card.",
+     "page": 11,
+     "quote": "Document a mental status exam using the AVPU method on the DD Form 1380 TCCC Card prior to administering ketamine."
+    },
+    {
+     "text": "Monitoring now covers airway, breathing and circulation for all potent analgesics.",
+     "page": 11,
+     "quote": "For all casualties given potent analgesics, monitor airway, breathing, and circulation closely."
+    },
+    {
+     "text": "New ketamine administration notes (higher concentration for IN, IV/IO given slowly over 1 minute, generally safe after an opioid, fixed dosing).",
+     "page": 11,
+     "quote": "Use the higher concentration (100 mg/ml) for IN route to minimize volume. − IV/IO ketamine should be given slowly over 1 minute."
+    },
+    {
+     "text": "Caution in TBI now applies to all sedating analgesics.",
+     "page": 11,
+     "quote": "Use caution with all sedating analgesics in TBI casualties as this may make it difficult to perform a neurologic exam or determine if the casualty is decompensating."
+    },
+    {
+     "text": "Reduced breathing response now starts with airway repositioning, then ventilatory support.",
+     "page": 11,
+     "quote": "If respirations are reduced after using opioids or ketamine, reposition the casualty’s airway into a “sniffing position”. If that fails, provide ventilatory support."
+    },
+    {
+     "text": "New: don't co-administer benzodiazepines with ketamine or esketamine.",
+     "page": 11,
+     "quote": "Co-administration of benzodiazepines with Ketamine or Esketamine is NOT recommended."
+    }
+   ]
+  },
+  {
+   "id": "tfc-12",
+   "phase": "Tactical Field Care",
+   "number": "12",
+   "title": "Antibiotics",
+   "pages": [
+    11
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "Give antibiotics for all open combat wounds and invasive procedures, by mouth if the casualty can swallow and by injection if not.",
+   "keyPoints": [
+    {
+     "text": "Antibiotics are recommended for all open combat wounds and invasive procedures.",
+     "page": 11
+    },
+    {
+     "text": "Able to take oral meds: cefadroxil 1 gram once a day, or cephalexin 500mg every 6 hours as the alternative.",
+     "page": 11,
+     "quote": "Cefadroxil 1 gram PO once a day. • OR Cephalexin 500mg PO every 6 hours (Alternative)"
+    },
+    {
+     "text": "Unable to take oral meds (shock, unconsciousness): ceftriaxone 2 gm IV/IO/IM once a day.",
+     "page": 11,
+     "quote": "Ceftriaxone 2 gm IV/IO/IM once a day."
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "Antibiotics are now also recommended for invasive procedures.",
+     "page": 11,
+     "quote": "Antibiotics recommended for all open combat wounds and invasive procedures."
+    },
+    {
+     "text": "Oral regimen is now cefadroxil, with cephalexin as the alternative.",
+     "page": 11,
+     "quote": "Cefadroxil 1 gram PO once a day. • OR Cephalexin 500mg PO every 6 hours (Alternative)"
+    },
+    {
+     "text": "The injectable antibiotic (for casualties unable to take oral meds) is now ceftriaxone.",
+     "page": 11,
+     "quote": "Ceftriaxone 2 gm IV/IO/IM once a day."
+    }
+   ]
+  },
+  {
+   "id": "tfc-13",
+   "phase": "Tactical Field Care",
+   "number": "13",
+   "title": "Inspect and Dress Known Wounds",
+   "pages": [
+    11,
+    12
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Inspect and dress known wounds, manage abdominal evisceration, and (for TCCC Combat Paramedics/Providers) provide ketamine sedation when dissociation is required.",
+   "keyPoints": [
+    {
+     "text": "Inspect and dress known wounds. For abdominal evisceration: control bleeding (Combat Gauze or a CoTCCC hemostatic dressing), rinse off gross contamination with clean, warm if possible, fluid, and cover exposed bowel with a moist sterile dressing or sterile water-impermeable covering. Keep the casualty NPO.",
+     "page": 12
+    },
+    {
+     "text": "Don't try to reduce bowel if there is leakage or active bleeding. Otherwise, one brief attempt under 60 seconds is allowed; never force contents back in.",
+     "page": 12,
+     "quote": "a single brief attempt (<60 seconds) may be made to replace/reduce the eviscerated abdominal contents."
+    },
+    {
+     "text": "If it can't be reduced, cover it with water-impermeable, non-adhesive material (clear preferred so you can watch for bleeding), such as a bowel bag, IV bag or food wrap, and secure it with adhesive dressing such as ioban or a chest seal.",
+     "page": 12
+    },
+    {
+     "text": "TCCC Combat Paramedic/Provider only. Sedation is for TCCC-Combat Paramedics/Providers who are prepared to secure the airway, for severe injuries needing dissociation or an invasive procedure. IV/IO option: ketamine 1-2 mg/kg slow push as the initial dose, to procedural (dissociative) anesthesia.",
+     "page": 12,
+     "quote": "Ketamine 1-2 mg/kg slow IV/IO push initial dose"
+    },
+    {
+     "text": "TCCC Combat Paramedic/Provider only (prepared to secure the airway): IM option is ketamine 300 mg IM (or 2-3 mg/kg IM) as the initial dose, to procedural (dissociative) anesthesia.",
+     "page": 12,
+     "quote": "Ketamine 300 mg IM (or 2-3 mg/kg IM) initial dose"
+    },
+    {
+     "text": "TCCC Combat Paramedic/Provider only: if an emergence phenomenon occurs, consider midazolam 0.5-2 mg IV/IO. If dissociation must continue, move to the Prolonged Casualty Care analgesia and sedation guidelines.",
+     "page": 12,
+     "quote": "If an emergence phenomenon occurs, consider giving 0.5-2 mg IV/IO midazolam."
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-14",
+   "phase": "Tactical Field Care",
+   "number": "14",
+   "title": "Check for Additional Wounds",
+   "pages": [
+    12
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Look for wounds you have not yet found.",
+   "keyPoints": [
+    {
+     "text": "Check for additional wounds.",
+     "page": 12
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-15",
+   "phase": "Tactical Field Care",
+   "number": "15",
+   "title": "Burns",
+   "pages": [
+    12,
+    13
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Treat burn casualties as trauma casualties with burns: protect the airway, estimate burn size, dress and insulate, and start fluids using the USAISR Rule of Ten.",
+   "keyPoints": [
+    {
+     "text": "Treat as a trauma casualty with burns, not a burn casualty with injuries. Every TCCC intervention can be done on or through burned skin. Treat burn pain per the Analgesia section; antibiotics are not indicated solely for burns but should be given per the Antibiotics section for penetrating wounds.",
+     "page": 12
+    },
+    {
+     "text": "Facial burns, especially in closed spaces, can mean inhalation injury: watch airway and oxygen saturation aggressively and consider an early surgical airway for respiratory distress or desaturation.",
+     "page": 12
+    },
+    {
+     "text": "Estimate TBSA burned to the nearest 10% with the Rule of Nines.",
+     "page": 12,
+     "quote": "Estimate total body surface area (TBSA) burned to the nearest 10% using the Rule of Nines."
+    },
+    {
+     "text": "Cover burns with dry, sterile dressings. For burns over 20%, consider the Heat-Reflective Shell or Blizzard Survival Blanket to cover burns and prevent hypothermia; burn casualties are especially prone to hypothermia.",
+     "page": 12,
+     "quote": "For extensive burns (>20%), consider placing the casualty in the Heat-Reflective Shell or Blizzard Survival Blanket from the Hypothermia Prevention Kit"
+    },
+    {
+     "text": "Burns over 20% TBSA: start fluids as soon as IV/IO access is in, with Lactated Ringer's, normal saline, or Hextend (Hextend has a volume limit, then switch to LR or NS).",
+     "page": 13,
+     "quote": "If burns are greater than 20% of TBSA, fluid resuscitation should be initiated as soon as IV/IO access is established. Resuscitation should be initiated with Lactated Ringer’s, normal saline, or Hextend."
+    },
+    {
+     "text": "Rule of Ten: initial IV/IO rate is %TBSA x 10 ml/hr for adults weighing 40-80 kg.",
+     "page": 13,
+     "quote": "Initial IV/IO fluid rate is calculated as %TBSA x 10 ml/hr for adults weighing 40- 80 kg."
+    },
+    {
+     "text": "For every 10 kg above 80 kg, increase the initial rate by 100 ml/hr.",
+     "page": 13,
+     "quote": "For every 10 kg ABOVE 80 kg, increase initial rate by 100 ml/hr."
+    },
+    {
+     "text": "Hemorrhagic shock resuscitation takes priority over burn shock. Consider oral fluids for burns up to 30% TBSA if the casualty is conscious and can swallow.",
+     "page": 13,
+     "quote": "Consider oral fluids for burns up to 30% TBSA if casualty is conscious and able to swallow."
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-16",
+   "phase": "Tactical Field Care",
+   "number": "16",
+   "title": "Splint Fractures and Re-check Pulses",
+   "pages": [
+    13
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Splint fractures and re-check pulses afterward.",
+   "keyPoints": [
+    {
+     "text": "Splint fractures and re-check pulses.",
+     "page": 13
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-17",
+   "phase": "Tactical Field Care",
+   "number": "17",
+   "title": "Cardiopulmonary Resuscitation (CPR)",
+   "pages": [
+    13
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Battlefield CPR for blast or penetrating trauma without signs of life will not succeed, but rule out tension pneumothorax with bilateral needle decompression first.",
+   "keyPoints": [
+    {
+     "text": "Don't attempt CPR on the battlefield for blast or penetrating trauma victims with no pulse, no breathing and no other signs of life; it won't succeed.",
+     "page": 13
+    },
+    {
+     "text": "Before stopping care for torso trauma or polytrauma without pulse or respirations, perform bilateral needle decompression to rule out tension pneumothorax, using the Respiration/Breathing procedure.",
+     "page": 13
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-18",
+   "phase": "Tactical Field Care",
+   "number": "18",
+   "title": "Communication",
+   "pages": [
+    13
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Keep the casualty, tactical leadership and the evacuation system informed.",
+   "keyPoints": [
+    {
+     "text": "Talk to the casualty if possible: encourage, reassure and explain care.",
+     "page": 13
+    },
+    {
+     "text": "Update tactical leadership early and throughout, with casualty status and evacuation requirements.",
+     "page": 13
+    },
+    {
+     "text": "Contact the evacuation system (the Patient Evacuation Coordination Cell) to arrange TACEVAC, and if possible tell the evacuation providers the mechanism of injury, injuries, signs/symptoms and treatments.",
+     "page": 13
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-19",
+   "phase": "Tactical Field Care",
+   "number": "19",
+   "title": "Documentation of Care",
+   "pages": [
+    14
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Record assessments, treatments and changes on the TCCC Card and send it with the casualty.",
+   "keyPoints": [
+    {
+     "text": "Document assessments, treatments and changes in status on the TCCC Card (DD Form 1380).",
+     "page": 14,
+     "quote": "Document clinical assessments, treatments rendered, and changes in the casualty’s status on a TCCC Card (DD Form 1380)."
+    },
+    {
+     "text": "Forward the documentation with the casualty to the next level of care.",
+     "page": 14
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tfc-20",
+   "phase": "Tactical Field Care",
+   "number": "20",
+   "title": "Prepare for Evacuation",
+   "pages": [
+    14
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Package and stage casualties for evacuation and keep the evacuation point secure.",
+   "keyPoints": [
+    {
+     "text": "Complete the TCCC Card and secure it to the casualty.",
+     "page": 14
+    },
+    {
+     "text": "Secure loose bandage ends, hypothermia wraps and litter straps; consider extra padding for long evacuations.",
+     "page": 14
+    },
+    {
+     "text": "Give instructions to ambulatory casualties as needed.",
+     "page": 14
+    },
+    {
+     "text": "Stage casualties and maintain security at the evacuation point per unit SOPs.",
+     "page": 14
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-1",
+   "phase": "Tactical Evacuation Care",
+   "number": "1",
+   "title": "Transition of Care",
+   "pages": [
+    15
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Hand casualties over to TACEVAC personnel with a clear report, secure them on the platform, and reassess everything.",
+   "keyPoints": [
+    {
+     "text": "Tactical Evacuation covers both CASEVAC and MEDEVAC.",
+     "page": 15,
+     "quote": "The term “Tactical Evacuation” includes both Casualty Evacuation (CASEVAC) and Medical Evacuation (MEDEVAC)"
+    },
+    {
+     "text": "Tactical force personnel secure the evacuation point and stage casualties.",
+     "page": 15
+    },
+    {
+     "text": "Pass casualty information to TACEVAC personnel as clearly as possible: at minimum, stable or unstable, injuries found, and treatments given.",
+     "page": 15
+    },
+    {
+     "text": "TACEVAC personnel stage and secure casualties on the platform per unit policy, platform configuration and safety rules.",
+     "page": 15
+    },
+    {
+     "text": "TACEVAC medical personnel reassess casualties and re-evaluate all injuries and previous interventions.",
+     "page": 15
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-2",
+   "phase": "Tactical Evacuation Care",
+   "number": "2",
+   "title": "Massive Hemorrhage",
+   "pages": [
+    15
+   ],
+   "sameAs": "tfc-3",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-3",
+   "phase": "Tactical Evacuation Care",
+   "number": "3",
+   "title": "Airway Management",
+   "pages": [
+    15
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Adds one option for TACEVAC: endotracheal intubation instead of cricothyroidotomy for trained personnel.",
+   "keyPoints": [
+    {
+     "text": "If trained, endotracheal intubation may be considered instead of cricothyroidotomy.",
+     "page": 15
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-4",
+   "phase": "Tactical Evacuation Care",
+   "number": "4",
+   "title": "Respiration/Breathing",
+   "pages": [
+    15
+   ],
+   "sameAs": null,
+   "changed2026": true,
+   "summary": "Most casualties don't need oxygen, but it may help specific groups, including TBI casualties with a saturation goal.",
+   "keyPoints": [
+    {
+     "text": "Most combat casualties don't need supplemental oxygen.",
+     "page": 15
+    },
+    {
+     "text": "Oxygen may help: low pulse-ox saturation, injuries that impair oxygenation, unconscious casualties, shock, altitude, and known or suspected smoke inhalation.",
+     "page": 15
+    },
+    {
+     "text": "TBI casualties: give oxygen to keep saturation at or above 92%.",
+     "page": 15,
+     "quote": "Casualty with TBI (maintain oxygen saturation ≥ 92%)"
+    }
+   ],
+   "newIn2026": [
+    {
+     "text": "TBI oxygen goal is now stated as 92% or higher.",
+     "page": 15,
+     "quote": "Casualty with TBI (maintain oxygen saturation ≥ 92%)"
+    }
+   ]
+  },
+  {
+   "id": "tacevac-5",
+   "phase": "Tactical Evacuation Care",
+   "number": "5",
+   "title": "Circulation",
+   "pages": [
+    15
+   ],
+   "sameAs": "tfc-6",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-6",
+   "phase": "Tactical Evacuation Care",
+   "number": "6",
+   "title": "Moderate or Severe Traumatic Brain Injury",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-8",
+   "changed2026": true,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": [
+    {
+     "text": "TACEVAC now has a moderate/severe TBI section that follows the new Tactical Field Care TBI guidance.",
+     "page": 16,
+     "quote": "Moderate or Severe Traumatic Brain Injury (same as Tactical Field Care)"
+    }
+   ]
+  },
+  {
+   "id": "tacevac-7",
+   "phase": "Tactical Evacuation Care",
+   "number": "7",
+   "title": "Hypothermia Prevention",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-7",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-8",
+   "phase": "Tactical Evacuation Care",
+   "number": "8",
+   "title": "Penetrating Eye Trauma",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-9",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-9",
+   "phase": "Tactical Evacuation Care",
+   "number": "9",
+   "title": "Monitoring",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-10",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-10",
+   "phase": "Tactical Evacuation Care",
+   "number": "10",
+   "title": "Analgesia",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-11",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-11",
+   "phase": "Tactical Evacuation Care",
+   "number": "11",
+   "title": "Antibiotics",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-12",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-12",
+   "phase": "Tactical Evacuation Care",
+   "number": "12",
+   "title": "Inspect and Dress Known Wounds",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-13",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-13",
+   "phase": "Tactical Evacuation Care",
+   "number": "13",
+   "title": "Check for Additional Wounds",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-14",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-14",
+   "phase": "Tactical Evacuation Care",
+   "number": "14",
+   "title": "Burns",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-15",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-15",
+   "phase": "Tactical Evacuation Care",
+   "number": "15",
+   "title": "Splint Fractures and Re-check Pulses",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-16",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-16",
+   "phase": "Tactical Evacuation Care",
+   "number": "16",
+   "title": "Cardiopulmonary Resuscitation (CPR) in TACEVAC",
+   "pages": [
+    16
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "During TACEVAC, rule out tension pneumothorax in pulseless torso trauma, and CPR may be tried if surgery is close and the mission allows.",
+   "keyPoints": [
+    {
+     "text": "Torso trauma or polytrauma with no pulse or respirations during TACEVAC: perform bilateral needle decompression to rule out tension pneumothorax.",
+     "page": 16
+    },
+    {
+     "text": "CPR may be attempted if there are no obviously fatal wounds and the casualty will reach a surgical facility within a short time.",
+     "page": 16
+    },
+    {
+     "text": "Don't do CPR at the cost of the mission or of lifesaving care for other casualties.",
+     "page": 16
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-17",
+   "phase": "Tactical Evacuation Care",
+   "number": "17",
+   "title": "Communication",
+   "pages": [
+    16
+   ],
+   "sameAs": null,
+   "changed2026": false,
+   "summary": "Keep the casualty informed and give a full report to the next level of care.",
+   "keyPoints": [
+    {
+     "text": "Talk to the casualty if possible: encourage, reassure and explain care.",
+     "page": 16
+    },
+    {
+     "text": "When feasible, tell providers at the next level of care the mechanism of injury, injuries, signs/symptoms and treatments, plus anything else relevant.",
+     "page": 16
+    }
+   ],
+   "newIn2026": []
+  },
+  {
+   "id": "tacevac-18",
+   "phase": "Tactical Evacuation Care",
+   "number": "18",
+   "title": "Documentation of Care",
+   "pages": [
+    16
+   ],
+   "sameAs": "tfc-19",
+   "changed2026": false,
+   "summary": "Same as Tactical Field Care.",
+   "keyPoints": [],
+   "newIn2026": []
+  }
+ ]
+}

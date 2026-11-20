@@ -49,8 +49,14 @@ def check(item, where):
         raise SystemExit(f"{where}: number(s) {loose} in text not backed by its quote: {item['text'][:80]}")
 
 
+def display(q):
+    """Display-only cleanup of PDF artifacts inside a verified quote (verification uses the raw quote)."""
+    q = re.sub(r"\s+[−§•]\s+", " · ", q)   # list bullet glyphs -> middle dot
+    return re.sub(r"(?<=[a-z])- (?=[a-z])", "-", q)                       # "extended- release" line-break artifact
+
+
 def fmt(item):
-    return item["text"] + (f" “{item['quote']}”" if item.get("quote") else "") + f" (p. {item['page']})"
+    return item["text"] + (f" “{display(item['quote'])}”" if item.get("quote") else "") + f" (p. {item['page']})"
 
 
 def main():
