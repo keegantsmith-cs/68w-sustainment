@@ -118,14 +118,14 @@
     if (!r) return viewNotFound();
     const all = r.documents || [];
     const f = r.filter;
-    const active = f && params.get(f.param) ? Number(params.get(f.param)) : null;
-    const docs = active ? all.filter((d) => (d[f.field] || []).includes(active)) : all;
+    const active = f && params.get(f.param) ? String(params.get(f.param)) : null;
+    const docs = active ? all.filter((d) => (d[f.field] || []).map(String).includes(active)) : all;
     const chips = f ? `
       <div class="filter" role="group" aria-label="${esc(f.label)}">
         <span class="filter-label">${esc(f.label)}</span>
         <a class="chip${active ? "" : " on"}" href="${resHref(r.id)}" ${active ? "" : 'aria-current="true"'}>All</a>
-        ${f.options.map((o) => `<a class="chip${active === o.value ? " on" : ""}" href="${resHref(r.id)}?${f.param}=${o.value}"
-          ${active === o.value ? 'aria-current="true"' : ""}>${esc(o.label)}</a>`).join("")}
+        ${f.options.map((o) => `<a class="chip${active === String(o.value) ? " on" : ""}" href="${resHref(r.id)}?${f.param}=${o.value}"
+          ${active === String(o.value) ? 'aria-current="true"' : ""}>${esc(o.label)}</a>`).join("")}
       </div>
       ${active && f.hint ? `<p class="meta filter-hint">${esc(f.hint.replaceAll("{v}", active))}</p>` : ""}` : "";
     const groups = {};
