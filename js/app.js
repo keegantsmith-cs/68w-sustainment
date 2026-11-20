@@ -38,6 +38,78 @@
     return `${path}#${["navpanes=0", ...params].join("&")}`;
   };
 
+  /* In-app PDF viewer (pdf.js): no browser side panel, works on iPhone, opens at #page=N. */
+  let pdfjsReady;
+  function loadPdfJs() {
+    pdfjsReady ||= new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = "assets/vendor/pdfjs/pdf.min.js";
+      s.onload = () => {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = "assets/vendor/pdfjs/pdf.worker.min.js";
+        resolve(window.pdfjsLib);
+      };
+      s.onerror = reject;
+      document.head.appendChild(s);
+    });
+    return pdfjsReady;
+  }
+
+  function initPdfViewers() {
+    document.querySelectorAll(".pdf-viewer").forEach(async (box) => {
+      const pagesEl = box.querySelector(".pdf-pages");
+      const count = box.querySelector(".pdf-count");
+      const src = box.dataset.src;
+      try {
+        const lib = await loadPdfJs();
+        const pdf = await lib.getDocument(src).promise;
+        if (!box.isConnected) return;
+        const first = await pdf.getPage(1);
+        const ratio = first.getViewport({ scale: 1 }).height / first.getViewport({ scale: 1 }).width;
+        const slots = [];
+        for (let n = 1; n <= pdf.numPages; n++) {
+          const slot = document.createElement("div");
+          slot.className = "pdf-page";
+          slot.dataset.n = n;
+          slot.style.aspectRatio = `1 / ${ratio}`;
+          pagesEl.appendChild(slot);
+          slots.push(slot);
+        }
+        const render = async (slot) => {
+          if (slot.dataset.done) return;
+          slot.dataset.done = "1";
+          const page = await pdf.getPage(Number(slot.dataset.n));
+          const width = slot.clientWidth || pagesEl.clientWidth;
+          const base = page.getViewport({ scale: 1 });
+          const scale = (width / base.width) * Math.min(window.devicePixelRatio || 1, 2);
+          const vp = page.getViewport({ scale });
+          const canvas = document.createElement("canvas");
+          canvas.width = vp.width; canvas.height = vp.height;
+          canvas.setAttribute("aria-label", `Page ${slot.dataset.n}`);
+          slot.style.aspectRatio = `${vp.width} / ${vp.height}`;
+          slot.appendChild(canvas);
+          await page.render({ canvasContext: canvas.getContext("2d"), viewport: vp }).promise;
+        };
+        const io = new IntersectionObserver((entries) => entries.forEach((e) => e.isIntersecting && render(e.target)),
+          { root: pagesEl, rootMargin: "800px 0px" });
+        slots.forEach((sl) => io.observe(sl));
+        const start = Math.min(Math.max(Number(box.dataset.page) || 1, 1), pdf.numPages);
+        const setCount = () => {
+          const top = pagesEl.scrollTop + 40;
+          const cur = slots.findIndex((sl) => sl.offsetTop + sl.offsetHeight > top) + 1 || 1;
+          count.textContent = `Page ${cur} of ${pdf.numPages}`;
+        };
+        pagesEl.addEventListener("scroll", setCount, { passive: true });
+        requestAnimationFrame(() => {
+          pagesEl.scrollTop = Math.max(slots[start - 1].offsetTop - 12, 0);   // .pdf-pages is the offsetParent
+          setCount();
+        });
+      } catch (err) {
+        count.textContent = "This PDF couldn't be displayed here.";
+        pagesEl.innerHTML = `<p class="pdf-fallback">Use <a href="${esc(src)}" target="_blank" rel="noopener">Open</a> to view it in your browser.</p>`;
+      }
+    });
+  }
+
   const docHref = (rid, did) => `#/d/${encodeURIComponent(rid)}/${encodeURIComponent(did)}`;
   const resHref = (rid) => `#/r/${encodeURIComponent(rid)}`;
 
@@ -167,7 +239,12 @@
 
     let body;
     if (d.content) body = `<article class="prose">${d.content}</article>`;
-    else if (isPdf) body = `<iframe class="pdf" src="${esc(pdfView(d.file))}" title="${esc(d.title)}"></iframe>`;
+    else if (isPdf) {
+      const [path, frag = ""] = d.file.split("#");
+      const pg = (frag.match(/page=(\d+)/) || [])[1] || 1;
+      body = `<div class="pdf-viewer" data-src="${esc(path)}" data-page="${esc(pg)}" role="region" aria-label="PDF: ${esc(d.title)}">
+        <div class="pdf-bar"><span class="pdf-count">Loading PDF…</span></div><div class="pdf-pages"></div></div>`;
+    }
     else if (d.file) body = empty("Preview not available", "This file type opens in its own app. Use Download or Open below.");
     else if (d.url) body = d.details?.length ? "" : empty("External resource", "This resource is hosted on another site.");
     else if (d.refOnly) body = "";
@@ -332,6 +409,7 @@
     }
 
     app.innerHTML = `<div class="view">${html}</div>`;
+    initPdfViewers();
     document.querySelectorAll("[data-nav]").forEach((a) =>
       a.toggleAttribute("aria-current", a.dataset.nav === nav));
     closeMenu();
