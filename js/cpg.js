@@ -4,7 +4,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-57",
   "title": "Burn Wound Management in Prolonged Field Care",
   "description": "JTS CPG ID 57 · Published 13 Jan 2017",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 57",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -94,7 +94,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-58",
   "title": "Crush Syndrome - Prolonged Field Care",
   "description": "JTS CPG ID 58 · Published 28 Dec 2016",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 58",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -185,7 +185,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-61",
   "title": "Analgesia and Sedation Management during Prolonged Field Care",
   "description": "JTS CPG ID 61 · Published 11 May 2017 · Rapid update 01 Sep 2023",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 61",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -286,7 +286,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-62",
   "title": "Acute Traumatic Wound Management in the Prolonged Field Care Setting",
   "description": "JTS CPG ID 62 · Published 24 Jul 2017",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 62",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -377,7 +377,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-63",
   "title": "Traumatic Brain Injury Management in Prolonged Field Care",
   "description": "JTS CPG ID 63 · Published 06 Dec 2017 · Rapid update Apr 2024",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 63",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -475,7 +475,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-66",
   "title": "Ocular Injuries and Vision-Threatening Conditions in Prolonged Field Care",
   "description": "JTS CPG ID 66 · Published 01 Dec 2017",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 66",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -567,7 +567,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-70",
   "title": "Nursing Intervention in Prolonged Field Care",
   "description": "JTS CPG ID 70 · Published 22 Jul 2018",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 70",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -654,7 +654,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-72",
   "title": "Documentation in Prolonged Field Care",
   "description": "JTS CPG ID 72 · Published 13 Nov 2018",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 72",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -741,7 +741,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-73",
   "title": "Damage Control Resuscitation (DCR) in Prolonged Field Care (PFC)",
   "description": "JTS CPG ID 73 · Published 01 Oct 2018 · Rapid update 01 Sep 2023",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 73",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -842,7 +842,7 @@ window.CPG_DOCUMENTS = [
   "id": "cpg-83",
   "title": "Sepsis Management in Prolonged Field Care",
   "description": "JTS CPG ID 83 · Published 28 Oct 2020 · Rapid update 01 Sep 2023",
-  "section": "Prolonged Field Care Series",
+  "section": "Prolonged Field & Casualty Care Series",
   "type": "CPG 83",
   "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
   "urlLabel": "JTS CPG library ↗",
@@ -932,6 +932,67 @@ window.CPG_DOCUMENTS = [
    "cpg83",
    "pfc",
    "sepsis"
+  ]
+ },
+ {
+  "id": "cpg-91",
+  "title": "Prolonged Casualty Care Guidelines",
+  "description": "JTS CPG ID 91 · Published 21 Dec 2021 · Rapid update Jun 2023",
+  "section": "Prolonged Field & Casualty Care Series",
+  "type": "CPG 91",
+  "url": "https://jts.health.mil/index.cfm/PI_CPGs/cpgs",
+  "urlLabel": "JTS CPG library ↗",
+  "updated": "Jun 2023",
+  "cpgId": 91,
+  "meta": [
+   [
+    "CPG ID",
+    "91"
+   ],
+   [
+    "Publisher",
+    "Joint Trauma System"
+   ],
+   [
+    "Published",
+    "21 Dec 2021"
+   ],
+   [
+    "Series",
+    "Prolonged Casualty Care"
+   ],
+   [
+    "Length",
+    "75 pages"
+   ]
+  ],
+  "details": [
+   {
+    "heading": "Purpose",
+    "text": "The Prolonged Casualty Care (PCC) guidelines are a consolidated list of casualty-centric knowledge, skills, and best practices intended to serve as the DoD baseline clinical practice guidance to guide casualty management over a prolonged amount of time in austere, remote, or expeditionary settings, and/or during long-distance movements."
+   },
+   {
+    "heading": "Rapid updates in this edition",
+    "items": [
+     "Jun 2023: removal of Promethazine recommendation in accordance with DHA Policy Memo 23-001 Discontinuation of Injectable Promethazine Usage at MTFs."
+    ]
+   }
+  ],
+  "summarized": false,
+  "notice": "Published 21 Dec 2021, with rapid updates through Jun 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 91 in the JTS CPG library and confirm you have the current version.",
+  "source": "Joint Trauma System Clinical Practice Guideline, Prolonged Casualty Care Guidelines (CPG ID: 91), 21 Dec 2021.",
+  "related": [
+   "ictl/081-000-1020",
+   "ictl/081-68w-3008"
+  ],
+  "tags": [
+   "cpg",
+   "jts",
+   "cpg 91",
+   "cpg91",
+   "pfc",
+   "casualty",
+   "guidelines"
   ]
  },
  {

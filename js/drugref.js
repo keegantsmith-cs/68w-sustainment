@@ -35,6 +35,7 @@ window.DRUGREF_DOCUMENTS = [
   "source": null,
   "related": [
    "cpg/cpg-82",
+   "cpg/cpg-91",
    "ictl/081-000-1653",
    "ictl/081-68w-0248"
   ],
@@ -117,6 +118,7 @@ window.DRUGREF_DOCUMENTS = [
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-58",
+   "cpg/cpg-91",
    "ictl/081-000-1025"
   ],
   "tags": [
@@ -197,7 +199,8 @@ window.DRUGREF_DOCUMENTS = [
   "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
   "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 3 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
-   "cpg/cpg-73"
+   "cpg/cpg-73",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -300,7 +303,8 @@ window.DRUGREF_DOCUMENTS = [
   "related": [
    "cpg/cpg-58",
    "cpg/cpg-73",
-   "cpg/cpg-82"
+   "cpg/cpg-82",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -352,7 +356,8 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-57",
    "cpg/cpg-58",
    "cpg/cpg-62",
-   "cpg/cpg-63"
+   "cpg/cpg-63",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -479,7 +484,8 @@ window.DRUGREF_DOCUMENTS = [
   "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 4 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-63",
-   "cpg/cpg-83"
+   "cpg/cpg-83",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -552,7 +558,8 @@ window.DRUGREF_DOCUMENTS = [
   "notice": "This drug appears only on the PCC antibiotic cards, which were not part of the approved reference. Dosing is not shown. Follow PCC guidelines, local protocol and medical direction.",
   "source": null,
   "related": [
-   "cpg/cpg-57"
+   "cpg/cpg-57",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -623,7 +630,8 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-57",
    "cpg/cpg-58",
    "cpg/cpg-62",
-   "cpg/cpg-66"
+   "cpg/cpg-66",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -670,6 +678,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-63",
    "cpg/cpg-66",
    "cpg/cpg-72",
+   "cpg/cpg-91",
    "ictl/081-000-0108"
   ],
   "tags": [
@@ -750,6 +759,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-61",
    "cpg/cpg-73",
    "cpg/cpg-82",
+   "cpg/cpg-91",
    "ictl/081-000-1025",
    "ictl/081-000-1653"
   ],
@@ -834,6 +844,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-73",
    "cpg/cpg-82",
    "cpg/cpg-83",
+   "cpg/cpg-91",
    "ictl/081-000-0003",
    "ictl/081-000-1025",
    "ictl/081-68w-0248",
@@ -930,7 +941,8 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-62",
    "cpg/cpg-63",
    "cpg/cpg-66",
-   "cpg/cpg-83"
+   "cpg/cpg-83",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -1091,6 +1103,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-62",
    "cpg/cpg-63",
    "cpg/cpg-72",
+   "cpg/cpg-91",
    "cpg/cpg-92",
    "ictl/081-000-0108"
   ],
@@ -1432,6 +1445,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-63",
    "cpg/cpg-66",
    "cpg/cpg-72",
+   "cpg/cpg-91",
    "ictl/081-000-1653"
   ],
   "tags": [
@@ -1511,7 +1525,8 @@ window.DRUGREF_DOCUMENTS = [
   "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
   "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 10 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
-   "cpg/cpg-63"
+   "cpg/cpg-63",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -1754,7 +1769,8 @@ window.DRUGREF_DOCUMENTS = [
   "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 12 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
-   "cpg/cpg-62"
+   "cpg/cpg-62",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -1793,7 +1809,8 @@ window.DRUGREF_DOCUMENTS = [
   "source": null,
   "related": [
    "cpg/cpg-63",
-   "cpg/cpg-83"
+   "cpg/cpg-83",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -1872,6 +1889,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-61",
    "cpg/cpg-63",
    "cpg/cpg-72",
+   "cpg/cpg-91",
    "ictl/081-000-0108",
    "ictl/081-000-1653"
   ],
@@ -1954,6 +1972,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-61",
    "cpg/cpg-62",
    "cpg/cpg-72",
+   "cpg/cpg-91",
    "ictl/081-000-0108",
    "ictl/081-000-1653"
   ],
@@ -2023,7 +2042,8 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-62",
    "cpg/cpg-63",
    "cpg/cpg-66",
-   "cpg/cpg-83"
+   "cpg/cpg-83",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -2102,6 +2122,7 @@ window.DRUGREF_DOCUMENTS = [
   "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 14 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
   "related": [
    "cpg/cpg-61",
+   "cpg/cpg-91",
    "ictl/081-68w-0248"
   ],
   "tags": [
@@ -2232,7 +2253,8 @@ window.DRUGREF_DOCUMENTS = [
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62",
-   "cpg/cpg-66"
+   "cpg/cpg-66",
+   "cpg/cpg-91"
   ],
   "tags": [
    "drug",
@@ -2387,7 +2409,9 @@ window.DRUGREF_DOCUMENTS = [
   "noticeLabel": "Approved reference.",
   "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
   "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 16 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
-  "related": [],
+  "related": [
+   "cpg/cpg-91"
+  ],
   "tags": [
    "drug",
    "medication",
@@ -2469,6 +2493,7 @@ window.DRUGREF_DOCUMENTS = [
    "cpg/cpg-72",
    "cpg/cpg-73",
    "cpg/cpg-82",
+   "cpg/cpg-91",
    "ictl/081-000-0040",
    "ictl/081-000-0231"
   ],
@@ -2580,6 +2605,9 @@ window.DRUGREF_DOCUMENTS = [
     "Drugs",
     "10"
    ]
+  ],
+  "related": [
+   "cpg/cpg-91"
   ],
   "noticeLabel": "Scope.",
   "notice": "Per the card: drug administration information is based solely on PCC Guidelines and should not be used for administering these medications for other purposes.",

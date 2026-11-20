@@ -31,11 +31,12 @@ RAPID_UPDATES = {
          ["Jun 2023", "Tranexamic acid (TXA) 2gm bolus is now favored over the traditional 1gm prehospital bolus followed by 1gm infusion over 8 hours. The 2gm TXA bolus should be given as close to the time of injury as possible and not outside of the 3 hours window."]],
     82: [["Jun 2023", "Calcium administration changed to 1 gram calcium"]],
     83: [["01 Sep 2023", "SAVeO2 oxygen parameters"]],
+    91: [["Jun 2023", "removal of Promethazine recommendation in accordance with DHA Policy Memo 23-001 Discontinuation of Injectable Promethazine Usage at MTFs."]],
     92: [["01 Sep 2023", "SAVeO2 oxygen parameters"],
          ["Nov 2022", "Safety statement. CAUTION: The Hamilton T1 as fielded by the Department of Defense DOES NOT support noninvasive ventilation (NIV). In environments where there is a risk of patients requiring NIV, a different ventilator should be fielded."]],
 }
 
-SERIES_PFC = "Prolonged Field Care Series"
+SERIES_PFC = "Prolonged Field & Casualty Care Series"
 SERIES_OTHER = "Prehospital, En Route & Deployed Care"
 
 
@@ -61,7 +62,7 @@ def parse_cpg(pdf):
     i = next(i for i, l in enumerate(lines) if "CLINICAL PRACTICE GUIDELINE" in l) + 1
     # Title runs until the intent sentence ("The intent...", "This CPG...", "The purpose...")
     title_lines, intent_lines = [], []
-    while i < len(lines) and not re.match(r"(The (intent|purpose)|This (CPG|Role|guideline|guide)|The CPG)", lines[i]):
+    while i < len(lines) and not re.match(r"(The (intent|purpose)|This (CPG|Role|guideline|guide)|The CPG|The Prolonged Casualty Care \(PCC\) guidelines)", lines[i]):
         title_lines.append(lines[i]); i += 1
     while i < len(lines) and not lines[i].lower().startswith("contributors"):
         intent_lines.append(lines[i]); i += 1
@@ -130,7 +131,7 @@ def main():
     docs = []
     for pdf in sorted(DOCS.glob("*.pdf")):
         c = parse_cpg(pdf)
-        pfc = "prolonged field care" in c["title"].lower()
+        pfc = any(k in c["title"].lower() for k in ("prolonged field care", "prolonged casualty care"))
         words = [w for w in re.findall(r"[a-z]+", c["title"].lower()) if len(w) > 3 and w not in {"field", "care", "management", "prolonged", "setting", "during"}]
         related = sorted(cites.get(c["id"], []))
         summ = load_summary(c["id"], pdf)
@@ -155,7 +156,7 @@ def main():
             updated=latest(c["updates"]) if c["updates"] else c["date"],
             cpgId=c["id"],
             meta=[["CPG ID", str(c["id"])], ["Publisher", "Joint Trauma System"], ["Published", c["date"]],
-                  ["Series", "Prolonged Field Care" if pfc else "Prehospital / Deployed"], ["Length", f"{c['pages']} pages"]],
+                  ["Series", ("Prolonged Casualty Care" if "casualty" in c["title"].lower() else "Prolonged Field Care") if pfc else "Prehospital / Deployed"], ["Length", f"{c['pages']} pages"]],
             details=([{"heading": "Purpose", "text": c["intent"]}] if c["intent"] else [])
                     + ([{"heading": "Rapid updates in this edition", "items": [f"{d}: {t}" for d, t in c["updates"]]}] if c["updates"] else [])
                     + summary_details,

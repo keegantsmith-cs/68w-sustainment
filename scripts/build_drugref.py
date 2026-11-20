@@ -247,6 +247,7 @@ def main():
     docs.append(dict(id="drugref-pcc-sc-26", title="PCC Antibiotic Medications cards (#PCC-SC-26)",
         description=f"Prolonged Casualty Care provider cards · 04 Dec 2023 · {len(pccp)} antibiotics", section="Card Sets", type="PCC", refOnly=True,
         meta=[["Card", "#PCC-SC-26"], ["Dated", "04 Dec 2023"], ["Drugs", str(len(pccp))]],
+        related=["cpg/cpg-91"],
         noticeLabel="Scope.", notice="Per the card: drug administration information is based solely on PCC Guidelines and should not be used for administering these medications for other purposes.",
         tags=["pcc", "antibiotic", "cards"]))
     # Dose guard: only approved reference cards may carry doses.
