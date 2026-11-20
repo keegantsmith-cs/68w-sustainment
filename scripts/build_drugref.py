@@ -37,6 +37,8 @@ HOLD_EXTRA = {
     # recent official guidance, conflicting cards are withheld until reconciled.
     "KETAMINE": _TCCC, "MIDAZOLAM": _TCCC, "FENTANYL": _TCCC, "MORPHINE SULFATE": _TCCC, "ONDANSETRON": _TCCC,
     "ESKETAMINE": _TCCC, "ERTAPENEM": _TCCC,
+    "KETOROLAC": "SMOG FY27 (01 Oct 2026) states it is not for pain management of battlefield trauma patients (p. 148) and gives daily maximums the card lacks; this is being reconciled.",
+    "OXYGEN": "Its transport SpO2 target differs from SMOG FY27 (01 Oct 2026) and TCCC 2026; this is being reconciled.",
     "PROMETHAZINE": "The PCC Guidelines (CPG 91, Jun 2023 rapid update) removed the promethazine recommendation, and TCCC 2026 does not include it.",
 }
 FIELD_ORDER = [("INDICATION(S)", "Indication(s)"), ("ROUTE(S)", "Route(s)"),

@@ -9,7 +9,7 @@ const root = path.join(__dirname, "..");
 const errors = [], warnings = [];
 
 global.window = {};
-for (const f of ["js/ictl.js", "js/cpg.js", "js/adtmc.js", "js/drugref.js", "js/smog.js"]) if (fs.existsSync(path.join(root, f))) require(path.join(root, f));
+for (const f of ["js/ictl.js", "js/cpg.js", "js/adtmc.js", "js/drugref.js", "js/smog.js", "js/fieldcare.js"]) if (fs.existsSync(path.join(root, f))) require(path.join(root, f));
 require(path.join(root, "js/data.js"));
 const RES = window.RESOURCES || [];
 

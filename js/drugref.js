@@ -1348,7 +1348,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Ketorolac",
   "description": "NSAID analgesic · Toradol",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1370,44 +1370,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Non-hemorrhagic injury pain; fever when unable to take PO"
    },
    {
-    "heading": "Route(s)",
-    "text": "IV/IO/IM"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Screen for bleeding risk, renal impairment, peptic ulcer/GI bleed, NSAID hypersensitivity, and local contraindications."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "IV/IO 15 mg q6h; IM 15-30 mg q6h. Fever when unable to take PO: 15 mg IV/IO/IM q6h."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "GI bleeding, renal injury, platelet dysfunction, hypersensitivity."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Other NSAIDs, anticoagulants/antiplatelets increase bleeding risk."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "~30 min / 4-6 h"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Not for hemorrhagic casualties; document time and reassess pain/bleeding risk."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 10 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 10 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "SMOG FY27 (01 Oct 2026) states it is not for pain management of battlefield trauma patients (p. 148) and gives daily maximums the card lacks; this is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-63",
    "cpg/cpg-91"
@@ -2066,7 +2038,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Oxygen",
   "description": "Medical gas · Medical oxygen (no single trade name)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -2088,44 +2060,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Hypoxemia/selected transport and inhalation indications"
    },
    {
-    "heading": "Route(s)",
-    "text": "NC, reservoir mask, BVM/PEEP, ventilator"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Most combat casualties do not need supplemental oxygen. Consider low SpO2, altitude, CO exposure, or smoke inhalation."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "Use delivery method/flow sufficient for indication. Transport target SpO2 92-96%; ventilated 90-96%; suspected CO exposure 100%."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Drying of mucosa; oxygen toxicity with prolonged high exposure."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Fire hazard; ensure safe handling."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Immediate"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Calculate supply for transport; reassess oxygenation AND ventilation."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 15 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 15 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its transport SpO2 target differs from SMOG FY27 (01 Oct 2026) and TCCC 2026; this is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [],
   "tags": [
    "drug",
@@ -2319,7 +2263,7 @@ window.DRUGREF_DOCUMENTS = [
  {
   "id": "drugref-draft",
   "title": "68W Current CPG Reconciled Drug Reference (PCC card format)",
-  "description": "Approved 19 Nov 2026 · 18 Nov 2026 file · 31 cards (14 published, 17 held)",
+  "description": "Approved 19 Nov 2026 · 18 Nov 2026 file · 31 cards (12 published, 19 held)",
   "section": "Card Sets",
   "type": "REF",
   "refOnly": true,
@@ -2342,7 +2286,7 @@ window.DRUGREF_DOCUMENTS = [
    ],
    [
     "Cards",
-    "31: 14 published, 17 held"
+    "31: 12 published, 19 held"
    ]
   ],
   "noticeLabel": "Approved reference.",

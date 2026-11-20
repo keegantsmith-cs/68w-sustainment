@@ -976,9 +976,54 @@ window.CPG_DOCUMENTS = [
     "items": [
      "Jun 2023: removal of Promethazine recommendation in accordance with DHA Policy Memo 23-001 Discontinuation of Injectable Promethazine Usage at MTFs."
     ]
+   },
+   {
+    "heading": "Summary",
+    "text": "The DoD baseline guidance for caring for casualties over a prolonged period when evacuation is delayed or medical capacity is overwhelmed, in austere, remote or expeditionary settings and during long-distance movement. It builds on TCCC (master TCCC first) and follows the MARC2H3-PAWS-L sequence, with role-based tables by TCCC tier and phase of care (Role 1a/1b/1c) and Minimum / Better / Best options. Its stated primary goal is to get out of PCC; the June 2023 rapid update removed the promethazine recommendation."
+   },
+   {
+    "heading": "Key points",
+    "items": [
+     "MASCAL/triage: in a PCC MASCAL, keep it simple, re-triage continuously, avoid high-resource/low-yield interventions, and conserve scarce resources such as blood. Reserve emergency airway interventions for reversible problems in salvageable casualties. Operational commanders must be involved at every stage. (p. 10)",
+     "Massive hemorrhage: all personnel check that tourniquets have not shifted or loosened and look for bleeding that restarted or was missed. At the Combat Medic tier, also check pulses and skin color beyond pressure dressings (a dressing acting as a venous tourniquet can cause compartment syndrome), give calcium and TXA per the TCCC guideline, and stop fluids once a tiered end point is reached: Minimum, a palpable radial pulse or improved mental status; Better, SBP > 90 mmHg; Best, SBP 100-110 mmHg. For a head-injured casualty, follow the higher blood-pressure goal in the TBI section. “Continue resuscitation until: min: palpable radial pulse or improved mental status better: SBP > 90 mmHg best: SBP between 100-110 mmHg.” (p. 11)",
+     "Airway: use a PEEP valve whenever you use a bag valve mask, and use an NPA. Judge every airway adjunct by work of breathing, ETCO2 and pulse oximetry. Re-assess the airway before, during and after any movement, and check cuffed tubes (ET, cric, LMA) for under- or over-inflation. For a casualty sedated deeply enough for intubation, reassess sedation every 5 minutes. “Level of sedation should be continuously assessed every 5 minutes for patients sedated deep enough for endotracheal intubation.” (p. 13)",
+     "Respiration: escalate from a BVM with PEEP valve and NPA to mechanical ventilation, which is for trained providers only. Target a pulse oximetry level of 92%, give supplemental oxygen if available, and monitor ETCO2. If a definitive airway is needed, consider a cric tube because it needs less sedation and pain management. “Target ventilation to pulse oximetry level of 92%; use supplemental oxygen if available.” (p. 15)",
+     "Circulation (Combat Medic tier and above): convert tourniquets per TCCC guidelines when other means can control the bleeding (the CPG's two tables give different conversion windows; see edition notes), and do not remove a tourniquet that has been on for more than 6 hours. For hemorrhagic shock, give blood products, calcium and TXA per DCoT/TCCC guidelines and reassess after each unit. If shock persists despite hemorrhage control, look for bleeding again, then consider other causes (tension pneumothorax, tamponade, spinal cord injury, sepsis, burns). “DO NOT remove a tourniquet that has been in place more than 6 hours.” (p. 18)",
+     "Hypothermia: prevent heat loss early and aggressively in trauma and burn casualties, in hot and cold climates alike. Insulate the casualty from the ground, replace wet clothing if possible, put an active heating blanket on the front of the torso and in the armpits, and enclose the casualty in an impermeable bag if available. Never place active heating directly on skin or on areas under pressure or with poor blood flow, and check the skin often for contact burns when using the HPMK ready-heat blanket. (p. 22)",
+     "Head injury/TBI (Combat Medic tier and above): watch for signs of rising intracranial pressure (listed in Appendix E) and start treatment immediately; the CPG calls for an initial 3% hypertonic saline bolus of 250-500 ml if available. Get teleconsultation with a trauma surgeon or neurosurgeon, and upgrade evacuation priority to a neurosurgical facility for any casualty whose mild TBI worsens to moderate or severe. “Initiate immediate treatment for signs of elevated ICP including initial bolus of 3% hypertonic saline (HTS) 250-500 ml if available.” (p. 28)",
+     "Hyperthermia: heat stroke (hyperthermia plus mental status changes) needs immediate cooling. Minimum is wetting the clothing, Better is fanning after wetting, Best is immersion in water. Use IV/IO fluids if the casualty is unconscious or vomiting, and treat seizures with benzodiazepines. Have casualties eat to prevent sodium loss; dilutional hyponatremia from drinking without eating can look like heat illness. (p. 25)",
+     "Pain management: PCC needs a different approach than TCCC. Go slowly, use lower doses, titrate to effect and re-dose more often. IV/IO routes are preferred over IM because the response is more predictable. Document every dose (drug, dose, route and time). (p. 31)",
+     "Communication and documentation: keep tactical leadership informed, confirm the evacuation request was sent, and call for teleconsultation early and often. Documentation tiers: Minimum is the TCCC card (DD1380), Better is a PCC flowsheet, Best adds a formal After Action Report after handoff. Record a head-to-toe assessment as a problem list to build the care plan. (p. 20)"
+    ]
+   },
+   {
+    "heading": "Watch for",
+    "items": [
+     "Do not give analgesia or sedation while other priorities such as hemorrhage control remain. Do not give drugs that lower blood pressure or suppress breathing to a casualty in, or at significant risk of, shock or respiratory distress. (p. 30)",
+     "Ketamine, opioids and benzodiazepines given together multiply each other's effects, so give less of each than you would alone. (p. 31)",
+     "A pressure dressing can act as a venous tourniquet. Decreased pulses or mottled skin beyond it mean it needs adjusting, or limb damage and compartment syndrome may follow. (p. 17)",
+     "Do not give acetaminophen, aspirin or ibuprofen for hyperthermia; they are only for fever. (p. 24)",
+     "The hand-off is the most dangerous time for the patient. Highlight care the next team cannot see, such as drugs given and repeat doses. (p. 54)"
+    ]
+   },
+   {
+    "heading": "Notes on this edition",
+    "items": [
+     "Promethazine: the June 2023 rapid update (p. 1) removed the promethazine recommendation. The body text no longer mentions promethazine anywhere; the nausea/vomiting options it lists (pp. 34 and 41) do not include it. This summary does not mention it except to note its removal.",
+     "Tourniquet conversion timing conflicts: the Massive Hemorrhage table (p. 11, Combat Medic tier, Role 1b phase) gives a conversion window that starts after a set time, while the Circulation table (p. 18, Combat Medic tier, Role 1a phase) says to convert before that same time if other means control the bleeding. Both share the same 'do not remove' upper limit, which is the only timing this summary gives.",
+     "Urine output goals differ between the Massive Hemorrhage table (p. 12) and the Circulation table (p. 18).",
+     "Oxygen and CO2 targets vary across chapters: the Respiration table gives its SpO2 target two different ways (p. 15); the TBI table gives an SpO2 upper limit on p. 28 but not on p. 29; and the TBI table calls the same ETCO2/pCO2 range 'mild hyperventilation' on p. 28 but 'normocapnia' on p. 29. The Respiration ETCO2 range (p. 15) also differs from the TBI range (pp. 28-29).",
+     "The TBI table gives a single SBP goal on p. 28 but the tiered Minimum/Better/Best end points plus vasopressors on p. 29.",
+     "The TBI table (pp. 28-29) lists the concentrated sodium chloride alternative without dilution instructions, while the Appendix E hypertonic saline protocol (p. 71) says to dilute it, with an undiluted bolus only if dilution is not possible.",
+     "Pain management: the text (p. 32) says IM and intranasal dosing isn't recommended in PCC, but the pain tables (pp. 33-35) list IM and intranasal doses for ketamine, fentanyl and other drugs.",
+     "The role-based tables show which TCCC tier (ASM, CLS, CMC, CPP) each block applies to only by coloured side columns (legend under each table). The 'Ensure all interventions noted above are completed by...' lines do not always line up with those columns (e.g., Airway table, p. 13), so read tier scope from the coloured columns in the PDF.",
+     "Minor errors: in the NEWS table (p. 39) the respiratory-rate ranges overlap; the TBI table header (p. 27) reads 'Heat Injury/TBI'; the Splinting table (p. 46) repeats a 'Litter Padding' row containing airway content; Logistics (p. 54) and an appendix table (p. 72) label the TCCC card as a DA form while other sections call it a DD form; and the three burn-center consult entries (pp. 51-52) do not all give the same email address.",
+     "The base document is dated 21 Dec 2021, with a June 2023 rapid update. Many of the linked component CPGs are older (the oldest, Hypothermia on p. 23, is from 2012). Check the Joint Trauma System site for a newer version before relying on it.",
+     "Resuscitation end points differ: the Massive Hemorrhage table (p. 11) says to stop fluids once any one tiered end point is reached, while the Circulation background (p. 17) gives a single blood-pressure goal, the Circulation and TBI tables (pp. 19 and 29) call for a vasopressor if blood pressure stays below the Best range, and the TBI table (p. 28) sets its own blood-pressure goal for head-injured casualties."
+    ]
    }
   ],
-  "summarized": false,
+  "summarized": true,
   "notice": "Published 21 Dec 2021, with rapid updates through Jun 2023. JTS revises its CPGs. Before relying on this one, find CPG ID 91 in the JTS CPG library and confirm you have the current version.",
   "source": "Joint Trauma System Clinical Practice Guideline, Prolonged Casualty Care Guidelines (CPG ID: 91), 21 Dec 2021.",
   "related": [
