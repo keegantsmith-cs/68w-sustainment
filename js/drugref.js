@@ -866,7 +866,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Ertapenem",
   "description": "Carbapenem antibiotic · Invanz",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -892,38 +892,6 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Limited; not current first-line initial TCCC open-wound regimen"
    },
    {
-    "heading": "Route(s)",
-    "text": "IV/IO/IM when specifically directed"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Current first-line regimen is not ertapenem."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "No routine initial TCCC open-wound dose on this card."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Hypersensitivity, diarrhea, seizure risk in predisposed patients."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Valproate levels may decrease substantially."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Variable"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Use only under specific local authorization; document prior antibiotics."
-   },
-   {
-    "heading": "PCC card",
-    "text": "Recommended for all open combat wounds if unable to take PO meds."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 6 (Rev 4)",
@@ -931,10 +899,10 @@ window.DRUGREF_DOCUMENTS = [
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 6 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury care, and is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-58",
@@ -959,7 +927,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Esketamine",
   "description": "Dissociative analgesic · Spravato (product-specific)",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -981,44 +949,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Moderate-to-severe pain when intranasal analgesia is indicated in current TCCC"
    },
    {
-    "heading": "Route(s)",
-    "text": "IN"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Use only under the 01 May 2026 TCCC analgesia plan and approved formulary. Monitor closely after any potent analgesic."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "14 mg or 28 mg IN once; may repeat every 30 min as needed."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Dissociation, nystagmus, dizziness, nausea/vomiting, transient hypertension, agitation."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Additive CNS effects with opioids, alcohol, and sedatives."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Rapid IN / duration variable"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Tactical endpoint: pain relief or onset of nystagmus. Use higher-concentration product (100 mg/mL) when available to reduce IN volume."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 10 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 10 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury care, and is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [],
   "tags": [
    "drug",
@@ -1037,7 +977,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Fentanyl",
   "description": "Opioid analgesic · Sublimaze; Actiq",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1059,44 +999,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Mild-to-moderate or moderate-to-severe pain; ventilated-casualty analgesia"
    },
    {
-    "heading": "Route(s)",
-    "text": "OTFC, IV/IO, IN"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Use within credentialed TCCC analgesia plan with airway readiness."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "Mild-moderate: 25-50 mcg IV once; may repeat in 30 min. Moderate-severe: 0.5-1 mcg/kg IV/IO once or 100 mcg IN; repeat per approved guidance."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Respiratory depression, hypotension, nausea, chest-wall rigidity with rapid/high dosing."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Additive CNS/respiratory depression with sedatives/alcohol."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Rapid IV / 30-60 min"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Controlled substance; document pain score, route, time, response, and handoff."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 7 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 7 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury care, and is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-61",
@@ -1378,7 +1290,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Ketamine",
   "description": "Dissociative anesthetic / analgesic · Ketalar",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1400,44 +1312,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Moderate-to-severe pain; procedural sedation; airway management"
    },
    {
-    "heading": "Route(s)",
-    "text": "IV/IO, IM, IN"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Use only within trained/authorized scope. TBI or eye injury is not an absolute contraindication, but sedation can impede serial neurologic assessment."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "Analgesia: 20 mg (0.15-0.3 mg/kg) IV/IO over 2 min; or 50-100 mg (0.5-1 mg/kg) IM/IN."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Nystagmus, dissociation, emergence reaction, hypertension, nausea/vomiting, laryngospasm (rare)."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Additive sedation with opioids/benzodiazepines."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Rapid IV / 10-20 min"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Airway equipment, suction, cardiac monitor and EtCO2 when available. Resuscitate before intubation in shock."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 9 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 9 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury care, and is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-61",
@@ -1824,7 +1708,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Midazolam",
   "description": "Benzodiazepine sedative · Versed",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1846,44 +1730,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Emergency sedation; ketamine emergence reaction; active seizure in severe TBI"
    },
    {
-    "heading": "Route(s)",
-    "text": "IV/IO/IM/IN"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Use only where authorized with airway readiness and monitoring. Sedation does not provide analgesia."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "Emergency sedation/anxiety: 2 mg IV/IO or 5 mg IM/IN q15 min to 10 mg. Emergence: 2.5 mg IV/IO q5 min to 5 mg."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Respiratory depression, hypotension, paradoxical agitation, amnesia."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Additive respiratory/CNS depression with opioids/other sedatives."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Minutes / variable"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Have suction, airway equipment, cardiac monitor and EtCO2 when available."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 12 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 12 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury care, and is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-57",
    "cpg/cpg-61",
@@ -1908,7 +1764,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Morphine Sulfate",
   "description": "Opioid analgesic · No single standard injectable trade name",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -1930,44 +1786,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Pain management when selected under protocol; caution in hypotension"
    },
    {
-    "heading": "Route(s)",
-    "text": "IV/IO/IM"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Use local protocol and monitor respiratory status; not retained as routine ACS/CHF medication on this card."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "IV/IO 2-5 mg slow push over 2 min; repeat q30-45 min PRN. IM 5-10 mg; repeat q30-60 min PRN."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Respiratory depression, hypotension, nausea/vomiting, pruritus."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Additive CNS/respiratory depression with sedatives/alcohol."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Rapid IV / 3-4 h"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Use caution SBP <100 mmHg; document pain response and handoff."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 13 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 13 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury care, and is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62",
@@ -2020,10 +1848,6 @@ window.DRUGREF_DOCUMENTS = [
    {
     "heading": "Indication(s)",
     "text": "REPLACED as current first-line TCCC open-wound oral antibiotic"
-   },
-   {
-    "heading": "PCC card",
-    "text": "Recommended for all open combat wounds if able to take PO meds."
    },
    {
     "heading": "Listed in",
@@ -2190,7 +2014,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Ondansetron",
   "description": "Antiemetic · Zofran",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -2212,44 +2036,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Nausea/vomiting"
    },
    {
-    "heading": "Route(s)",
-    "text": "IV/IO/IM/ODT/PO"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Screen for QT risk and local contraindications/interactions."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "4 mg IV/IO/IM/ODT/PO q8h; maximum 8 mg in 8 h."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Headache, constipation, QT prolongation, serotonin syndrome (rare)."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "QT-prolonging and serotonergic agents."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "Minutes / 4-8 h"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Document nausea response; use local protocol if persistent symptoms or special populations."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 15 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 15 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury care, and is being reconciled. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-61",
    "cpg/cpg-62",
@@ -2349,7 +2145,7 @@ window.DRUGREF_DOCUMENTS = [
   "title": "Promethazine",
   "description": "Antiemetic / antihistamine · Phenergan",
   "section": "Medications A–Z",
-  "type": "RX",
+  "type": "INDEX",
   "refOnly": true,
   "meta": [
    [
@@ -2371,44 +2167,16 @@ window.DRUGREF_DOCUMENTS = [
     "text": "Nausea/vomiting or motion-sickness option"
    },
    {
-    "heading": "Route(s)",
-    "text": "PO"
-   },
-   {
-    "heading": "Contraindications / conditions",
-    "text": "Use local protocol for other routes/uses; monitor for sedation."
-   },
-   {
-    "heading": "Dosage(s)",
-    "text": "25 mg PO q6h."
-   },
-   {
-    "heading": "Potential side effects",
-    "text": "Sedation, anticholinergic effects, hypotension, dystonia (rare)."
-   },
-   {
-    "heading": "Drug interactions",
-    "text": "Additive CNS depression/anticholinergic effects."
-   },
-   {
-    "heading": "Onset / peak / duration",
-    "text": "20 min / 4-6 h"
-   },
-   {
-    "heading": "Tactical considerations",
-    "text": "Avoid compromising serial neuro or airway assessment; document response."
-   },
-   {
     "heading": "Listed in",
     "items": [
      "68W Current CPG Reconciled Drug Reference, page 16 (Rev 4)"
     ]
    }
   ],
-  "approvedDoses": true,
-  "noticeLabel": "Approved reference.",
-  "notice": "Card content approved by medical authority on 19 Nov 2026 (Rev 5 file dated 18 Nov 2026). Verify drug, concentration (mg/mL), dose, volume and route before every administration, and follow local protocol, formulary, credentialing and medical direction.",
-  "source": "68W Current CPG Reconciled Drug Reference (PCC card format), page 16 (Rev 4), 18 Nov 2026; approved 19 Nov 2026. Bracketed source numbers in the card are omitted because the reference does not define them.",
+  "approvedDoses": false,
+  "noticeLabel": "Dose held.",
+  "notice": "The PCC Guidelines (CPG 91, Jun 2023 rapid update) removed the promethazine recommendation, and TCCC 2026 does not include it. Dosing and administration details for this drug are withheld until it is resolved. Follow your approved local protocol and medical direction.",
+  "source": null,
   "related": [
    "cpg/cpg-91"
   ],
@@ -2551,7 +2319,7 @@ window.DRUGREF_DOCUMENTS = [
  {
   "id": "drugref-draft",
   "title": "68W Current CPG Reconciled Drug Reference (PCC card format)",
-  "description": "Approved 19 Nov 2026 · 18 Nov 2026 file · 31 cards (22 published, 9 held)",
+  "description": "Approved 19 Nov 2026 · 18 Nov 2026 file · 31 cards (14 published, 17 held)",
   "section": "Card Sets",
   "type": "REF",
   "refOnly": true,
@@ -2574,7 +2342,7 @@ window.DRUGREF_DOCUMENTS = [
    ],
    [
     "Cards",
-    "31: 22 published, 9 held"
+    "31: 14 published, 17 held"
    ]
   ],
   "noticeLabel": "Approved reference.",

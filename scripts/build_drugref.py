@@ -29,7 +29,16 @@ DOSES_APPROVED = True
 APPROVAL = {"by": "medical authority", "date": "19 Nov 2026", "version": "Rev 5 file dated 18 Nov 2026"}
 # Cards whose content is withheld even after approval (open issues not yet reviewed by the approver):
 HOLD_PATTERN = re.compile(r"NOT ADDRESSED|Not reconciled|No current dose|do not use legacy|No universal dose", re.I)
-HOLD_EXTRA = {"CALCIUM GLUCONATE": "Its source citation (DCR CPG ID) is awaiting confirmation."}
+_TCCC = ("Its card conflicts with the TCCC Guidelines (01 May 2026), the most recent official guidance for point-of-injury "
+         "care, and is being reconciled.")
+HOLD_EXTRA = {
+    "CALCIUM GLUCONATE": "Its source citation (DCR CPG ID) is awaiting confirmation.",
+    # 20 Nov 2026 cross-check against TCCC 01 May 2026 / PCC CPG 91: per the owner's direction to follow the most
+    # recent official guidance, conflicting cards are withheld until reconciled.
+    "KETAMINE": _TCCC, "MIDAZOLAM": _TCCC, "FENTANYL": _TCCC, "MORPHINE SULFATE": _TCCC, "ONDANSETRON": _TCCC,
+    "ESKETAMINE": _TCCC, "ERTAPENEM": _TCCC,
+    "PROMETHAZINE": "The PCC Guidelines (CPG 91, Jun 2023 rapid update) removed the promethazine recommendation, and TCCC 2026 does not include it.",
+}
 FIELD_ORDER = [("INDICATION(S)", "Indication(s)"), ("ROUTE(S)", "Route(s)"),
                ("CONTRA-INDICATIONS / CONDITIONS", "Contraindications / conditions"), ("DOSAGE(S)", "Dosage(s)"),
                ("POTENTIAL SIDE EFFECTS", "Potential side effects"), ("DRUG INTERACTIONS", "Drug interactions"),
@@ -213,7 +222,8 @@ def main():
                 details.append({"heading": heading, "text": strip_refs(card["fields"][key])})
         elif d["indication"]:
             details.append({"heading": "Indication(s)", "text": strip_refs(d["indication"])})
-        if d["extra"].get("indication"):
+        if d["extra"].get("indication") and not approved and not d["card"]:
+            # PCC card text only on PCC-only entries; never mixed into reference cards (not part of the approval).
             details.append({"heading": "PCC card", "text": d["extra"]["indication"]})
         details.append({"heading": "Listed in", "items": sources})
         docs.append(dict(

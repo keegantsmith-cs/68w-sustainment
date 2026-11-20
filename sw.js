@@ -1,6 +1,6 @@
 // Offline support: caches the app shell, and any document a user opens.
 // Bump VERSION whenever you change the app files so phones pick up the update.
-const VERSION = "68w-v9";
+const VERSION = "68w-v10";
 const SHELL = ["./", "index.html", "css/styles.css", "js/ictl.js", "js/cpg.js", "js/adtmc.js", "js/drugref.js", "js/data.js", "js/art.js", "js/app.js", "assets/icon.svg", "manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {
