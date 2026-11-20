@@ -55,7 +55,7 @@ def main():
     docs = [dict(
         id="pfc-handbook-2025", title="Prolonged Field Care Field Handbook (2025)",
         description=f"1st Edition · Breakaway Media, LLC · {len(sections)} sections, {sum(len(x['topics']) for x in sections)} topics",
-        section="Prolonged Field Care Field Handbook", type="BOOK", refOnly=True, updated="2025",
+        section="Prolonged Field Care Field Handbook", type="BOOK", refOnly=True, updated="2025", book=["pfc"],
         meta=[["Title", "Prolonged Field Care Field Handbook"], ["Edition", "1st Edition, Official 2025 Edition"],
               ["Publisher", "Breakaway Media, LLC"], ["ISBN", "979-8-9902257-4-9"],
               ["For use with", "Prolonged Field Care, Austere Emergency Care, and Prolonged Casualty Care education, training, and applications"]],
@@ -66,7 +66,7 @@ def main():
         docs.append(dict(
             id=f"pfc-handbook-{x['letter'].lower()}", title=f"Section {x['letter']}: {x['name']}",
             description=f"PFC Field Handbook · {len(x['topics'])} topics" if x["topics"] else "PFC Field Handbook",
-            section="Prolonged Field Care Field Handbook", type=f"SEC {x['letter']}", refOnly=True,
+            section="Prolonged Field Care Field Handbook", type=f"SEC {x['letter']}", refOnly=True, book=["pfc"],
             meta=[["Handbook", "Prolonged Field Care Field Handbook (2025)"], ["Section", f"{x['letter']}: {x['name']}"]],
             details=[{"heading": "Topics in this section", "items": x["topics"]}] if x["topics"] else [],
             noticeLabel="Copyrighted.", notice=notice, source=BOOK + f", Section {x['letter']}.",
@@ -80,3 +80,66 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---------------------------------------------------------------------------
+# Ranger Medic Handbook (2025). Same rule: outline only (copyrighted; protocols
+# are for Ranger Medics under their medical director's license).
+RANGER_PARTS = [ROOT / "docs" / "field-care" / f"Ranger_Medic_2025_part{i}.pdf" for i in (1, 2, 3, 4)]
+RANGER_BOOK = ("Ranger Medic Handbook, Official 2025 Edition, made available by the 75th Ranger Regiment; "
+               "Breakaway Media, LLC. ISBN 979-8-9902257-5-6")
+
+
+def ranger_outline():
+    txt = subprocess.run(["pdftotext", "-layout", "-f", "9", "-l", "16", str(RANGER_PARTS[0]), "-"],
+                         capture_output=True, text=True, check=True).stdout
+    chapters = []
+    for line in txt.splitlines():
+        m = re.match(r"^(\s*)(.+?)\s*\.{4,}\s*(\d+)\s*$", line)
+        if not m:
+            continue
+        indent, name, page = len(m.group(1)), m.group(2).strip(), int(m.group(3))
+        if name in ("Notes",):
+            continue
+        if indent <= 1 or not chapters:
+            chapters.append(dict(name=name, page=page, items=[]))
+        else:
+            chapters[-1]["items"].append(f"{name} (p. {page})")
+    if len(chapters) < 20:
+        raise SystemExit(f"Unexpected Ranger TOC parse: {len(chapters)} chapters")
+    return chapters
+
+
+def ranger_docs():
+    ch = ranger_outline()
+    notice = ("This handbook is copyrighted (“All rights reserved” for its copyrighted parts), and its protocols are for "
+              "Ranger Medics operating under their medical director’s license. This hub lists its outline only. Use your own copy.")
+    docs = [dict(
+        id="ranger-medic-handbook-2025", title="Ranger Medic Handbook (2025)",
+        description=f"Official 2025 Edition · 75th Ranger Regiment / Breakaway Media · {len(ch)} chapters, "
+                    f"{sum(len(c['items']) for c in ch)} protocols and procedures",
+        section="Ranger Medic Handbook", type="BOOK", refOnly=True, updated="2025", book=["ranger"],
+        meta=[["Title", "Ranger Medic Handbook"], ["Edition", "Official 2025 Edition"],
+              ["Source", "Made available by the 75th Ranger Regiment"], ["Publisher", "Breakaway Media, LLC"],
+              ["ISBN", "979-8-9902257-5-6"], ["Audience", "Ranger Medics, under their medical director's license"]],
+        details=[{"heading": "Chapters", "items": [f"{c['name']} (p. {c['page']})" for c in ch]}],
+        noticeLabel="Copyrighted.", notice=notice, source=RANGER_BOOK + ".",
+        tags=["ranger", "ranger medic", "handbook", "75th", "soc", "protocols"])]
+    for c in ch:
+        docs.append(dict(
+            id="ranger-" + re.sub(r"[^a-z0-9]+", "-", c["name"].lower()).strip("-"),
+            title=c["name"], description=f"Ranger Medic Handbook · page {c['page']}" + (f" · {len(c['items'])} items" if c["items"] else ""),
+            section="Ranger Medic Handbook", type="RANGER", refOnly=True, book=["ranger"],
+            meta=[["Handbook", "Ranger Medic Handbook (2025)"], ["Page", str(c["page"])]],
+            details=[{"heading": "Protocols and procedures", "items": c["items"]}] if c["items"] else [],
+            noticeLabel="Copyrighted.", notice=notice, source=RANGER_BOOK + f", page {c['page']}.",
+            tags=["ranger", "handbook"] + [w.lower() for w in re.findall(r"[A-Za-z]{4,}", c["name"] + " " + " ".join(c["items"]))][:40]))
+    return docs
+
+
+if __name__ == "__main__":
+    pfc = json.loads(OUT.read_text().split("=", 1)[1].rstrip().rstrip(";"))
+    rd = ranger_docs()
+    OUT.write_text("/* GENERATED by scripts/build_fieldcare.py. Do not edit by hand; re-run the script instead. */\n"
+                   "window.FIELDCARE_DOCUMENTS = " + json.dumps(rd + pfc, indent=1, ensure_ascii=False) + ";\n")
+    print(f"Added Ranger Medic Handbook: {len(rd) - 1} chapters")
