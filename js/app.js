@@ -31,6 +31,13 @@
     return i < 0;
   }
 
+  // Open PDFs without the viewer's page-thumbnail side panel; keep any #page=N anchor.
+  const pdfView = (file) => {
+    const [path, frag = ""] = file.split("#");
+    const params = frag.split("&").filter((p) => p && !/^navpanes=/.test(p));
+    return `${path}#${["navpanes=0", ...params].join("&")}`;
+  };
+
   const docHref = (rid, did) => `#/d/${encodeURIComponent(rid)}/${encodeURIComponent(did)}`;
   const resHref = (rid) => `#/r/${encodeURIComponent(rid)}`;
 
@@ -160,7 +167,7 @@
 
     let body;
     if (d.content) body = `<article class="prose">${d.content}</article>`;
-    else if (isPdf) body = `<iframe class="pdf" src="${esc(d.file)}" title="${esc(d.title)}"></iframe>`;
+    else if (isPdf) body = `<iframe class="pdf" src="${esc(pdfView(d.file))}" title="${esc(d.title)}"></iframe>`;
     else if (d.file) body = empty("Preview not available", "This file type opens in its own app. Use Download or Open below.");
     else if (d.url) body = d.details?.length ? "" : empty("External resource", "This resource is hosted on another site.");
     else if (d.refOnly) body = "";
@@ -168,7 +175,7 @@
 
     const actions = [];
     if (d.file) {
-      actions.push(`<a class="btn" href="${esc(d.file)}" target="_blank" rel="noopener">Open</a>`);
+      actions.push(`<a class="btn" href="${esc(isPdf ? pdfView(d.file) : d.file)}" target="_blank" rel="noopener">Open</a>`);
       actions.push(`<a class="btn ghost" href="${esc(d.file.split("#")[0])}" download>Download</a>`);
     }
     if (d.url) actions.push(`<a class="btn" href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">${esc(d.urlLabel || "Open site ↗")}</a>`);
