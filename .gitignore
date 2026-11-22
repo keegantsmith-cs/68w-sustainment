@@ -31,3 +31,7 @@ DRUG_CROSSCHECK_FOR_REVIEW.md
 !docs/guidelines/TCCC_Guidelines_May_2026.pdf
 APPROVAL_LIST_EMAIL.html
 68W_Sustainment_Approval_Checklist.pdf
+
+# Trainer Tracker exports must never be committed (trainee data)
+68w-tracker-*.json
+68w-tracker-*.csv

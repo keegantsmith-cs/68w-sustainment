@@ -60,3 +60,13 @@ Both scripts also link each entry to the ICTL tasks that cite it. If the ADTMC P
 - **PCC Antibiotic Medications cards (#PCC-SC-26)**: not part of the approval, so they're index-only.
 
 The build checks every published field word for word against its PDF page. It fails if page header or footer text slips into a card, or if dose-like text appears in any entry that isn't approved.
+
+## Trainer Tracker (trainers only)
+`/tracker/` (for example https://keegantsmith-cs.github.io/68w-sustainment/tracker/) is a separate page for trainers to track trainees through the ICTL tasks. It isn't linked from the medic-facing site.
+
+- **Privacy:** data is stored only in the trainer's browser, encrypted with a passphrase the trainer sets (there's no recovery if it's forgotten). Nothing is sent anywhere or saved in this repository.
+- **Trainee IDs:** trainees are identified only by initials plus the last 3 digits of their DoD ID, for example `AB-123`.
+- **What it tracks:** each task's result (Trained / GO / NO-GO), date and evaluator initials, plus notes. The next due date is calculated from the task's sustainment frequency (annual, semiannual or quarterly), and tasks are flagged as Current, Due within 30 days, Overdue or NO-GO.
+- **Views:** a trainee overview and a unit roll-up, both filterable by skill level.
+- **Data page:** encrypted backup export/import (to move data between devices or trainers), a CSV export for DTMS entry (notes left out), passphrase change, and erase. The tracker locks itself after 15 minutes of inactivity.
+- It's a working aid. **DTMS remains the system of record.**
