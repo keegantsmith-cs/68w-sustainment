@@ -7,6 +7,7 @@
   "use strict";
   const STORE = "68w-tracker:v1";
   const IDLE_LOCK_MS = 15 * 60 * 1000;
+  const HIDDEN_LOCK_MS = 2 * 60 * 1000;
   const SOON_DAYS = 30;
   const FREQ_MONTHS = { Annually: 12, Semiannual: 6, Quarterly: 3 };
   const STATUSES = ["Trained", "GO", "NO-GO"];
@@ -47,25 +48,122 @@
       base, { name: "AES-GCM", length: 256 }, false, ["encrypt", "decrypt"]);
   }
   const stored = () => { try { return JSON.parse(localStorage.getItem(STORE) || "null"); } catch { return null; } };
-  async function save() {
+  async function sealed() {
     const iv = crypto.getRandomValues(new Uint8Array(12));
     const ct = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, KEY, enc.encode(JSON.stringify(DATA)));
-    localStorage.setItem(STORE, JSON.stringify({ v: 1, salt: b64(SALT), iv: b64(iv), ct: b64(ct) }));
+    return JSON.stringify({ v: 1, salt: b64(SALT), iv: b64(iv), ct: b64(ct) });
   }
+  async function saveLocal() { localStorage.setItem(STORE, await sealed()); }
+  async function save() { await saveLocal(); await sync(); }
+
+  /* ---------- merge (pure): union of both copies, deletions win, newest trainee edit wins ---------- */
+  function normalize(d) {
+    d.trainees ||= {}; d.records ||= {}; d.deleted ||= { entries: {}, trainees: {} };
+    d.deleted.entries ||= {}; d.deleted.trainees ||= {};
+    return d;
+  }
+  function merge(a, b) {
+    a = normalize(JSON.parse(JSON.stringify(a))); b = normalize(JSON.parse(JSON.stringify(b)));
+    const out = { version: 1, created: a.created || b.created, trainees: {}, records: {},
+      deleted: { entries: { ...a.deleted.entries, ...b.deleted.entries }, trainees: { ...a.deleted.trainees } } };
+    for (const [id, t] of Object.entries(b.deleted.trainees)) out.deleted.trainees[id] = Math.max(t, out.deleted.trainees[id] || 0);
+    for (const t of [...Object.values(a.trainees), ...Object.values(b.trainees)]) {
+      const cur = out.trainees[t.id];
+      if (!cur || (t.updated || 0) > (cur.updated || 0)) out.trainees[t.id] = t;
+    }
+    for (const src of [a.records, b.records])
+      for (const [tid, tasks] of Object.entries(src))
+        for (const [taskId, hist] of Object.entries(tasks)) {
+          const mine = ((out.records[tid] ||= {})[taskId] ||= []);
+          hist.forEach((h) => { if (!mine.some((m) => String(m.ts) === String(h.ts))) mine.push(h); });
+        }
+    for (const [tid, tasks] of Object.entries(out.records)) {
+      const gone = out.deleted.trainees[tid] || 0;
+      for (const taskId of Object.keys(tasks))
+        tasks[taskId] = tasks[taskId].filter((h) => !out.deleted.entries[String(h.ts)] && h.ts > gone);
+    }
+    for (const [id, t] of Object.entries(out.trainees))
+      if ((out.deleted.trainees[id] || 0) >= (t.updated || 0)) delete out.trainees[id];
+    return out;
+  }
+  window.__trackerMerge = merge;   // exposed for automated tests only
+
+  /* ---------- shared file (Army 365 Teams/SharePoint folder synced by OneDrive) ---------- */
+  const FS_OK = "showOpenFilePicker" in window;
+  let FILE = null, SYNC = { state: "off", at: null, msg: "" }, syncTimer = null, syncing = false;
+  const idb = (mode, fn) => new Promise((res, rej) => {
+    const open = indexedDB.open("68w-tracker", 1);
+    open.onupgradeneeded = () => open.result.createObjectStore("kv");
+    open.onsuccess = () => {
+      try {
+        const tx = open.result.transaction("kv", mode); const r = fn(tx.objectStore("kv"));
+        tx.oncomplete = () => res(r && r.result); tx.onerror = () => rej(tx.error); tx.onabort = () => rej(tx.error);
+      } catch (x) { rej(x); }   // e.g. a handle this browser can't store: never hang the caller
+    };
+    open.onerror = () => rej(open.error);
+  });
+  const saveHandle = (h) => idb("readwrite", (st) => h ? st.put(h, "shared") : st.delete("shared")).catch(() => {});
+  const loadHandle = () => idb("readonly", (st) => st.get("shared")).catch(() => null);
+  async function readShared(handle) {
+    const text = await (await handle.getFile()).text();
+    return text.trim() ? JSON.parse(text) : null;
+  }
+  async function writeShared(handle, text) {
+    const w = await handle.createWritable(); await w.write(text); await w.close();
+  }
+  async function decryptBlob(blob, key) {
+    return normalize(JSON.parse(dec.decode(await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(blob.iv) }, key, unb64(blob.ct)))));
+  }
+  async function sync() {
+    if (!FILE || !KEY || syncing) return;
+    syncing = true;
+    try {
+      if ((await FILE.queryPermission({ mode: "readwrite" })) !== "granted") { SYNC = { state: "reconnect", at: SYNC.at, msg: "" }; return; }
+      const blob = await readShared(FILE);
+      if (blob) {
+        if (blob.salt !== b64(SALT)) { SYNC = { state: "error", at: SYNC.at, msg: "The shared file uses a different passphrase. Reconnect it from the Data page." }; return; }
+        DATA = merge(DATA, await decryptBlob(blob, KEY));
+      }
+      const text = await sealed();
+      await writeShared(FILE, text);
+      localStorage.setItem(STORE, text);
+      SYNC = { state: "ok", at: new Date(), msg: "" };
+    } catch (x) {
+      SYNC = { state: "error", at: SYNC.at, msg: "Couldn't reach the shared file. Check that OneDrive is syncing, then use Sync now." };
+    } finally { syncing = false; paintSync(); }
+  }
+  async function startShared() {
+    clearInterval(syncTimer);
+    FILE = FILE || (FS_OK ? await loadHandle() : null);   // keep a just-picked file; else the one saved for this device
+    if (!FILE) { SYNC = { state: "off", at: null, msg: "" }; return; }
+    await sync();
+    syncTimer = setInterval(() => { if (!document.hidden) sync().then(() => { if (SYNC.state === "ok" && !document.querySelector("form :focus")) render(true); }); }, 60000);
+  }
+  function syncBar() {
+    if (!FS_OK && !FILE) return "";
+    const name = FILE ? esc(FILE.name) : "";
+    const t = SYNC.at ? SYNC.at.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "";
+    const body = SYNC.state === "ok" ? `Shared file <b>${name}</b> · synced ${t} <button class="btn ghost small" data-sync>Sync now</button>`
+      : SYNC.state === "reconnect" ? `Shared file <b>${name}</b> needs permission <button class="btn small" data-reconnect>Reconnect</button>`
+      : SYNC.state === "error" ? `<span class="sync-err">${esc(SYNC.msg)}</span> <button class="btn ghost small" data-sync>Sync now</button>`
+      : `Working on this device only. <a href="#/data">Connect a shared file</a> so other trainers can see this data.`;
+    return `<div class="syncbar ${SYNC.state}" id="syncbar">${body}</div>`;
+  }
+  function paintSync() { const el = document.getElementById("syncbar"); if (el) el.outerHTML = syncBar(); }
   async function unlock(pass) {
     const s = stored();
     const salt = unb64(s.salt), key = await deriveKey(pass, salt);
     const pt = await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(s.iv) }, key, unb64(s.ct));  // throws if wrong
-    KEY = key; SALT = salt; DATA = JSON.parse(dec.decode(pt));
+    KEY = key; SALT = salt; DATA = normalize(JSON.parse(dec.decode(pt)));
   }
   async function setup(pass) {
     SALT = crypto.getRandomValues(new Uint8Array(16));
     KEY = await deriveKey(pass, SALT);
-    DATA = { version: 1, trainees: {}, records: {}, created: iso(today()) };
-    await save();
+    DATA = normalize({ version: 1, trainees: {}, records: {}, created: iso(today()) });
+    await saveLocal();
   }
   function lock() {
-    KEY = null; DATA = null; SALT = null;
+    KEY = null; DATA = null; SALT = null; FILE = null; clearInterval(syncTimer);
     document.getElementById("topActions").hidden = true;
     location.hash = "#/";
     render();
@@ -75,6 +173,15 @@
     if (KEY) idleTimer = setTimeout(lock, IDLE_LOCK_MS);
   }
   ["click", "keydown", "touchstart"].forEach((e) => document.addEventListener(e, touch, { passive: true }));
+  let hiddenTimer = null;
+  document.addEventListener("visibilitychange", () => {   // lock if the app sits in the background
+    clearTimeout(hiddenTimer);
+    if (document.hidden && KEY) hiddenTimer = setTimeout(lock, HIDDEN_LOCK_MS);
+    else if (!document.hidden && KEY) sync();
+  });
+  // slow down passphrase guessing: wait doubles after each wrong try (max 60 s), per browser session
+  const fails = () => Number(sessionStorage.getItem("68w-tracker:fails") || 0);
+  const waitMs = () => (fails() ? Math.min(60000, 1000 * 2 ** (fails() - 1)) : 0);
 
   /* ---------- status logic ---------- */
   function taskState(tid, taskId) {
@@ -137,7 +244,7 @@
     }).filter((r) => r.n && (r.overdue || r.nogo || r.soon)).sort((a, b) => (b.overdue + b.nogo) - (a.overdue + a.nogo) || b.soon - a.soon);
     const chips = ["", "1", "2", "3", "4", "5"].map((v) =>
       `<a class="chip${(sl || "") === v ? " on" : ""}" href="#/${v ? "?sl=" + v : ""}">${v ? "SL" + v : "All"}</a>`).join("");
-    return `
+    return `${syncBar()}
       <div class="toolbar"><div class="filter" style="margin:0"><span class="filter-label">Skill level</span>${chips}</div>
         <span class="spacer"></span><a class="btn" href="#/add">+ Add trainee</a></div>
       <div class="trk-grid">
@@ -238,6 +345,23 @@
 
   function viewData() {
     return `<a class="back" href="#/">‹ Dashboard</a>
+      ${syncBar()}
+      <div class="section-head"><h2>Shared file (Army 365)</h2><span>${FILE ? "Connected" : "Not connected"}</span></div>
+      <div class="panel prose">
+        ${FS_OK ? `<p>Keep the tracker in <b>one encrypted file in a Teams or SharePoint folder</b> that OneDrive syncs to this computer.
+          Army 365 controls who can reach the folder and keeps version history; the file stays encrypted with the team passphrase.
+          Every change is merged into the file, and the tracker checks it for other trainers' changes every minute.</p>
+          <ol><li>In Teams or SharePoint, open the folder for your trainers and choose <b>Sync</b> (or <b>Add shortcut to OneDrive</b>).</li>
+            <li>First trainer: <b>Create shared file</b> and save it in that synced folder. Everyone else: <b>Open shared file</b> and pick it.</li>
+            <li>All trainers use the same passphrase. Opening the file asks for it and switches this device to it.</li></ol>
+          <div class="actions">
+            ${FILE ? `<button class="btn" data-sync>Sync now</button><button class="btn ghost" id="sharedDisconnect">Disconnect from ${esc(FILE.name)}</button>`
+                   : `<button class="btn" id="sharedCreate">Create shared file</button><button class="btn ghost" id="sharedOpen">Open shared file</button>`}
+          </div>`
+        : `<p>This browser can't open files directly. Use <b>Edge or Chrome on a computer</b> for the shared file. On phones and
+          other browsers, use <b>Export backup</b> and <b>Import backup</b> below with a copy from the shared folder.</p>`}
+        <p class="err" id="sharedMsg" role="status"></p>
+      </div>
       <div class="section-head"><h2>Data on this device</h2><span>${trainees().length} trainees</span></div>
       <div class="panel prose">
         <p>Everything is stored only in this browser, encrypted with your passphrase. Clearing browser data,
@@ -263,7 +387,7 @@
   }
 
   /* ---------- router ---------- */
-  function render() {
+  function render(keepScroll) {
     const hash = location.hash.replace(/^#\/?/, "");
     const [path, q = ""] = hash.split("?");
     const parts = path.split("/").filter(Boolean).map(decodeURIComponent);
@@ -279,9 +403,9 @@
     }
     document.getElementById("topActions").hidden = !KEY;
     app.innerHTML = `<div class="view">${html}</div>`;
-    window.scrollTo(0, 0);
+    if (!keepScroll) window.scrollTo(0, 0);
   }
-  window.addEventListener("hashchange", render);
+  window.addEventListener("hashchange", () => render());
 
   /* ---------- events ---------- */
   const NOTE_FLAGS = [
@@ -301,14 +425,26 @@
     const f = e.target, fd = new FormData(f);
     if (f.getAttribute("id") === "lockForm") {
       const err = document.getElementById("lockErr");
+      if (stored() && waitMs()) {
+        const left = Number(sessionStorage.getItem("68w-tracker:next") || 0) - Date.now();
+        if (left > 0) return (err.textContent = `Too many wrong tries. Wait ${Math.ceil(left / 1000)} s.`);
+      }
       try {
-        if (stored()) await unlock(fd.get("p1"));
+        if (stored()) {
+          try { await unlock(fd.get("p1")); }
+          catch (x) {
+            sessionStorage.setItem("68w-tracker:fails", fails() + 1);
+            sessionStorage.setItem("68w-tracker:next", Date.now() + waitMs());
+            throw x;
+          }
+          sessionStorage.removeItem("68w-tracker:fails"); sessionStorage.removeItem("68w-tracker:next");
+        }
         else {
           if (fd.get("p1").length < 10) throw new Error("Use at least 10 characters.");
           if (fd.get("p1") !== fd.get("p2")) throw new Error("Passphrases don't match.");
           await setup(fd.get("p1"));
         }
-        touch(); render();
+        touch(); render(); await startShared(); render(true);
       } catch (x) { err.textContent = x.message && !/operation/i.test(x.message) ? x.message : "Wrong passphrase."; }
     }
     if (f.getAttribute("id") === "traineeForm") {
@@ -318,7 +454,7 @@
       const adding = location.hash.startsWith("#/add");
       if (adding && DATA.trainees[id] && !DATA.trainees[id].archived) return (err.textContent = "That ID already exists.");
       const group = String(fd.get("group") || "").trim();
-      DATA.trainees[id] = { ...(DATA.trainees[id] || { created: iso(today()) }), id, sl: Number(fd.get("sl")), group, archived: false };
+      DATA.trainees[id] = { ...(DATA.trainees[id] || { created: iso(today()) }), id, sl: Number(fd.get("sl")), group, archived: false, updated: Date.now() };
       await save(); location.hash = `#/t/${id}`;
     }
     if (f.getAttribute("id") === "recordForm") {
@@ -329,7 +465,7 @@
       const note = String(fd.get("note") || "").trim();
       const hits = NOTE_FLAGS.filter(([re]) => re.test(note)).map(([, why]) => why);
       if (hits.length && !confirm(`This note contains ${hits.join(" and ")}.\n\nTracker notes must not include full IDs, SSNs or health information. Save anyway?`)) return;
-      ((DATA.records[tid] ||= {})[taskId] ||= []).push({ status: fd.get("status"), date: fd.get("date"), evaluator, note, ts: Date.now() });
+      ((DATA.records[tid] ||= {})[taskId] ||= []).push({ status: fd.get("status"), date: fd.get("date"), evaluator, note, ts: Date.now() + Math.random() });
       await save(); render();
     }
     if (f.getAttribute("id") === "passForm") {
@@ -345,15 +481,55 @@
     const row = e.target.closest("tr[data-go]");
     if (row && !e.target.closest("a")) location.hash = row.dataset.go;
     if (e.target.id === "lockBtn") lock();
+    if (e.target.closest("[data-sync]")) { await sync(); render(true); }
+    if (e.target.closest("[data-reconnect]") && FILE) {
+      if ((await FILE.requestPermission({ mode: "readwrite" })) === "granted") { await sync(); render(true); }
+    }
+    const pick = { types: [{ description: "68W tracker data", accept: { "application/json": [".json"] } }] };
+    const sharedMsg = (t) => { const el = document.getElementById("sharedMsg"); if (el) el.textContent = t; };
+    if (e.target.id === "sharedCreate") {
+      try {
+        const h = await window.showSaveFilePicker({ ...pick, suggestedName: "68w-tracker-shared.json" });
+        const existing = await readShared(h).catch(() => null);
+        if (existing && !confirm("That file already has tracker data. Use Open shared file instead. Overwrite it?")) return;
+        await writeShared(h, await sealed());
+        FILE = h; await saveHandle(h); await startShared(); render(true);
+      } catch (x) { if (x.name !== "AbortError") sharedMsg("Couldn't create the file: " + x.message); }
+    }
+    if (e.target.id === "sharedOpen") {
+      try {
+        const [h] = await window.showOpenFilePicker(pick);
+        const blob = await readShared(h);
+        if (!blob || !blob.ct) throw new Error("That isn't a tracker data file.");
+        let key = KEY, salt = SALT;
+        if (blob.salt !== b64(SALT)) {
+          const pass = prompt("Team passphrase for this shared file:");
+          if (pass == null) return;
+          salt = unb64(blob.salt); key = await deriveKey(pass, salt);
+        }
+        let remote;
+        try { remote = await decryptBlob(blob, key); } catch { throw new Error("Wrong passphrase for that file."); }
+        if (Object.keys(DATA.trainees).length && !confirm(`Merge this device's ${Object.keys(DATA.trainees).length} trainee(s) into the shared file? Cancel keeps the shared file unchanged and replaces this device's copy.`))
+          DATA = remote;
+        else DATA = merge(remote, DATA);
+        KEY = key; SALT = salt;                       // this device now uses the team passphrase
+        await saveLocal(); FILE = h; await saveHandle(h); await startShared(); render(true);
+      } catch (x) { if (x.name !== "AbortError") sharedMsg(x.message); }
+    }
+    if (e.target.id === "sharedDisconnect" && confirm("Stop using the shared file on this device? Your local copy stays.")) {
+      clearInterval(syncTimer); FILE = null; SYNC = { state: "off", at: null, msg: "" }; await saveHandle(null); render(true);
+    }
     const del = e.target.closest("[data-del]");
     if (del && confirm("Delete this entry?")) {
       const [, tid, taskId] = location.hash.replace(/^#\/?/, "").split("/");
       DATA.records[tid][taskId] = DATA.records[tid][taskId].filter((h) => String(h.ts) !== del.dataset.del);
+      DATA.deleted.entries[del.dataset.del] = true;   // so a merge with the shared file can't bring it back
       await save(); render();
     }
     const arch = e.target.closest("[data-archive]");
     if (arch && confirm("Remove this trainee and all of their records from this device?")) {
       delete DATA.trainees[arch.dataset.archive]; delete DATA.records[arch.dataset.archive];
+      DATA.deleted.trainees[arch.dataset.archive] = Date.now();
       await save(); location.hash = "#/";
     }
     if (e.target.id === "exportJson") {
@@ -386,15 +562,7 @@
       const incoming = JSON.parse(dec.decode(await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(blob.iv) }, key, unb64(blob.ct))));
       const replace = confirm("OK = MERGE the backup into this device's data.\nCancel = choose whether to replace instead.") ? false
         : confirm("Replace ALL data on this device with the backup?");
-      if (replace) DATA = incoming;
-      else {
-        Object.assign(DATA.trainees, incoming.trainees);
-        for (const [tid, tasks] of Object.entries(incoming.records || {}))
-          for (const [taskId, hist] of Object.entries(tasks)) {
-            const mine = ((DATA.records[tid] ||= {})[taskId] ||= []);
-            hist.forEach((h) => { if (!mine.some((m) => m.ts === h.ts && m.date === h.date)) mine.push(h); });
-          }
-      }
+      DATA = replace ? normalize(incoming) : merge(DATA, incoming);
       await save(); msg.textContent = `Imported ${Object.keys(incoming.trainees || {}).length} trainees.`;
     } catch (x) { msg.textContent = x.message && !/operation/i.test(x.message) ? x.message : "Couldn't read that backup (wrong passphrase?)."; }
     e.target.value = "";

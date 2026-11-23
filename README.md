@@ -69,4 +69,9 @@ The build checks every published field word for word against its PDF page. It fa
 - **What it tracks:** each task's result (Trained / GO / NO-GO), date and evaluator initials, plus notes. The next due date is calculated from the task's sustainment frequency (annual, semiannual or quarterly), and tasks are flagged as Current, Due within 30 days, Overdue or NO-GO.
 - **Views:** a trainee overview and a unit roll-up, both filterable by skill level.
 - **Data page:** encrypted backup export/import (to move data between devices or trainers), a CSV export for DTMS entry (notes left out), passphrase change, and erase. The tracker locks itself after 15 minutes of inactivity.
+- **Sharing with other trainers (Army 365):** on the Data page, one trainer chooses **Create shared file** and saves it in a Teams or SharePoint folder that OneDrive syncs to their computer. Other trainers choose **Open shared file** and enter the team passphrase. Every change is merged into that one encrypted file, and the tracker checks it every minute.
+  - Army 365 controls who can reach the folder and keeps version history.
+  - Deletions are recorded, so they don't come back during a merge.
+  - This works in Edge or Chrome on a computer. On phones, use backup import/export with a copy from the folder.
+- **Security:** the tracker locks after 15 minutes of inactivity or 2 minutes in the background. Each wrong passphrase doubles the wait before the next try, up to 60 seconds.
 - It's a working aid. **DTMS remains the system of record.**

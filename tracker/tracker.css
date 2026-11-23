@@ -54,3 +54,9 @@
 }
 /* the main site's hero .pill has a top margin and flex layout; reset it inside the tracker */
 .tracker .pill { margin: 0; display: inline-block; gap: 0; text-transform: none; vertical-align: middle; }
+.syncbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 14px; padding: 8px 12px;
+  border: 1px solid var(--line-soft); border-radius: 10px; background: var(--panel); font-size: 13.5px; }
+.syncbar.ok { border-color: rgba(143,209,122,.45); }
+.syncbar.reconnect, .syncbar.error { border-color: rgba(240,163,94,.6); }
+.syncbar a { color: var(--tan); }
+.sync-err { color: #f0a35e; }
